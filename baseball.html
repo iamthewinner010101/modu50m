@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBO Pro Baseball 2026 - Desktop Edition</title>
+    <!-- Google Fonts: Outfit, Noto Sans KR, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="baseball_style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Main Sidebar Navigation -->
+        <aside class="game-sidebar">
+            <div class="sidebar-brand">
+                <div class="logo-icon">⚾</div>
+                <div class="brand-text">
+                    <h2>KBO Pro</h2>
+                    <span>Baseball 2026</span>
+                </div>
+            </div>
+
+            <!-- User Resources (Points/Gold) -->
+            <div class="user-resources">
+                <div class="resource-pill gold">
+                    <span class="icon">🪙</span>
+                    <span id="user-gold">5,000</span>
+                    <span class="label">P</span>
+                </div>
+                <div class="resource-pill tickets">
+                    <span class="icon">🎟️</span>
+                    <span id="user-packs">3</span>
+                    <span class="label">팩</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#play" class="nav-item active" data-tab="play">
+                    <span class="nav-icon">🎮</span>
+                    <span>경기 시작</span>
+                </a>
+                <a href="#roster" class="nav-item" data-tab="roster">
+                    <span class="nav-icon">👥</span>
+                    <span>라인업 & 성장</span>
+                </a>
+                <a href="#shop" class="nav-item" data-tab="shop">
+                    <span class="nav-icon">🛒</span>
+                    <span>카드 상점</span>
+                </a>
+                <a href="#info" class="nav-item" data-tab="info">
+                    <span class="nav-icon">📖</span>
+                    <span>게임 가이드</span>
+                </a>
+            </nav>
+
+            <!-- Active Team Showcase -->
+            <div class="sidebar-team-showcase" id="my-team-banner">
+                <div class="team-emblem" id="my-team-emblem">🐯</div>
+                <div class="team-info">
+                    <h4 id="my-team-name">KIA 타이거즈</h4>
+                    <span>구단전력: OVR <strong id="my-team-ovr">70</strong></span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content View -->
+        <main class="game-main">
+            <!-- Header bar -->
+            <header class="game-header">
+                <div class="header-left">
+                    <h1 id="view-title">경기장 입장</h1>
+                    <p id="view-subtitle">실명 스타 라인업으로 즐기는 원근감 넘치는 KBO 시뮬레이션 야구!</p>
+                </div>
+                <div class="header-right">
+                    <div class="header-team-badge" id="header-my-team-badge">
+                        <span class="emblem" id="header-my-team-emblem">🐯</span>
+                        <span class="name" id="header-my-team-name">KIA 타이거즈</span>
+                    </div>
+                    <button class="btn btn-secondary" id="btn-select-team">
+                        <span>구단 변경</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- View Contents -->
+            <div class="content-container">
+                <!-- 1. Play Tab -->
+                <section id="tab-play" class="tab-content active">
+                    <!-- Match Setup Screen (Lobby) -->
+                    <div class="match-setup-card" id="match-setup-screen">
+                        <div class="setup-header">
+                            <h3>KBO 정규 매치 로비</h3>
+                            <p>내 라인업을 기반으로 KBO 구단들과 이닝제 친선 경기를 가집니다.</p>
+                        </div>
+                        
+                        <!-- Match Parameters Selector Panel -->
+                        <div class="match-settings-row">
+                            <div class="setting-group">
+                                <label>⚾ 경기 이닝 선택</label>
+                                <div class="btn-group-toggle" id="inning-select-group">
+                                    <button class="btn btn-secondary active" onclick="setInningLimit(1, this)">1 이닝</button>
+                                    <button class="btn btn-secondary" onclick="setInningLimit(3, this)">3 이닝</button>
+                                    <button class="btn btn-secondary" onclick="setInningLimit(9, this)">9 이닝</button>
+                                </div>
+                            </div>
+                            <div class="setting-group">
+                                <label>⚡ 경기 진행 방식</label>
+                                <div class="btn-group-toggle" id="sim-select-group">
+                                    <button class="btn btn-secondary active" onclick="setSimMode('chance', this)">찬스 플레이 개입</button>
+                                    <button class="btn btn-secondary" onclick="setSimMode('full', this)">전체 직접 플레이</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="matchup-vs-row">
+                            <!-- User Team -->
+                            <div class="matchup-team-card my-card">
+                                <div class="emblem-large" id="setup-my-emblem">🐯</div>
+                                <h2 id="setup-my-team-name">KIA 타이거즈</h2>
+                                <span class="ovr-badge" id="setup-my-ovr">OVR 70</span>
+                            </div>
+                            
+                            <div class="vs-circle">VS</div>
+                            
+                            <!-- Opponent Team -->
+                            <div class="matchup-team-card opp-card">
+                                <div class="select-wrapper">
+                                    <select id="opp-team-select">
+                                        <!-- Opponents populated via JS -->
+                                    </select>
+                                </div>
+                                <h2 id="setup-opp-team-name">삼성 라이온즈</h2>
+                                <span class="ovr-badge" id="setup-opp-ovr">OVR 70</span>
+                            </div>
+                        </div>
+
+                        <!-- Mode Selector Panel -->
+                        <div class="mode-select-grid">
+                            <div class="mode-card" id="mode-batter-card">
+                                <div class="mode-icon">⚔️</div>
+                                <h4>타자 모드 (Batter Mode)</h4>
+                                <p>날아오는 구종과 궤적을 예상해 받아치세요! 조준 구역 매치와 스윙 타이밍이 중요합니다.</p>
+                                <button class="btn btn-primary" onclick="startNewGame('batter')">타자 모드 플레이</button>
+                            </div>
+                            <div class="mode-card" id="mode-pitcher-card">
+                                <div class="mode-icon">🎯</div>
+                                <h4>투수 모드 (Pitcher Mode)</h4>
+                                <p>구종과 제구 위치를 골라 타자를 삼진 잡으세요! 타이밍 릴리즈 게이지로 정확한 제구를 실현합니다.</p>
+                                <button class="btn btn-primary" onclick="startNewGame('pitcher')">투수 모드 플레이</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gameplay Widescreen Arena -->
+                    <div class="gameplay-arena" id="gameplay-arena-screen" style="display: none;">
+                        <div class="widescreen-arena-container">
+                            <!-- Left Pane: 3D Viewport, Scoreboard and Interactive Controls -->
+                            <div class="arena-left-pane">
+                                <!-- Scoreboard -->
+                                <div class="scoreboard-bar">
+                                    <div class="score-team my-team">
+                                        <span class="emblem" id="sb-my-emblem">🐯</span>
+                                        <span class="name" id="sb-my-name">KIA</span>
+                                        <span class="score" id="sb-my-score">0</span>
+                                    </div>
+                                    <div class="score-middle">
+                                        <div class="inning-badge" id="sb-inning">1회초</div>
+                                        <div class="counts-row">
+                                            <div class="count-item ball">B <div class="dots" id="sb-balls-dots"></div></div>
+                                            <div class="count-item strike">S <div class="dots" id="sb-strikes-dots"></div></div>
+                                            <div class="count-item out">O <div class="dots" id="sb-outs-dots"></div></div>
+                                        </div>
+                                    </div>
+                                    <div class="score-team opp-team">
+                                        <span class="score" id="sb-opp-score">0</span>
+                                        <span class="name" id="sb-opp-name">삼성</span>
+                                        <span class="emblem" id="sb-opp-emblem">🦁</span>
+                                    </div>
+                                    <div class="rhe-board">
+                                        <div>R <strong id="rhe-r">0</strong></div>
+                                        <div>H <strong id="rhe-h">0</strong></div>
+                                        <div>E <strong id="rhe-e">0</strong></div>
+                                    </div>
+                                </div>
+
+                                <!-- Viewport Canvas Container -->
+                                <div class="gameplay-viewport">
+                                    <canvas id="pitch-canvas" width="960" height="540"></canvas>
+                                    
+                                    <!-- In-game central commentary log overlay -->
+                                    <div class="commentary-overlay" id="game-commentary">
+                                        플레이 볼! 경기를 시작합니다.
+                                    </div>
+
+                                    <!-- Speed Gun Overlay -->
+                                    <div class="speed-gun" id="speed-gun" style="display: none;">
+                                        <span class="value" id="speed-gun-value">148</span>
+                                        <span class="unit">km/h</span>
+                                        <span class="pitch-type" id="speed-gun-type">직구</span>
+                                        <span class="pitch-zone" id="speed-gun-zone">우 (RIGHT)</span>
+                                    </div>
+
+                                    <!-- ABS Target Grid Overlay -->
+                                    <!-- Ball Distance HUD (Neon Green broadcast look) -->
+                                    <div class="ball-distance-hud" id="ball-distance-hud" style="display: none;">
+                                        <span class="label">볼 남은 거리</span>
+                                        <span class="value" id="ball-distance-value">18.44</span>
+                                        <span class="unit">m</span>
+                                    </div>
+
+                                    
+
+                                    <!-- Simulated State Loading Overlay (Chance play) -->
+                                    <div class="sim-loading-overlay" id="simulation-overlay" style="display: none;">
+                                        <div class="sim-spinner">⏳</div>
+                                        <p>상대 팀 공격 시뮬레이션 경기 진행 중...</p>
+                                    </div>
+
+                                    <!-- Steal Cutscene Split-pane Overlay -->
+                                    <div class="steal-cutscene-overlay" id="steal-cutscene" style="display: none;">
+                                        <div class="cutscene-banner">
+                                            <span class="pulse-icon">⚡</span>
+                                            <h3 id="steal-cutscene-text">도루 시도 중!</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Action control panel -->
+                                <div class="gameplay-control-panel">
+                                    <!-- Batter Mode Controls -->
+                                    <div class="control-block" id="batter-controls">
+                                        <div class="block-left">
+                                            <div class="active-player-info">
+                                                <div class="card-mini-face">🧢</div>
+                                                <div class="player-text">
+                                                    <span class="sub">현재 타자</span>
+                                                    <h4 id="batting-player-name">김도영</h4>
+                                                    <span class="stats">OVR <strong id="batting-contact">80</strong> / 파워 <strong id="batting-power">85</strong></span>
+                                                </div>
+                                            </div>
+                                            <div class="pitcher-tip">
+                                                <span>상대 투수: <strong id="opp-pitcher-name">원태인</strong></span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="block-center">
+                                            <span class="instruction">투수가 던진 공이 스트라이크 존에 도달하는 타이밍에 맞춰 <strong>Space바</strong>나 버튼을 터치하여 휘두르세요!</span>
+                                        </div>
+
+                                        <div class="block-right">
+                                            <button class="btn btn-primary btn-xl btn-swing" id="btn-swing-bat">
+                                                <span>배트 휘두르기! (Space)</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Pitcher Mode Controls -->
+                                    <div class="control-block" id="pitcher-controls" style="display: none;">
+                                        <div class="block-left">
+                                            <div class="active-player-info">
+                                                <div class="card-mini-face">⚾</div>
+                                                <div class="player-text">
+                                                    <span class="sub">현재 투수</span>
+                                                    <h4 id="pitching-player-name">양현종</h4>
+                                                    <span class="stats">OVR <strong id="pitching-stuff">78</strong> / 제구 <strong id="pitching-control">82</strong></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="block-center-pitcher">
+                                            <div class="pitch-selector">
+                                                <span class="sel-label">던질 구종 (단축키 1~4):</span>
+                                                <div class="pitch-buttons-grid">
+                                                    <button class="btn btn-secondary active" data-pitch="fast" id="pitch-btn-fast">직구 (1)</button>
+                                                    <button class="btn btn-secondary" data-pitch="slider" id="pitch-btn-slider">슬라이더 (2)</button>
+                                                    <button class="btn btn-secondary" data-pitch="curve" id="pitch-btn-curve">커브 (3)</button>
+                                                    <button class="btn btn-secondary" data-pitch="fork" id="pitch-btn-fork">포크볼 (4)</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block-right-pitcher" id="pitch-meter-container" style="display: none; flex-direction: column; width: 260px;">
+                                            <div class="pitch-meter-hud-embedded">
+                                                <div class="meter-bar-track" style="margin-bottom: 6px;">
+                                                    <div class="meter-sweet-spot"></div>
+                                                    <div class="meter-runner" id="pitch-meter-runner"></div>
+                                                </div>
+                                                <button class="btn btn-primary btn-sm" id="btn-release-pitch" style="width: 100%;">투구 릴리즈 (Space)</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- End left pane -->
+
+                            <!-- Right Pane: Real-time scrollable commentary & Active player card details -->
+                            <div class="arena-right-pane">
+                                <div class="content-card live-dashboard-card">
+                                    <div class="card-header">
+                                        <h3>실시간 경기 중계 리포트</h3>
+                                    </div>
+                                    <div class="commentary-list-container" id="widescreen-commentary-list">
+                                        <div class="commentary-log-item system">플레이 볼! 경기 정보를 대기 중입니다...</div>
+                                    </div>
+                                    
+                                    <div class="active-cards-deck">
+                                        <h4 class="deck-title">투타 실시간 대결</h4>
+                                        <div class="deck-row">
+                                            <div class="live-card-wrapper" id="live-batter-card-placeholder">
+                                                <div class="empty-mini-card">타자 대기 중</div>
+                                            </div>
+                                            <div class="vs-label">VS</div>
+                                            <div class="live-card-wrapper" id="live-pitcher-card-placeholder">
+                                                <div class="empty-mini-card">투수 대기 중</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- End right pane -->
+                        </div> <!-- End widescreen-arena-container -->
+                    </div>
+                </section>
+
+                <!-- 2. Roster Tab (Manage Cards & Upgrade) -->
+                <section id="tab-roster" class="tab-content">
+                    <div class="roster-layout">
+                        <!-- Left Panel: Card Inventory Grid -->
+                        <div class="content-card roster-list-card">
+                            <div class="card-header">
+                                <h3>내 보유 선수단 전체</h3>
+                                <span class="chart-subtitle">정식 KBO 스타 180명 실명 컬렉션 리스트</span>
+                            </div>
+                            <div class="roster-list-filters">
+                                <button class="btn btn-secondary btn-sm active" onclick="filterRoster('all', event)">전체</button>
+                                <button class="btn btn-secondary btn-sm" onclick="filterRoster('myteam', event)">내 구단</button>
+                                <button class="btn btn-secondary btn-sm" onclick="filterRoster('other', event)">타 구단</button>
+                                <button class="btn btn-secondary btn-sm" onclick="filterRoster('bat', event)">타자</button>
+                                <button class="btn btn-secondary btn-sm" onclick="filterRoster('pit', event)">투수</button>
+                            </div>
+                            <div class="roster-grid" id="roster-cards-container">
+                                <!-- Cards dynamically rendered -->
+                            </div>
+                        </div>
+
+                        <!-- Right Panel: Upgrade/Enhance Tabs Interface -->
+                        <div class="content-card upgrade-panel-card">
+                            <div class="card-header">
+                                <h3>카드 관리 센터 (강화 · 훈련 · 스킬 · 조합)</h3>
+                            </div>
+                            <div class="upgrade-screen-body" id="upgrade-panel-body">
+                                <div class="empty-state">
+                                    <p>좌측 목록에서 관리할 선수 카드를 선택하세요.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. Shop Tab (Gacha Packs) -->
+                <section id="tab-shop" class="tab-content">
+                    <div class="shop-grid">
+                        <!-- Pack Purchase Section -->
+                        <div class="content-card shop-buy-card">
+                            <div class="card-header">
+                                <h3>KBO 스타 카드 상점</h3>
+                                <p class="chart-subtitle">게임 골드 포인트를 사용해 고성능 전설의 카드를 영입하세요!</p>
+                            </div>
+                            <div class="packs-list">
+                                <div class="pack-item">
+                                    <div class="pack-visual normal-pack">
+                                        <div class="pack-glow"></div>
+                                        <span class="pack-badge">LIVE</span>
+                                        <span class="pack-icon">📦</span>
+                                    </div>
+                                    <div class="pack-details">
+                                        <h4>KBO 일반 선수 팩</h4>
+                                        <p>LIVE ~ Special 등급 KBO 선수 1명 획득</p>
+                                        <button class="btn btn-primary" onclick="buyPack('normal', 1000)">🪙 1,000 P로 구매</button>
+                                    </div>
+                                </div>
+                                <div class="pack-item">
+                                    <div class="pack-visual premium-pack">
+                                        <div class="pack-glow"></div>
+                                        <span class="pack-badge premium">PREMIUM</span>
+                                        <span class="pack-icon">💎</span>
+                                    </div>
+                                    <div class="pack-details">
+                                        <h4>KBO 프리미엄 선수 팩</h4>
+                                        <p>Special ~ Legend 등급의 명장/스타 선수 1명 영입</p>
+                                        <button class="btn btn-primary" onclick="buyPack('premium', 3000)">🪙 3,000 P로 구매</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pack Draw Animation Area -->
+                        <div class="content-card pack-opening-card">
+                            <div class="card-header">
+                                <h3>카드 팩 개봉 스테이지</h3>
+                            </div>
+                            <div class="opening-stage" id="opening-stage-container">
+                                <div class="waiting-pack" id="opening-waiting">
+                                    <span class="chest-icon">🎁</span>
+                                    <p>현재 개봉 대기 중인 카드 팩이 없습니다.</p>
+                                    <button class="btn btn-primary" id="btn-open-owned-pack">보유 카드 팩 개봉</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. Guide Tab -->
+                <section id="tab-info" class="tab-content">
+                    <div class="guide-container">
+                        <div class="content-card">
+                            <h3>⚾ KBO Pro Baseball 2026 게임 가이드</h3>
+                            <div class="guide-sections">
+                                <div class="guide-sec">
+                                    <h4>1. 투수 모드 플레이 가이드</h4>
+                                    <ul>
+                                        <li>던질 구종(직구/슬라이더/커브/포크볼)을 결정합니다.</li>
+                                        <li>목표 투구 구역 지정(상/하/좌/우)을 선택합니다.</li>
+                                        <li>[투구 릴리즈] 타이밍 미터 바가 움직일 때 정확히 초록색 중앙 지점에서 터치하여 제구력과 구속 보너스를 획득하세요!</li>
+                                    </ul>
+                                </div>
+                                <div class="guide-sec">
+                                    <h4>2. 타자 모드 플레이 가이드</h4>
+                                    <ul>
+                                        <li>키보드 방향키(상/하/좌/우) 또는 ABS HUD 구역 버튼으로 타격 예상 구역을 설정합니다.</li>
+                                        <li>투수가 투구한 공이 홈 플레이트 근처에 안착할 때 Space바 또는 배트 휘두르기 버튼을 적합한 타이밍에 타격하세요!</li>
+                                        <li>타격 구역이 맞고 타이밍 판정이 우수(Perfect, Good)할수록 안타 및 홈런 확률이 급증합니다.</li>
+                                    </ul>
+                                </div>
+                                <div class="guide-sec">
+                                    <h4>3. 육성, 훈련 및 합성(조합) 가이드</h4>
+                                    <ul>
+                                        <li><strong>강화</strong>: 선수 카드는 최대 +10 강화까지 성공 등급별 확률로 육성할 수 있습니다.</li>
+                                        <li><strong>훈련</strong>: 친선 경기를 종료하면 주전 선수들이 경험치(EXP)를 획득하여 트레이닝 레벨업합니다. 제공되는 5 보너스 스탯 포인트를 원하는 능력치에 자유롭게 투자할 수 있습니다.</li>
+                                        <li><strong>카드 조합(합성)</strong>: 사용하지 않는 구단 선수 카드 3장을 제물로 조합하여, 재료 등급보다 높은 확률로 상위 등급의 새로운 실명 스타 카드를 얻을 수 있습니다.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- 1. Team Select Dialog Modal -->
+    <div class="modal-backdrop" id="modal-team-select">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>KBO 대표 구단 창단 및 선택</h3>
+            </div>
+            <div class="team-selection-body">
+                <p class="desc">창단하여 영입할 대표 KBO 구단을 선택하세요. 구단 전속의 실명 로스터가 기본 지급됩니다.</p>
+                <div class="team-grid" id="team-selector-grid">
+                    <!-- Dynamic KBO team lists via JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="baseball_app.js"></script>
+</body>
+</html>
