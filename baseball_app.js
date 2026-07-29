@@ -6845,3 +6845,242 @@ function getTeamColor(teamId) {
     const t = KBO_TEAMS.find(x => x.id === teamId);
     return t ? t.color : '#64748b';
 }
+
+
+// ==========================================================================
+// Account & Auth System (Multi-user Isolated Save Engine)
+// ==========================================================================
+let currentUser = null;
+let authMode = 'login';
+
+function getUsersList() {
+    try {
+        return JSON.parse(localStorage.getItem('kbo_users_registry') || '{}');
+    } catch (e) {
+        return {};
+    }
+}
+
+function saveUsersList(registry) {
+    localStorage.setItem('kbo_users_registry', JSON.stringify(registry));
+}
+
+function getAccountStateKey(username) {
+    return 'kbo_user_state_' + String(username).toLowerCase();
+}
+
+function hashPassword(password) {
+    let hash = 0;
+    for (let i = 0; i < password.length; i++) {
+        hash = (hash << 5) - hash + password.charCodeAt(i);
+        hash |= 0;
+    }
+    return 'kbo_h_' + Math.abs(hash).toString(36) + '_' + password.length;
+}
+
+function openAuthModal() {
+    const modal = document.getElementById('modal-auth');
+    if (modal) modal.style.display = 'flex';
+    setAuthMode('login');
+}
+
+function closeAuthModal() {
+    const modal = document.getElementById('modal-auth');
+    if (modal) modal.style.display = 'none';
+}
+
+function setAuthMode(mode) {
+    authMode = mode;
+    const loginBtn = document.getElementById('tab-auth-login');
+    const regBtn = document.getElementById('tab-auth-register');
+    const submitBtn = document.getElementById('btn-auth-submit');
+    const modalTitle = document.getElementById('auth-modal-title');
+    const err = document.getElementById('auth-error-msg');
+    const succ = document.getElementById('auth-success-msg');
+
+    if (err) err.textContent = '';
+    if (succ) succ.textContent = '';
+
+    if (mode === 'login') {
+        if (loginBtn) loginBtn.className = 'auth-tab-btn active';
+        if (regBtn) regBtn.className = 'auth-tab-btn';
+        if (submitBtn) submitBtn.textContent = '로그인하기';
+        if (modalTitle) modalTitle.textContent = '🔐 KBO 프로야구 로그인';
+    } else {
+        if (loginBtn) loginBtn.className = 'auth-tab-btn';
+        if (regBtn) regBtn.className = 'auth-tab-btn active';
+        if (submitBtn) submitBtn.textContent = '새 계정 회원가입';
+        if (modalTitle) modalTitle.textContent = '📝 KBO 프로야구 회원가입';
+    }
+}
+
+function handleAuthSubmit() {
+    const usernameInput = document.getElementById('auth-username');
+    const passwordInput = document.getElementById('auth-password');
+    const errorMsg = document.getElementById('auth-error-msg');
+    const successMsg = document.getElementById('auth-success-msg');
+
+    if (errorMsg) errorMsg.textContent = '';
+    if (successMsg) successMsg.textContent = '';
+
+    const username = (usernameInput?.value || '').trim();
+    const password = (passwordInput?.value || '').trim();
+
+    if (!username || username.length < 2) {
+        if (errorMsg) errorMsg.textContent = '아이디는 2자 이상 입력해 주세요.';
+        return;
+    }
+    if (!password || password.length < 3) {
+        if (errorMsg) errorMsg.textContent = '비밀번호는 3자 이상 입력해 주세요.';
+        return;
+    }
+
+    const registry = getUsersList();
+    const userKey = username.toLowerCase();
+
+    if (authMode === 'register') {
+        if (registry[userKey]) {
+            if (errorMsg) errorMsg.textContent = '이미 존재하는 아이디입니다. 로그인 탭을 이용해 주세요.';
+            return;
+        }
+        registry[userKey] = {
+            username: username,
+            passwordHash: hashPassword(password),
+            createdAt: new Date().toISOString()
+        };
+        saveUsersList(registry);
+
+        currentUser = { username: username };
+        localStorage.setItem('kbo_active_session', username);
+        saveCurrentGameStateToAccount();
+
+        if (successMsg) successMsg.textContent = '회원가입 및 로그인이 완료되었습니다!';
+        setTimeout(() => {
+            closeAuthModal();
+            updateUserAccountUI();
+        }, 800);
+
+    } else {
+        const existingUser = registry[userKey];
+        if (!existingUser) {
+            if (errorMsg) errorMsg.textContent = '존재하지 않는 아이디입니다. 회원가입 탭에서 계정을 생성해 주세요.';
+            return;
+        }
+        if (existingUser.passwordHash !== hashPassword(password)) {
+            if (errorMsg) errorMsg.textContent = '비밀번호가 일치하지 않습니다.';
+            return;
+        }
+
+        currentUser = { username: existingUser.username };
+        localStorage.setItem('kbo_active_session', existingUser.username);
+        loadGameStateFromAccount(existingUser.username);
+
+        if (successMsg) successMsg.textContent = `[${existingUser.username}] 님으로 로그인되었습니다!`;
+        setTimeout(() => {
+            closeAuthModal();
+            updateUserAccountUI();
+        }, 800);
+    }
+}
+
+function saveCurrentGameStateToAccount() {
+    if (!currentUser) return;
+    const state = {
+        userGold,
+        userPacks,
+        myTeam,
+        oppTeam,
+        myRoster,
+        scores,
+        hits,
+        errors,
+        savedAt: new Date().toISOString()
+    };
+    localStorage.setItem(getAccountStateKey(currentUser.username), JSON.stringify(state));
+}
+
+function loadGameStateFromAccount(username) {
+    const raw = localStorage.getItem(getAccountStateKey(username));
+    if (!raw) return false;
+    try {
+        const state = JSON.parse(raw);
+        if (typeof state.userGold === 'number') userGold = state.userGold;
+        if (typeof state.userPacks === 'number') userPacks = state.userPacks;
+        if (state.myTeam) myTeam = state.myTeam;
+        if (state.oppTeam) oppTeam = state.oppTeam;
+        if (Array.isArray(state.myRoster)) myRoster = state.myRoster;
+
+        if (typeof updateResourceUI === 'function') updateResourceUI();
+        if (typeof updateRosterUI === 'function') updateRosterUI();
+        if (typeof updateScoreboardUI === 'function') updateScoreboardUI();
+        return true;
+    } catch (e) {
+        console.error('Failed to load user account state:', e);
+        return false;
+    }
+}
+
+function updateUserAccountUI() {
+    const displayId = document.getElementById('user-display-id');
+    const statusText = document.getElementById('user-account-status');
+    const authBtn = document.getElementById('btn-open-auth-modal');
+    const avatar = document.getElementById('user-avatar-icon');
+
+    if (currentUser) {
+        if (displayId) displayId.textContent = currentUser.username;
+        if (statusText) statusText.textContent = '로그인됨 (내 개별 저장소 연결됨)';
+        if (avatar) avatar.textContent = '⚾';
+        if (authBtn) {
+            authBtn.textContent = '로그아웃';
+            authBtn.className = 'btn-auth-action logout';
+            authBtn.onclick = handleLogout;
+        }
+    } else {
+        if (displayId) displayId.textContent = '손님 (Guest)';
+        if (statusText) statusText.textContent = '로그인이 필요합니다';
+        if (avatar) avatar.textContent = '👤';
+        if (authBtn) {
+            authBtn.textContent = '로그인';
+            authBtn.className = 'btn-auth-action';
+            authBtn.onclick = openAuthModal;
+        }
+    }
+}
+
+function handleLogout() {
+    if (currentUser) {
+        saveCurrentGameStateToAccount();
+    }
+    currentUser = null;
+    localStorage.removeItem('kbo_active_session');
+    updateUserAccountUI();
+    logCommentary('로그아웃되었습니다.');
+}
+
+function initAccountSystem() {
+    const loginTab = document.getElementById('tab-auth-login');
+    const regTab = document.getElementById('tab-auth-register');
+    const closeBtn = document.getElementById('btn-close-auth-modal');
+    const authForm = document.getElementById('auth-form');
+
+    if (loginTab) loginTab.addEventListener('click', () => setAuthMode('login'));
+    if (regTab) regTab.addEventListener('click', () => setAuthMode('register'));
+    if (closeBtn) closeBtn.addEventListener('click', closeAuthModal);
+    if (authForm) authForm.addEventListener('submit', (e) => { e.preventDefault(); handleAuthSubmit(); });
+
+    const activeUsername = localStorage.getItem('kbo_active_session');
+    if (activeUsername) {
+        const registry = getUsersList();
+        if (registry[activeUsername.toLowerCase()]) {
+            currentUser = { username: registry[activeUsername.toLowerCase()].username };
+            loadGameStateFromAccount(currentUser.username);
+        }
+    }
+    updateUserAccountUI();
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAccountSystem);
+} else {
+    initAccountSystem();
+}
