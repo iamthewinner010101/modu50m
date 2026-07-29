@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="daylight">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KBO Pro Baseball 2026 - Desktop Edition</title>
+    <title>Baseball Card Duel 2026</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23f5e9c9'/%3E%3Cpath d='M14 20c12 8 24 16 36 24M14 44c12-8 24-16 36-24' stroke='%23c75b39' stroke-width='4' fill='none'/%3E%3C/svg%3E">
     <!-- Google Fonts: Outfit, Noto Sans KR, JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
             <div class="sidebar-brand">
                 <div class="logo-icon">⚾</div>
                 <div class="brand-text">
-                    <h2>KBO Pro</h2>
+                    <h2>Card Duel</h2>
                     <span>Baseball 2026</span>
                 </div>
             </div>
@@ -72,8 +73,8 @@
             <!-- Header bar -->
             <header class="game-header">
                 <div class="header-left">
-                    <h1 id="view-title">경기장 입장</h1>
-                    <p id="view-subtitle">실명 스타 라인업으로 즐기는 원근감 넘치는 KBO 시뮬레이션 야구!</p>
+                    <h1 id="view-title">오늘의 카드 듀얼</h1>
+                    <p id="view-subtitle">카드를 고르고, 한 구의 타이밍으로 승부하세요.</p>
                 </div>
                 <div class="header-right">
                     <div class="header-team-badge" id="header-my-team-badge">
@@ -93,8 +94,9 @@
                     <!-- Match Setup Screen (Lobby) -->
                     <div class="match-setup-card" id="match-setup-screen">
                         <div class="setup-header">
-                            <h3>KBO 정규 매치 로비</h3>
-                            <p>내 라인업을 기반으로 KBO 구단들과 이닝제 친선 경기를 가집니다.</p>
+                            <div class="eyebrow" id="lobby-duel-format">RETRO CARD DUEL · 1 INNING</div>
+                            <h3>오늘의 선발 카드를 고르세요</h3>
+                            <p>카드 수치가 컨택 판정 폭, 구속, 변화량과 제구에 직접 반영됩니다.</p>
                         </div>
                         
                         <!-- Match Parameters Selector Panel -->
@@ -113,6 +115,15 @@
                                     <button class="btn btn-secondary active" onclick="setSimMode('chance', this)">찬스 플레이 개입</button>
                                     <button class="btn btn-secondary" onclick="setSimMode('full', this)">전체 직접 플레이</button>
                                 </div>
+                            </div>
+                            <div class="setting-group difficulty-setting">
+                                <label>🔥 난이도</label>
+                                <div class="btn-group-toggle" id="difficulty-select-group">
+                                    <button class="btn btn-secondary" data-difficulty="rookie" aria-pressed="false" onclick="setDifficulty('rookie', this)">루키</button>
+                                    <button class="btn btn-secondary active" data-difficulty="pro" aria-pressed="true" onclick="setDifficulty('pro', this)">프로</button>
+                                    <button class="btn btn-secondary" data-difficulty="legend" aria-pressed="false" onclick="setDifficulty('legend', this)">레전드</button>
+                                </div>
+                                <small id="difficulty-description" class="difficulty-description">빠른 투구 · GOOD 28% 축소 · SPECIAL 상대</small>
                             </div>
                         </div>
 
@@ -138,21 +149,38 @@
                             </div>
                         </div>
 
-                        <!-- Mode Selector Panel -->
-                        <div class="mode-select-grid">
-                            <div class="mode-card" id="mode-batter-card">
-                                <div class="mode-icon">⚔️</div>
-                                <h4>타자 모드 (Batter Mode)</h4>
-                                <p>날아오는 구종과 궤적을 예상해 받아치세요! 조준 구역 매치와 스윙 타이밍이 중요합니다.</p>
-                                <button class="btn btn-primary" onclick="startNewGame('batter')">타자 모드 플레이</button>
+                        <section class="duel-deck-builder" aria-labelledby="duel-deck-title">
+                            <div class="duel-deck-heading">
+                                <div>
+                                    <span class="eyebrow">MICRO DECK · 3 PICKS</span>
+                                    <h3 id="duel-deck-title">오늘의 듀얼 덱</h3>
+                                </div>
+                                <div class="duel-start-actions">
+                                    <button class="btn btn-primary" id="start-batter-duel" onclick="startNewGame('batter')">⚔️ 타자로 시작 <kbd>B</kbd></button>
+                                    <button class="btn btn-secondary" id="start-pitcher-duel" onclick="startNewGame('pitcher')">🎯 투수로 시작 <kbd>P</kbd></button>
+                                </div>
                             </div>
-                            <div class="mode-card" id="mode-pitcher-card">
-                                <div class="mode-icon">🎯</div>
-                                <h4>투수 모드 (Pitcher Mode)</h4>
-                                <p>구종과 제구 위치를 골라 타자를 삼진 잡으세요! 타이밍 릴리즈 게이지로 정확한 제구를 실현합니다.</p>
-                                <button class="btn btn-primary" onclick="startNewGame('pitcher')">투수 모드 플레이</button>
+                            <p class="duel-deck-copy">카드를 누르면 바로 선발이 바뀝니다. 타자는 컨택·파워, 투수는 구위·제구·구속이 핵심입니다.</p>
+                            <div class="duel-pick-lanes">
+                                <div class="duel-pick-lane">
+                                    <div class="duel-lane-label">
+                                        <span class="role-dot batter"></span>
+                                        <strong>오늘의 타자</strong>
+                                        <span>3장 중 1장</span>
+                                    </div>
+                                    <div class="duel-pick-grid" id="batter-duel-picks"></div>
+                                </div>
+                                <div class="duel-pick-lane">
+                                    <div class="duel-lane-label">
+                                        <span class="role-dot pitcher"></span>
+                                        <strong>오늘의 선발</strong>
+                                        <span>3장 중 1장</span>
+                                    </div>
+                                    <div class="duel-pick-grid" id="pitcher-duel-picks"></div>
+                                </div>
                             </div>
-                        </div>
+                        </section>
+
                     </div>
 
                     <!-- Gameplay Widescreen Arena -->
@@ -169,7 +197,7 @@
                                     </div>
                                     <div class="score-middle">
                                         <div class="inning-badge" id="sb-inning">1회초</div>
-                                        <div class="counts-row">
+                                        <div class="counts-row" aria-label="볼, 스트라이크, 아웃 카운트">
                                             <div class="count-item ball">B <div class="dots" id="sb-balls-dots"></div></div>
                                             <div class="count-item strike">S <div class="dots" id="sb-strikes-dots"></div></div>
                                             <div class="count-item out">O <div class="dots" id="sb-outs-dots"></div></div>
@@ -187,9 +215,35 @@
                                     </div>
                                 </div>
 
+                                <div class="duel-status-strip" id="duel-status-strip">
+                                    <div class="duel-status-player batter">
+                                        <span class="duel-status-role">BATTER CARD</span>
+                                        <strong id="duel-batter-name">타자 준비</strong>
+                                        <small id="duel-batter-effect">컨택 판정 대기</small>
+                                    </div>
+                                    <div class="duel-status-center">
+                                        <span id="duel-pitch-number">PITCH 01</span>
+                                        <strong id="duel-countdown">READ THE PITCH</strong>
+                                    </div>
+                                    <div class="duel-status-player pitcher">
+                                        <span class="duel-status-role">PITCHER CARD</span>
+                                        <strong id="duel-pitcher-name">투수 준비</strong>
+                                        <small id="duel-pitcher-effect">ENERGY 100</small>
+                                    </div>
+                                </div>
+
                                 <!-- Viewport Canvas Container -->
                                 <div class="gameplay-viewport">
-                                    <canvas id="pitch-canvas" width="960" height="540"></canvas>
+                                    <canvas id="pitch-canvas" width="960" height="540" tabindex="0" role="application" aria-label="야구 카드 듀얼 경기 화면. 화면을 클릭하거나 Space 키로 현재 액션을 실행합니다."></canvas>
+
+                                    <div class="timing-verdict" id="timing-verdict" aria-live="polite">
+                                        <span class="verdict-label">READY</span>
+                                        <small>코스를 읽고 한 번에 승부</small>
+                                    </div>
+
+                                    <div class="card-effect-toast" id="card-effect-toast" aria-live="polite">
+                                        카드 효과 계산 대기
+                                    </div>
                                     
                                     <!-- In-game central commentary log overlay -->
                                     <div class="commentary-overlay" id="game-commentary">
@@ -204,12 +258,18 @@
                                         <span class="pitch-zone" id="speed-gun-zone">우 (RIGHT)</span>
                                     </div>
 
-                                    <!-- ABS Target Grid Overlay -->
-                                    <!-- Ball Distance HUD (Neon Green broadcast look) -->
+                                    <!-- Batted-ball broadcast HUD -->
                                     <div class="ball-distance-hud" id="ball-distance-hud" style="display: none;">
-                                        <span class="label">볼 남은 거리</span>
-                                        <span class="value" id="ball-distance-value">18.44</span>
-                                        <span class="unit">m</span>
+                                        <span class="sr-only" id="ball-flight-summary" role="status" aria-live="polite"></span>
+                                        <div class="ball-flight-call" aria-hidden="true">
+                                            <strong id="ball-flight-result">IN PLAY</strong>
+                                            <span id="ball-flight-direction">중견수 방향</span>
+                                        </div>
+                                        <div class="ball-flight-metrics" aria-hidden="true">
+                                            <span><small>비거리</small><b id="ball-distance-value">0</b><em>m</em></span>
+                                            <span><small>타구속도</small><b id="ball-exit-velocity">0</b><em>km/h</em></span>
+                                            <span><small>발사각</small><b id="ball-launch-angle">0</b><em>°</em></span>
+                                        </div>
                                     </div>
 
                                     
@@ -217,7 +277,7 @@
                                     <!-- Simulated State Loading Overlay (Chance play) -->
                                     <div class="sim-loading-overlay" id="simulation-overlay" style="display: none;">
                                         <div class="sim-spinner">⏳</div>
-                                        <p>상대 팀 공격 시뮬레이션 경기 진행 중...</p>
+                                        <p id="simulation-status-text">경기 상황을 시뮬레이션하는 중...</p>
                                     </div>
 
                                     <!-- Steal Cutscene Split-pane Overlay -->
@@ -229,31 +289,77 @@
                                     </div>
                                 </div>
 
+                                <div class="game-situation-bar" id="game-situation-bar" aria-label="경기장 밖 베이스 주자 현황">
+                                    <div class="situation-runner-copy">
+                                        <span>BASE RUNNERS</span>
+                                        <strong>주자 현황</strong>
+                                        <small class="sr-only" id="base-runner-summary">주자 없음</small>
+                                    </div>
+                                    <div class="base-diamond" id="base-runner-status" role="status" aria-live="polite" aria-label="그래픽 베이스 주자 점유">
+                                        <span class="diamond-path" aria-hidden="true"></span>
+                                        <span class="base-marker base-second" data-base-index="1" data-occupied="false" aria-label="2루 비어 있음"></span>
+                                        <span class="base-marker base-third" data-base-index="2" data-occupied="false" aria-label="3루 비어 있음"></span>
+                                        <span class="base-marker base-first" data-base-index="0" data-occupied="false" aria-label="1루 비어 있음"></span>
+                                        <span class="home-plate-marker" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+
                                 <!-- Action control panel -->
                                 <div class="gameplay-control-panel">
                                     <!-- Batter Mode Controls -->
-                                    <div class="control-block" id="batter-controls">
-                                        <div class="block-left">
-                                            <div class="active-player-info">
-                                                <div class="card-mini-face">🧢</div>
-                                                <div class="player-text">
-                                                    <span class="sub">현재 타자</span>
-                                                    <h4 id="batting-player-name">김도영</h4>
-                                                    <span class="stats">OVR <strong id="batting-contact">80</strong> / 파워 <strong id="batting-power">85</strong></span>
+                                    <div class="control-block batter-action-console" id="batter-controls">
+                                        <div class="batter-timing-console" id="batter-timing-console" data-timing-state="idle">
+                                            <div class="timing-console-head">
+                                                <div>
+                                                    <span class="timing-console-kicker">SWING TIMING</span>
+                                                    <strong id="batter-timing-call">투구를 기다리세요</strong>
+                                                </div>
+                                                <div class="timing-matchup-chip">
+                                                    <span><b id="batting-player-name">김도영</b> · CON <strong id="batting-contact">80</strong> · POW <strong id="batting-power">85</strong></span>
+                                                    <small>VS <b id="opp-pitcher-name">원태인</b></small>
                                                 </div>
                                             </div>
-                                            <div class="pitcher-tip">
-                                                <span>상대 투수: <strong id="opp-pitcher-name">원태인</strong></span>
+
+                                            <div
+                                                class="batter-timing-track"
+                                                id="batter-timing-track"
+                                                style="--timing-marker: 0%; --timing-good-start: 72%; --timing-perfect-start: 92%;"
+                                                role="meter"
+                                                aria-label="공이 홈 플레이트에 도착하는 타이밍"
+                                                aria-valuemin="0"
+                                                aria-valuemax="100"
+                                                aria-valuenow="0"
+                                            >
+                                                <span class="timing-progress-fill" aria-hidden="true"></span>
+                                                <span class="timing-zone timing-zone-good" aria-hidden="true"></span>
+                                                <span class="timing-zone timing-zone-perfect" aria-hidden="true"></span>
+                                                <span class="timing-ball-marker" id="batter-timing-marker" aria-hidden="true"></span>
+                                                <span class="timing-plate-marker" aria-hidden="true"></span>
                                             </div>
+                                            <div class="timing-track-labels" aria-hidden="true">
+                                                <span>기다려</span>
+                                                <span>스윙</span>
+                                                <strong>JUST!</strong>
+                                            </div>
+                                            <small class="timing-console-hint" id="batter-timing-hint">공이 노란·초록 구간에 들어오면 스윙</small>
                                         </div>
-                                        
-                                        <div class="block-center">
-                                            <span class="instruction">투수가 던진 공이 스트라이크 존에 도달하는 타이밍에 맞춰 <strong>Space바</strong>나 버튼을 터치하여 휘두르세요!</span>
+
+                                        <div class="batting-course-picker">
+                                            <span class="course-picker-label">코스</span>
+                                            <div class="zone-picker batter-zone-picker" aria-label="타격 예상 코스">
+                                                <button class="zone-chip" data-bat-zone="up" onclick="selectBatterZone('up')"><b>↑</b><span>높게</span></button>
+                                                <button class="zone-chip" data-bat-zone="left" onclick="selectBatterZone('left')"><b>←</b><span>몸쪽</span></button>
+                                                <button class="zone-chip active" data-bat-zone="center" onclick="selectBatterZone('center')"><b>●</b><span>가운데</span></button>
+                                                <button class="zone-chip" data-bat-zone="right" onclick="selectBatterZone('right')"><b>→</b><span>바깥</span></button>
+                                                <button class="zone-chip" data-bat-zone="down" onclick="selectBatterZone('down')"><b>↓</b><span>낮게</span></button>
+                                            </div>
                                         </div>
 
                                         <div class="block-right">
                                             <button class="btn btn-primary btn-xl btn-swing" id="btn-swing-bat">
-                                                <span>배트 휘두르기! (Space)</span>
+                                                <span class="action-kicker">ACTION</span>
+                                                <span class="action-label">스윙!</span>
+                                                <kbd>SPACE</kbd>
                                             </button>
                                         </div>
                                     </div>
@@ -262,7 +368,9 @@
                                     <div class="control-block" id="pitcher-controls" style="display: none;">
                                         <div class="block-left">
                                             <div class="active-player-info">
-                                                <div class="card-mini-face">⚾</div>
+                                                <div class="card-mini-face pitcher-face">
+                                                    <span class="pixel-ui-sprite pixel-ui-sprite-pitcher" aria-hidden="true"></span>
+                                                </div>
                                                 <div class="player-text">
                                                     <span class="sub">현재 투수</span>
                                                     <h4 id="pitching-player-name">양현종</h4>
@@ -273,23 +381,31 @@
                                         
                                         <div class="block-center-pitcher">
                                             <div class="pitch-selector">
-                                                <span class="sel-label">던질 구종 (단축키 1~4):</span>
+                                                <span class="sel-label"><strong>① 구종</strong>과 <strong>② 코스</strong>를 고르세요</span>
                                                 <div class="pitch-buttons-grid">
-                                                    <button class="btn btn-secondary active" data-pitch="fast" id="pitch-btn-fast">직구 (1)</button>
-                                                    <button class="btn btn-secondary" data-pitch="slider" id="pitch-btn-slider">슬라이더 (2)</button>
-                                                    <button class="btn btn-secondary" data-pitch="curve" id="pitch-btn-curve">커브 (3)</button>
-                                                    <button class="btn btn-secondary" data-pitch="fork" id="pitch-btn-fork">포크볼 (4)</button>
+                                                    <button class="btn btn-secondary active" data-pitch="fast" id="pitch-btn-fast"><span class="pitch-glyph">↟</span><span><b>직구</b><small>1 · EN -10</small></span></button>
+                                                    <button class="btn btn-secondary" data-pitch="slider" id="pitch-btn-slider"><span class="pitch-glyph">↝</span><span><b>슬라이더</b><small>2 · EN -8</small></span></button>
+                                                    <button class="btn btn-secondary" data-pitch="curve" id="pitch-btn-curve"><span class="pitch-glyph">⤵</span><span><b>커브</b><small>3 · EN -7</small></span></button>
+                                                    <button class="btn btn-secondary" data-pitch="fork" id="pitch-btn-fork"><span class="pitch-glyph">⇣</span><span><b>포크</b><small>4 · EN -12</small></span></button>
+                                                </div>
+                                                <div class="zone-picker pitcher-zone-picker" aria-label="투구 로케이션">
+                                                    <button class="zone-chip" data-pitch-zone="up" onclick="selectPitcherZone('up')"><b>↑</b><span>높게</span></button>
+                                                    <button class="zone-chip" data-pitch-zone="left" onclick="selectPitcherZone('left')"><b>←</b><span>몸쪽</span></button>
+                                                    <button class="zone-chip active" data-pitch-zone="center" onclick="selectPitcherZone('center')"><b>●</b><span>가운데</span></button>
+                                                    <button class="zone-chip" data-pitch-zone="right" onclick="selectPitcherZone('right')"><b>→</b><span>바깥</span></button>
+                                                    <button class="zone-chip" data-pitch-zone="down" onclick="selectPitcherZone('down')"><b>↓</b><span>낮게</span></button>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="block-right-pitcher" id="pitch-meter-container" style="display: none; flex-direction: column; width: 260px;">
                                             <div class="pitch-meter-hud-embedded">
+                                                <div class="meter-copy"><span>릴리즈</span><strong>JUST!</strong></div>
                                                 <div class="meter-bar-track" style="margin-bottom: 6px;">
                                                     <div class="meter-sweet-spot"></div>
                                                     <div class="meter-runner" id="pitch-meter-runner"></div>
                                                 </div>
-                                                <button class="btn btn-primary btn-sm" id="btn-release-pitch" style="width: 100%;">투구 릴리즈 (Space)</button>
+                                                <button class="btn btn-primary btn-sm arcade-release" id="btn-release-pitch" style="width: 100%;"><span>저스트 릴리즈!</span><kbd>SPACE</kbd></button>
                                             </div>
                                         </div>
                                     </div>
@@ -321,17 +437,33 @@
                                 </div>
                             </div> <!-- End right pane -->
                         </div> <!-- End widescreen-arena-container -->
+
+                        <div class="game-result-overlay" id="game-result-overlay" aria-live="polite">
+                            <div class="game-result-card">
+                                <span class="eyebrow" id="result-duel-format">1 INNING COMPLETE</span>
+                                <h2 id="game-result-title">경기 종료</h2>
+                                <div class="game-result-score" id="game-result-score">0 : 0</div>
+                                <p id="game-result-summary">선발 카드의 경기 결과가 여기에 기록됩니다.</p>
+                                <div class="game-result-actions">
+                                    <button class="btn btn-primary" onclick="replayLastMode()">같은 카드로 재대결</button>
+                                    <button class="btn btn-secondary" onclick="returnToDuelLobby()">카드 다시 고르기</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
                 <!-- 2. Roster Tab (Manage Cards & Upgrade) -->
                 <section id="tab-roster" class="tab-content">
+                    <div class="lineup-status-board" id="lineup-summary" aria-label="활성 18인 라인업과 팀덱 현황">
+                        <!-- Active lineup is rendered from the persisted card system. -->
+                    </div>
                     <div class="roster-layout">
                         <!-- Left Panel: Card Inventory Grid -->
                         <div class="content-card roster-list-card">
                             <div class="card-header">
                                 <h3>내 보유 선수단 전체</h3>
-                                <span class="chart-subtitle">정식 KBO 스타 180명 실명 컬렉션 리스트</span>
+                                <a class="roster-source-label" href="https://www.koreabaseball.com/Player/RegisterAll.aspx" target="_blank" rel="noreferrer">실제 KBO 선수명 · LIVE V3 · 2026.07.27 1군 등록 기준</a>
                             </div>
                             <div class="roster-list-filters">
                                 <button class="btn btn-secondary btn-sm active" onclick="filterRoster('all', event)">전체</button>
@@ -375,11 +507,12 @@
                                         <span class="pack-badge">LIVE</span>
                                         <span class="pack-icon">📦</span>
                                     </div>
-                                    <div class="pack-details">
-                                        <h4>KBO 일반 선수 팩</h4>
-                                        <p>LIVE ~ Special 등급 KBO 선수 1명 획득</p>
-                                        <button class="btn btn-primary" onclick="buyPack('normal', 1000)">🪙 1,000 P로 구매</button>
-                                    </div>
+                                     <div class="pack-details">
+                                         <h4>KBO 일반 선수 팩</h4>
+                                         <p>LIVE 75% · SPECIAL 25%</p>
+                                         <span class="pack-owned-label">보유 <strong data-pack-owned="normal">0</strong>개</span>
+                                         <button class="btn btn-primary" onclick="buyPack('normal')">🪙 1,000 P로 구매</button>
+                                     </div>
                                 </div>
                                 <div class="pack-item">
                                     <div class="pack-visual premium-pack">
@@ -387,11 +520,12 @@
                                         <span class="pack-badge premium">PREMIUM</span>
                                         <span class="pack-icon">💎</span>
                                     </div>
-                                    <div class="pack-details">
-                                        <h4>KBO 프리미엄 선수 팩</h4>
-                                        <p>Special ~ Legend 등급의 명장/스타 선수 1명 영입</p>
-                                        <button class="btn btn-primary" onclick="buyPack('premium', 3000)">🪙 3,000 P로 구매</button>
-                                    </div>
+                                     <div class="pack-details">
+                                         <h4>KBO 프리미엄 선수 팩</h4>
+                                         <p>SPECIAL 55% · HERO 35% · LEGEND 10%</p>
+                                         <span class="pack-owned-label">보유 <strong data-pack-owned="premium">0</strong>개</span>
+                                         <button class="btn btn-primary" onclick="buyPack('premium')">🪙 3,000 P로 구매</button>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -434,14 +568,16 @@
                                         <li>타격 구역이 맞고 타이밍 판정이 우수(Perfect, Good)할수록 안타 및 홈런 확률이 급증합니다.</li>
                                     </ul>
                                 </div>
-                                <div class="guide-sec">
-                                    <h4>3. 육성, 훈련 및 합성(조합) 가이드</h4>
-                                    <ul>
-                                        <li><strong>강화</strong>: 선수 카드는 최대 +10 강화까지 성공 등급별 확률로 육성할 수 있습니다.</li>
-                                        <li><strong>훈련</strong>: 친선 경기를 종료하면 주전 선수들이 경험치(EXP)를 획득하여 트레이닝 레벨업합니다. 제공되는 5 보너스 스탯 포인트를 원하는 능력치에 자유롭게 투자할 수 있습니다.</li>
-                                        <li><strong>카드 조합(합성)</strong>: 사용하지 않는 구단 선수 카드 3장을 제물로 조합하여, 재료 등급보다 높은 확률로 상위 등급의 새로운 실명 스타 카드를 얻을 수 있습니다.</li>
-                                    </ul>
-                                </div>
+                                 <div class="guide-sec">
+                                     <h4>3. 육성, 훈련 및 합성(조합) 가이드</h4>
+                                     <ul>
+                                         <li><strong>18인 엔트리</strong>: 9타자·5선발·3불펜·1마무리가 수동 및 자동 경기 능력치의 기준입니다.</li>
+                                         <li><strong>강화·훈련</strong>: 최대 +10 강화와 Lv.10 훈련이 실전 능력치에 함께 반영됩니다. 경기 후 대표 선수는 전체 EXP, 나머지 엔트리는 절반 EXP를 받습니다.</li>
+                                                <li><strong>스킬·팀덱</strong>: 스킬은 강화 +3/+5/+7/+9에 맞춰 성장하며, 같은 구단 활성 선수가 9/14/18명이 되면 전 능력 +1/+2/+3이 실제 경기에 적용됩니다.</li>
+                                         <li><strong>팩</strong>: 일반 팩은 LIVE 75%·SPECIAL 25%, 프리미엄 팩은 SPECIAL 55%·HERO 35%·LEGEND 10%입니다.</li>
+                                         <li><strong>카드 조합</strong>: 엔트리·잠금·마지막 1장은 보호됩니다. 3장 조합 결과는 가장 높은 재료 등급보다 낮아지지 않으며 실행 전 실제 확률을 표시합니다.</li>
+                                     </ul>
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -465,6 +601,7 @@
         </div>
     </div>
 
+    <script src="assets/sprites/baseball_pixel_atlas_v2.data.js"></script>
     <script src="baseball_app.js"></script>
 </body>
 </html>
