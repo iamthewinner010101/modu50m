@@ -2,6 +2,12 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      if (!window.location.search || !window.location.search.includes('mode=')) {
+        const defaultQuery = '?mode=candidates&workspace=taeyun-six-review-20260724-v1&seed=six-review-20260724&actor=%ED%83%9C%EC%9C%A4&role=student';
+        window.location.replace(window.location.pathname + defaultQuery + window.location.hash);
+      }
+    </script>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>모두의 50m | 한국코드페어 MVP</title>
