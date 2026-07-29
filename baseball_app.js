@@ -347,6 +347,7 @@ let tiebreakerActive = false;
 
 // Scoring & Stats
 let scores = { my: 0, opp: 0 };
+let inningScores = { away: Array(9).fill(null), home: Array(9).fill(null) };
 let hits = { my: 0, opp: 0 };
 let errors = { my: 0, opp: 0 };
 let counts = { balls: 0, strikes: 0, outs: 0 };
@@ -4336,7 +4337,76 @@ function updateScoreboardUI() {
     renderDots('sb-balls-dots', counts.balls, 3);
     renderDots('sb-strikes-dots', counts.strikes, 2);
     renderDots('sb-outs-dots', counts.outs, 2);
+    updateLineScoreboardUI();
     updateGameSituationUI();
+}
+
+function updateLineScoreboardUI() {
+    const idx = Math.min(Math.max(currentInning - 1, 0), 8);
+    if (halfInning === 'top' && inningScores.away[idx] === null) {
+        inningScores.away[idx] = 0;
+    }
+    if (halfInning === 'bottom' && inningScores.home[idx] === null) {
+        inningScores.home[idx] = 0;
+    }
+
+    const awayEmblem = document.getElementById('ls-away-emblem');
+    const awayName = document.getElementById('ls-away-name');
+    const homeEmblem = document.getElementById('ls-home-emblem');
+    const homeName = document.getElementById('ls-home-name');
+    if (awayEmblem && typeof oppTeam !== 'undefined') awayEmblem.textContent = oppTeam?.emblem || '🦁';
+    if (awayName && typeof oppTeam !== 'undefined') awayName.textContent = oppTeam?.name || '원정';
+    if (homeEmblem && typeof myTeam !== 'undefined') homeEmblem.textContent = myTeam?.emblem || '🐯';
+    if (homeName && typeof myTeam !== 'undefined') homeName.textContent = myTeam?.name || '홈';
+
+    for (let i = 1; i <= 9; i++) {
+        const awayCell = document.getElementById(`ls-a-${i}`);
+        const homeCell = document.getElementById(`ls-h-${i}`);
+        const inIdx = i - 1;
+
+        if (awayCell) {
+            const val = inningScores.away[inIdx];
+            awayCell.textContent = val !== null ? val : '-';
+            awayCell.classList.toggle('current-inning', i === currentInning && halfInning === 'top');
+        }
+        if (homeCell) {
+            const val = inningScores.home[inIdx];
+            homeCell.textContent = val !== null ? val : '-';
+            homeCell.classList.toggle('current-inning', i === currentInning && halfInning === 'bottom');
+        }
+    }
+
+    const awayR = document.getElementById('ls-away-r');
+    const homeR = document.getElementById('ls-home-r');
+    if (awayR) awayR.textContent = scores.opp;
+    if (homeR) homeR.textContent = scores.my;
+
+    const awayH = document.getElementById('ls-away-h');
+    const homeH = document.getElementById('ls-home-h');
+    if (awayH) awayH.textContent = hits.opp;
+    if (homeH) homeH.textContent = hits.my;
+
+    const awayE = document.getElementById('ls-away-e');
+    const homeE = document.getElementById('ls-home-e');
+    if (awayE) awayE.textContent = errors.opp;
+    if (homeE) homeE.textContent = errors.my;
+
+    const diffBadge = document.getElementById('live-score-diff-text');
+    if (diffBadge) {
+        const diff = scores.my - scores.opp;
+        const myName = typeof myTeam !== 'undefined' ? myTeam?.name || '우리팀' : '우리팀';
+        const oppNameText = typeof oppTeam !== 'undefined' ? oppTeam?.name || '상대팀' : '상대팀';
+        if (diff > 0) {
+            diffBadge.textContent = `${myName} ${diff}점 차 리드 中 🔥`;
+            diffBadge.className = 'live-score-diff-badge lead';
+        } else if (diff < 0) {
+            diffBadge.textContent = `${oppNameText} ${Math.abs(diff)}점 차 우세 ⚡`;
+            diffBadge.className = 'live-score-diff-badge chase';
+        } else {
+            diffBadge.textContent = `${scores.my} : ${scores.opp} 동점 (TIE) ⚖️`;
+            diffBadge.className = 'live-score-diff-badge tie';
+        }
+    }
 }
 
 function renderDots(containerId, count, max) {

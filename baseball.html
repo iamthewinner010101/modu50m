@@ -215,6 +215,45 @@
                                     </div>
                                 </div>
 
+                                <!-- KBO Electronic Line Scoreboard -->
+                                <div class="line-scoreboard-container">
+                                    <div class="line-score-header">
+                                        <span class="title">⚡ KBO 전광판 이닝별 점수</span>
+                                        <span class="live-score-diff-badge tie" id="live-score-diff-text">0 : 0 동점</span>
+                                    </div>
+                                    <table class="line-score-table">
+                                        <thead>
+                                            <tr>
+                                                <th class="team-col">구단</th>
+                                                <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th>
+                                                <th class="stat-col">R</th>
+                                                <th class="stat-col">H</th>
+                                                <th class="stat-col">E</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="ls-row-away">
+                                                <td class="team-name"><span id="ls-away-emblem">🦁</span> <span id="ls-away-name">원정</span></td>
+                                                <td id="ls-a-1">-</td><td id="ls-a-2">-</td><td id="ls-a-3">-</td>
+                                                <td id="ls-a-4">-</td><td id="ls-a-5">-</td><td id="ls-a-6">-</td>
+                                                <td id="ls-a-7">-</td><td id="ls-a-8">-</td><td id="ls-a-9">-</td>
+                                                <td class="stat-val highlight" id="ls-away-r">0</td>
+                                                <td class="stat-val" id="ls-away-h">0</td>
+                                                <td class="stat-val" id="ls-away-e">0</td>
+                                            </tr>
+                                            <tr id="ls-row-home">
+                                                <td class="team-name"><span id="ls-home-emblem">🐯</span> <span id="ls-home-name">홈</span></td>
+                                                <td id="ls-h-1">-</td><td id="ls-h-2">-</td><td id="ls-h-3">-</td>
+                                                <td id="ls-h-4">-</td><td id="ls-h-5">-</td><td id="ls-h-6">-</td>
+                                                <td id="ls-h-7">-</td><td id="ls-h-8">-</td><td id="ls-h-9">-</td>
+                                                <td class="stat-val highlight" id="ls-home-r">0</td>
+                                                <td class="stat-val" id="ls-home-h">0</td>
+                                                <td class="stat-val" id="ls-home-e">0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
                                 <div class="duel-status-strip" id="duel-status-strip">
                                     <div class="duel-status-player batter">
                                         <span class="duel-status-role">BATTER CARD</span>
