@@ -7077,10 +7077,33 @@ function initAccountSystem() {
         }
     }
     updateUserAccountUI();
+
+    // Auto-open Signup if not logged in
+    if (!currentUser) {
+        setTimeout(() => {
+            openAuthModal();
+            setAuthMode('register');
+            const notice = document.getElementById('auth-success-msg');
+            if (notice) notice.textContent = '👋 KBO 야구 게임 플레이를 위해 먼저 회원가입을 진행해 주세요!';
+        }, 300);
+    }
 }
 
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initAccountSystem);
 } else {
     initAccountSystem();
+}
+
+
+function checkAuthBeforePlay(e) {
+    if (!currentUser) {
+        if (e && typeof e.preventDefault === 'function') e.preventDefault();
+        openAuthModal();
+        setAuthMode('register');
+        const err = document.getElementById('auth-error-msg');
+        if (err) err.textContent = '⚠️ 게임 플레이 및 결과 저장을 위해 먼저 회원가입을 진행해 주세요.';
+        return false;
+    }
+    return true;
 }
