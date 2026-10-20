@@ -1,0 +1,1269 @@
+[
+  {
+    "placeId": "station",
+    "photos": [
+      {
+        "pointId": "bus-v32-bus",
+        "photo": {
+          "id": "station-bus-v32-bus",
+          "image": "/modu50m/bus-v32/station-bus-near-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201315069&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201315069?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-24",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3323066818035,
+            "lng": 127.432183140973,
+            "lon": 127.432183140973
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "7fb6bd525a21ae64d1205cd3cbeb3c1dd116c49348c8d9825626af8389505c9c",
+          "mobilityEvidence": true,
+          "scope": "12410번, 철도역 서광장 쪽 보도예요. 정차한 버스 옆 상가 보도를 찾아요. 가로수·볼라드·가판대 사이 공간과 하차 경계를 살펴봐요.",
+          "attribution": "Kakao · 2025-09-24",
+          "panoid": "1201315069",
+          "panoId": "1201315069"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/station-bus-near-0.jpg",
+          "photoId": "station-bus-v32-bus",
+          "sourceSha256": "7fb6bd525a21ae64d1205cd3cbeb3c1dd116c49348c8d9825626af8389505c9c",
+          "kind": "segment",
+          "title": "대전역 정류장 하차",
+          "question": "12410번, 철도역 서광장 쪽 보도예요. 정차한 버스 옆 상가 보도를 찾아요. 가로수·볼라드·가판대 사이 공간과 하차 경계를 살펴봐요.",
+          "focus": [
+            52,
+            67
+          ],
+          "observations": [
+            {
+              "label": "버스 옆 상가 보도",
+              "detail": "12410번, 철도역 서광장 쪽 보도예요. 정차한 버스 옆 상가 보도를 찾아요. 가로수·볼라드·가판대 사이 공간과 하차 경계를 살펴봐요.",
+              "position": [
+                52,
+                67
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "12410번, 철도역 서광장 쪽 보도예요. 정차한 버스 옆 상가 보도를 찾아요. 가로수·볼라드·가판대 사이 공간과 하차 경계를 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-walk",
+        "photo": {
+          "id": "station-bus-v32-walk",
+          "image": "/modu50m/bus-v32/station-walksouth-80.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201315049&pan=80&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201315049?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-24",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3319637100805,
+            "lng": 127.432328264389,
+            "lon": 127.432328264389
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "0c58223d0b6ab862fcc6df208f07346d3e2e8baca304d45c828dffcfae37cbae",
+          "mobilityEvidence": true,
+          "scope": "대전로를 건너지 않고 남쪽으로 살펴봐요. 상가가 끝나는 곳에서 왼쪽, 철도역 광장으로 들어가는 길을 찾아요.",
+          "attribution": "Kakao · 2025-09-24",
+          "panoid": "1201315049",
+          "panoId": "1201315049"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/station-walksouth-80.jpg",
+          "photoId": "station-bus-v32-walk",
+          "sourceSha256": "0c58223d0b6ab862fcc6df208f07346d3e2e8baca304d45c828dffcfae37cbae",
+          "kind": "segment",
+          "title": "같은 보도를 따라 광장 쪽으로",
+          "question": "대전로를 건너지 않고 남쪽으로 살펴봐요. 상가가 끝나는 곳에서 왼쪽, 철도역 광장으로 들어가는 길을 찾아요.",
+          "focus": [
+            77,
+            53
+          ],
+          "observations": [
+            {
+              "label": "광장으로 들어가는 모퉁이",
+              "detail": "대전로를 건너지 않고 남쪽으로 살펴봐요. 상가가 끝나는 곳에서 왼쪽, 철도역 광장으로 들어가는 길을 찾아요.",
+              "position": [
+                77,
+                53
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "대전로를 건너지 않고 남쪽으로 살펴봐요. 상가가 끝나는 곳에서 왼쪽, 철도역 광장으로 들어가는 길을 찾아요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-turn",
+        "photo": {
+          "id": "station-bus-v32-turn",
+          "image": "/modu50m/bus-v32/station-plaza-turn-100.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201492089&pan=100&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201492089?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3318439029191,
+            "lng": 127.432563721519,
+            "lon": 127.432563721519
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "7e6c661d51c44e500b402e2328c6b9c5c1ac0620ed8b23a2b5db2bba6b13ef71",
+          "mobilityEvidence": true,
+          "scope": "광장 입구에서 택시가 드나드는 통로를 만나요. 흰 횡단 표시 양끝의 턱과 차단기 주변을 확대해 살펴봐요.",
+          "attribution": "Kakao · 2025-10-01",
+          "panoid": "1201492089",
+          "panoId": "1201492089"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/station-plaza-turn-100.jpg",
+          "photoId": "station-bus-v32-turn",
+          "sourceSha256": "7e6c661d51c44e500b402e2328c6b9c5c1ac0620ed8b23a2b5db2bba6b13ef71",
+          "kind": "segment",
+          "title": "서광장 진입부의 횡단 지점",
+          "question": "광장 입구에서 택시가 드나드는 통로를 만나요. 흰 횡단 표시 양끝의 턱과 차단기 주변을 확대해 살펴봐요.",
+          "focus": [
+            50,
+            77
+          ],
+          "observations": [
+            {
+              "label": "횡단 표시와 턱",
+              "detail": "광장 입구에서 택시가 드나드는 통로를 만나요. 흰 횡단 표시 양끝의 턱과 차단기 주변을 확대해 살펴봐요.",
+              "position": [
+                50,
+                77
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "광장 입구에서 택시가 드나드는 통로를 만나요. 흰 횡단 표시 양끝의 턱과 차단기 주변을 확대해 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-cross",
+        "photo": {
+          "id": "station-bus-v32-cross",
+          "image": "/modu50m/bus-v32/station-plaza-north-75.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201492061&pan=75&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201492061?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.331867538311,
+            "lng": 127.433004904935,
+            "lon": 127.433004904935
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "088e7a27b0b4a07f6fb2a3e7f984a77817cd32289b57a9c2c4ab386397fc9e36",
+          "mobilityEvidence": true,
+          "scope": "초록 지붕을 기준으로 철도역 방향을 확인해요. 택시 통로의 횡단 표시와 볼라드 사이 보행 공간을 살펴봐요.",
+          "attribution": "Kakao · 2025-10-01",
+          "panoid": "1201492061",
+          "panoId": "1201492061"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/station-plaza-north-75.jpg",
+          "photoId": "station-bus-v32-cross",
+          "sourceSha256": "088e7a27b0b4a07f6fb2a3e7f984a77817cd32289b57a9c2c4ab386397fc9e36",
+          "kind": "segment",
+          "title": "초록 지붕 옆 택시 통로",
+          "question": "초록 지붕을 기준으로 철도역 방향을 확인해요. 택시 통로의 횡단 표시와 볼라드 사이 보행 공간을 살펴봐요.",
+          "focus": [
+            23,
+            53
+          ],
+          "observations": [
+            {
+              "label": "광장 쪽 포장 보행 공간",
+              "detail": "살펴볼 보행 공간은 사진 왼쪽, 낮은 금속 볼라드 안쪽의 광장이에요. 택시가 오가는 가운데 차도와 구분해서 보세요.",
+              "position": [
+                23,
+                53
+              ]
+            },
+            {
+              "label": "택시 통로의 횡단 표시",
+              "detail": "초록 캐노피 아래 차량 통로에 흰색 횡단 표시가 보여요. 이 지점은 차량과 만날 수 있는 부분이에요. 양끝의 턱과 볼라드 사이 폭을 더 확인해요.",
+              "position": [
+                59,
+                56
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "초록 지붕을 기준으로 철도역 방향을 확인해요. 택시 통로의 횡단 표시와 볼라드 사이 보행 공간을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-square",
+        "photo": {
+          "id": "station-bus-v32-square",
+          "image": "/modu50m/bus-v32/station-square-new-face2.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=DrBG0acHpul3Shq1i-udTQ,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=DrBG0acHpul3Shq1i-udTQ,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-07",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3318414,
+            "lng": 127.4333268,
+            "lon": 127.4333268
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "b3659b24fc16d7f4c1c20d4c472b6cc20a4b8ed0938bee5a926f74d9d28d99ab",
+          "mobilityEvidence": true,
+          "scope": "2026년 거리 사진 왼쪽, 역 건물 바로 앞의 포장 바닥을 살펴봐요. 가운데 택시 통로와 구분해요. 승강기 쪽 보행 연결은 별도 사진이 필요해요.",
+          "attribution": "NAVER · 2026-04-07",
+          "panoid": "DrBG0acHpul3Shq1i-udTQ",
+          "panoId": "DrBG0acHpul3Shq1i-udTQ"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/station-square-new-face2.jpg",
+          "photoId": "station-bus-v32-square",
+          "sourceSha256": "b3659b24fc16d7f4c1c20d4c472b6cc20a4b8ed0938bee5a926f74d9d28d99ab",
+          "kind": "segment",
+          "title": "철도역 건물이 보이는 서광장",
+          "question": "2026년 거리 사진 왼쪽, 역 건물 바로 앞의 포장 바닥을 살펴봐요. 가운데 택시 통로와 구분해요. 승강기 쪽 보행 연결은 별도 사진이 필요해요.",
+          "focus": [
+            21,
+            56
+          ],
+          "observations": [
+            {
+              "label": "역 건물 앞 보행 바닥",
+              "detail": "사진 왼쪽, 유리벽 바로 앞의 포장 바닥을 살펴봐요. 가운데 택시가 서 있는 차도와 나누어 봐요. 승강기까지 이어지는지는 별도 사진으로 확인해야 해요.",
+              "position": [
+                21,
+                56
+              ]
+            },
+            {
+              "label": "택시가 오가는 차도",
+              "detail": "차량 앞의 넓은 아스팔트는 택시 통로예요. 이 표시를 따라 차도로 이동하라는 뜻이 아니에요. 건물 앞 보행 공간과의 경계를 비교해요.",
+              "position": [
+                59,
+                74
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2026년 거리 사진 왼쪽, 역 건물 바로 앞의 포장 바닥을 살펴봐요. 가운데 택시 통로와 구분해요. 승강기 쪽 보행 연결은 별도 사진이 필요해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-door",
+        "photo": {
+          "id": "station-bus-v32-door",
+          "image": "/modu50m/bus-v32/station-blog-02.jpg",
+          "sourceUrl": "https://raonyss.tistory.com/m/2643",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/mdlgN/btrFUT7DCjD/AAAAAAAAAAAAAAAAAAAAAA5eX1nejgtsdfu9DGV5cg25ssjKF0Ro_faEzF2jSczx/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=qWWabSg0Ut6cYpRo%2FJZSSnCoDdg%3D",
+          "provider": "blog",
+          "providerLabel": "라오니스 방문 사진",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "retrievedAt": "2026-09-25",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "bfb77e046402e036bb3c37d9ebd39c1f6bc35dd29ae15b4cab302d5a0163dd32",
+          "mobilityEvidence": true,
+          "scope": "사진 속 출입부에는 계단과 에스컬레이터가 보여요. 휠체어로 들어갈 승강기 쪽 접근로를 따로 살펴봐요. 광장에서 승강기까지 이어지는 사진은 아직 부족해요.",
+          "attribution": "라오니스 · 2022-07-02 게시 · 촬영일 미상",
+          "publishedAt": "2022-07-02"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/station-blog-02.jpg",
+          "photoId": "station-bus-v32-door",
+          "sourceSha256": "bfb77e046402e036bb3c37d9ebd39c1f6bc35dd29ae15b4cab302d5a0163dd32",
+          "kind": "segment",
+          "title": "서광장 출입부 · 계단 확인",
+          "question": "계단을 거치지 않고 들어갈 승강기 쪽 길은 어디일까요?",
+          "focus": [
+            25,
+            65
+          ],
+          "observations": [
+            {
+              "label": "계단형 출입부",
+              "detail": "노란 안내판 아래에 계단과 에스컬레이터가 보여요. 유리벽을 실제 출입문으로 보지 않도록 구분해요.",
+              "position": [
+                25,
+                65
+              ]
+            }
+          ],
+          "unknowns": [
+            "서광장에서 철도역 승강기 입구까지 이어지는 보행 바닥",
+            "휠체어로 이용할 출입문 위치와 현재 운영 상태"
+          ],
+          "connection": "사진 속 출입부에는 계단과 에스컬레이터가 보여요. 휠체어로 들어갈 승강기 쪽 접근로를 따로 살펴봐요. 광장에서 승강기까지 이어지는 사진은 아직 부족해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      }
+    ],
+    "missingShots": [
+      "서광장에서 철도역 승강기 문까지 이어지는 보행 연결",
+      "하차 턱·횡단부 단차·승강기 문 앞 통과 공간의 현장 확인"
+    ],
+    "note": "촬영 시기와 실제 카메라 위치를 보존한 정류장부터 입구까지 방문 준비 자료."
+  },
+  {
+    "placeId": "terminal",
+    "photos": [
+      {
+        "pointId": "bus-v32-bus",
+        "photo": {
+          "id": "terminal-bus-v32-bus",
+          "image": "/modu50m/bus-v32/terminal-bus-near-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201537055&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201537055?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3488394739556,
+            "lng": 127.435701194019,
+            "lon": 127.435701194019
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "04eb01f506693f924d9a536c8165b2b3d4403793927e65e3aface60ee9e4fda4",
+          "mobilityEvidence": true,
+          "scope": "11830번, 터미널이 있는 쪽 보도에서 시작해요. 검은 쉼터 옆으로 올라서는 경계와 기다리는 사람 사이 공간을 살펴봐요.",
+          "attribution": "Kakao · 2025-10-01",
+          "panoid": "1201537055",
+          "panoId": "1201537055"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/terminal-bus-near-0.jpg",
+          "photoId": "terminal-bus-v32-bus",
+          "sourceSha256": "04eb01f506693f924d9a536c8165b2b3d4403793927e65e3aface60ee9e4fda4",
+          "kind": "segment",
+          "title": "복합터미널 정류장 하차",
+          "question": "11830번, 터미널이 있는 쪽 보도에서 시작해요. 검은 쉼터 옆으로 올라서는 경계와 기다리는 사람 사이 공간을 살펴봐요.",
+          "focus": [
+            51,
+            72
+          ],
+          "observations": [
+            {
+              "label": "쉼터와 보도 경계",
+              "detail": "11830번, 터미널이 있는 쪽 보도에서 시작해요. 검은 쉼터 옆으로 올라서는 경계와 기다리는 사람 사이 공간을 살펴봐요.",
+              "position": [
+                51,
+                72
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "11830번, 터미널이 있는 쪽 보도에서 시작해요. 검은 쉼터 옆으로 올라서는 경계와 기다리는 사람 사이 공간을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-cross",
+        "photo": {
+          "id": "terminal-bus-v32-cross",
+          "image": "/modu50m/bus-v32/terminal-ped-cross-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201537027&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201537027?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3491605393426,
+            "lng": 127.436620931865,
+            "lon": 127.436620931865
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "d2ce4ca8cab27e85bbdb40fe27b876ede5ef1766fb111b1c417993497de82560",
+          "mobilityEvidence": true,
+          "scope": "같은 쪽 보도를 동쪽으로 따라가면 작은 진입 도로를 만나요. 큰 대로 반대편으로 건너는 길이 아니에요. 횡단 표시 양끝과 차량을 살펴봐요.",
+          "attribution": "Kakao · 2025-10-01",
+          "panoid": "1201537027",
+          "panoId": "1201537027"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/terminal-ped-cross-0.jpg",
+          "photoId": "terminal-bus-v32-cross",
+          "sourceSha256": "d2ce4ca8cab27e85bbdb40fe27b876ede5ef1766fb111b1c417993497de82560",
+          "kind": "segment",
+          "title": "서관 남서쪽 작은 도로 횡단",
+          "question": "같은 쪽 보도를 동쪽으로 따라가면 작은 진입 도로를 만나요. 큰 대로 반대편으로 건너는 길이 아니에요. 횡단 표시 양끝과 차량을 살펴봐요.",
+          "focus": [
+            28,
+            58
+          ],
+          "observations": [
+            {
+              "label": "작은 도로의 횡단부",
+              "detail": "같은 쪽 보도를 동쪽으로 따라가면 작은 진입 도로를 만나요. 큰 대로 반대편으로 건너는 길이 아니에요. 횡단 표시 양끝과 차량을 살펴봐요.",
+              "position": [
+                28,
+                58
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "같은 쪽 보도를 동쪽으로 따라가면 작은 진입 도로를 만나요. 큰 대로 반대편으로 건너는 길이 아니에요. 횡단 표시 양끝과 차량을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-forecourt",
+        "photo": {
+          "id": "terminal-bus-v32-forecourt",
+          "image": "/modu50m/bus-v32/terminal-sculpture-315.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201594358&pan=315&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201594358?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.349525195601,
+            "lng": 127.437447343401,
+            "lon": 127.437447343401
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "b558d6e2ae08ca3a3899c583109de5debca349dc7cb29616bc24806b85ec3070",
+          "mobilityEvidence": true,
+          "scope": "복합터미널 표지와 조형물을 기준으로 서관 앞을 찾아요. 차도 쪽 울타리와 보행 공간을 구분하고 건물 쪽으로 살펴봐요.",
+          "attribution": "Kakao · 2025-10-01",
+          "panoid": "1201594358",
+          "panoId": "1201594358"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/terminal-sculpture-315.jpg",
+          "photoId": "terminal-bus-v32-forecourt",
+          "sourceSha256": "b558d6e2ae08ca3a3899c583109de5debca349dc7cb29616bc24806b85ec3070",
+          "kind": "segment",
+          "title": "서관 앞 조형물과 보행 공간",
+          "question": "복합터미널 표지와 조형물을 기준으로 서관 앞을 찾아요. 차도 쪽 울타리와 보행 공간을 구분하고 건물 쪽으로 살펴봐요.",
+          "focus": [
+            48,
+            64
+          ],
+          "observations": [
+            {
+              "label": "조형물 앞 보행 공간",
+              "detail": "복합터미널 표지와 조형물을 기준으로 서관 앞을 찾아요. 차도 쪽 울타리와 보행 공간을 구분하고 건물 쪽으로 살펴봐요.",
+              "position": [
+                48,
+                64
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "복합터미널 표지와 조형물을 기준으로 서관 앞을 찾아요. 차도 쪽 울타리와 보행 공간을 구분하고 건물 쪽으로 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-walk",
+        "photo": {
+          "id": "terminal-v41-kakao-1201601985-h265",
+          "image": "/modu50m/route-photos-v41/kakao-1201601985-h265.jpg",
+          "title": "난간 안쪽 보도와 택시 대기 공간",
+          "viewLabel": "보도 정면",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201601985&pan=265&tilt=-1&zoom=1",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201601985?SERVICE=glpano",
+          "captureDate": "2025-10-02",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-30",
+          "camera": {
+            "lat": 36.3501986882457,
+            "lon": 127.437607075383,
+            "lng": 127.437607075383
+          },
+          "panoid": "1201601985",
+          "panoId": "1201601985",
+          "headingDeg": 265,
+          "pitchDeg": 1,
+          "fovDeg": 60,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "975b0d8208a40e70b2b8e80d895f270122b39e5acb93f9232096fe9121bb140e",
+          "mobilityEvidence": true,
+          "fieldVerified": false,
+          "mapBindingVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "scope": "차도에서 서관을 바라본 사진이에요. 살펴볼 길은 검은 난간 안쪽 보도예요. GATE 4는 이 사진의 오른쪽 방향에 있어요. 차량에 가려진 바닥은 확인되지 않았어요.",
+          "observations": [
+            {
+              "label": "난간 안쪽 보도",
+              "detail": "매장과 검은 난간 사이에 점자블록이 있는 보도가 보여요. 이 보도 안쪽을 살펴보세요. 정확한 통과 폭은 사진으로 측정할 수 없어요.",
+              "position": [
+                28,
+                71
+              ]
+            },
+            {
+              "label": "보도와 차량 공간의 경계",
+              "detail": "난간과 경계석 바깥에는 택시가 대기하고 있어요. 사진 앞쪽 차도는 휠체어 이동선 표시가 아니에요.",
+              "position": [
+                42,
+                81
+              ]
+            },
+            {
+              "label": "차량에 가린 부분",
+              "detail": "택시 뒤쪽의 보도와 경계가 일부 가려져 있어요. 다른 방향 사진과 비교해도 보이지 않는 바닥은 남아 있어요.",
+              "position": [
+                64,
+                72
+              ]
+            }
+          ],
+          "evidenceRole": {
+            "label": "서관 쪽 보도 관찰",
+            "detail": "차도에서 서관을 바라본 사진이에요. 살펴볼 길은 검은 난간 안쪽 보도예요. GATE 4는 이 사진의 오른쪽 방향에 있어요. 차량에 가려진 바닥은 확인되지 않았어요."
+          }
+        },
+        "review": {
+          "image": "/modu50m/route-photos-v41/kakao-1201601985-h265.jpg",
+          "photoId": "terminal-v41-kakao-1201601985-h265",
+          "sourceSha256": "975b0d8208a40e70b2b8e80d895f270122b39e5acb93f9232096fe9121bb140e",
+          "kind": "segment",
+          "title": "서관 난간 안쪽 보도에서 GATE 4 방향으로",
+          "question": "차도에서 서관을 바라본 사진이에요. 살펴볼 길은 검은 난간 안쪽 보도예요. GATE 4는 이 사진의 오른쪽 방향에 있어요. 차량에 가려진 바닥은 확인되지 않았어요.",
+          "focus": [
+            28,
+            71
+          ],
+          "observations": [
+            {
+              "label": "난간 안쪽 보도",
+              "detail": "매장과 검은 난간 사이에 점자블록이 있는 보도가 보여요. 이 보도 안쪽을 살펴보세요. 정확한 통과 폭은 사진으로 측정할 수 없어요.",
+              "position": [
+                28,
+                71
+              ]
+            },
+            {
+              "label": "보도와 차량 공간의 경계",
+              "detail": "난간과 경계석 바깥에는 택시가 대기하고 있어요. 사진 앞쪽 차도는 휠체어 이동선 표시가 아니에요.",
+              "position": [
+                42,
+                81
+              ]
+            },
+            {
+              "label": "차량에 가린 부분",
+              "detail": "택시 뒤쪽의 보도와 경계가 일부 가려져 있어요. 다른 방향 사진과 비교해도 보이지 않는 바닥은 남아 있어요.",
+              "position": [
+                64,
+                72
+              ]
+            }
+          ],
+          "unknowns": [
+            "차량·시설물에 가려진 바닥과 실제 통과 폭",
+            "현재 경사·턱 높이와 문 운영 상태"
+          ],
+          "connection": "차도에서 서관을 바라본 사진이에요. 살펴볼 길은 검은 난간 안쪽 보도예요. GATE 4는 이 사진의 오른쪽 방향에 있어요. 차량에 가려진 바닥은 확인되지 않았어요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분.",
+        "shortTitle": "난간 안쪽 보도"
+      },
+      {
+        "pointId": "bus-v32-door",
+        "photo": {
+          "id": "terminal-v41-kakao-1201601973-h265",
+          "image": "/modu50m/route-photos-v41/kakao-1201601973-h265.jpg",
+          "title": "GATE 4와 문 앞 보도 정면",
+          "viewLabel": "문 앞 보도",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201601973&pan=265&tilt=-1&zoom=1",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201601973?SERVICE=glpano",
+          "captureDate": "2025-10-02",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-30",
+          "camera": {
+            "lat": 36.3503612224076,
+            "lon": 127.437518862371,
+            "lng": 127.437518862371
+          },
+          "panoid": "1201601973",
+          "panoId": "1201601973",
+          "headingDeg": 265,
+          "pitchDeg": 1,
+          "fovDeg": 60,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "ae0bdbf559f9523c5cc9a3dad914d986371e67668d10eee9732faa1d51fde5f9",
+          "mobilityEvidence": true,
+          "fieldVerified": false,
+          "mapBindingVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "scope": "차도에서 GATE 4를 바라본 사진이에요. 보도에 이어지는 점자블록과 문 아래 경계를 함께 살펴봐요. 사진 앞 횡단보도를 새로 건너라는 안내는 아니에요.",
+          "observations": [
+            {
+              "label": "문 앞으로 이어지는 점자블록",
+              "detail": "보도를 따라가는 점자블록에서 출입문 쪽으로 갈라지는 부분이 보여요. 주변 바닥의 기울기와 높이 차는 미측정이에요.",
+              "position": [
+                55,
+                75
+              ]
+            },
+            {
+              "label": "출입문 아래 경계",
+              "detail": "서관 GATE 4 유리문 아래 경계를 볼 수 있어요. 문턱의 높이와 실제 열린 폭은 근접 사진과 비교해도 측정할 수 없어요.",
+              "position": [
+                40,
+                65
+              ]
+            },
+            {
+              "label": "보도 끝과 횡단부",
+              "detail": "보도 경계와 횡단 표시가 만나는 부분이에요. 이 사진은 촬영 방향 참고이며 차도로 나가라는 이동 지시가 아니에요.",
+              "position": [
+                28,
+                82
+              ]
+            }
+          ],
+          "evidenceRole": {
+            "label": "서관 쪽 보도 관찰",
+            "detail": "차도에서 GATE 4를 바라본 사진이에요. 보도에 이어지는 점자블록과 문 아래 경계를 함께 살펴봐요. 사진 앞 횡단보도를 새로 건너라는 안내는 아니에요."
+          }
+        },
+        "review": {
+          "image": "/modu50m/route-photos-v41/kakao-1201601973-h265.jpg",
+          "photoId": "terminal-v41-kakao-1201601973-h265",
+          "sourceSha256": "ae0bdbf559f9523c5cc9a3dad914d986371e67668d10eee9732faa1d51fde5f9",
+          "kind": "segment",
+          "title": "서관 GATE 4 · 문 앞 보도와 출입문",
+          "question": "차도에서 GATE 4를 바라본 사진이에요. 보도에 이어지는 점자블록과 문 아래 경계를 함께 살펴봐요. 사진 앞 횡단보도를 새로 건너라는 안내는 아니에요.",
+          "focus": [
+            55,
+            75
+          ],
+          "observations": [
+            {
+              "label": "문 앞으로 이어지는 점자블록",
+              "detail": "보도를 따라가는 점자블록에서 출입문 쪽으로 갈라지는 부분이 보여요. 주변 바닥의 기울기와 높이 차는 미측정이에요.",
+              "position": [
+                55,
+                75
+              ]
+            },
+            {
+              "label": "출입문 아래 경계",
+              "detail": "서관 GATE 4 유리문 아래 경계를 볼 수 있어요. 문턱의 높이와 실제 열린 폭은 근접 사진과 비교해도 측정할 수 없어요.",
+              "position": [
+                40,
+                65
+              ]
+            },
+            {
+              "label": "보도 끝과 횡단부",
+              "detail": "보도 경계와 횡단 표시가 만나는 부분이에요. 이 사진은 촬영 방향 참고이며 차도로 나가라는 이동 지시가 아니에요.",
+              "position": [
+                28,
+                82
+              ]
+            }
+          ],
+          "unknowns": [
+            "차량·시설물에 가려진 바닥과 실제 통과 폭",
+            "현재 경사·턱 높이와 문 운영 상태"
+          ],
+          "connection": "차도에서 GATE 4를 바라본 사진이에요. 보도에 이어지는 점자블록과 문 아래 경계를 함께 살펴봐요. 사진 앞 횡단보도를 새로 건너라는 안내는 아니에요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분.",
+        "shortTitle": "GATE 4 문 앞"
+      }
+    ],
+    "missingShots": [
+      "GATE 4 문턱 높이·열린 폭·여는 방법과 현재 상태",
+      "정류장부터 서관까지 사진에 가려진 바닥과 현재 통행 상태"
+    ],
+    "note": "촬영 시기와 실제 카메라 위치를 보존한 정류장부터 입구까지 방문 준비 자료."
+  },
+  {
+    "placeId": "museum",
+    "photos": [
+      {
+        "pointId": "bus-v32-corner",
+        "photo": {
+          "id": "museum-bus-v32-corner",
+          "image": "/modu50m/bus-v32/museum-turn-face1.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=n_vXpOk9kCu4wEnmCLxsgg,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=n_vXpOk9kCu4wEnmCLxsgg,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-21",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.365439,
+            "lng": 127.3855691,
+            "lon": 127.3855691
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "c984a6a4f6ef27b9c9c9d9b37a3ef7d804d9cf97516aa5b70507fea3b57528ef",
+          "mobilityEvidence": true,
+          "scope": "2026년 사진으로 공원 안쪽 갈림길을 비교해요. 보도 경계가 낮아지는 곳을 찾아야 하며, 높은 턱을 넘는 길로 판단하지 않아요.",
+          "attribution": "NAVER · 2026-04-21",
+          "panoid": "n_vXpOk9kCu4wEnmCLxsgg",
+          "panoId": "n_vXpOk9kCu4wEnmCLxsgg"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/museum-turn-face1.jpg",
+          "photoId": "museum-bus-v32-corner",
+          "sourceSha256": "c984a6a4f6ef27b9c9c9d9b37a3ef7d804d9cf97516aa5b70507fea3b57528ef",
+          "kind": "segment",
+          "title": "공원 남쪽 모퉁이의 포장 길",
+          "question": "2026년 사진으로 공원 안쪽 갈림길을 비교해요. 보도 경계가 낮아지는 곳을 찾아야 하며, 높은 턱을 넘는 길로 판단하지 않아요.",
+          "focus": [
+            50,
+            74
+          ],
+          "observations": [
+            {
+              "label": "모퉁이 보도 경계",
+              "detail": "2026년 사진으로 공원 안쪽 갈림길을 비교해요. 보도 경계가 낮아지는 곳을 찾아야 하며, 높은 턱을 넘는 길로 판단하지 않아요.",
+              "position": [
+                50,
+                74
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2026년 사진으로 공원 안쪽 갈림길을 비교해요. 보도 경계가 낮아지는 곳을 찾아야 하며, 높은 턱을 넘는 길로 판단하지 않아요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-side",
+        "photo": {
+          "id": "museum-bus-v32-side",
+          "image": "/modu50m/bus-v32/museum-door-face2.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=KryEr54KRiTlD6lkApS1Yw,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=KryEr54KRiTlD6lkApS1Yw,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-21",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3667273,
+            "lng": 127.3848999,
+            "lon": 127.3848999
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "b2df8ea24219d59fceb0484f9d0f76a64b5676450d69f7cd2ed5f4c1d4be4480",
+          "mobilityEvidence": true,
+          "scope": "2026년 서측 사진이에요. 주차된 차 옆 보행 공간과 건물 방향을 비교해요. 앞 갈림길부터 이곳까지 연속 바닥은 더 확인해요.",
+          "attribution": "NAVER · 2026-04-21",
+          "panoid": "KryEr54KRiTlD6lkApS1Yw",
+          "panoId": "KryEr54KRiTlD6lkApS1Yw"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/museum-door-face2.jpg",
+          "photoId": "museum-bus-v32-side",
+          "sourceSha256": "b2df8ea24219d59fceb0484f9d0f76a64b5676450d69f7cd2ed5f4c1d4be4480",
+          "kind": "segment",
+          "title": "서측 주차면과 미술관 옆 공간",
+          "question": "2026년 서측 사진이에요. 주차된 차 옆 보행 공간과 건물 방향을 비교해요. 앞 갈림길부터 이곳까지 연속 바닥은 더 확인해요.",
+          "focus": [
+            50,
+            72
+          ],
+          "observations": [
+            {
+              "label": "주차면 옆 바닥",
+              "detail": "2026년 서측 사진이에요. 주차된 차 옆 보행 공간과 건물 방향을 비교해요. 앞 갈림길부터 이곳까지 연속 바닥은 더 확인해요.",
+              "position": [
+                50,
+                72
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2026년 서측 사진이에요. 주차된 차 옆 보행 공간과 건물 방향을 비교해요. 앞 갈림길부터 이곳까지 연속 바닥은 더 확인해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      }
+    ],
+    "missingShots": [
+      "공원 갈림길에서 서측 보행 공간까지의 연속 바닥",
+      "서측 공간에서 외부 승강기·관람객 출입문까지의 연결과 층 확인"
+    ],
+    "note": "촬영 시기와 실제 카메라 위치를 보존한 정류장부터 입구까지 방문 준비 자료."
+  },
+  {
+    "placeId": "leeungno",
+    "photos": [
+      {
+        "pointId": "bus-v32-south",
+        "photo": {
+          "id": "leeungno-bus-v32-south",
+          "image": "/modu50m/bus-v32/leeungno-link-face1.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=WxliNF7cLDo75wOtV4X86A,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=WxliNF7cLDo75wOtV4X86A,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-21",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3654416,
+            "lng": 127.3862196,
+            "lon": 127.3862196
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "06f062d37c334b45807d700495e77588c864dfccff221ff203f9287d965f09c3",
+          "mobilityEvidence": true,
+          "scope": "사진 왼쪽의 보도 턱과 차단봉이 있는 차량 진입로를 구분해요. 미술관 쪽 보행로가 이어지는 접점은 이 사진에서 보이지 않아요.",
+          "attribution": "NAVER · 2026-04-21",
+          "panoid": "WxliNF7cLDo75wOtV4X86A",
+          "panoId": "WxliNF7cLDo75wOtV4X86A"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/leeungno-link-face1.jpg",
+          "photoId": "leeungno-bus-v32-south",
+          "sourceSha256": "06f062d37c334b45807d700495e77588c864dfccff221ff203f9287d965f09c3",
+          "kind": "segment",
+          "title": "차량 진입로 옆 보도 경계",
+          "question": "사진 왼쪽의 보도 턱과 차단봉이 있는 차량 진입로를 구분해요. 미술관 쪽 보행로가 이어지는 접점은 이 사진에서 보이지 않아요.",
+          "focus": [
+            27,
+            87
+          ],
+          "observations": [
+            {
+              "label": "왼쪽 보도의 높은 턱",
+              "position": [
+                27,
+                87
+              ],
+              "detail": "회색 포장 보도와 아스팔트 사이에 턱이 보여요. 사진에 보이는 턱을 가로질러 차도로 내려가도록 안내하지 않아요."
+            },
+            {
+              "label": "차량 진입로와 차단봉",
+              "position": [
+                71,
+                56
+              ],
+              "detail": "노란 차단 시설물과 주황색 차단봉이 아스팔트에 있어요. 이 바닥을 미술관으로 이어지는 보행 전용 길로 판단하지 않아요."
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "사진 왼쪽의 보도 턱과 차단봉이 있는 차량 진입로를 구분해요. 미술관 쪽 보행로가 이어지는 접점은 이 사진에서 보이지 않아요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-side",
+        "photo": {
+          "id": "leeungno-bus-v32-side",
+          "image": "/modu50m/bus-v32/leeungno-forecourt-face1.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=jPgBKpqLtlL5pTJYp52MJw,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=jPgBKpqLtlL5pTJYp52MJw,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-21",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3669729,
+            "lng": 127.3866741,
+            "lon": 127.3866741
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "b5ce799b2345ac5677fa4406c2ef01e8f71b1a3f5d523d8297076be51bb101d1",
+          "mobilityEvidence": true,
+          "scope": "2026년 사진으로 미술관 옆 녹색 포장과 주차 구역을 비교해요. 건물 옆 문을 관람객 출입문으로 단정하지 않고 다음 앞마당 사진과 맞춰 봐요.",
+          "attribution": "NAVER · 2026-04-21",
+          "panoid": "jPgBKpqLtlL5pTJYp52MJw",
+          "panoId": "jPgBKpqLtlL5pTJYp52MJw"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/leeungno-forecourt-face1.jpg",
+          "photoId": "leeungno-bus-v32-side",
+          "sourceSha256": "b5ce799b2345ac5677fa4406c2ef01e8f71b1a3f5d523d8297076be51bb101d1",
+          "kind": "segment",
+          "title": "미술관 옆 보행 공간",
+          "question": "2026년 사진으로 미술관 옆 녹색 포장과 주차 구역을 비교해요. 건물 옆 문을 관람객 출입문으로 단정하지 않고 다음 앞마당 사진과 맞춰 봐요.",
+          "focus": [
+            48,
+            73
+          ],
+          "observations": [
+            {
+              "label": "녹색 포장과 차량 구역",
+              "detail": "2026년 사진으로 미술관 옆 녹색 포장과 주차 구역을 비교해요. 건물 옆 문을 관람객 출입문으로 단정하지 않고 다음 앞마당 사진과 맞춰 봐요.",
+              "position": [
+                48,
+                73
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2026년 사진으로 미술관 옆 녹색 포장과 주차 구역을 비교해요. 건물 옆 문을 관람객 출입문으로 단정하지 않고 다음 앞마당 사진과 맞춰 봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      }
+    ],
+    "missingShots": [
+      "공원 남쪽 갈림길에서 미술관 옆까지 연속 사진",
+      "2026년 주변 사진과 기존 앞마당·출입문 사진 사이 연결"
+    ],
+    "note": "촬영 시기와 실제 카메라 위치를 보존한 정류장부터 입구까지 방문 준비 자료."
+  },
+  {
+    "placeId": "science",
+    "photos": [
+      {
+        "pointId": "bus-v32-parking",
+        "photo": {
+          "id": "science-bus-v32-parking",
+          "image": "/modu50m/bus-v32/science-mainbridge-face1.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=hkySbG3YRwaXOuI1L5aeNw,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=hkySbG3YRwaXOuI1L5aeNw,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2023-05-26",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.375652,
+            "lng": 127.378453,
+            "lon": 127.378453
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "dfb247c1e248a04cd4efa603e21b2ab74809809d789f5413a58fc243d35d389e",
+          "mobilityEvidence": true,
+          "scope": "2023년 사진이에요. 주차장 쪽 광장과 볼라드 사이를 살펴봐요. 공식 배치도에서 꿈나래길·정문 방향을 함께 비교해요.",
+          "attribution": "NAVER · 2023-05-26",
+          "panoid": "hkySbG3YRwaXOuI1L5aeNw",
+          "panoId": "hkySbG3YRwaXOuI1L5aeNw"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/science-mainbridge-face1.jpg",
+          "photoId": "science-bus-v32-parking",
+          "sourceSha256": "dfb247c1e248a04cd4efa603e21b2ab74809809d789f5413a58fc243d35d389e",
+          "kind": "segment",
+          "title": "주차장과 보행광장 접점",
+          "question": "2023년 사진이에요. 주차장 쪽 광장과 볼라드 사이를 살펴봐요. 공식 배치도에서 꿈나래길·정문 방향을 함께 비교해요.",
+          "focus": [
+            50,
+            72
+          ],
+          "observations": [
+            {
+              "label": "광장 진입 볼라드",
+              "detail": "2023년 사진이에요. 주차장 쪽 광장과 볼라드 사이를 살펴봐요. 공식 배치도에서 꿈나래길·정문 방향을 함께 비교해요.",
+              "position": [
+                50,
+                72
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2023년 사진이에요. 주차장 쪽 광장과 볼라드 사이를 살펴봐요. 공식 배치도에서 꿈나래길·정문 방향을 함께 비교해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-paving",
+        "photo": {
+          "id": "science-bus-v32-paving",
+          "image": "/modu50m/bus-v32/science-join-face0.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=6fphsoixkM2JlPJ0A4ZE_w,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=6fphsoixkM2JlPJ0A4ZE_w,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2020-11-06",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3754133,
+            "lng": 127.3749717,
+            "lon": 127.3749717
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "2cc63f9696b257dedde018bf51f1913b092c2833e276822e6f5b1de2268941a0",
+          "mobilityEvidence": true,
+          "scope": "2020년 사진의 붉은 포장 보도와 횡단 표시를 살펴봐요. 건물 아래 차량 통로와 보행 공간을 구분해요.",
+          "attribution": "NAVER · 2020-11-06",
+          "panoid": "6fphsoixkM2JlPJ0A4ZE_w",
+          "panoId": "6fphsoixkM2JlPJ0A4ZE_w"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/science-join-face0.jpg",
+          "photoId": "science-bus-v32-paving",
+          "sourceSha256": "2cc63f9696b257dedde018bf51f1913b092c2833e276822e6f5b1de2268941a0",
+          "kind": "segment",
+          "title": "전시관 옆 붉은 포장 보행 공간",
+          "question": "2020년 사진의 붉은 포장 보도와 횡단 표시를 살펴봐요. 건물 아래 차량 통로와 보행 공간을 구분해요.",
+          "focus": [
+            83,
+            68
+          ],
+          "observations": [
+            {
+              "label": "건물 옆 붉은 포장 보도",
+              "detail": "살펴볼 보도는 사진 오른쪽 건물 아래의 붉은 포장 공간이에요. 가운데 검은 도로와 초록색 촬영 차량은 보행 바닥이 아니에요.",
+              "position": [
+                83,
+                68
+              ]
+            },
+            {
+              "label": "차량 통로와 횡단 표시",
+              "detail": "보도 앞쪽에 노랑·흰색 횡단 표시가 보여요. 양끝의 턱 낮춤과 차량 접근 방향을 살펴보세요. 2020년 사진이라 현재 상태는 더 확인해야 해요.",
+              "position": [
+                39,
+                58
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2020년 사진의 붉은 포장 보도와 횡단 표시를 살펴봐요. 건물 아래 차량 통로와 보행 공간을 구분해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      },
+      {
+        "pointId": "bus-v32-hall",
+        "photo": {
+          "id": "science-bus-v32-hall",
+          "image": "/modu50m/bus-v32/science-path-face0.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=euGjLb_cthrP2Wjtzo7iwA,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=euGjLb_cthrP2Wjtzo7iwA,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2020-11-06",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.375662,
+            "lng": 127.3746477,
+            "lon": 127.3746477
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "475a6e09affd071a0feb36a3994833606cf553966f59a640981b18e6d37bf3c7",
+          "mobilityEvidence": true,
+          "scope": "2020년 사진에서 광장 바닥과 점자블록을 살펴봐요. 왼쪽 미래기술관 표지와 오른쪽 곡선 지붕을 구분하고, 마지막 09번 문 앞 사진과 비교해요.",
+          "attribution": "NAVER · 2020-11-06",
+          "panoid": "euGjLb_cthrP2Wjtzo7iwA",
+          "panoId": "euGjLb_cthrP2Wjtzo7iwA"
+        },
+        "review": {
+          "image": "/modu50m/bus-v32/science-path-face0.jpg",
+          "photoId": "science-bus-v32-hall",
+          "sourceSha256": "475a6e09affd071a0feb36a3994833606cf553966f59a640981b18e6d37bf3c7",
+          "kind": "segment",
+          "title": "과학기술관 앞 광장",
+          "question": "2020년 사진에서 광장 바닥과 점자블록을 살펴봐요. 왼쪽 미래기술관 표지와 오른쪽 곡선 지붕을 구분하고, 마지막 09번 문 앞 사진과 비교해요.",
+          "focus": [
+            33,
+            64
+          ],
+          "observations": [
+            {
+              "label": "포장 바닥과 점자블록",
+              "detail": "초록색 촬영 차량 위쪽에 넓은 포장 바닥과 노란 점자블록이 보여요. 바닥 이음새와 배수구 주변을 살펴보세요. 2020년 사진이에요.",
+              "position": [
+                33,
+                64
+              ]
+            },
+            {
+              "label": "왼쪽 미래기술관 표지",
+              "detail": "사진 왼쪽 흰 건물의 미래기술관 표지를 찾아봐요. 이 광장 사진이 문 앞에 도착했다는 뜻은 아니에요. 도착 지점은 09번 유리문 사진과 비교해요. 2020년 사진이라 현재 연결 바닥은 더 확인해야 해요.",
+              "position": [
+                38,
+                43
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이",
+            "사진 사이 가려진 바닥과 현재 통행 상태"
+          ],
+          "connection": "2020년 사진에서 광장 바닥과 점자블록을 살펴봐요. 왼쪽 미래기술관 표지와 오른쪽 곡선 지붕을 구분하고, 마지막 09번 문 앞 사진과 비교해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 사진 또는 거리 파노라마 투영·큐브 면 추출. AI 합성 없음. 카메라 좌표와 보행 구역을 구분."
+      }
+    ],
+    "missingShots": [
+      "주차장에서 꿈나래길·정문을 지나 내부 광장까지 연결 사진",
+      "2020년 내부 사진 이후의 현재 배치와 미래기술관까지 연속 바닥"
+    ],
+    "note": "촬영 시기와 실제 카메라 위치를 보존한 정류장부터 입구까지 방문 준비 자료."
+  }
+]

@@ -1,0 +1,194 @@
+{
+  "arboretum": {
+    "/modu50m/route-full-v38/arboretum.png": {
+      "pins": {
+        "arboretum-parking-start": {
+          "anchor": [
+            57.8,
+            33.5
+          ],
+          "position": [
+            44,
+            37
+          ],
+          "label": "주차장 쪽 보도"
+        },
+        "arboretum-parking-crossing": {
+          "anchor": [
+            60.3,
+            30.5
+          ],
+          "position": [
+            51,
+            17
+          ],
+          "label": "온실 앞 횡단"
+        },
+        "arboretum-bus-garden": {
+          "anchor": [
+            61.7,
+            28.0
+          ],
+          "position": [
+            76,
+            37
+          ],
+          "label": "온실 앞마당"
+        },
+        "arboretum-bus-door": {
+          "anchor": [
+            62.37,
+            25.684
+          ],
+          "position": [
+            76,
+            17
+          ],
+          "label": "온실 입구"
+        }
+      },
+      "segments": [
+        {
+          "fromStep": "arboretum-parking-start",
+          "toStep": "arboretum-parking-crossing",
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              57.8,
+              33.5
+            ],
+            [
+              60.3,
+              30.5
+            ]
+          ]
+        },
+        {
+          "fromStep": "arboretum-parking-crossing",
+          "toStep": "arboretum-bus-garden",
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              60.3,
+              30.5
+            ],
+            [
+              61.7,
+              28.0
+            ]
+          ]
+        },
+        {
+          "fromStep": "arboretum-bus-garden",
+          "toStep": "arboretum-bus-door",
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              61.7,
+              28.0
+            ],
+            [
+              62.37,
+              25.684
+            ]
+          ]
+        }
+      ]
+    },
+    "/modu50m/route-full-v71/arboretum-southeast.png": {
+      "pins": {
+        "arboretum-parking-start": {
+          "anchor": [
+            60.5,
+            38.1
+          ],
+          "position": [
+            48,
+            45
+          ],
+          "label": "주차장 쪽 보도"
+        },
+        "arboretum-parking-crossing": {
+          "anchor": [
+            62.4,
+            35.5
+          ],
+          "position": [
+            57,
+            18
+          ],
+          "label": "온실 앞 횡단"
+        },
+        "arboretum-bus-garden": {
+          "anchor": [
+            64.6,
+            32.6
+          ],
+          "position": [
+            81,
+            48
+          ],
+          "label": "온실 앞마당"
+        },
+        "arboretum-bus-door": {
+          "anchor": [
+            66,
+            31.3
+          ],
+          "position": [
+            81,
+            20
+          ],
+          "label": "온실 입구"
+        }
+      },
+      "segments": [
+        {
+          "fromStep": "arboretum-parking-start",
+          "toStep": "arboretum-parking-crossing",
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              60.5,
+              38.1
+            ],
+            [
+              62.4,
+              35.5
+            ]
+          ]
+        },
+        {
+          "fromStep": "arboretum-parking-crossing",
+          "toStep": "arboretum-bus-garden",
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              62.4,
+              35.5
+            ],
+            [
+              64.6,
+              32.6
+            ]
+          ]
+        },
+        {
+          "fromStep": "arboretum-bus-garden",
+          "toStep": "arboretum-bus-door",
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              64.6,
+              32.6
+            ],
+            [
+              66,
+              31.3
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

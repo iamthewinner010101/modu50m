@@ -1,0 +1,266 @@
+[
+  {
+    "placeId": "arboretum",
+    "missingShots": ["주차면에서 열대식물원 앞마당까지의 보도 연결", "나무 경사판에서 왼쪽 문까지의 바닥과 문턱", "출입문에서 실내 길까지 연결"],
+    "photos": [
+      {
+        "pointId": "journey-parking",
+        "qualityNotes": "원본 주차장 사진. 보도 접점과 열대식물원 방향은 사진 밖이거나 가려져 있습니다.",
+        "photo": {
+          "id": "v30-journey-parking",
+          "image": "/modu50m/journeys-v30/greenhouse-blog-1.png",
+          "sourceUrl": "https://hyuntori83.tistory.com/1101",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/Fek3F/btsNyE2Abd9/AAAAAAAAAAAAAAAAAAAAAI_8Az0lCa82njLkdnp_D8MpGOPbWaR9gL1h_dvfTUID/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=umoUEGAIfy7iLdLdqIgs8mbVs8s%3D",
+          "provider": "public-mobility",
+          "providerLabel": "현토리83 · 방문 사진",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2025-04-28",
+          "retrievedAt": "2026-09-25",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "761b67e82c166ef71be476ce9a156987b2bee13a2394f1c47f2e59610973e869",
+          "mobilityEvidence": true,
+          "scope": "열대식물원 방문 후기의 주차장 사진입니다. 주차면에서 출입구까지의 방향과 거리는 확인 전입니다.",
+          "attribution": "현토리83 · 원본 사진"
+        },
+        "review": {
+          "image": "/modu50m/journeys-v30/greenhouse-blog-1.png",
+          "photoId": "v30-journey-parking",
+          "sourceSha256": "761b67e82c166ef71be476ce9a156987b2bee13a2394f1c47f2e59610973e869",
+          "kind": "segment",
+          "title": "둔산대공원 주차장 참고",
+          "question": "차에서 내린 뒤 보도 접점은 어디일까요?",
+          "focus": [
+            50,
+            65
+          ],
+          "observations": [
+            {
+              "label": "차량과 보행 공간",
+              "detail": "차량 사이에서 보도로 올라설 낮은 접점은 이 사진만으로 알 수 없어요.",
+              "position": [
+                51,
+                84
+              ]
+            },
+            {
+              "label": "보도 경계",
+              "detail": "가로수 주변 경계와 주차 공간을 나눠 살펴봐요.",
+              "position": [
+                26,
+                88
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 바닥 높이·통과 폭과 이용 상태",
+            "앞뒤 사진 사이의 연속 이동 연결"
+          ],
+          "connection": "열대식물원 방문 후기의 주차장 사진입니다. 주차면에서 출입구까지의 방향과 거리는 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        }
+      },
+      {
+        "pointId": "journey-forecourt",
+        "qualityNotes": "원본 앞마당 사진. 경사판과 왼쪽 문은 보이지만 문턱은 가려져 있습니다.",
+        "photo": {
+          "id": "v30-journey-forecourt",
+          "image": "/modu50m/journeys-v30/greenhouse-blog-0.png",
+          "sourceUrl": "https://hyuntori83.tistory.com/1101",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/cFwCdS/btsNw4IhQ9u/AAAAAAAAAAAAAAAAAAAAAAvJKLqIW7SN4QRpU8IkJ96jfjz0G3bWMOlo9-nCpy72/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=G90UHVHn3TsmgsxJUbdoCJIz%2Fho%3D",
+          "provider": "public-mobility",
+          "providerLabel": "현토리83 · 방문 사진",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2025-04-28",
+          "retrievedAt": "2026-09-25",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "4993ff6f0ed4e305c9d62292153b73c82cac6e9ce780626b446684b905f3467f",
+          "mobilityEvidence": true,
+          "scope": "2025-04-28 게시 방문 사진입니다. 실제 촬영일·현재 화분 배치·문턱 높이는 확인 전입니다.",
+          "attribution": "현토리83 · 원본 사진"
+        },
+        "review": {
+          "image": "/modu50m/journeys-v30/greenhouse-blog-0.png",
+          "photoId": "v30-journey-forecourt",
+          "sourceSha256": "4993ff6f0ed4e305c9d62292153b73c82cac6e9ce780626b446684b905f3467f",
+          "kind": "segment",
+          "title": "열대식물원 앞마당과 왼쪽 출입문",
+          "question": "나무 경사판과 왼쪽 문 앞의 바닥이 어떻게 이어질까요?",
+          "focus": [
+            50,
+            65
+          ],
+          "observations": [
+            {
+              "label": "나무 경사판",
+              "detail": "사진 앞쪽에 짧은 나무 경사판이 보여요. 폭·기울기와 문까지의 연결은 측정하지 않았어요.",
+              "position": [
+                18,
+                86
+              ]
+            },
+            {
+              "label": "화분과 통로",
+              "detail": "화분 사이의 통과 공간은 현재 배치를 더 확인해요.",
+              "position": [
+                43,
+                76
+              ]
+            },
+            {
+              "label": "왼쪽 출입문",
+              "detail": "노란 벽 왼쪽 차양 아래에 문이 있어요. 문턱이 가려져 가까운 사진이 더 필요해요.",
+              "position": [
+                5,
+                61
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 바닥 높이·통과 폭과 이용 상태",
+            "앞뒤 사진 사이의 연속 이동 연결"
+          ],
+          "connection": "2025-04-28 게시 방문 사진입니다. 실제 촬영일·현재 화분 배치·문턱 높이는 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        }
+      },
+      {
+        "pointId": "journey-inside",
+        "qualityNotes": "원본 실내 판석길 사진. 외부 문과 연결되는 바닥은 포함하지 않습니다.",
+        "photo": {
+          "id": "v30-journey-inside",
+          "image": "/modu50m/journeys-v30/greenhouse-blog-3.png",
+          "sourceUrl": "https://hyuntori83.tistory.com/1101",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/LFZKf/btsNzdpHTbn/AAAAAAAAAAAAAAAAAAAAAOskltSUrwikBC0KmhS9ByE0gHUvSJlMfpjJwMul1v8L/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=ycdDMPuOhK%2FUdPHe%2F2a2bl1ItK0%3D",
+          "provider": "public-mobility",
+          "providerLabel": "현토리83 · 방문 사진",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2025-04-28",
+          "retrievedAt": "2026-09-25",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "4d8039f6d5c1bd9f958f0a5195c120c6b78aaf3d149cc1bd2825e931da9e1170",
+          "mobilityEvidence": true,
+          "scope": "동일 방문 후기의 실내 참고 사진입니다. 출입문에서 이 장면까지의 연속 연결을 확인한 사진은 아닙니다.",
+          "attribution": "현토리83 · 원본 사진"
+        },
+        "review": {
+          "image": "/modu50m/journeys-v30/greenhouse-blog-3.png",
+          "photoId": "v30-journey-inside",
+          "sourceSha256": "4d8039f6d5c1bd9f958f0a5195c120c6b78aaf3d149cc1bd2825e931da9e1170",
+          "kind": "segment",
+          "title": "열대식물원 안 판석길",
+          "question": "문을 지나면 어떤 바닥을 만나게 될까요?",
+          "focus": [
+            50,
+            65
+          ],
+          "observations": [
+            {
+              "label": "판석 이음",
+              "detail": "곡선길의 돌 사이 이음과 표면을 살펴봐요.",
+              "position": [
+                33,
+                82
+              ]
+            },
+            {
+              "label": "안내판과 식재 경계",
+              "detail": "길 가장자리 안내판과 식재를 살펴봐요. 문 바로 안 장면인지는 확인 전이에요.",
+              "position": [
+                66,
+                87
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 바닥 높이·통과 폭과 이용 상태",
+            "앞뒤 사진 사이의 연속 이동 연결"
+          ],
+          "connection": "동일 방문 후기의 실내 참고 사진입니다. 출입문에서 이 장면까지의 연속 연결을 확인한 사진은 아닙니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        }
+      }
+    ]
+  },
+  {
+    "placeId": "skyroad",
+    "missingShots": ["하차 위치에서 지붕 아래 거리까지의 보도 연결", "각 거리 사진의 정확한 촬영 위치", "선택할 점포의 출입문과 문턱"],
+    "photos": [
+      {
+        "pointId": "journey-street",
+        "qualityNotes": "원본 거리 전경. 보행 공간과 지붕을 참고하며 성심당 입구 사진과는 구분합니다.",
+        "photo": {
+          "id": "v30-journey-street",
+          "image": "/modu50m/journeys-v30/oldtown-36.png",
+          "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c",
+          "sourceImageUrl": "https://access.visitkorea.or.kr/bfvk_img/call?cmd=VIEW&id=329e8660-a404-47ae-accd-276c8aa872ee&",
+          "provider": "public-mobility",
+          "providerLabel": "한국관광공사 열린관광",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2025-12-04",
+          "retrievedAt": "2026-09-25",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "d5389ed9da751f57db3f857c17c139a81c6f9f0da133145abb5cbf0971352093",
+          "mobilityEvidence": true,
+          "scope": "으능정이문화의거리 참고 사진입니다. 성심당 본점까지 이어지는 경로 사진이 아닙니다.",
+          "attribution": "한국관광공사 · 원본 사진"
+        },
+        "review": {
+          "image": "/modu50m/journeys-v30/oldtown-36.png",
+          "photoId": "v30-journey-street",
+          "sourceSha256": "d5389ed9da751f57db3f857c17c139a81c6f9f0da133145abb5cbf0971352093",
+          "kind": "context",
+          "title": "으능정이문화의거리 전경",
+          "question": "LED 지붕과 점포를 표식으로 거리를 알아봐요.",
+          "focus": [
+            50,
+            65
+          ],
+          "observations": [
+            {
+              "label": "지붕 아래 거리 표식",
+              "detail": "스카이로드 간판과 긴 지붕을 표식으로 거리를 알아봐요. 앞쪽 차량에 가려 바닥 연결은 충분히 보이지 않아요.",
+              "position": [
+                50,
+                39
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 바닥 높이·통과 폭과 이용 상태",
+            "앞뒤 사진 사이의 연속 이동 연결"
+          ],
+          "connection": "으능정이문화의거리 참고 사진입니다. 성심당 본점까지 이어지는 경로 사진이 아닙니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        }
+      }
+    ]
+  }
+]

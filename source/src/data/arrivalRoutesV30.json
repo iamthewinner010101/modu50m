@@ -1,0 +1,256 @@
+{
+  "arboretum": {
+    "placeId": "arboretum",
+    "title": "열대식물원, 주차장 사진부터 왼쪽 문까지",
+    "start": {
+      "name": "둔산대공원 주차장 · 하차 위치 선택 필요",
+      "type": "parking-reference"
+    },
+    "destination": "한밭수목원 열대식물원 관람객 출입문",
+    "steps": [
+      {
+        "id": "arboretum-arrival",
+        "title": "주차장에서 보도 접점 찾기",
+        "instruction": "둔산대공원 주차장 참고 사진이에요. 이용할 주차면과 보도로 들어가는 접점을 먼저 확인해요.",
+        "pointId": "journey-parking",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "주차장과 열대식물원 앞마당 사이의 보도 연결 사진이 더 필요해요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arboretum-forecourt",
+        "title": "화분 앞 나무 경사판 살피기",
+        "instruction": "앞마당 사진에서 나무 경사판과 화분 사이 바닥을 살펴봐요. 경사판이 출입문으로 이어지는지는 더 확인해요.",
+        "pointId": "journey-forecourt",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 사진의 왼쪽 차양 아래 문을 이어서 살펴봐요. 실제 이동 연결과 문턱 높이를 확인한 것은 아니에요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arboretum-entrance",
+        "title": "노란 벽 왼쪽 출입문 찾기",
+        "instruction": "같은 사진의 노란 벽 왼쪽 차양 아래가 출입문 구역이에요. 문 바로 앞이 가려져 가까운 사진이 더 필요해요.",
+        "pointId": "journey-forecourt",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "외부 문에서 내부 판석길까지를 잇는 장면은 없어요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arboretum-inside",
+        "title": "실내 판석길 참고",
+        "instruction": "문 앞 연결과 별도로 실내 길의 이음과 안내판 위치를 살펴봐요.",
+        "pointId": "journey-inside",
+        "stage": "approach",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "현토리83 · 2025-04-28 열대식물원 주차장·외관·실내 방문 사진",
+        "url": "https://hyuntori83.tistory.com/1101",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "한국관광공사 · 2025년 한밭수목원 사진과 편의정보",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=4973c767-8e6c-4c86-99b4-4419e819011e",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한밭수목원 · 공식 찾아오시는길",
+        "url": "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한밭수목원 · 방문객안내센터 등 편의시설",
+        "url": "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8031",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 2016년 동원 산책 연결 설명",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "주차면에서 보도 접점을 거쳐 앞마당까지 이어지는 길",
+      "나무 경사판과 실제 출입문 사이 연결·문턱",
+      "출입문에서 실내 판석길까지 연결"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25",
+    "supplementaryPoints": [
+      {
+        "pointId": "research-a-02",
+        "title": "수목원 보행로 참고",
+        "detail": "열대식물원으로 이어지는지 확인하지 않은 다른 장면입니다."
+      }
+    ],
+    "sourceDescribedAlternative": {
+      "start": "대전시립연정국악원 앞 주차장",
+      "via": [
+        "열대식물원",
+        "호수 산책로"
+      ],
+      "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+      "sourcePublishedAt": "2016-08-09",
+      "detail": "2016년 여행 기사에서 제시한 동원 관람 흐름입니다. 현재 주차 사진의 위치와 같다는 근거 및 바닥 접점 사진은 없습니다."
+    },
+    "preservedModelPointId": "research-a-01",
+    "summary": "주차장과 열대식물원 입구를 담은 같은 방문 후기를 추가했어요. 주차장부터 앞마당까지의 연결 길과 거리는 아직 확인 전이에요."
+  },
+  "sungsim": {
+    "placeId": "sungsim",
+    "title": "성심당 본점, 대기 구역에서 문 앞까지",
+    "start": {
+      "name": "하차 지점·지상 승강기 선정 전",
+      "type": "unconfirmed"
+    },
+    "destination": "대종로480번길 15 · 성심당 본점 출입문",
+    "steps": [
+      {
+        "id": "sungsim-arrival",
+        "title": "내리는 곳 먼저 정하기",
+        "instruction": "이용할 정류장 방향 또는 지상 승강기를 정해요. 가까운 계단 출구를 휠체어 출구로 안내하지 않아요.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "하차 지점에서 본점 대기 구역까지 이어지는 길이 아직 비어 있어요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "sungsim-facade",
+        "title": "본점 간판과 대기 구역 찾기",
+        "instruction": "회색 벽돌과 성심당 간판이 있는 본점이에요. 케익부띠끄 줄과 입구는 달라요.",
+        "pointId": "journey-facade",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "공식 본점 외관과 관광공사의 본점 입구 사진을 비교해요. 서로 다른 촬영 시점이며 그 사이 바닥은 추가 확인해요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "sungsim-door",
+        "title": "금색 조형물 옆 문 살피기",
+        "instruction": "조형물 옆 출입문과 대기선을 살펴봐요. 문턱이 사람에 가려져 높이·통과 폭은 알 수 없어요.",
+        "pointId": "journey-door",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "문을 지나는 바닥과 매장 안까지의 연결은 추가 사진이 필요해요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "sungsim-inside",
+        "title": "매장 안 이동 공간 참고",
+        "instruction": "진열대와 손님 사이 공간을 참고해요. 현재 혼잡도나 휠체어 회전 가능 여부를 판단한 사진은 아니에요.",
+        "pointId": "journey-interior",
+        "stage": "approach",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "성심당 공식 본점 안내 · 주소와 외관",
+        "url": "https://sungsimdang.co.kr/31/15"
+      },
+      {
+        "title": "한국관광공사 · 성심당 본점 입구와 매장 사진",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c"
+      }
+    ],
+    "gaps": [
+      "하차 지점에서 본점까지 이어지는 보도·횡단 연결",
+      "문 앞 대기 공간·문턱·유효 통과 폭"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "skyroad": {
+    "placeId": "skyroad",
+    "title": "으능정이거리, 지붕 아래 길 살펴보기",
+    "start": {
+      "name": "하차 지점·지상 승강기 선정 전",
+      "type": "unconfirmed"
+    },
+    "destination": "스카이로드 지붕 아래 보행 구역",
+    "steps": [
+      {
+        "id": "skyroad-arrival",
+        "title": "내리는 곳·승강기 확인",
+        "instruction": "중앙로 일대에서 실제 사용할 하차 위치와 지상 승강기를 먼저 정해요.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "하차 지점부터 지붕 아래 거리까지 이어지는 사진이 필요해요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "skyroad-street",
+        "title": "LED 지붕 아래 방향 찾기",
+        "instruction": "긴 지붕과 양옆 점포를 표식으로 거리를 알아봐요.",
+        "pointId": "mobility-v20-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "서로 다른 거리 장면이에요. 촬영 위치와 연결 순서는 아직 확인 전이에요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "skyroad-shops",
+        "title": "점포 앞 물건과 통로 살피기",
+        "instruction": "진열물·간판 옆에 남은 이동 공간을 살펴봐요. 현재 점포 배치는 달라질 수 있어요.",
+        "pointId": "mobility-v20-02",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "거리 가장자리 사진까지의 실제 연결은 더 확인해요.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "skyroad-edge",
+        "title": "갈림길·거리 가장자리 확인",
+        "instruction": "무늬 포장과 길 가장자리를 보고 방문할 점포 방향을 정해요. 성심당까지 이어진 경로는 아니에요.",
+        "pointId": "mobility-v20-03",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "한국관광공사 · 스카이로드 거리 사진",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595"
+      },
+      {
+        "title": "한국관광공사 · 원도심 여행 자료",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c"
+      }
+    ],
+    "gaps": [
+      "하차 위치에서 거리까지의 접근 사진",
+      "각 거리 사진의 위치 관계",
+      "선택할 점포 입구까지 연결"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  }
+}

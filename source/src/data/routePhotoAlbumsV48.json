@@ -1,0 +1,1124 @@
+{
+  "leeungno": {
+    "bus-v32-side": [
+      {
+        "id": "visitor-v48-leeungno-park-ground-published-202609",
+        "image": "/modu50m/route-photos-v48/leeungno-park-ground-published-202609.jpg",
+        "title": "공원 쪽 길과 앞마당 · 2026년 9월 게시",
+        "viewLabel": "공원 쪽 길과 앞마당 · 2026년 9월 게시",
+        "provider": "reference",
+        "providerLabel": "228112lee · 실제 방문 사진",
+        "platform": "naver-blog",
+        "author": "228112lee",
+        "sourceUrl": "https://blog.naver.com/228112lee/224421435760",
+        "imageSourceUrl": "https://postfiles.pstatic.net/MjAyNjA5MjRfMTc0/MDAxNzkwMTc5NDUyMjgx.VvXMoxaejIxzsQdZa69sGGnPwf839f7p7fwa3rE-Hs4g.pTWxxDTPf2qvUIdeQWVL_fSgsEjKiiJiCXSEG6c7eScg.JPEG/SE-1cb8a8fb-6834-4cee-bd85-e41f79a89335.jpg?type=w966",
+        "publishedAt": "2026-09-24",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-06",
+        "sha256": "b76718dd35adaf394a55107ed996d77dc3277542bbe0f534ad06b950771b4ce6",
+        "sourceDimensions": [
+          966,
+          725
+        ],
+        "captureMethod": "literal-public-DOM-served-image-unmodified",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "같은 건물·표지와 포장 바닥을 다른 사진과 비교해요. 사진의 게시일과 개별 촬영일은 구분해요."
+        },
+        "scope": "같은 건물·표지와 포장 바닥을 다른 사진과 비교해요. 사진의 게시일과 개별 촬영일은 구분해요.",
+        "evidenceRole": {
+          "label": "실제 방문 사진 · 표지와 보행 바닥 비교",
+          "detail": "2026-09-24에 게시된 사진이에요. 개별 촬영일은 확인되지 않았어요. 정류장부터 이 사진까지의 연결 전체나 현재 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "점자블록과 포장 경계",
+            "position": [
+              23,
+              86
+            ],
+            "detail": "사진 왼쪽의 노란 점자블록과 회색 포장 길을 확대해요. 2019년 공식 투어 사진과 같은 벽·소나무를 찾아 방향을 비교해요."
+          },
+          {
+            "label": "문 쪽으로 향한 앞마당",
+            "position": [
+              75,
+              73
+            ],
+            "detail": "긴 창과 소나무 옆에서 미술관 이름이 있는 오른쪽 벽으로 향하는 바닥을 살펴봐요. 정류장부터 여기까지의 중간 바닥을 모두 보여 주는 사진은 아니에요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "step:leeungno-parking-start": [
+      {
+        "id": "visitor-v44-leeungno-side-parking-202609",
+        "image": "/modu50m/route-photos-v44/leeungno-side-parking-202609.jpg",
+        "title": "주차 구역 옆 녹색 포장과 맞닿는 바닥",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그",
+        "author": "네이버 블로그 방문자",
+        "sourceUrl": "https://m.blog.naver.com/ddooss4321/224420617761",
+        "imageSourceUrl": "https://blogfiles.pstatic.net/MjAyNjA5MjNfMTc2/MDAxNzkwMTEwNDgyMTU2.HhyziwbCecXyMo6KQFj2Kmuxzea0QAgHsyVTUcQP9q4g.hMDzdILFRk4CXQ0Tf_EFfUfwkoFo5f_yaYq_-xm3xxAg.JPEG/1790110088427.jpg",
+        "publishedAt": "2026-09-23",
+        "retrievedAt": "2026-10-03",
+        "sha256": "ad8309cbdcaeba4949b7fbcc00668c7e8b9c9609d0f2ec58ef9c889452516ba6",
+        "captureMethod": "visitor-original-jpeg-unmodified",
+        "scope": "녹색 포장 옆으로 주차 차량과 시설물이 보여요. 차량 구역과 보행 공간이 만나는 바닥을 살펴봐요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "녹색 포장 옆으로 주차 차량과 시설물이 보여요. 차량 구역과 보행 공간이 만나는 바닥을 살펴봐요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 보이는 바닥 비교",
+          "detail": "게시 2026-09-23 · 촬영일 미상. 사진에 보이는 바닥과 기준물을 비교하며, 현재 연속 통행을 확인한 자료는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "주차 구역과 맞닿는 바닥",
+            "detail": "녹색 포장과 주차 구역의 바닥 경계를 살펴봐요. 이 사진만으로 통과 폭을 알 수는 없어요.",
+            "position": [
+              51,
+              91
+            ]
+          },
+          {
+            "label": "차량·시설물 옆 공간",
+            "detail": "차량과 주차 시설물이 있는 쪽을 살펴봐요. 사진에 보이는 주차 상태는 방문할 때 달라질 수 있어요.",
+            "position": [
+              78,
+              79
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": true,
+        "viewLabel": "주차장 옆 바닥"
+      },
+      {
+        "id": "visitor-v44-leeungno-parking-forecourt-boundary-2023",
+        "image": "/modu50m/route-photos-v44/leeungno-parking-forecourt-boundary-2023.jpg",
+        "title": "앞마당에서 본 주차장 쪽 계단과 낮은 벽",
+        "viewLabel": "앞마당 쪽 경계",
+        "provider": "blog",
+        "platform": "tistory",
+        "providerLabel": "건축 답사 · 방문 사진",
+        "author": "lvlsh",
+        "sourceUrl": "https://lvlsh.tistory.com/38",
+        "imageSourceUrl": "https://blog.kakaocdn.net/dna/b0rPbS/btsCZ8mfR4p/AAAAAAAAAAAAAAAAAAAAADrv2cYEHfpdo5w33w6lBXKbqWX9199NwVDvRvwVcook/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=JflICTFECAYHzzsHGULJc4d%2BGrY%3D",
+        "publishedAt": "2024-01-03",
+        "captureDate": null,
+        "captureDatePrecision": "unknown",
+        "reportedVisitDate": "2023-12-31",
+        "retrievedAt": "2026-10-03",
+        "sha256": "893444c95aff0c29f326134f428279ae7152c6f2727dab4d06d48638c81c291c",
+        "sourceSha256": "893444c95aff0c29f326134f428279ae7152c6f2727dab4d06d48638c81c291c",
+        "sourceDimensions": [
+          4032,
+          3024
+        ],
+        "captureMethod": "public-source-photo-unmodified",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "scope": "입구가 보이는 장면의 왼쪽에서 주차장 쪽 계단·낮은 벽과 앞마당 바닥을 비교해요. 녹색 길 끝 사진과 함께 살펴보며, 두 바닥 사이의 길을 확인한 사진은 아니에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "입구가 보이는 장면의 왼쪽에서 주차장 쪽 계단·낮은 벽과 앞마당 바닥을 비교해요. 녹색 길 끝 사진과 함께 살펴보며, 두 바닥 사이의 길을 확인한 사진은 아니에요."
+        },
+        "evidenceRole": {
+          "label": "주차장·앞마당 높이 경계 비교",
+          "detail": "주차장 쪽 계단과 앞마당의 높이 경계를 비교해요. 녹색 길 끝에서 앞마당으로 이어지는 접점은 가려져 있어요."
+        },
+        "observations": [
+          {
+            "label": "주차장 쪽 계단",
+            "detail": "왼쪽 아래 계단을 확대해요. 계단을 휠체어 이동 경로로 안내하지 않으며, 녹색 포장과 앞마당의 접점은 더 확인해야 해요.",
+            "position": [
+              8,
+              87
+            ]
+          },
+          {
+            "label": "낮은 벽과 앞마당 경계",
+            "detail": "주차장 쪽 낮은 벽, 앞마당 판석과 화단의 높이 경계를 비교해요. 실제 단차 높이나 경사도를 잰 자료는 아니에요.",
+            "position": [
+              35,
+              80
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": false
+      },
+      {
+        "id": "architect-v44-leeungno-parking-wall",
+        "image": "/modu50m/route-photos-v44/leeungno-parking-wall.jpg",
+        "title": "주차장 옆 낮은 벽 · 보행 바닥 시작 부분",
+        "provider": "official",
+        "providerLabel": "정림건축 설계 자료",
+        "author": "정림건축",
+        "sourceUrl": "https://junglim.com/en/lee-ungno-museum/",
+        "imageSourceUrl": "https://junglim.com/wp-content/uploads/2025/04/2004_lee-ungno-museum_slide_08.jpg",
+        "retrievedAt": "2026-10-02",
+        "sha256": "e276a0edd163271f8a33b8de10b804c3743140f1dde00d9189f90eb1a1720a42",
+        "captureMethod": "architect-original-jpeg-unmodified",
+        "scope": "2026년 거리뷰 왼쪽에 보이는 낮은 벽과 비교해요. 주차장 블록 옆 바닥, 낮은 벽 사이의 열린 부분을 살펴봐요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "2026년 거리뷰 왼쪽에 보이는 낮은 벽과 비교해요. 주차장 블록 옆 바닥, 낮은 벽 사이의 열린 부분을 살펴봐요."
+        },
+        "evidenceRole": {
+          "label": "건축 자료 · 같은 공간 비교",
+          "detail": "촬영일과 게시일은 미상이에요. 건물과 바닥을 비교하는 자료이며, 2026년 사진 사이의 연결과 현재 통과 상태를 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "낮은 벽 사이",
+            "detail": "벽이 끊긴 부분과 바닥이 만나는 선을 확대해요. 사진에 보이지 않는 단차와 현재 상태는 추가로 살펴봐요.",
+            "position": [
+              62,
+              84
+            ]
+          },
+          {
+            "label": "주차장 옆 바닥",
+            "detail": "주차장 블록과 밝은 보행 바닥이 만나는 부분을 봐요.",
+            "position": [
+              34,
+              91
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": false
+      }
+    ],
+    "research-a-01": [
+      {
+        "id": "tour-v74-leeungno-floor-published-202512",
+        "image": "/modu50m/route-photos-v74/leeungno-forecourt-floor-published-202512.jpg",
+        "title": "긴 창·소나무 옆 앞마당과 점자블록",
+        "viewLabel": "긴 창·소나무 옆 앞마당과 점자블록",
+        "provider": "official",
+        "providerLabel": "대전관광 · 공식 취재 사진",
+        "platform": "official-tourism",
+        "author": "대전관광",
+        "sourceUrl": "https://daejeontour.co.kr/month_djt/6",
+        "imageSourceUrl": "https://daejeontour.co.kr/data/editor/2512/1764649659_c51a9efe86537805_02_%EC%9D%B4%EC%9D%91%EB%85%B8%EB%AF%B8%EC%88%A0%EA%B4%80%EC%99%B8%EA%B4%80.jpg",
+        "publishedAt": "2025-12-02",
+        "captureDate": null,
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-07",
+        "sha256": "14d2511be51ab806bdcad93a360a7a36c84e788392d47a9fd2ce7d7f41795886",
+        "sourceDimensions": [
+          4000,
+          2667
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "공원 쪽 점자블록이 앞마당으로 이어지는 바닥을 확대해요. 긴 창·소나무·157번 주소판을 다른 사진과 맞춰 봐요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "공원 쪽 점자블록이 앞마당으로 이어지는 바닥을 확대해요. 긴 창·소나무·157번 주소판을 다른 사진과 맞춰 봐요."
+        },
+        "evidenceRole": {
+          "label": "공식 취재 사진 · 보이는 바닥 비교",
+          "detail": "2025년 12월 2일 게시된 사진이에요. 개별 촬영일은 확인되지 않았어요. 갈림길에서 이 바닥까지의 중간 길은 사진 밖이에요."
+        },
+        "observations": [
+          {
+            "label": "앞마당 점자블록과 포장",
+            "position": [
+              25,
+              91
+            ],
+            "detail": "노란 점자블록과 회색 포장 이음새, 잔디 옆 경계석을 살펴봐요. 사진 밖의 정류장 쪽 길과는 구분해요."
+          },
+          {
+            "label": "지붕 아래 문 방향",
+            "position": [
+              73,
+              78
+            ],
+            "detail": "소나무 옆 기둥과 157번 주소판이 있는 벽을 찾아요. 07번 정면 사진에서 같은 주소판과 유리문 앞 바닥을 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "sourceExifDateTime": "2025:11:06 13:14:48",
+        "sourceExifDateTimeMeaning": "modification-time-not-capture-date"
+      }
+    ]
+  },
+  "museum": {
+    "museum-ramp-v43": [
+      {
+        "id": "visitor-v48-museum-name-sign-and-plaza-published-202506",
+        "image": "/modu50m/route-photos-v48/museum-name-sign-and-plaza-published-202506.jpg",
+        "title": "미술관 이름 표지와 앞마당 포장 바닥",
+        "viewLabel": "미술관 이름 표지와 앞마당 포장 바닥",
+        "provider": "reference",
+        "providerLabel": "soopia612 · 실제 방문 사진",
+        "platform": "naver-blog",
+        "author": "soopia612",
+        "sourceUrl": "https://blog.naver.com/soopia612/223897305860",
+        "imageSourceUrl": "https://postfiles.pstatic.net/MjAyNTA2MDdfMzAw/MDAxNzQ5Mjc2Nzg0Njcx.m5rQGH0VfB8OlrP9tfp_VfeQ2ZVXtr7YTx7n6Rkc0Rog.ek4D1BftpcnfuLp0XuOYcPRxS8EwEzCpDLLPahL6K6gg.JPEG/900%EF%BC%BF20250607%EF%BC%BF100611.jpg?type=w580",
+        "publishedAt": "2025-06-12",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-06",
+        "sha256": "15b1ed0c48ade55df4dd0df05b9aec39e5aacae955bdae37d24d7ce1d8e5bb4d",
+        "sourceDimensions": [
+          580,
+          435
+        ],
+        "captureMethod": "literal-public-DOM-served-image-unmodified",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "같은 건물·표지와 포장 바닥을 다른 사진과 비교해요. 사진의 게시일과 개별 촬영일은 구분해요."
+        },
+        "scope": "같은 건물·표지와 포장 바닥을 다른 사진과 비교해요. 사진의 게시일과 개별 촬영일은 구분해요.",
+        "evidenceRole": {
+          "label": "실제 방문 사진 · 표지와 보행 바닥 비교",
+          "detail": "2025-06-12에 게시된 사진이에요. 개별 촬영일은 확인되지 않았어요. 정류장부터 이 사진까지의 연결 전체나 현재 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "앞마당으로 이어지는 포장",
+            "position": [
+              22,
+              68
+            ],
+            "detail": "나무 그늘 아래 회색 포장과 왼쪽 앞마당 바닥을 비교해요. 사진 바깥 정류장 쪽 보도와 연결되는 전체 길은 보이지 않아요."
+          },
+          {
+            "label": "방문할 미술관 이름",
+            "position": [
+              52,
+              50
+            ],
+            "detail": "대전시립미술관 이름과 뒤쪽 곡선 지붕을 다른 경사로·유리문 사진에서도 찾아요. 잔디와 경계석을 가로지르는 길로 안내하지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "city-v51-museum-plaza-ramp-published-202604",
+        "image": "/modu50m/route-photos-v51/museum-city-plaza-ramp-published-202604.jpg",
+        "title": "앞마당 → 경사로 시작 바닥 · 대전시 사진",
+        "viewLabel": "앞마당과 경사로 시작",
+        "provider": "official",
+        "providerLabel": "대전시 공식 블로그 · 현장 취재 사진",
+        "platform": "naver-blog",
+        "author": "대전시 공식 블로그",
+        "sourceUrl": "https://blog.naver.com/storydaejeon/224237144447",
+        "imageSourceUrl": "https://blogfiles.pstatic.net/MjAyNjA0MDFfMjE3/MDAxNzc1MDI2ODE1OTQ5.VrWyioEy-NHORXEW6XaIFWp1qCscxameO4clCeoBOp4g.YVt-T1pfwTj1txN6ii0cfuS2CB2loebCs95UIvwNxn4g.JPEG/1.JPG",
+        "publishedAt": "2026-04-01",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-06",
+        "sha256": "c9c6a27f3c9ab1e645d859ed2a04da5da539aacf9f6d4078eb17c363628a4881",
+        "sourceDimensions": [
+          3984,
+          2656
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "앞마당의 점자블록과 손잡이 사이 경사로가 만나는 바닥을 확대해요. 미술관 이름 표지와 둥근 차양을 다음 문 앞 사진에서도 찾아요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "앞마당의 점자블록과 손잡이 사이 경사로가 만나는 바닥을 확대해요. 미술관 이름 표지와 둥근 차양을 다음 문 앞 사진에서도 찾아요."
+        },
+        "evidenceRole": {
+          "label": "공식 취재 사진 · 앞마당과 경사로 시작 비교",
+          "detail": "2026년 4월 1일 게시된 사진이에요. 개별 촬영일은 확인되지 않았어요. 04번 갈림길부터 이 앞마당까지의 중간 보행길은 사진 밖이에요."
+        },
+        "observations": [
+          {
+            "label": "앞마당과 경사로 시작 바닥",
+            "position": [
+              53,
+              70
+            ],
+            "detail": "넓은 앞마당 포장과 손잡이 사이 경사로 입구가 만나는 부분을 확대해요. 사진으로 경사도나 바닥 높이를 측정한 자료는 아니에요."
+          },
+          {
+            "label": "미술관 이름과 출입문 방향",
+            "position": [
+              41,
+              63
+            ],
+            "detail": "검은 이름 표지의 화살표와 오른쪽 곡선 손잡이·둥근 차양을 찾아요. 계단 쪽으로 곧장 올라가는 길과 구분해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "visitor-v63-museum-garden-forecourt-202609",
+        "image": "/modu50m/route-photos-v63/museum-garden-to-forecourt-published-202609.jpg",
+        "title": "조각공원 포장길 → 앞마당 방향",
+        "viewLabel": "조각공원 포장길과 앞마당 방향",
+        "provider": "reference",
+        "providerLabel": "워킹맘 미스맥 · 실제 방문 사진",
+        "platform": "naver-blog",
+        "author": "워킹맘 미스맥",
+        "sourceUrl": "https://m.blog.naver.com/by_mac/224399807517",
+        "imageSourceUrl": "https://blogfiles.pstatic.net/MjAyNjA4MjhfMTEw/MDAxNzg3OTA0MDU3NTUx.SysddsgtzoUnXKQ76u-s6NRr2ltD8qxrGDPf5ws8M7gg.nNjeR9FVFCyGXfv2rbl14k_d7QOtokw_ekcTdPW0fIAg.JPEG/IMG%EF%BC%BF1578.JPG",
+        "observedImageUrl": "https://mblogthumb-phinf.pstatic.net/MjAyNjA4MjhfMTEw/MDAxNzg3OTA0MDU3NTUx.SysddsgtzoUnXKQ76u-s6NRr2ltD8qxrGDPf5ws8M7gg.nNjeR9FVFCyGXfv2rbl14k_d7QOtokw_ekcTdPW0fIAg.JPEG/IMG%EF%BC%BF1578.JPG?type=w800",
+        "publishedAt": "2026-09-03",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-07",
+        "sha256": "045fb3eb025062493a27d438bfc305fd7553a89533a61c6743ab4b91c7ee3ab9",
+        "sourceDimensions": [
+          900,
+          900
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "조각공원의 포장길과 미술관 앞마당 방향을 비교해요. 가운데 계단과 손잡이 사이 경사로를 구분해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "조각공원의 포장길과 미술관 앞마당 방향을 비교해요. 가운데 계단과 손잡이 사이 경사로를 구분해요."
+        },
+        "evidenceRole": {
+          "label": "주변 비교 사진 · 공원 포장길",
+          "detail": "2026년 9월 3일 게시된 실제 방문 사진이에요. 조각공원 안쪽 포장길과 앞마당 방향을 볼 수 있어요. 04번 도로 옆 보도에서 턱이 낮아지는 지점과 경사로 시작까지의 전체 길은 보이지 않아요."
+        },
+        "observations": [
+          {
+            "label": "포장길과 앞마당 방향",
+            "position": [
+              67,
+              73
+            ],
+            "detail": "사각 블록 길이 나무 사이로 이어지는 방향과 조각물을 찾아요. 잔디와 높은 경계석을 가로질러 가는 길과 구분해요."
+          },
+          {
+            "label": "가운데 계단과 미술관 지붕",
+            "position": [
+              25,
+              63
+            ],
+            "detail": "미술관 지붕 아래 큰 계단이 보여요. 이 계단을 휠체어 이동선으로 안내하지 않아요. 다른 경사로 사진에서 곡선 손잡이와 시작 바닥을 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "cameraCoordinate": null
+      },
+      {
+        "id": "tour-v74-museum-floor-published-202512",
+        "image": "/modu50m/route-photos-v74/museum-handrail-floor-published-202512.jpg",
+        "title": "손잡이 사이 경사로 바닥과 위쪽 문 방향",
+        "viewLabel": "손잡이 사이 경사로 바닥과 위쪽 문 방향",
+        "provider": "official",
+        "providerLabel": "대전관광 · 공식 취재 사진",
+        "platform": "official-tourism",
+        "author": "대전관광",
+        "sourceUrl": "https://daejeontour.co.kr/month_djt/6",
+        "imageSourceUrl": "https://daejeontour.co.kr/data/editor/2512/1764649886_d0f920d4dfaad6d1_08_%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80.jpg",
+        "publishedAt": "2025-12-02",
+        "captureDate": null,
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-07",
+        "sha256": "5630679d936d8c81c91924ec87fd5ed7460a3d85c8573bbadd0d36fb9787f750",
+        "sourceDimensions": [
+          3807,
+          2538
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "양쪽 손잡이 사이 바닥과 오른쪽으로 휘는 길을 확대해요. 노란 점자블록과 위쪽 차양을 문 앞 사진에서도 찾아요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "양쪽 손잡이 사이 바닥과 오른쪽으로 휘는 길을 확대해요. 노란 점자블록과 위쪽 차양을 문 앞 사진에서도 찾아요."
+        },
+        "evidenceRole": {
+          "label": "공식 취재 사진 · 보이는 바닥 비교",
+          "detail": "2025년 12월 2일 게시된 사진이에요. 개별 촬영일은 확인되지 않았어요. 갈림길에서 이 바닥까지의 중간 길은 사진 밖이에요."
+        },
+        "observations": [
+          {
+            "label": "양쪽 손잡이 사이 바닥",
+            "position": [
+              52,
+              86
+            ],
+            "detail": "포장 이음새와 점자블록 옆 바닥을 살펴봐요. 왼쪽 계단과 손잡이 사이 경사로를 구분해요."
+          },
+          {
+            "label": "경사로 끝과 차양 방향",
+            "position": [
+              61,
+              65
+            ],
+            "detail": "오른쪽으로 휘는 손잡이를 따라 차양 아래 문 방향을 찾아요. 06번 문 앞 사진의 미술관 이름과 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "sourceExifDateTime": "2025:11:06 13:11:23",
+        "sourceExifDateTimeMeaning": "modification-time-not-capture-date"
+      }
+    ]
+  },
+  "science": {
+    "step:science-bus-gate": [
+      {
+        "id": "visitor-v53-science-gate-floor-published-202606",
+        "image": "/modu50m/route-photos-v53/science-gate-floor-published-202606.jpg",
+        "title": "정문 앞 바닥과 출입 통로 · 방문 사진",
+        "viewLabel": "정문 앞 바닥과 출입 통로",
+        "provider": "reference",
+        "providerLabel": "hwiay1012 · 실제 방문 사진",
+        "platform": "naver-blog",
+        "author": "hwiay1012",
+        "sourceUrl": "https://m.blog.naver.com/hwiay1012/224324003472",
+        "imageSourceUrl": "https://blogfiles.pstatic.net/MjAyNjA2MjJfODIg/MDAxNzgyMTM5Nzc1MzEw.hGhkQ-PFi1o4gcVLt7OGa9SKBWeGe5Rp86At1Yox6dog.g2Nv0Th6GsNrBkuutb3jKGIa09PMGxxmtclFlAhDYEIg.JPEG/20260414_142833.jpg",
+        "publishedAt": "2026-06-23",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-06",
+        "sha256": "d30ac87dbf128f73859cedf586f8baaef9ff81c376c35ffc30d2c28390f076c5",
+        "sourceDimensions": [
+          4000,
+          3000
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "정문 앞의 넓은 포장 바닥과 작은 출입 통로를 함께 확대해요. 2022년 정면 사진의 기둥·입구 표지와 비교해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "정문 앞의 넓은 포장 바닥과 작은 출입 통로를 함께 확대해요. 2022년 정면 사진의 기둥·입구 표지와 비교해요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 정문 앞 바닥 비교",
+          "detail": "2026년 6월 23일 게시된 사진이에요. 글은 4월 방문을 설명하며 개별 촬영일은 확인되지 않았어요. 02→03 중간 길이나 05번 서쪽 화단까지의 전체 연결 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "정문 출입 통로와 안내 표지",
+            "position": [
+              44,
+              61
+            ],
+            "detail": "기둥 사이 작은 출입 통로와 오른쪽 입구 표지를 확대해요. 당시 통로 모습이며 현재 폭이나 휠체어 통과 여부를 측정한 자료는 아니에요."
+          },
+          {
+            "label": "정문 앞 포장 바닥 이음새",
+            "position": [
+              49,
+              82
+            ],
+            "detail": "큰 포장 바닥의 블록 이음새를 확대해요. 색이 칠해진 부분과 바닥 무늬가 어떻게 이어지는지도 함께 살펴봐요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "visitor-v89-science-inside-gate-paving-published-202501",
+        "image": "/modu50m/route-photos-v89/science-inside-gate-paving-published-202501.jpg",
+        "title": "정문을 지난 바닥 · 창의나래관 옆",
+        "viewLabel": "정문 안 바닥",
+        "provider": "visitor",
+        "providerLabel": "네이버 방문 글 · 실제 현장 사진",
+        "platform": "naver-blog",
+        "author": "sngmi08",
+        "sourceUrl": "https://m.blog.naver.com/sngmi08/223728356663",
+        "imageSourceUrl": "https://blogfiles.pstatic.net/MjAyNTAxMTZfMjA3/MDAxNzM3MDM4MzI2OTkw.8hNtmYRS3Opl-U4Vesok1-SSXIapv4NKhv2e6n9WC18g.dyhl9j0YD91JgzADkYlfSBJ9PmPugNf9QWOArLI0oOYg.JPEG/6-4_20250111_135416.jpg",
+        "publishedAt": "2025-01-17",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-08",
+        "sha256": "3e25103d38cbecc86b27a66a1c5ee5646d4188d06878eef946bcaabd40e5c985",
+        "sourceDimensions": [
+          4000,
+          2250
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "창의나래관 서쪽의 포장 이음새와 배수구를 확대해요. 화단 경계와 사람이 지나는 바닥을 구분해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "창의나래관 서쪽의 포장 이음새와 배수구를 확대해요. 화단 경계와 사람이 지나는 바닥을 구분해요."
+        },
+        "evidenceRole": {
+          "label": "정문 안쪽 실제 바닥 · 방문 사진",
+          "detail": "2025년 1월 17일 게시된 방문 글의 사진이에요. 글은 정문을 지나 찍은 위치를 설명하며, 개별 촬영일은 확인되지 않았어요. 행정동 서쪽까지의 전체 연결 바닥은 이 사진 밖에 있어요."
+        },
+        "observations": [
+          {
+            "label": "포장 바닥의 이음새",
+            "position": [
+              65,
+              90
+            ],
+            "detail": "정문을 지난 쪽의 포장 바닥이에요. 블록이 만나는 이음새와 표면을 가까이 봐요."
+          },
+          {
+            "label": "배수구와 화단 경계",
+            "position": [
+              87,
+              89
+            ],
+            "detail": "사진 오른쪽 배수구와 화단 경계가 만나는 곳을 확대해요. 배수구 간격과 실제 높이는 사진으로 측정하지 않았어요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "bus-v31-walk": [
+      {
+        "id": "naver-v62-science-sidewalk-plaza-front-202504",
+        "image": "/modu50m/route-photos-v62/science-sidewalk-plaza-front-202504.png",
+        "title": "보도 → 광장 바닥 · 정면에서 비교",
+        "viewLabel": "보도와 광장 정면",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰 · 실제 거리 사진",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=l_IkvY2Jlr0Y6r9IJs2xaw,0.0,10.0,80.0,Float",
+        "capturedAt": "2025-04-02",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3745279,
+          127.3789173
+        ],
+        "panoramaId": "l_IkvY2Jlr0Y6r9IJs2xaw",
+        "faceIndex": 1,
+        "sha256": "5e987ef74393e9d8454c0641165bf78ae520c6ff259cf8d1a081e1238d42ffd9",
+        "sourceCubemapSha256": "83bb6f6bba58b4c517b37f78d112cc94d3088de0be0e6ad19ad85f00d6703486",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "captureMethod": "original-cubemap-face-extraction-no-retouch",
+        "scope": "돌기둥 사이에서 보도와 넓은 광장 바닥이 만나는 선을 확대해요. 오른쪽 붉은 바닥의 계단과 구분해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "돌기둥 사이에서 보도와 넓은 광장 바닥이 만나는 선을 확대해요. 오른쪽 붉은 바닥의 계단과 구분해요."
+        },
+        "evidenceRole": {
+          "label": "보도 → 광장 바닥 · 2025년 정면 사진",
+          "detail": "2025년 4월 2일 촬영된 거리 사진이에요. 돌기둥과 광장 포장 경계가 정면으로 보여요. 03번 주차장 접점까지의 중간 바닥 전체는 이 사진 밖이에요."
+        },
+        "observations": [
+          {
+            "label": "보도와 광장 바닥 접점",
+            "position": [
+              52,
+              66
+            ],
+            "detail": "육각 블록 보도에서 사각 돌기둥 사이로 이어지는 광장 포장 경계를 확대해요. 바닥 높이나 기둥 사이 폭을 측정한 자료는 아니에요."
+          },
+          {
+            "label": "오른쪽 붉은 바닥의 계단",
+            "position": [
+              93,
+              61
+            ],
+            "detail": "붉은 바닥으로 올라가는 계단을 살펴봐요. 이 계단을 휠체어 이동선으로 안내하지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "bus-v31-plaza": [
+      {
+        "id": "naver-v75-science-administration-tree-floor-202011",
+        "image": "/modu50m/route-photos-v75/science-administration-tree-floor-202011.png",
+        "title": "행정동 앞 나무 화단·옆 바닥",
+        "viewLabel": "행정동 앞 바닥",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰 · 실제 거리 사진",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=899RHlfApHpAe7Ir1QuMMw,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-06",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3749682,
+          127.3760207
+        ],
+        "panoramaId": "899RHlfApHpAe7Ir1QuMMw",
+        "faceIndex": 2,
+        "sha256": "f2dbcd32f0279031ee20b10fd7838132b914cbea225e8c7034a08481ba0abafc",
+        "sourceCubemapSha256": "40372ab30d7cd0a14ee4619109bdd5fde3bf9fd0a6599c6782ae9f2c979e95cd",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "captureMethod": "original-cubemap-face-extraction-no-retouch",
+        "scope": "2020년 사진에서 나무 화단 옆 바닥과 행정동 이름을 함께 살펴봐요. 오른쪽 계단형 문은 09번 미래기술관 입구와 다른 곳이에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "나무 화단 옆 바닥·배수구·행정동 계단을 확대해요. 건물 뒤쪽으로 이어지는 길은 이 사진 밖이에요."
+        },
+        "evidenceRole": {
+          "label": "2020년 거리 사진 · 행정동 앞 바닥",
+          "detail": "05번의 기존 나무 화단 사진과 같은 화단·은색 벽을 비교해요. 06번 서쪽 보도까지 이어지는 중간 바닥을 확인한 자료는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "나무 화단 옆 바닥",
+            "position": [
+              46,
+              75
+            ],
+            "detail": "화단 경계석과 배수구 옆 포장 이음새를 살펴봐요."
+          },
+          {
+            "label": "행정동 앞 계단",
+            "position": [
+              83,
+              69
+            ],
+            "detail": "행정동 이름 아래 문에는 계단이 보여요. 목적 입구인 09번 미래기술관 문과 구분해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "visitor-v89-science-plaza-busts-floor-published-202501",
+        "image": "/modu50m/route-photos-v89/science-plaza-busts-floor-published-202501.jpg",
+        "title": "정문 안 광장 · 흉상 옆 두 가지 바닥",
+        "viewLabel": "광장 포장길 비교",
+        "provider": "visitor",
+        "providerLabel": "네이버 방문 글 · 실제 현장 사진",
+        "platform": "naver-blog",
+        "author": "sngmi08",
+        "sourceUrl": "https://m.blog.naver.com/sngmi08/223728356663",
+        "imageSourceUrl": "https://blogfiles.pstatic.net/MjAyNTAxMTZfMTgw/MDAxNzM3MDM4MzI2Nzkz.AflYUOt5OCYp5u1bFLlOMIDLMHWj9o1WtZt2SGtV0Fwg.Mk1lR-cRt4vMAKn4ZoFAZ9WbAuHDySFpABIys-XmSEIg.JPEG/7_20250111_135345.jpg",
+        "publishedAt": "2025-01-17",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-08",
+        "sha256": "0171d2f0ea5aff7c11b09b6544a41871f3cf63ef27732046c09f7eaac553fae2",
+        "sourceDimensions": [
+          4000,
+          2250
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "뉴턴·장영실 흉상 옆의 보도블록과 돌판 바닥을 비교해요. 큰 아치 앞 계단은 따로 구분해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "뉴턴·장영실 흉상 옆의 보도블록과 돌판 바닥을 비교해요. 큰 아치 앞 계단은 따로 구분해요."
+        },
+        "evidenceRole": {
+          "label": "정문 안쪽 실제 바닥 · 방문 사진",
+          "detail": "2025년 1월 17일 게시된 방문 글의 사진이에요. 글은 정문을 지나 찍은 위치를 설명하며, 개별 촬영일은 확인되지 않았어요. 행정동 서쪽까지의 전체 연결 바닥은 이 사진 밖에 있어요."
+        },
+        "observations": [
+          {
+            "label": "왼쪽 보도블록 이음새",
+            "position": [
+              10,
+              86
+            ],
+            "detail": "작은 보도블록 사이 이음새가 보여요. 표면의 고르기와 겨울 사진에 보이는 눈을 살펴봐요."
+          },
+          {
+            "label": "오른쪽 돌판 바닥",
+            "position": [
+              89,
+              87
+            ],
+            "detail": "돌판 모양과 이음새가 왼쪽 길과 달라요. 사진만으로 진동이나 미끄러움을 측정한 자료는 아니에요."
+          },
+          {
+            "label": "큰 아치 앞 계단",
+            "position": [
+              51,
+              39
+            ],
+            "detail": "큰 아치로 곧장 향하는 가운데에는 계단이 보여요. 이 계단을 휠체어로 올라가는 길로 안내하지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "terminal": {
+    "step:terminal-parking-floor": [
+      {
+        "id": "photo-v67-terminal-west-5f-parking-original",
+        "image": "/modu50m/route-photos-v67/terminal-west-5f-parking-original.jpg",
+        "title": "서관 5층 주차장 바닥",
+        "viewLabel": "서관 5층 주차장 바닥",
+        "provider": "public-mobility",
+        "providerLabel": "대전복합터미널 공식 사진",
+        "author": "대전복합터미널",
+        "sourceUrl": "https://www.djbusterminal.co.kr/parking01",
+        "imageSourceUrl": "https://www.djbusterminal.co.kr/public/images/sub/parking_img04.jpg",
+        "publishedAt": null,
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "b90511b5e78eea67fe60eaf5a72be6c98045099ae315a988f45de82c70fe2a21",
+        "sourceSha256": "b90511b5e78eea67fe60eaf5a72be6c98045099ae315a988f45de82c70fe2a21",
+        "sourceDimensions": [
+          876,
+          385
+        ],
+        "captureMethod": "literal-public-source-original-unmodified",
+        "scope": "서관 5층의 바닥과 방지턱·기둥을 비교해요. 특정 주차면부터 승강기까지 연결된 길을 보여 주는 사진은 아니에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "서관 5층의 바닥과 방지턱·기둥을 비교해요. 특정 주차면부터 승강기까지 연결된 길을 보여 주는 사진은 아니에요."
+        },
+        "evidenceRole": {
+          "label": "공식 사진 · 주차장 바닥 비교",
+          "detail": "서관 5층의 바닥과 방지턱·기둥을 비교해요. 특정 주차면부터 승강기까지 연결된 길을 보여 주는 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "노란 바닥 표시·방지턱",
+            "detail": "사진 왼쪽 아래 방지턱과 노란 바닥 표시를 확대해요. 바닥 표시만으로 휠체어 보행길을 확정하지 않아요.",
+            "position": [
+              31,
+              70
+            ]
+          },
+          {
+            "label": "기둥의 5F 표지",
+            "detail": "가운데 기둥의 5F 표지로 서관 5층 장면을 구분해요. 승강기까지의 전체 길은 사진 밖이에요.",
+            "position": [
+              55,
+              25
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": true
+      },
+      {
+        "id": "terminal-v21-research-c-02",
+        "image": "/modu50m/mobility-v21/terminal-v21-research-c-02-94783564.jpg",
+        "title": "서관 장애인 주차구역·파란 바닥",
+        "viewLabel": "서관 장애인 주차구역",
+        "provider": "public-mobility",
+        "providerLabel": "대전복합터미널 공식 사진",
+        "author": "대전복합터미널",
+        "sourceUrl": "https://www.djbusterminal.co.kr/parking01",
+        "imageSourceUrl": "https://www.djbusterminal.co.kr/public/images/sub/parking_img07.jpg",
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "94783564f362c89bde74b42b6428c4efb0baddca549070cf9cb232bda497fee0",
+        "scope": "공식 안내에서 서관 5~7층의 장애인 주차구역으로 소개한 사진이에요. 파란 바닥과 차 옆 공간을 비교하며, 어느 층의 어느 주차면인지는 이 사진만으로 특정하지 않아요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "파란 바닥과 주차 차량 옆 공간을 비교해요."
+        },
+        "evidenceRole": {
+          "label": "서관 주차구역 참고",
+          "detail": "공식 자료에는 서관 5~7층으로 안내돼 있으며, 사진의 특정 층과 승강기까지의 길은 확인되지 않아요."
+        },
+        "observations": [
+          {
+            "label": "파란 바닥·차 옆 공간",
+            "detail": "파란 주차 바닥과 차량 옆 공간을 비교해요. 실제 이용할 주차면은 방문 때 확인해요.",
+            "position": [
+              37,
+              80
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "step:terminal-parking-lift-cue": [
+      {
+        "id": "photo-v67-terminal-west-atm-lift-cue-published-202512",
+        "image": "/modu50m/route-photos-v67/terminal-west-atm-lift-cue-published-202512.jpg",
+        "title": "승강기 쪽 ATM·민원발급기 표지",
+        "viewLabel": "승강기 쪽 ATM·민원발급기 표지",
+        "provider": "blog",
+        "providerLabel": "네이버 블로그",
+        "author": "EEE",
+        "sourceUrl": "https://m.blog.naver.com/peony9900/224094023253",
+        "imageSourceUrl": "https://mblogthumb-phinf.pstatic.net/MjAyNTEyMDFfMjE2/MDAxNzY0NTU0NTk0NDIx.50H4qcXEXKRVEjzcOzaIuTTw_wHBX78Jf6GaG0S5N3wg.qd1rUMNjFygbfI1v5dVjbvrjIW1CYixiNdSH1RGC9Dcg.JPEG/IMG%EF%BC%BF7528.JPG?type=w800",
+        "publishedAt": "2025-12-01",
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "5831700738c06ab58318cb9262a803496d7704c06f7a67649af997ed54f3623e",
+        "sourceSha256": "5831700738c06ab58318cb9262a803496d7704c06f7a67649af997ed54f3623e",
+        "sourceDimensions": [
+          800,
+          601
+        ],
+        "captureMethod": "literal-public-source-original-unmodified",
+        "scope": "방문 글이 서관 5층 승강기 앞이라고 소개한 기준물 사진이에요. 2F 화살표는 매장 방향 표지이므로 현재 층 표시로 사용하지 않아요. 승강기 문 자체와 주차장에서 오는 중간 길은 보이지 않아요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "방문 글이 서관 5층 승강기 앞이라고 소개한 기준물 사진이에요. 2F 화살표는 매장 방향 표지이므로 현재 층 표시로 사용하지 않아요. 승강기 문 자체와 주차장에서 오는 중간 길은 보이지 않아요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 위치·바닥 비교",
+          "detail": "방문 글이 서관 5층 승강기 앞이라고 소개한 기준물 사진이에요. 2F 화살표는 매장 방향 표지이므로 현재 층 표시로 사용하지 않아요. 승강기 문 자체와 주차장에서 오는 중간 길은 보이지 않아요."
+        },
+        "observations": [
+          {
+            "label": "ATM·민원발급기",
+            "detail": "하나은행 ATM과 민원발급기를 기준물로 찾아요. 방문 글은 이곳을 서관 5층 승강기 앞이라고 설명해요.",
+            "position": [
+              46,
+              49
+            ]
+          },
+          {
+            "label": "기계·카트 옆 바닥",
+            "detail": "기계와 카트 옆 바닥을 비교해요. 승강기 문과 문 앞 통과 폭은 사진 밖이에요.",
+            "position": [
+              57,
+              94
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": true,
+        "platform": "naver-blog"
+      }
+    ],
+    "bus-v32-door": [
+      {
+        "id": "photo-v67-terminal-gate4-inside-published-202407",
+        "image": "/modu50m/route-photos-v67/terminal-gate4-inside-published-202407.jpg",
+        "title": "GATE 4 안쪽 유리문·실내 바닥",
+        "viewLabel": "GATE 4 안쪽 유리문·실내 바닥",
+        "provider": "blog",
+        "providerLabel": "네이버 블로그",
+        "author": "아라네",
+        "sourceUrl": "https://m.blog.naver.com/trip_with_ara/223502277469",
+        "imageSourceUrl": "https://mblogthumb-phinf.pstatic.net/MjAyNDA3MDNfMjQ3/MDAxNzIwMDE3NjkyMjU0.0S93DpB-AgqQ8478KmPXPrg76t5PbuAuWOU0amdPb5Ug.Mgq2Md9whzlkDCKxe-TbVatKwk0LZYtOD8ZcofuW9Tcg.JPEG/IMG_3144.JPG?type=w800",
+        "publishedAt": "2024-07-05",
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "fd9a273d925faad93de91c48901e459687b5cae19717476ea7678dd470b8cc0a",
+        "sourceSha256": "fd9a273d925faad93de91c48901e459687b5cae19717476ea7678dd470b8cc0a",
+        "sourceDimensions": [
+          800,
+          601
+        ],
+        "captureMethod": "literal-public-source-original-unmodified",
+        "scope": "서관 GATE 4를 대합실 안쪽에서 본 사진이에요. 문 위 4번 표지와 양옆 매장을 비교해요. 승강기에서 이 문까지의 전체 실내 길은 담기지 않았어요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "서관 GATE 4를 대합실 안쪽에서 본 사진이에요. 문 위 4번 표지와 양옆 매장을 비교해요. 승강기에서 이 문까지의 전체 실내 길은 담기지 않았어요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 위치·바닥 비교",
+          "detail": "서관 GATE 4를 대합실 안쪽에서 본 사진이에요. 문 위 4번 표지와 양옆 매장을 비교해요. 승강기에서 이 문까지의 전체 실내 길은 담기지 않았어요."
+        },
+        "observations": [
+          {
+            "label": "문 위 4번 표지",
+            "detail": "문 위의 4번 표지와 양옆 GS25·배스킨라빈스로 GATE 4를 구분해요.",
+            "position": [
+              53,
+              47
+            ]
+          },
+          {
+            "label": "유리문 앞 바닥",
+            "detail": "실내 타일과 문 아래 경계를 확대해요. 닫힌 문 사진만으로 열린 폭이나 턱 높이를 잴 수는 없어요.",
+            "position": [
+              50,
+              87
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": true,
+        "platform": "naver-blog"
+      }
+    ]
+  },
+  "sungsim": {
+    "bus-v31-walk": [
+      {
+        "id": "photo-v68-sungsim-customer-parking-published-202305.png",
+        "image": "/modu50m/route-photos-v68/sungsim-customer-parking-published-202305.png",
+        "title": "성심당 고객주차장 안쪽 바닥",
+        "viewLabel": "성심당 고객주차장 안쪽 바닥",
+        "provider": "blog",
+        "providerLabel": "티스토리 방문 사진",
+        "author": "낭만낭만북극곰",
+        "sourceUrl": "https://herlim.tistory.com/m/122",
+        "imageSourceUrl": "https://blog.kakaocdn.net/dna/bPbWWi/btshh9MvA4H/AAAAAAAAAAAAAAAAAAAAAHOTXPUSyVq3o3B4qgh0G0WBKWcmln5kYtbN3un8P2T5/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1793458799&allow_ip=&allow_referer=&signature=MYdJzUcPcczMYvKBTDYHsechyVo%3D",
+        "publishedAt": "2023-05-19",
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "c99ac55e32892661f1f1ea1acecbb07c2563816d4206ebb0ac0b7f1da5a1b80f",
+        "sourceSha256": "c99ac55e32892661f1f1ea1acecbb07c2563816d4206ebb0ac0b7f1da5a1b80f",
+        "sourceDimensions": [
+          793,
+          1058
+        ],
+        "captureMethod": "literal-public-source-original-unmodified",
+        "scope": "문화원 앞 고객주차장의 차량 사이 바닥과 배수구를 비교해요. 사진 안의 차량 통로가 보행 전용 길이라는 뜻은 아니에요. 기존 대종로 보도 사진에서 주차장 입구·안내판을 함께 확인해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "문화원 앞 고객주차장의 차량 사이 바닥과 배수구를 비교해요. 사진 안의 차량 통로가 보행 전용 길이라는 뜻은 아니에요. 기존 대종로 보도 사진에서 주차장 입구·안내판을 함께 확인해요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 주차장 바닥 비교",
+          "detail": "문화원 앞 고객주차장의 차량 사이 바닥과 배수구를 비교해요. 사진 안의 차량 통로가 보행 전용 길이라는 뜻은 아니에요. 기존 대종로 보도 사진에서 주차장 입구·안내판을 함께 확인해요."
+        },
+        "observations": [
+          {
+            "label": "차량 사이 바닥",
+            "detail": "주차 차량 사이의 바닥과 사람이 지나가는 공간을 확대해요. 차가 출입하는 통로와 구분해요.",
+            "position": [
+              50,
+              65
+            ]
+          },
+          {
+            "label": "바닥 배수구",
+            "detail": "사진 아래 배수구의 틈과 주변 바닥을 비교해요. 사진으로 높이나 통과 폭을 재지는 않아요.",
+            "position": [
+              51,
+              96
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "station": {
+    "step:station-parking-start": [
+      {
+        "id": "photo-v68-station-west2-parking-published-202603.jpg",
+        "image": "/modu50m/route-photos-v68/station-west2-parking-published-202603.jpg",
+        "title": "서광장2 주차장의 기둥·바닥",
+        "viewLabel": "서광장2 주차장의 기둥·바닥",
+        "provider": "blog",
+        "providerLabel": "네이버 방문 사진",
+        "author": "멜랑",
+        "sourceUrl": "https://m.blog.naver.com/mellang_2/224228695105",
+        "imageSourceUrl": "https://mblogthumb-phinf.pstatic.net/MjAyNjAzMjRfMTY1/MDAxNzc0MzYyMjcyNTI2.gEZzwualAUThkr0in2HlyNgS_egvRHBYX67-xTTOxwQg.s4LrCHpolhBBpjywKSuJwHoCs7EqM9jRygdu2G-Gt6gg.JPEG/SE-acb2b9a4-255d-4679-a6b4-f43fc1b857f1.jpg?type=w800",
+        "publishedAt": "2026-03-25",
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "4ac5ce09b9cd2873395a1ee8ecbc9b94aa471ca2c6c66ec3b3783c41e5ed9c2d",
+        "sourceSha256": "4ac5ce09b9cd2873395a1ee8ecbc9b94aa471ca2c6c66ec3b3783c41e5ed9c2d",
+        "sourceDimensions": [
+          800,
+          600
+        ],
+        "captureMethod": "literal-public-source-original-unmodified",
+        "scope": "서광장2 주차장 안쪽의 기둥·주차 차량·바닥을 비교해요. 방문 글은 주차장이 철도역 5번 출입부와 가깝다고 설명해요. 이 화면의 목적지인 서광장 4번 출입부까지 연속된 보행길을 촬영한 사진은 아니에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "서광장2 주차장 안쪽의 기둥·주차 차량·바닥을 비교해요. 방문 글은 주차장이 철도역 5번 출입부와 가깝다고 설명해요. 이 화면의 목적지인 서광장 4번 출입부까지 연속된 보행길을 촬영한 사진은 아니에요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 주차장 바닥 비교",
+          "detail": "서광장2 주차장 안쪽의 기둥·주차 차량·바닥을 비교해요. 방문 글은 주차장이 철도역 5번 출입부와 가깝다고 설명해요. 이 화면의 목적지인 서광장 4번 출입부까지 연속된 보행길을 촬영한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "기둥 옆 바닥",
+            "detail": "기둥 아래 바닥과 주차 차량 사이 공간을 확대해요. 바닥의 실제 경사와 통과 폭은 사진으로 잴 수 없어요.",
+            "position": [
+              38,
+              83
+            ]
+          },
+          {
+            "label": "주차 차량 옆 공간",
+            "detail": "차량 양옆 바닥과 기둥을 비교해요. 주차면의 배치와 비어 있는 공간은 방문 때 달라질 수 있어요.",
+            "position": [
+              67,
+              73
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "photo-v68-station-west2-column-edge-published-202603.jpg",
+        "image": "/modu50m/route-photos-v68/station-west2-column-edge-published-202603.jpg",
+        "title": "주차장 가장자리 기둥·차량 통로",
+        "viewLabel": "주차장 가장자리 기둥·차량 통로",
+        "provider": "blog",
+        "providerLabel": "네이버 방문 사진",
+        "author": "멜랑",
+        "sourceUrl": "https://m.blog.naver.com/mellang_2/224228695105",
+        "imageSourceUrl": "https://mblogthumb-phinf.pstatic.net/MjAyNjAzMjVfMTA0/MDAxNzc0Mzk0ODc4Njgz.-TNt047iwm09Pb048D7OouqXIOq8RUqeHyCLi3n5sWgg.YD4mKQ17zjFC0T8UGRS4I3bl9-Wa3ugJZECNIyhf5U0g.JPEG/20260319_092351.jpg?type=w800",
+        "publishedAt": "2026-03-25",
+        "captureDate": null,
+        "retrievedAt": "2026-10-07",
+        "sha256": "3da7309e6618f4941ce6269a6a9ca0bb3a7219a9664540647296da65b6d22c3f",
+        "sourceSha256": "3da7309e6618f4941ce6269a6a9ca0bb3a7219a9664540647296da65b6d22c3f",
+        "sourceDimensions": [
+          800,
+          600
+        ],
+        "captureMethod": "literal-public-source-original-unmodified",
+        "scope": "주차장 가장자리의 기둥과 주차 차량·차량 통로가 만나는 바닥을 비교해요. 철도역 출입문까지 이어지는 길이나 보행 전용 출구를 확인한 사진은 아니에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "주차장 가장자리의 기둥과 주차 차량·차량 통로가 만나는 바닥을 비교해요. 철도역 출입문까지 이어지는 길이나 보행 전용 출구를 확인한 사진은 아니에요."
+        },
+        "evidenceRole": {
+          "label": "방문 사진 · 주차장 바닥 비교",
+          "detail": "주차장 가장자리의 기둥과 주차 차량·차량 통로가 만나는 바닥을 비교해요. 철도역 출입문까지 이어지는 길이나 보행 전용 출구를 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "기둥 옆 통과 공간",
+            "detail": "기둥 옆 바닥과 주차 차량을 비교해요. 주차 차량이 길을 가리는 부분도 살펴봐요.",
+            "position": [
+              58,
+              80
+            ]
+          },
+          {
+            "label": "차량 통로와 경계",
+            "detail": "사진 왼쪽 차량 통로와 기둥 옆 바닥을 구분해요. 차량 통로 쪽으로 이동하라는 안내가 아니에요.",
+            "position": [
+              25,
+              68
+            ]
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  }
+}

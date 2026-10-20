@@ -1,0 +1,262 @@
+{
+  "terminal": {
+    "bus-v32-walk": [
+      {
+        "id": "terminal-v41-kakao-1201601985-h290",
+        "image": "/modu50m/route-photos-v41/kakao-1201601985-h290.jpg",
+        "title": "같은 위치에서 GATE 4 방향으로 보기",
+        "viewLabel": "입구 방향",
+        "provider": "kakao",
+        "providerLabel": "카카오 로드뷰",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201601985&pan=290&tilt=-1&zoom=1",
+        "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201601985?SERVICE=glpano",
+        "captureDate": "2025-10-02",
+        "captureDatePrecision": "day",
+        "retrievedAt": "2026-09-30",
+        "camera": {
+          "lat": 36.3501986882457,
+          "lon": 127.437607075383,
+          "lng": 127.437607075383
+        },
+        "panoid": "1201601985",
+        "panoId": "1201601985",
+        "headingDeg": 290,
+        "pitchDeg": 1,
+        "fovDeg": 60,
+        "captureMethod": "source-panorama-perspective",
+        "sourceSha256": "f382fd1e9e225d90c6e0569b3ad5771e423719c85807d703ba0cb0a1185d6401",
+        "mobilityEvidence": true,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "scope": "앞 사진과 같은 촬영 지점에서 시선만 돌린 장면이에요. 배스킨라빈스와 GS25 사이 GATE 4를 찾아보세요. 난간 안쪽 보도와 차량 대기 공간을 구분해요.",
+        "observations": [
+          {
+            "label": "난간 안쪽으로 이어지는 보도",
+            "detail": "매장 앞 점자블록과 난간이 이어져 보여요. 차량에 가린 부분의 통과 폭은 확인 전이에요.",
+            "position": [
+              39,
+              61
+            ]
+          },
+          {
+            "label": "다음에 찾아볼 GATE 4",
+            "detail": "배스킨라빈스 오른쪽, GS25 왼쪽에 서관 GATE 4가 보여요. 가까운 문 사진은 05번에서 비교할 수 있어요.",
+            "position": [
+              67,
+              40
+            ]
+          }
+        ],
+        "evidenceRole": {
+          "label": "서관 쪽 보도 관찰",
+          "detail": "앞 사진과 같은 촬영 지점에서 시선만 돌린 장면이에요. 배스킨라빈스와 GS25 사이 GATE 4를 찾아보세요. 난간 안쪽 보도와 차량 대기 공간을 구분해요."
+        }
+      },
+      {
+        "id": "terminal-v41-naver-sidewalk",
+        "image": "/modu50m/route-photos-v41/naver-westwalk-sidewalk.jpg",
+        "title": "2026년 네이버 사진으로 보도 비교",
+        "viewLabel": "네이버 비교",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=CHkdQ-yTnOjgxvGBAPWOgA,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-03",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3502084,
+          127.4376346
+        ],
+        "panoramaId": "CHkdQ-yTnOjgxvGBAPWOgA",
+        "faceIndex": 3,
+        "crop": [
+          0,
+          0.39,
+          1,
+          0.79
+        ],
+        "sourceFaceSize": 2048,
+        "sourceSha256": "f2a375e7ae78e22710fd021846125bd0d7e08ea73d0735487d58a197d7cab1ef",
+        "captureMethod": "source-cube-face-crop",
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "continuousRouteVerified": false,
+        "scope": "2026년 4월 촬영 원본에서 건물 앞 보도 부분을 골라 보여줘요. GATE 3는 위치를 비교할 표지이고 이번 목적지는 오른쪽 방향 GATE 4예요. 촬영 시기가 달라 차량 배치는 다릅니다.",
+        "observations": [
+          {
+            "label": "난간 안쪽 보도",
+            "detail": "공차 매장 앞 난간 안쪽에 점자블록과 포장 바닥이 보여요. 차가 가린 부분과 가장 좁은 폭은 알 수 없어요.",
+            "position": [
+              70,
+              47
+            ]
+          },
+          {
+            "label": "목적지와 다른 GATE 3",
+            "detail": "사진 왼쪽의 GATE 3는 위치를 알아보기 위한 표지예요. 이번 동선의 목적지는 05번 GATE 4입니다.",
+            "position": [
+              34,
+              25
+            ]
+          }
+        ],
+        "evidenceRole": {
+          "label": "같은 보도 · 다른 시기 비교",
+          "detail": "2026년 4월 촬영 원본에서 건물 앞 보도 부분을 골라 보여줘요. GATE 3는 위치를 비교할 표지이고 이번 목적지는 오른쪽 방향 GATE 4예요. 촬영 시기가 달라 차량 배치는 다릅니다."
+        }
+      },
+      {
+        "id": "terminal-bus-v32-walk",
+        "image": "/modu50m/bus-v32/terminal-westwalk-350.jpg",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201601991&pan=350&tilt=-7&zoom=0",
+        "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201601991?SERVICE=glpano",
+        "provider": "kakao",
+        "providerLabel": "카카오 로드뷰",
+        "captureDate": "2025-10-02",
+        "captureDatePrecision": "day",
+        "retrievedAt": "2026-09-25",
+        "camera": {
+          "lat": 36.3501119978919,
+          "lng": 127.437655607515,
+          "lon": 127.437655607515
+        },
+        "mapBindingVerified": false,
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "captureMethod": "source-panorama-perspective",
+        "sourceSha256": "3e7750eea396a6459cdb2976fdcf712c43a6ebd243dc4d5ce30fe79e44e4c6a8",
+        "mobilityEvidence": true,
+        "scope": "이전 촬영 구도예요. 도로의 전체 방향을 비교하는 사진이며, 차도 중앙은 휠체어 이동선이 아니에요.",
+        "attribution": "Kakao · 2025-10-02",
+        "panoid": "1201601991",
+        "panoId": "1201601991",
+        "title": "기존 전체 도로 방향 참고",
+        "viewLabel": "전체 도로",
+        "observations": [],
+        "evidenceRole": {
+          "label": "전체 방향 참고",
+          "detail": "이전 촬영 구도예요. 도로의 전체 방향을 비교하는 사진이며, 차도 중앙은 휠체어 이동선이 아니에요."
+        }
+      }
+    ],
+    "bus-v32-door": [
+      {
+        "id": "terminal-v41-tistory-0",
+        "image": "/modu50m/route-photos-v41/tistory-0.jpg",
+        "title": "GATE 4 문 바로 앞 · 손잡이와 바닥",
+        "viewLabel": "문 가까이",
+        "provider": "blog",
+        "providerLabel": "방문자 현장 사진",
+        "sourceUrl": "https://memoryseung1224.tistory.com/m/1330",
+        "author": "청두꺼비",
+        "publishedAt": "2023-06-20",
+        "retrievedAt": "2026-09-30",
+        "sourceSha256": "9c9fd15c2a92d98268c2e6a4e82ea28fbca1cb586a8eba578da037f9341caa54",
+        "captureMethod": "published-field-photo-original",
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "continuousRouteVerified": false,
+        "scope": "2023년 6월 게시된 방문 사진이에요. GATE 4 표지·손잡이·문 아래 경계가 보여요. 촬영일과 현재 문 운영 상태는 알 수 없어요.",
+        "observations": [
+          {
+            "label": "문 아래 경계와 바닥",
+            "detail": "열린 유리문 아래 금속 경계와 바닥이 보여요. 문턱 높이나 휠체어 통과 가능 여부를 이 사진으로 단정할 수 없어요.",
+            "position": [
+              30,
+              89
+            ]
+          },
+          {
+            "label": "손잡이가 있는 유리문",
+            "detail": "유리문에 긴 손잡이와 출입 표시가 있어요. 자동 개폐 여부·여는 데 필요한 힘·현재 운영은 확인 전이에요.",
+            "position": [
+              61,
+              62
+            ]
+          },
+          {
+            "label": "문 앞 점자블록",
+            "detail": "문 앞까지 놓인 점자블록과 주변 포장 바닥을 비교해 보세요.",
+            "position": [
+              50,
+              96
+            ]
+          }
+        ],
+        "evidenceRole": {
+          "label": "문 가까이 촬영 · 과거 방문 사진",
+          "detail": "2023년 6월 게시된 방문 사진이에요. GATE 4 표지·손잡이·문 아래 경계가 보여요. 촬영일과 현재 문 운영 상태는 알 수 없어요."
+        }
+      },
+      {
+        "id": "terminal-v41-naver-blog-31",
+        "image": "/modu50m/route-photos-v41/naver-blog-31.jpg",
+        "title": "안쪽에서 바라본 GATE 4와 바닥",
+        "viewLabel": "안쪽 사진",
+        "provider": "blog",
+        "providerLabel": "방문자 현장 사진",
+        "sourceUrl": "https://blog.naver.com/trip_with_ara/223502277469",
+        "author": "아라네",
+        "publishedAt": "2024-07-05",
+        "retrievedAt": "2026-09-30",
+        "sourceSha256": "9169feeb15401768bde1600b77873b23add308e47a14fa5985e447491cf96433",
+        "captureMethod": "published-field-photo-original",
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "continuousRouteVerified": false,
+        "scope": "2024년 7월 게시된 네이버 방문 사진이에요. GS25와 배스킨라빈스 사이 4번 표지가 있는 문을 안쪽에서 바라본 장면입니다. 대합실 전체의 연속 이동이나 현재 상태를 확인한 사진은 아니에요.",
+        "observations": [
+          {
+            "label": "안쪽 바닥과 출입문",
+            "detail": "안쪽 포장 바닥과 출입문이 함께 보여요. 문 사이 턱과 실제 통과 폭은 미측정이에요.",
+            "position": [
+              50,
+              81
+            ]
+          }
+        ],
+        "evidenceRole": {
+          "label": "문 가까이 촬영 · 과거 방문 사진",
+          "detail": "2024년 7월 게시된 네이버 방문 사진이에요. GS25와 배스킨라빈스 사이 4번 표지가 있는 문을 안쪽에서 바라본 장면입니다. 대합실 전체의 연속 이동이나 현재 상태를 확인한 사진은 아니에요."
+        },
+        "platform": "naver-blog"
+      },
+      {
+        "id": "terminal-bus-v32-door",
+        "image": "/modu50m/bus-v32/terminal-entrance-285.jpg",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201601979&pan=285&tilt=-7&zoom=0",
+        "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201601979?SERVICE=glpano",
+        "provider": "kakao",
+        "providerLabel": "카카오 로드뷰",
+        "captureDate": "2025-10-02",
+        "captureDatePrecision": "day",
+        "retrievedAt": "2026-09-25",
+        "camera": {
+          "lat": 36.3502781530258,
+          "lng": 127.437562958837,
+          "lon": 127.437562958837
+        },
+        "mapBindingVerified": false,
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "captureMethod": "source-panorama-perspective",
+        "sourceSha256": "f3047e15f0fbae06c3fe08991085ddcd84630b60e6eaf5b676a25620b749ed12",
+        "mobilityEvidence": true,
+        "scope": "이전 촬영 구도예요. 도로의 전체 방향을 비교하는 사진이며, 차도 중앙은 휠체어 이동선이 아니에요.",
+        "attribution": "Kakao · 2025-10-02",
+        "panoid": "1201601979",
+        "panoId": "1201601979",
+        "title": "기존 입구 주변 방향 참고",
+        "viewLabel": "주변 방향",
+        "observations": [],
+        "evidenceRole": {
+          "label": "전체 방향 참고",
+          "detail": "이전 촬영 구도예요. 도로의 전체 방향을 비교하는 사진이며, 차도 중앙은 휠체어 이동선이 아니에요."
+        }
+      }
+    ]
+  }
+}

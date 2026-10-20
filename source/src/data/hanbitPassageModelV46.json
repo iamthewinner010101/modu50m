@@ -1,0 +1,269 @@
+{
+  "image": "/modu50m/route-miniatures-v46/hanbit-passage.png",
+  "alt": "정류장부터 한빛탑 광장까지의 지도·사진 참고 AI 미니어처. 기념관 사이 유리 건물 아래 흰 기둥 통로를 실제 사진과 비교해 보완했습니다. 번호는 사진을 고르는 근사 구역입니다.",
+  "generated": true,
+  "positioning": "illustrative-area-not-coordinate",
+  "pins": [
+    {
+      "steps": [
+        0
+      ],
+      "label": "DCC종점",
+      "anchor": [
+        79.3,
+        74
+      ],
+      "position": [
+        84,
+        85
+      ]
+    },
+    {
+      "steps": [
+        1
+      ],
+      "label": "입구 앞 횡단",
+      "anchor": [
+        85.2,
+        56.5
+      ],
+      "position": [
+        92,
+        47
+      ]
+    },
+    {
+      "steps": [
+        2
+      ],
+      "label": "공원 입구",
+      "anchor": [
+        75.7,
+        52
+      ],
+      "position": [
+        79,
+        34
+      ]
+    },
+    {
+      "steps": [
+        3
+      ],
+      "label": "통일관 앞",
+      "anchor": [
+        55,
+        62.5
+      ],
+      "position": [
+        61,
+        74
+      ]
+    },
+    {
+      "steps": [
+        4
+      ],
+      "label": "흰 기둥 통로",
+      "anchor": [
+        56.6,
+        48.4
+      ],
+      "position": [
+        61,
+        24
+      ]
+    },
+    {
+      "steps": [
+        5
+      ],
+      "label": "탑 경사로",
+      "anchor": [
+        31.8,
+        42.5
+      ],
+      "position": [
+        15,
+        55
+      ]
+    },
+    {
+      "steps": [
+        6
+      ],
+      "label": "탑 출입문",
+      "anchor": [
+        33,
+        39.8
+      ],
+      "position": [
+        42,
+        29
+      ]
+    }
+  ],
+  "structureReview": {
+    "date": "2026-10-07",
+    "sourcePhotos": [
+      {
+        "image": "/modu50m/route-photos-v44/hanbit-canopy-floor-2024.jpg",
+        "sha256": "b05b532f20b2874865dd116a99baf1a66aabe069be66879bd1e69e8d3959cb2f"
+      },
+      {
+        "image": "/modu50m/route-photos-v44/hanbit-canopy-plaza-side-2023.jpg",
+        "sha256": "a4a9c3bd8fbe37a4e86030d3e874bdea0b5ca876de45e22cf0990abc075a0757"
+      }
+    ],
+    "visibleFeatures": [
+      "흰 원기둥",
+      "지붕 아래 열린 통로",
+      "회색 포장 바닥",
+      "용고 전시와 난간"
+    ],
+    "generatedImageSha256": "afa1302a085de11509e975fec5cd6f29cb1bd2d5b05e767f569cb7a662225bcc",
+    "fieldVerified": false,
+    "continuousRouteVerified": false,
+    "note": "참고 사진의 구조를 반영한 근사 모형입니다. 모형 수정으로 사진 연결이나 통행 가능 여부를 확인한 것으로 처리하지 않습니다."
+  },
+  "fullJourney": true,
+  "hiddenSteps": [],
+  "primaryViewReview": {
+    "date": "2026-10-07",
+    "cause": "전체 모형인 기본 구도에 fullJourney 설정이 누락됨.",
+    "rampAndDoorMarkersSplit": true,
+    "originalPictureChanged": false,
+    "anchorsAreIllustrationPixels": true,
+    "anchorsAreSurveyedCoordinates": false,
+    "walkingLinesAdded": false,
+    "actualSourceConnectionStatusChanged": false,
+    "fieldVerified": false
+  },
+  "routeSegments": [
+    {
+      "from": 0,
+      "kind": "illustrative-photo-review",
+      "to": 1,
+      "points": [
+        [
+          79.3,
+          74
+        ],
+        [
+          82.0,
+          71
+        ],
+        [
+          84.0,
+          67
+        ],
+        [
+          85.2,
+          62
+        ],
+        [
+          85.2,
+          56.5
+        ]
+      ]
+    },
+    {
+      "from": 1,
+      "kind": "illustrative-photo-review",
+      "to": 2,
+      "points": [
+        [
+          85.2,
+          56.5
+        ],
+        [
+          82.4,
+          55.4
+        ],
+        [
+          79.4,
+          53.8
+        ],
+        [
+          75.7,
+          52
+        ]
+      ]
+    },
+    {
+      "from": 2,
+      "kind": "illustrative-photo-review",
+      "to": 3,
+      "points": [
+        [
+          75.7,
+          52
+        ],
+        [
+          72.9,
+          59
+        ],
+        [
+          71.4,
+          63
+        ],
+        [
+          65.0,
+          65.0
+        ],
+        [
+          59.0,
+          64.0
+        ],
+        [
+          55,
+          62.5
+        ]
+      ]
+    },
+    {
+      "from": 5,
+      "kind": "illustrative-photo-review",
+      "to": 6,
+      "points": [
+        [
+          31.8,
+          42.5
+        ],
+        [
+          32.4,
+          41.5
+        ],
+        [
+          33,
+          39.8
+        ]
+      ]
+    }
+  ],
+  "occludedConnections": [
+    [
+      "plaza-gap",
+      "tower-ramp"
+    ]
+  ],
+  "primaryWalkingReview": {
+    "date": "2026-10-08",
+    "nativeBeforeEvidence": "whole-angles-v85-validation.json",
+    "visibleIllustrationSegments": 4,
+    "omittedSourceGap": [
+      3,
+      4
+    ],
+    "omittedRoofOcclusion": [
+      4,
+      5
+    ],
+    "imagePixelsChanged": false,
+    "photoConnectionStatusChanged": false,
+    "anchorsAreIllustrationPixels": true,
+    "anchorsAreSurveyedCoordinates": false,
+    "fieldVerified": false,
+    "note": "보이는 그림 바닥의 사진 비교 순서만 표시합니다. 연결 사진이 부족한 04→05와 지붕 뒤에 가려진 05→06은 선을 이어 그리지 않습니다."
+  }
+}

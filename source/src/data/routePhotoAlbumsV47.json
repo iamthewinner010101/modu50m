@@ -1,0 +1,227 @@
+{
+  "leeungno": {
+    "bus-v32-side": [
+      {
+        "id": "official-v47-leeungno-park-approach-201910",
+        "image": "/modu50m/route-photos-v47/leeungno-park-approach-201910.jpg",
+        "title": "공원 쪽 보행길에서 미술관 앞으로",
+        "viewLabel": "공원 쪽 보행길에서 미술관 앞으로",
+        "provider": "official",
+        "providerLabel": "이응노미술관 · Google Arts & Culture 공식 야외 투어",
+        "platform": "google-arts-and-culture",
+        "author": "이응노미술관",
+        "sourceUrl": "https://artsandculture.google.com/streetview/이응노미술관-외부/uQFbDo7NlhL6_Q?sv_pid=Kw0jwMLT0EMAAARE-vWQ1A&sv_lat=36.36661342242301&sv_lng=127.3866358523769&sv_h=0&sv_p=-12&sv_z=1",
+        "imageSourceUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Kw0jwMLT0EMAAARE-vWQ1A&cb_client=maps_sv.tactile&w=1409&h=1101&yaw=0&pitch=-12&thumbfov=90",
+        "capturedAt": "2019-10",
+        "captureDatePrecision": "month",
+        "retrievedAt": "2026-10-06",
+        "sourceDimensions": [
+          982,
+          768
+        ],
+        "cameraCoordinate": [
+          36.36661342242301,
+          127.3866358523769
+        ],
+        "panoramaId": "Kw0jwMLT0EMAAARE-vWQ1A",
+        "heading": 0,
+        "pitch": -12,
+        "sha256": "9d798b9ac53b7da71e071345d6c8b142e1a459e5783cddce185fb79de79e9af8",
+        "captureMethod": "provider-rendered-original-bytes-no-retouch",
+        "scope": "벽의 긴 가로 창·소나무·점자블록을 따라 앞마당 사진과 비교해요. 주차장 쪽 계단과 다른 접근 방향이에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "벽의 긴 가로 창·소나무·점자블록을 따라 앞마당 사진과 비교해요. 주차장 쪽 계단과 다른 접근 방향이에요."
+        },
+        "evidenceRole": {
+          "label": "공원 쪽 접근 방향 · 앞뒤 바닥 비교",
+          "detail": "2019년 10월 공식 야외 투어 사진이에요. 2026년 방문 사진과 같은 벽·나무·점자블록을 비교하며 현재 통과 폭과 바닥 상태는 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "앞마당으로 이어지는 바닥",
+            "position": [
+              53,
+              75
+            ],
+            "detail": "회색 포장과 왼쪽 점자블록을 확대해요. 사진에서 폭·기울기나 현재 통행 상태를 측정한 자료는 아니에요."
+          },
+          {
+            "label": "같은 벽·소나무 찾기",
+            "position": [
+              71,
+              53
+            ],
+            "detail": "벽의 긴 가로 창과 지붕 아래 소나무를 다음 사진에서도 찾아 방향을 맞춰요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "official-v47-leeungno-park-wall-joint-201910",
+        "image": "/modu50m/route-photos-v47/leeungno-park-wall-joint-201910.jpg",
+        "title": "앞마당에 닿는 점자블록과 포장 바닥",
+        "viewLabel": "앞마당에 닿는 점자블록과 포장 바닥",
+        "provider": "official",
+        "providerLabel": "이응노미술관 · Google Arts & Culture 공식 야외 투어",
+        "platform": "google-arts-and-culture",
+        "author": "이응노미술관",
+        "sourceUrl": "https://artsandculture.google.com/streetview/이응노미술관-외부/uQFbDo7NlhL6_Q?sv_pid=M_lD1PSSV2sAAARE-vWQ0w&sv_lat=36.36668576727486&sv_lng=127.386633488766&sv_h=0&sv_p=-12&sv_z=1",
+        "imageSourceUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=M_lD1PSSV2sAAARE-vWQ0w&cb_client=maps_sv.tactile&w=1409&h=1101&yaw=0&pitch=-12&thumbfov=90",
+        "capturedAt": "2019-10",
+        "captureDatePrecision": "month",
+        "retrievedAt": "2026-10-06",
+        "sourceDimensions": [
+          982,
+          768
+        ],
+        "cameraCoordinate": [
+          36.36668576727486,
+          127.386633488766
+        ],
+        "panoramaId": "M_lD1PSSV2sAAARE-vWQ0w",
+        "heading": 0,
+        "pitch": -12,
+        "sha256": "73791ad3107cd1cffcacee1a7b7b9ccc6caf41e64570e80dc4c940eb0c4caad6",
+        "captureMethod": "provider-rendered-original-bytes-no-retouch",
+        "scope": "벽의 긴 가로 창·소나무·점자블록을 따라 앞마당 사진과 비교해요. 주차장 쪽 계단과 다른 접근 방향이에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "벽의 긴 가로 창·소나무·점자블록을 따라 앞마당 사진과 비교해요. 주차장 쪽 계단과 다른 접근 방향이에요."
+        },
+        "evidenceRole": {
+          "label": "공원 쪽 접근 방향 · 앞뒤 바닥 비교",
+          "detail": "2019년 10월 공식 야외 투어 사진이에요. 2026년 방문 사진과 같은 벽·나무·점자블록을 비교하며 현재 통과 폭과 바닥 상태는 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "앞마당으로 이어지는 바닥",
+            "position": [
+              53,
+              75
+            ],
+            "detail": "회색 포장과 왼쪽 점자블록을 확대해요. 사진에서 폭·기울기나 현재 통행 상태를 측정한 자료는 아니에요."
+          },
+          {
+            "label": "같은 벽·소나무 찾기",
+            "position": [
+              71,
+              53
+            ],
+            "detail": "벽의 긴 가로 창과 지붕 아래 소나무를 다음 사진에서도 찾아 방향을 맞춰요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "official-v47-leeungno-park-approach-return-201910",
+        "image": "/modu50m/route-photos-v47/leeungno-park-approach-return-201910.jpg",
+        "title": "공원 갈림길 쪽을 돌아본 보행 바닥",
+        "viewLabel": "공원 갈림길 쪽을 돌아본 보행 바닥",
+        "provider": "official",
+        "providerLabel": "이응노미술관 · Google Arts & Culture 공식 야외 투어",
+        "platform": "google-arts-and-culture",
+        "author": "이응노미술관",
+        "sourceUrl": "https://artsandculture.google.com/streetview/이응노미술관-외부/uQFbDo7NlhL6_Q?sv_pid=M_lD1PSSV2sAAARE-vWQ0w&sv_lat=36.36668576727486&sv_lng=127.386633488766&sv_h=180&sv_p=-12&sv_z=1",
+        "imageSourceUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=M_lD1PSSV2sAAARE-vWQ0w&cb_client=maps_sv.tactile&w=1409&h=1101&yaw=180&pitch=-12&thumbfov=90",
+        "capturedAt": "2019-10",
+        "captureDatePrecision": "month",
+        "retrievedAt": "2026-10-06",
+        "sourceDimensions": [
+          982,
+          768
+        ],
+        "cameraCoordinate": [
+          36.36668576727486,
+          127.386633488766
+        ],
+        "panoramaId": "M_lD1PSSV2sAAARE-vWQ0w",
+        "heading": 180,
+        "pitch": -12,
+        "sha256": "e3b44d2709bd7c58d738dafee07a59f612df2361bafef445dfdb07e5b5b32373",
+        "captureMethod": "provider-rendered-original-bytes-no-retouch",
+        "scope": "뒤쪽 공원 갈림길과 표지석을 찾아요. 앞마당에서 공원 보행길을 돌아본 방향이에요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "뒤쪽 공원 갈림길과 표지석을 찾아요. 앞마당에서 공원 보행길을 돌아본 방향이에요."
+        },
+        "evidenceRole": {
+          "label": "공원 쪽 접근 방향 · 앞뒤 바닥 비교",
+          "detail": "2019년 10월 공식 야외 투어 사진이에요. 2026년 방문 사진과 같은 벽·나무·점자블록을 비교하며 현재 통과 폭과 바닥 상태는 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "공원 보도 접점",
+            "position": [
+              48,
+              64
+            ],
+            "detail": "표지석 옆 보도와 넓은 포장 길이 만나는 바닥을 살펴봐요. 버스정류장까지 전체 연결을 확인한 사진은 아니에요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "research-a-01": [
+      {
+        "id": "visitor-v47-leeungno-park-forecourt-202606",
+        "image": "/modu50m/route-photos-v47/leeungno-park-forecourt-published-202606.jpg",
+        "title": "공원 길과 지붕 아래 앞마당 · 점자블록이 꺾이는 곳",
+        "viewLabel": "공원 길 → 앞마당",
+        "provider": "reference",
+        "providerLabel": "metelsk · 실제 방문 사진",
+        "platform": "naver-blog",
+        "author": "metelsk · 방문 기록",
+        "sourceUrl": "https://blog.naver.com/metelsk/224308329645",
+        "imageSourceUrl": "https://postfiles.pstatic.net/MjAyNjA2MDdfODAg/MDAxNzgwNzkxODU1Mjcy.fZsdAToB1QcCyOLfcQ6OGYp3rvaEi-wYjV2V4G2VFT8g.bV3kXE6fQtzNKJZrzsxuLbr45oaTT6out0GsSeygBGIg.JPEG/KakaoTalk_20260607_090400121_18.jpg?type=w580",
+        "publishedAt": "2026-06-07",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-06",
+        "sha256": "d9ebd492eb3a2e138e6d717be4c7443b24b829cfa1ef5b4673477381ee21ceb0",
+        "captureMethod": "literal-public-DOM-served-image-unmodified",
+        "scope": "공원 보행길에서 지붕 아래 앞마당으로 이어지는 바닥을 봐요. 벽의 긴 창·소나무·점자블록을 05번 사진과 맞춰 봐요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "공원 보행길에서 지붕 아래 앞마당으로 이어지는 바닥을 봐요. 벽의 긴 창·소나무·점자블록을 05번 사진과 맞춰 봐요."
+        },
+        "evidenceRole": {
+          "label": "실제 방문 사진 · 공원 길과 앞마당 접점",
+          "detail": "2026년 6월 7일에 게시된 사진이에요. 개별 촬영일은 확인되지 않았어요. 사진에서 현재 통행 상태나 바닥 높이를 측정한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "점자블록이 꺾이는 바닥",
+            "position": [
+              17,
+              78
+            ],
+            "detail": "공원 쪽 노란 점자블록이 앞마당으로 꺾이는 곳을 확대하고 05번 보행길 사진과 비교해요."
+          },
+          {
+            "label": "소나무 옆 입구 방향",
+            "position": [
+              74,
+              68
+            ],
+            "detail": "지붕 아래 소나무와 오른쪽 유리문 방향을 찾아요. 마지막 07번 문 앞 사진과도 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  }
+}

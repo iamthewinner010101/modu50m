@@ -1,0 +1,200 @@
+[
+  {
+    "placeId": "civic",
+    "photos": [
+      {
+        "pointId": "mobility-v20-01",
+        "photo": {
+          "id": "civic-source-v20-01",
+          "image": "/modu50m/mobility-v20/civic-01-c784971b.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996375&urlX=586011.0&urlY=793361.0&pan=34.99735269371263&tilt=0.0&zoom=0&urlLevel=3",
+          "provider": "Kakao Roadview",
+          "providerLabel": "카카오 로드뷰",
+          "attribution": "카카오 로드뷰 · 기존 원본 캡처",
+          "captureDate": "2025-09-18",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureMethod": "existing-streetview-projection-unmodified",
+          "sourceSha256": "c784971b2081dcb2c82e765b8431974a6cadfe380096c97abb1695c660984922",
+          "mobilityEvidence": true,
+          "scope": "둔산2동 행정복지센터 앞 보도 일부입니다. 건물 식별은 기존 공식 전경·주소 대조를 참고했고, 민원실 문까지의 이동 연결은 확인 전입니다.",
+          "identityCorroborationUrl": "https://www.seogu.go.kr/kor/sub05_05_09_01.do",
+          "sourcePanorama": {
+            "key": "P1-R",
+            "panoId": 1200996375,
+            "panoLat": 36.353557378104,
+            "panoLng": 127.383294447025,
+            "captureDate": "2025-09-18T06:31:20",
+            "targetBearing": 17.0,
+            "selectedHeading": 35.0,
+            "panoramaNorthOffset": 89.6,
+            "renderHeading": 124.6,
+            "headingOffset": 18,
+            "targetDistanceMeters": 17.08,
+            "fov": 82,
+            "pitch": -6,
+            "image": "outputs/dunsan-roadview-direction-audit/D50-009/D50-009-P1-R.jpg",
+            "roadviewUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996375&urlX=586011.0&urlY=793361.0&pan=34.99735269371263&tilt=0.0&zoom=0&urlLevel=3"
+          }
+        },
+        "review": {
+          "title": "센터 앞 가로수 보도와 주차장 진입부",
+          "question": "나무 옆 보도에서 주차장 입구를 지날 때 무엇을 확인할까요?",
+          "observations": [
+            {
+              "label": "가로수 보호 공간",
+              "detail": "센터 담장 밖 보도에 가로수와 사각 보호 공간이 있습니다.",
+              "effect": "나무를 피해 지나는 폭과 블록 경계를 살펴봐야 합니다.",
+              "check": "가로수 보호틀 옆 유효 폭과 포장 들뜸",
+              "position": [
+                19,
+                78
+              ]
+            },
+            {
+              "label": "주차장 입구의 보도 경계",
+              "detail": "돌담 사이 차량 입구와 앞쪽 보도 경계가 보입니다.",
+              "effect": "차량 입구를 건너는 곳의 높이 차를 확인해야 합니다.",
+              "check": "차량 출입부 양끝의 턱과 보행 공간",
+              "position": [
+                73,
+                57
+              ]
+            },
+            {
+              "label": "건물 쪽 문과 주차 공간",
+              "detail": "주차 공간 너머에 문이 보이지만 앞쪽 바닥은 멀거나 가려집니다.",
+              "effect": "보도에서 문까지의 전체 연결은 아직 확인되지 않았습니다.",
+              "check": "차량에 가리지 않은 민원실 문 앞 접근부",
+              "position": [
+                60,
+                45
+              ]
+            }
+          ],
+          "unknowns": [
+            "가로수 옆 보도 폭과 차량 출입부 경계 높이",
+            "주차장 입구에서 민원실 문까지 이어지는 바닥"
+          ],
+          "connection": "둔산2동 행정복지센터 앞 보도 일부입니다. 건물 식별은 기존 공식 전경·주소 대조를 참고했고, 민원실 문까지의 이동 연결은 확인 전입니다.",
+          "kind": "segment",
+          "image": "/modu50m/mobility-v20/civic-01-c784971b.jpg",
+          "photoId": "civic-source-v20-01",
+          "sourceSha256": "c784971b2081dcb2c82e765b8431974a6cadfe380096c97abb1695c660984922",
+          "focus": [
+            50,
+            73
+          ],
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "shortTitle": "센터 앞 가로수 보도와 주차장 진입부",
+        "qualityNotes": "기존 공식 전경·주소 대조를 참고해 같은 센터 앞 보도의 원본 캡처를 추가. 차량·가로수와 보도 경계 관찰만 하며 민원실 문까지 연결은 미확인."
+      },
+      {
+        "pointId": "mobility-v20-02",
+        "photo": {
+          "id": "civic-source-v20-02",
+          "image": "/modu50m/mobility-v20/civic-02-ccfbb363.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996379&urlX=586062.0&urlY=793361.0&pan=316.901500528663&tilt=0.0&zoom=0&urlLevel=3",
+          "provider": "Kakao Roadview",
+          "providerLabel": "카카오 로드뷰",
+          "attribution": "카카오 로드뷰 · 기존 원본 캡처",
+          "captureDate": "2025-09-18",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureMethod": "existing-streetview-projection-unmodified",
+          "sourceSha256": "ccfbb363435bd44ea8f66d105cd3b185fae96ad62046553aaab152b3a94bc3f8",
+          "mobilityEvidence": true,
+          "scope": "센터 차량 출입구를 다른 위치에서 본 장면입니다. 파란 바닥 표시를 보행 경사로나 출입문 연결로 해석하지 않습니다.",
+          "identityCorroborationUrl": "https://www.seogu.go.kr/kor/sub05_05_09_01.do",
+          "sourcePanorama": {
+            "key": "P4-C",
+            "panoId": 1200996379,
+            "panoLat": 36.3535566488803,
+            "panoLng": 127.383521715881,
+            "captureDate": "2025-09-18T06:31:22",
+            "targetBearing": 316.9,
+            "selectedHeading": 316.9,
+            "panoramaNorthOffset": 89.6,
+            "renderHeading": 46.5,
+            "headingOffset": 0,
+            "targetDistanceMeters": 22.48,
+            "fov": 82,
+            "pitch": -6,
+            "image": "outputs/dunsan-roadview-direction-audit/D50-009/D50-009-P4-C.jpg",
+            "roadviewUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996379&urlX=586062.0&urlY=793361.0&pan=316.901500528663&tilt=0.0&zoom=0&urlLevel=3"
+          }
+        },
+        "review": {
+          "title": "돌담 사이 넓은 차량 출입부",
+          "question": "보도가 차량 출입구에서 끊기는 부분을 어떻게 건널까요?",
+          "observations": [
+            {
+              "label": "차량 출입부의 바닥",
+              "detail": "돌담 사이에 아스팔트 차량 출입부가 있습니다.",
+              "effect": "차량과 동선이 겹치는 부분의 보행 공간을 확인해야 합니다.",
+              "check": "횡단 위치와 차량 통행 상황",
+              "position": [
+                65,
+                78
+              ]
+            },
+            {
+              "label": "왼쪽 보도 끝",
+              "detail": "돌담 앞 보도가 출입구 경계와 만납니다.",
+              "effect": "보도에서 내려가고 다시 올라가는 높이를 살펴봐야 합니다.",
+              "check": "양쪽 보도 끝의 턱·기울기",
+              "position": [
+                46,
+                80
+              ]
+            },
+            {
+              "label": "오른쪽 나무와 기둥",
+              "detail": "출입구 오른쪽에 나무와 돌기둥이 있습니다.",
+              "effect": "차량 출입부를 지난 뒤 통과할 공간이 남아 있는지 확인해야 합니다.",
+              "check": "나무·기둥 옆 통과 폭과 다음 보도 연결",
+              "position": [
+                86,
+                77
+              ]
+            }
+          ],
+          "unknowns": [
+            "차량 출입부 양끝의 높이 차",
+            "보도에서 실제 민원실 출입문까지 연결"
+          ],
+          "connection": "센터 차량 출입구를 다른 위치에서 본 장면입니다. 파란 바닥 표시를 보행 경사로나 출입문 연결로 해석하지 않습니다.",
+          "kind": "segment",
+          "image": "/modu50m/mobility-v20/civic-02-ccfbb363.jpg",
+          "photoId": "civic-source-v20-02",
+          "sourceSha256": "ccfbb363435bd44ea8f66d105cd3b185fae96ad62046553aaab152b3a94bc3f8",
+          "focus": [
+            50,
+            73
+          ],
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "shortTitle": "돌담 사이 넓은 차량 출입부",
+        "qualityNotes": "기존 공식 전경·주소 대조를 참고해 같은 센터 앞 보도의 원본 캡처를 추가. 차량·가로수와 보도 경계 관찰만 하며 민원실 문까지 연결은 미확인."
+      }
+    ],
+    "existingPhotos": [],
+    "missingShots": [
+      "가로수 보호 공간 옆의 보도 유효 폭",
+      "주차장 차량 출입부 양쪽의 턱과 기울기",
+      "차량 진입부에서 실제 민원실 문까지의 바닥·문턱"
+    ],
+    "note": "앞 보도와 차량 출입부를 추가로 관찰했습니다. 기존 주변 참고 사진과 기록 키는 보존합니다."
+  }
+]

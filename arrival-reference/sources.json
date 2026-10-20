@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-30",
+  "assets": [{
+    "file": "terminal-east-1f.svg",
+    "title": "대전복합터미널 동관 1층 공식 안내도",
+    "sourcePage": "https://www.djbusterminal.co.kr/facility_east",
+    "assetUrl": "https://www.djbusterminal.co.kr/public/images/sub/map_e1f.svg",
+    "publisher": "대전복합터미널",
+    "planDate": "2026-01",
+    "captureDate": null,
+    "mediaType": "official-floor-plan",
+    "observedPageText": "1F 하차장 / 갤러리(d2) / 편의시설",
+    "limitations": "지도상의 배치를 설명하는 안내도. 길의 폭·경사·단차 또는 현재 연속 통행의 증거가 아님. 이미지 내 시설 표시는 동선 체크포인트와 다름.",
+    "continuousRouteVerified": false
+  }]
+}

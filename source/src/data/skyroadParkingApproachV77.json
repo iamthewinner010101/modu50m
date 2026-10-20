@@ -1,0 +1,287 @@
+{
+  "from": 3,
+  "name": "으능정이상점가 고객주차장 · 중교로 79-1",
+  "destination": "스카이로드 옆 골목 진입부",
+  "finish": "거리에서 방문할 가게를 고른 뒤 그 가게의 문턱·출입문을 따로 확인해요.",
+  "heads": [
+    {
+      "id": "skyroad-parking-floor",
+      "title": "고객주차장 바닥·차단기",
+      "miniatureLabel": "고객주차장 바닥·차단기",
+      "pointId": null,
+      "stage": "arrival",
+      "instruction": "정산실 옆 장애인 주차구역과 차단기를 먼저 봐요. 주차 차량 옆 바닥과 차량 출입 공간을 구분해요.",
+      "coordinate": [
+        36.3270798,
+        127.4283238
+      ],
+      "coordinateKind": "source-camera-not-walking-point",
+      "next": {
+        "status": "map-reviewed",
+        "detail": "사진과 지도의 같은 주차장·골목을 기준으로 다음 위치를 비교해요. 촬영 시점이 서로 달라 현재 바닥과 장애물 배치는 달라질 수 있어요.",
+        "sourceUrls": [
+          "https://djjunggu.go.kr/prog/prkplce/tour/sub01_03_04/list.do?pageIndex=15",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=_JXHKMGIh7KH59jzLpgfww,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=q7Gw_xJ7uDBfQ_A5IO-JBQ,0.0,10.0,80.0,Float"
+        ]
+      },
+      "continuousRouteVerified": false,
+      "fieldVerified": false,
+      "guide": {
+        "direction": "정산실 옆 장애인 주차구역과 차단기를 먼저 봐요. 주차 차량 옆 바닥과 차량 출입 공간을 구분해요.",
+        "landmark": "장애인 주차 표시·회색 정산실·청록색 차양",
+        "inspect": "주차 차량 옆 바닥·멈춤턱·차단기·뒤쪽 울타리"
+      }
+    },
+    {
+      "id": "skyroad-parking-curb",
+      "title": "주차장 앞 중교로 보도",
+      "miniatureLabel": "주차장 앞 중교로 보도",
+      "pointId": null,
+      "stage": "walk",
+      "instruction": "주차장 이름이 적힌 현수막과 청록색 정산실 차양을 찾아요. 보도의 가로수·배수구·물건과 차량 출입부를 비교해요.",
+      "coordinate": [
+        36.3268894,
+        127.428216
+      ],
+      "coordinateKind": "source-camera-not-walking-point",
+      "next": {
+        "status": "gap",
+        "detail": "주차장 앞 보도에서 상점 골목 입구로 방향을 바꾸는 보도 접점의 연속 사진은 아직 부족해요. 이 사이의 점선은 잇지 않았어요.",
+        "sourceUrls": [
+          "https://djjunggu.go.kr/prog/prkplce/tour/sub01_03_04/list.do?pageIndex=15",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=q7Gw_xJ7uDBfQ_A5IO-JBQ,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=EZn_bRgWcoySH_v5WGqtRQ,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=xerAp3fbIeWqcV6hNM_Cyg,0.0,10.0,80.0,Float"
+        ]
+      },
+      "continuousRouteVerified": false,
+      "fieldVerified": false,
+      "guide": {
+        "direction": "주차장 이름이 적힌 현수막과 청록색 정산실 차양을 찾아요. 보도의 가로수·배수구·물건과 차량 출입부를 비교해요.",
+        "landmark": "고객주차장 현수막·중교로 보도·가로수",
+        "inspect": "배수구·보도 위 물건·차량 진출입부"
+      }
+    },
+    {
+      "id": "skyroad-parking-west-turn",
+      "title": "상점 골목 입구와 갈림길",
+      "miniatureLabel": "상점 골목 갈림길",
+      "pointId": null,
+      "stage": "walk",
+      "instruction": "상점 골목 입구 → 흰 건물 모서리의 옆 골목 → 볼라드 순서로 사진을 비교해요. 입구를 되돌아본 사진과 안쪽을 바라본 사진을 함께 살펴봐요.",
+      "coordinate": [
+        36.3272917,
+        127.4278531
+      ],
+      "coordinateKind": "source-camera-not-walking-point",
+      "continuousRouteVerified": false,
+      "fieldVerified": false,
+      "guide": {
+        "direction": "상점 골목 입구 → 흰 건물 모서리의 옆 골목 → 볼라드 순서로 사진을 비교해요. 입구를 되돌아본 사진과 안쪽을 바라본 사진을 함께 살펴봐요.",
+        "landmark": "줄무늬 가게·흰 건물 모서리·주황색 차양",
+        "inspect": "골목 입구의 턱·입간판·배수구·차량·방향을 바꾸는 바닥"
+      },
+      "next": {
+        "status": "map-reviewed",
+        "detail": "흰 건물 옆 벽·주황색 차양·옆 골목 바닥을 서로 다른 사진에서 비교했어요. 현재 통행 폭이나 차량 배치는 확인한 결과가 아니에요.",
+        "sourceUrls": [
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=xerAp3fbIeWqcV6hNM_Cyg,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=9eizkYBJK1h1EN-vxTxesw,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=R6cBAE89KCZyktFPFC0lIQ,0.0,10.0,80.0,Float"
+        ],
+        "photographicComparison": true,
+        "fieldVerified": false
+      },
+      "photoOrder": [
+        "/modu50m/route-photos-v83/skyroad-road-joint-f0.png",
+        "/modu50m/route-photos-v83/skyroad-entrance-f2.png",
+        "/modu50m/route-photos-v78/skyroad-corner-f2.png",
+        "/modu50m/route-photos-v78/skyroad-west-f0.png",
+        "/modu50m/route-photos-v78/skyroad-west-f3.png"
+      ]
+    },
+    {
+      "id": "skyroad-parking-bollards",
+      "title": "골목 입구의 볼라드",
+      "miniatureLabel": "골목 입구의 볼라드",
+      "pointId": null,
+      "stage": "walk",
+      "instruction": "초록 울타리와 건물 사이 골목의 볼라드를 살펴봐요. 자전거·입간판·차량이 남긴 통과 공간을 사진에서 비교해요.",
+      "coordinate": [
+        36.3274191,
+        127.4280913
+      ],
+      "coordinateKind": "source-camera-not-walking-point",
+      "next": {
+        "status": "map-reviewed",
+        "detail": "사진과 지도의 같은 주차장·골목을 기준으로 다음 위치를 비교해요. 촬영 시점이 서로 달라 현재 바닥과 장애물 배치는 달라질 수 있어요.",
+        "sourceUrls": [
+          "https://djjunggu.go.kr/prog/prkplce/tour/sub01_03_04/list.do?pageIndex=15",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=R6cBAE89KCZyktFPFC0lIQ,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=2L-TkvheXb6FkOPcB6ZIQQ,0.0,10.0,80.0,Float"
+        ]
+      },
+      "continuousRouteVerified": false,
+      "fieldVerified": false,
+      "guide": {
+        "direction": "초록 울타리와 건물 사이 골목의 볼라드를 살펴봐요. 자전거·입간판·차량이 남긴 통과 공간을 사진에서 비교해요.",
+        "landmark": "초록 울타리·볼라드·분홍 벽",
+        "inspect": "볼라드 사이·자전거·입간판·좁아지는 곳"
+      },
+      "photoOrder": [
+        "/modu50m/route-photos-v78/skyroad-mouth-f0.png",
+        "/modu50m/route-photos-v77/skyroad-south-f0.png",
+        "/modu50m/route-photos-v78/skyroad-mouth-f2.png",
+        "/modu50m/route-photos-v77/skyroad-south-f2.png"
+      ]
+    },
+    {
+      "id": "skyroad-parking-alley",
+      "title": "골목 중간의 차량·짐",
+      "miniatureLabel": "골목 중간의 차량·짐",
+      "pointId": null,
+      "stage": "walk",
+      "instruction": "골목 안쪽에서 캐노피가 보이는 방향을 찾아요. 같은 골목의 반대 방향 사진도 골라 차량·짐·가게 앞 바닥을 비교해요.",
+      "coordinate": [
+        36.3278333,
+        127.4280288
+      ],
+      "coordinateKind": "source-camera-not-walking-point",
+      "next": {
+        "status": "map-reviewed",
+        "detail": "사진과 지도의 같은 주차장·골목을 기준으로 다음 위치를 비교해요. 촬영 시점이 서로 달라 현재 바닥과 장애물 배치는 달라질 수 있어요.",
+        "sourceUrls": [
+          "https://djjunggu.go.kr/prog/prkplce/tour/sub01_03_04/list.do?pageIndex=15",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=2L-TkvheXb6FkOPcB6ZIQQ,0.0,10.0,80.0,Float",
+          "https://map.naver.com/p?c=17.0,0,0,0,adh&p=Ip0D0kKgTjKmGD8giCGyEg,0.0,10.0,80.0,Float"
+        ]
+      },
+      "continuousRouteVerified": false,
+      "fieldVerified": false,
+      "guide": {
+        "direction": "골목 안쪽에서 캐노피가 보이는 방향을 찾아요. 같은 골목의 반대 방향 사진도 골라 차량·짐·가게 앞 바닥을 비교해요.",
+        "landmark": "가게 입간판·스카이로드 캐노피",
+        "inspect": "차량·짐·배수구·가게 앞 돌출 부분"
+      }
+    },
+    {
+      "id": "skyroad-parking-canopy",
+      "title": "스카이로드 옆 골목 합류부",
+      "miniatureLabel": "스카이로드 옆 골목 합류부",
+      "pointId": null,
+      "stage": "entrance",
+      "instruction": "골목 끝의 가로 바닥과 스카이로드 캐노피 아래 보행거리가 만나는 곳을 봐요. 기둥·입간판·차량 옆 통과 공간을 확대해요.",
+      "coordinate": [
+        36.3283029,
+        127.4279875
+      ],
+      "coordinateKind": "source-camera-not-walking-point",
+      "next": null,
+      "continuousRouteVerified": false,
+      "fieldVerified": false,
+      "guide": {
+        "direction": "골목 끝의 가로 바닥과 스카이로드 캐노피 아래 보행거리가 만나는 곳을 봐요. 기둥·입간판·차량 옆 통과 공간을 확대해요.",
+        "landmark": "캐노피 기둥·가로 골목의 포장 바닥",
+        "inspect": "골목과 거리의 바닥 이음새·기둥·입간판"
+      }
+    }
+  ],
+  "pins": [
+    {
+      "steps": [
+        0
+      ],
+      "label": "주차장 바닥",
+      "anchor": [
+        41,
+        61
+      ],
+      "position": [
+        58,
+        75
+      ]
+    },
+    {
+      "steps": [
+        1
+      ],
+      "label": "주차장 앞 보도",
+      "anchor": [
+        33.5,
+        69.5
+      ],
+      "position": [
+        34,
+        89
+      ]
+    },
+    {
+      "steps": [
+        2
+      ],
+      "label": "상점 골목 갈림길",
+      "anchor": [
+        27.6,
+        37
+      ],
+      "position": [
+        13,
+        49
+      ]
+    },
+    {
+      "steps": [
+        3
+      ],
+      "label": "골목 볼라드",
+      "anchor": [
+        47,
+        34.1
+      ],
+      "position": [
+        47,
+        46
+      ]
+    },
+    {
+      "steps": [
+        4
+      ],
+      "label": "골목 중간",
+      "anchor": [
+        47,
+        22.5
+      ],
+      "position": [
+        47,
+        17
+      ]
+    },
+    {
+      "steps": [
+        5
+      ],
+      "label": "거리 합류부",
+      "anchor": [
+        61.7,
+        16.5
+      ],
+      "position": [
+        76,
+        27
+      ]
+    }
+  ],
+  "note": "주차장 바닥 → 중교로 보도 → 상점 골목 갈림길 → 볼라드 → 골목 중간 → 스카이로드 옆 합류부를 비교해요. 버스 화면의 북쪽 입구와 다른 접근이에요. 뒤쪽 울타리를 가로지르는 길로 표시하지 않아요. 보도에서 상점 골목으로 들어가는 접점은 사진이 부족해 선을 잇지 않았어요.",
+  "sources": [
+    {
+      "title": "중구 공식 고객주차장 위치 · 중교로 79-1",
+      "url": "https://djjunggu.go.kr/prog/prkplce/tour/sub01_03_04/list.do?pageIndex=15"
+    }
+  ],
+  "startCoordinate": [
+    36.3270798,
+    127.4283238
+  ]
+}

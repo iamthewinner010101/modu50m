@@ -1,0 +1,1916 @@
+{
+  "arboretum": [
+    {
+      "id": "whole-southeast",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장·온실 입구를 함께",
+      "image": "/modu50m/route-full-v71/arboretum-southeast.png",
+      "alt": "한밭수목원 정류장부터 열대식물원 문까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "label": "정류장 하차",
+          "anchor": [
+            35.0,
+            53.2
+          ],
+          "position": [
+            23,
+            72
+          ]
+        },
+        {
+          "steps": [
+            1
+          ],
+          "label": "동쪽 보도",
+          "anchor": [
+            43.8,
+            56.2
+          ],
+          "position": [
+            44,
+            78
+          ]
+        },
+        {
+          "steps": [
+            2
+          ],
+          "label": "안쪽으로",
+          "anchor": [
+            54.9,
+            59.5
+          ],
+          "position": [
+            69,
+            75
+          ]
+        },
+        {
+          "steps": [
+            3
+          ],
+          "label": "온실 쪽 길",
+          "anchor": [
+            59.1,
+            42.5
+          ],
+          "position": [
+            78,
+            45
+          ]
+        },
+        {
+          "steps": [
+            4
+          ],
+          "label": "온실 입구",
+          "anchor": [
+            66.0,
+            31.3
+          ],
+          "position": [
+            80,
+            18
+          ]
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              35.0,
+              53.2
+            ],
+            [
+              43.8,
+              56.2
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              43.8,
+              56.2
+            ],
+            [
+              49.6,
+              58.6
+            ],
+            [
+              54.9,
+              59.5
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              54.9,
+              59.5
+            ],
+            [
+              55.3,
+              55.8
+            ],
+            [
+              57.0,
+              50.0
+            ],
+            [
+              59.1,
+              42.5
+            ]
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              59.1,
+              42.5
+            ],
+            [
+              60.7,
+              36.2
+            ],
+            [
+              62.6,
+              33.6
+            ],
+            [
+              66.0,
+              31.3
+            ]
+          ]
+        }
+      ],
+      "fullJourney": true,
+      "parkingPinOverrides": {
+        "arboretum-parking-start": {
+          "anchor": [
+            45.5,
+            47.5
+          ],
+          "position": [
+            38.2,
+            41.0
+          ],
+          "label": "주차장 출발"
+        }
+      },
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen edit of the existing whole-journey illustration; manually calibrated illustration anchors. Not a survey or new route evidence."
+    }
+  ],
+  "museum": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장·입구를 함께",
+      "image": "/modu50m/route-full-v72/museum-alternate.png",
+      "alt": "대전시립미술관 정류장부터 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            44.5,
+            60.5
+          ],
+          "position": [
+            25,
+            73
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            50.7,
+            59.1
+          ],
+          "position": [
+            54,
+            78
+          ],
+          "label": "미술관 쪽 보도"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            49.5,
+            53.4
+          ],
+          "position": [
+            29,
+            46
+          ],
+          "label": "보행 접점"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            48.9,
+            47.4
+          ],
+          "position": [
+            63,
+            48
+          ],
+          "label": "공원 갈림길"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            51.5,
+            36.5
+          ],
+          "position": [
+            44,
+            20
+          ],
+          "label": "입구 쪽 경사로"
+        },
+        {
+          "steps": [
+            5
+          ],
+          "anchor": [
+            55.1,
+            33.0
+          ],
+          "position": [
+            70,
+            21
+          ],
+          "label": "출입문 구역"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              44.5,
+              60.5
+            ],
+            [
+              50.7,
+              59.1
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              50.7,
+              59.1
+            ],
+            [
+              50.2,
+              56.5
+            ],
+            [
+              49.5,
+              53.4
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              49.5,
+              53.4
+            ],
+            [
+              48.9,
+              47.4
+            ]
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              51.5,
+              36.5
+            ],
+            [
+              53.6,
+              34.5
+            ],
+            [
+              55.1,
+              33.0
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen edit of the existing whole-route miniature. Original layout retained, full plinth reframed, illustration anchors manually calibrated. Not new photographed route evidence."
+    }
+  ],
+  "leeungno": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장·입구를 함께",
+      "image": "/modu50m/route-full-v72/leeungno-alternate.png",
+      "alt": "이응노미술관 정류장부터 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            34.8,
+            52.25
+          ],
+          "position": [
+            25,
+            67
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            40.6,
+            54.2
+          ],
+          "position": [
+            44,
+            72
+          ],
+          "label": "미술관 쪽 보도"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            42.5,
+            47.0
+          ],
+          "position": [
+            28,
+            40
+          ],
+          "label": "공원 보행로"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            49.9,
+            45.6
+          ],
+          "position": [
+            61,
+            64
+          ],
+          "label": "남쪽 갈림길"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            62.3,
+            42.2
+          ],
+          "position": [
+            82,
+            49
+          ],
+          "label": "공원 쪽 보행길"
+        },
+        {
+          "steps": [
+            5
+          ],
+          "anchor": [
+            64.2,
+            38.0
+          ],
+          "position": [
+            57,
+            24
+          ],
+          "label": "앞마당"
+        },
+        {
+          "steps": [
+            6
+          ],
+          "anchor": [
+            65.8,
+            35.9
+          ],
+          "position": [
+            76,
+            24
+          ],
+          "label": "출입문 구역"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              34.8,
+              52.25
+            ],
+            [
+              38.2,
+              53.5
+            ],
+            [
+              40.6,
+              54.2
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              40.6,
+              54.2
+            ],
+            [
+              41.5,
+              50.6
+            ],
+            [
+              42.5,
+              47.0
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              42.5,
+              47.0
+            ],
+            [
+              46.2,
+              45.6
+            ],
+            [
+              49.9,
+              45.6
+            ]
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              62.3,
+              42.2
+            ],
+            [
+              62.9,
+              40.0
+            ],
+            [
+              64.2,
+              38.0
+            ]
+          ]
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              64.2,
+              38.0
+            ],
+            [
+              65.8,
+              35.9
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen edit of the existing whole-route miniature. Original layout retained, full plinth reframed, illustration anchors manually calibrated. Not new photographed route evidence.",
+      "parkingPinOverrides": {
+        "leeungno-parking-start": {
+          "anchor": [
+            49.8,
+            50.3
+          ],
+          "position": [
+            53.2,
+            61
+          ],
+          "label": "주차장 쪽 경계"
+        }
+      }
+    }
+  ],
+  "science": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장 쪽·입구를 함께",
+      "image": "/modu50m/route-full-v73/science-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            59.905,
+            64.124
+          ],
+          "position": [
+            67,
+            83
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            63.89,
+            61.502
+          ],
+          "position": [
+            84,
+            65
+          ],
+          "label": "동쪽 보도"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            64.096,
+            38.127
+          ],
+          "position": [
+            83,
+            27
+          ],
+          "label": "주차장 접점"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            54.595,
+            41.951
+          ],
+          "position": [
+            63,
+            46
+          ],
+          "label": "꿈나래길"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            46.239,
+            51.737
+          ],
+          "position": [
+            49,
+            73
+          ],
+          "label": "내부 광장"
+        },
+        {
+          "steps": [
+            5
+          ],
+          "anchor": [
+            34.617,
+            44.722
+          ],
+          "position": [
+            22,
+            68
+          ],
+          "label": "붉은 포장길"
+        },
+        {
+          "steps": [
+            6
+          ],
+          "anchor": [
+            39.438,
+            37.673
+          ],
+          "position": [
+            21,
+            41
+          ],
+          "label": "전시관 앞"
+        },
+        {
+          "steps": [
+            7
+          ],
+          "anchor": [
+            38.434,
+            28.553
+          ],
+          "position": [
+            25,
+            15
+          ],
+          "label": "열차 옆길 구역"
+        },
+        {
+          "steps": [
+            8
+          ],
+          "anchor": [
+            40.308,
+            25.872
+          ],
+          "position": [
+            46,
+            16
+          ],
+          "label": "미래기술관 입구"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              59.905,
+              64.124
+            ],
+            [
+              61.23,
+              63.089
+            ],
+            [
+              63.89,
+              61.502
+            ]
+          ]
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              34.617,
+              44.722
+            ],
+            [
+              35.139,
+              42.398
+            ],
+            [
+              36.305,
+              40.173
+            ],
+            [
+              37.689,
+              38.075
+            ],
+            [
+              39.202,
+              36.755
+            ],
+            [
+              39.438,
+              37.673
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification."
+    }
+  ],
+  "station": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장 쪽·입구를 함께",
+      "image": "/modu50m/route-full-v73/station-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            36.923,
+            40.369
+          ],
+          "position": [
+            27,
+            37
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            40.647,
+            45.613
+          ],
+          "position": [
+            23,
+            63
+          ],
+          "label": "광장 쪽 보도"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            41.616,
+            48.104
+          ],
+          "position": [
+            43,
+            75
+          ],
+          "label": "광장 진입 횡단"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            57.08,
+            51.395
+          ],
+          "position": [
+            65,
+            78
+          ],
+          "label": "택시 통로"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            60.828,
+            45.55
+          ],
+          "position": [
+            61,
+            32
+          ],
+          "label": "서광장"
+        },
+        {
+          "steps": [
+            5
+          ],
+          "anchor": [
+            66.781,
+            49.132
+          ],
+          "position": [
+            83,
+            58
+          ],
+          "label": "철도역 출입문"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              36.923,
+              40.369
+            ],
+            [
+              38.699,
+              43.441
+            ],
+            [
+              40.647,
+              45.613
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              40.647,
+              45.613
+            ],
+            [
+              40.941,
+              47.063
+            ],
+            [
+              41.616,
+              48.104
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              41.616,
+              48.104
+            ],
+            [
+              42.549,
+              50.111
+            ],
+            [
+              45.056,
+              52.308
+            ],
+            [
+              47.12,
+              54.827
+            ],
+            [
+              47.926,
+              56.316
+            ],
+            [
+              50.203,
+              56.306
+            ],
+            [
+              52.275,
+              55.107
+            ],
+            [
+              54.468,
+              53.623
+            ],
+            [
+              55.72,
+              52.457
+            ],
+            [
+              57.08,
+              51.395
+            ]
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              57.08,
+              51.395
+            ],
+            [
+              59.648,
+              48.563
+            ],
+            [
+              61.26,
+              47.012
+            ],
+            [
+              60.828,
+              45.55
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification.",
+      "parkingPinOverrides": {
+        "station-parking-start": {
+          "anchor": [
+            42.709,
+            33.425
+          ],
+          "position": [
+            40,
+            14
+          ],
+          "label": "서광장2 주차장"
+        }
+      }
+    }
+  ],
+  "terminal": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장 쪽·입구를 함께",
+      "image": "/modu50m/route-full-v73/terminal-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            38.184,
+            53.468
+          ],
+          "position": [
+            27,
+            72
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            48.755,
+            49.243
+          ],
+          "position": [
+            48,
+            73
+          ],
+          "label": "작은 도로 횡단"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            57.224,
+            48.634
+          ],
+          "position": [
+            61,
+            45
+          ],
+          "label": "서관 앞 공간"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            64.739,
+            40.507
+          ],
+          "position": [
+            84,
+            53
+          ],
+          "label": "서관 옆 보도"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            64.517,
+            37.826
+          ],
+          "position": [
+            76,
+            19
+          ],
+          "label": "서관 GATE 4"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              38.184,
+              53.468
+            ],
+            [
+              44.172,
+              51.543
+            ],
+            [
+              48.755,
+              49.243
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              48.755,
+              49.243
+            ],
+            [
+              53.75,
+              48.01
+            ],
+            [
+              57.224,
+              48.634
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              57.224,
+              48.634
+            ],
+            [
+              62.85,
+              46.332
+            ],
+            [
+              64.545,
+              43.764
+            ],
+            [
+              64.739,
+              40.507
+            ]
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              64.739,
+              40.507
+            ],
+            [
+              64.517,
+              37.826
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification.",
+      "parkingPinOverrides": {
+        "terminal-parking-floor": {
+          "anchor": [
+            56.26,
+            24.033
+          ],
+          "position": [
+            29,
+            15
+          ],
+          "label": "서관 5층 주차장"
+        },
+        "terminal-parking-lift-cue": {
+          "anchor": [
+            63.576,
+            31.358
+          ],
+          "position": [
+            52,
+            15
+          ],
+          "label": "5층 승강기 쪽"
+        }
+      }
+    }
+  ],
+  "sungsim": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장 쪽·입구를 함께",
+      "image": "/modu50m/route-full-v73/sungsim-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            53.718,
+            60.422
+          ],
+          "position": [
+            68,
+            78
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            51.422,
+            47.268
+          ],
+          "position": [
+            40,
+            60
+          ],
+          "label": "북쪽 보도"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            50.134,
+            35.352
+          ],
+          "position": [
+            36,
+            32
+          ],
+          "label": "골목으로"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            53.695,
+            33.668
+          ],
+          "position": [
+            55,
+            16
+          ],
+          "label": "본점 대기 구역"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            55.707,
+            32.71
+          ],
+          "position": [
+            73,
+            35
+          ],
+          "label": "본점 출입문"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              53.718,
+              60.422
+            ],
+            [
+              53.041,
+              53.905
+            ],
+            [
+              51.422,
+              47.268
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              51.422,
+              47.268
+            ],
+            [
+              50.724,
+              39.488
+            ],
+            [
+              50.134,
+              35.352
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              50.134,
+              35.352
+            ],
+            [
+              53.695,
+              33.668
+            ]
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              53.695,
+              33.668
+            ],
+            [
+              55.707,
+              32.71
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification."
+    }
+  ],
+  "skyroad": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장부터 문화의거리까지",
+      "image": "/modu50m/route-full-v73/skyroad-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            47.2,
+            40.7
+          ],
+          "position": [
+            33,
+            49
+          ],
+          "label": "정류장 하차"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            51.5,
+            41.2
+          ],
+          "position": [
+            62,
+            25
+          ],
+          "label": "스카이로드 진입"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            52.1,
+            62.3
+          ],
+          "position": [
+            69,
+            68
+          ],
+          "label": "거리 안쪽"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              47.2,
+              40.7
+            ],
+            [
+              50.0,
+              40.7
+            ],
+            [
+              51.5,
+              41.2
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              51.5,
+              41.2
+            ],
+            [
+              51.7,
+              48
+            ],
+            [
+              52.0,
+              56
+            ],
+            [
+              52.1,
+              62.3
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification."
+    }
+  ],
+  "oworld": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장 쪽·입구를 함께",
+      "image": "/modu50m/route-full-v73/oworld-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            30.5,
+            63.8
+          ],
+          "position": [
+            23,
+            71
+          ],
+          "label": "버스정류장"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            48.8,
+            68.3
+          ],
+          "position": [
+            48,
+            80
+          ],
+          "label": "첫 횡단 구역"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            55.4,
+            72.3
+          ],
+          "position": [
+            72,
+            79
+          ],
+          "label": "다음 횡단 구역"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            65.4,
+            47.1
+          ],
+          "position": [
+            84,
+            44
+          ],
+          "label": "정문 앞 접근부"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            60.7,
+            29.0
+          ],
+          "position": [
+            66,
+            18
+          ],
+          "label": "매표소·정문"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              30.5,
+              63.8
+            ],
+            [
+              37,
+              65
+            ],
+            [
+              43,
+              67
+            ],
+            [
+              48.8,
+              68.3
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              48.8,
+              68.3
+            ],
+            [
+              52.2,
+              70.5
+            ],
+            [
+              55.4,
+              72.3
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              55.4,
+              72.3
+            ],
+            [
+              57.8,
+              66
+            ],
+            [
+              60.7,
+              58
+            ],
+            [
+              63.5,
+              51
+            ],
+            [
+              65.4,
+              47.1
+            ]
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              65.4,
+              47.1
+            ],
+            [
+              66.3,
+              42
+            ],
+            [
+              64,
+              36
+            ],
+            [
+              62.8,
+              32
+            ],
+            [
+              60.7,
+              29.0
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification.",
+      "originalRouteSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              24.5,
+              65.5
+            ],
+            [
+              52,
+              67.5
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              52,
+              67.5
+            ],
+            [
+              62,
+              74
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              62,
+              74
+            ],
+            [
+              74.5,
+              41.5
+            ]
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              74.5,
+              41.5
+            ],
+            [
+              73.2,
+              25.5
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "hanbit": [
+    {
+      "id": "whole-alternate",
+      "label": "전체 다른 각도",
+      "description": "정류장·주차장 쪽·입구를 함께",
+      "image": "/modu50m/route-full-v73/hanbit-alternate.png",
+      "alt": "정류장부터 방문 입구까지의 기존 모형을 다른 각도로 표현한 AI 미니어처. 번호는 실제 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+      "fullJourney": true,
+      "hiddenSteps": [],
+      "pins": [
+        {
+          "steps": [
+            0
+          ],
+          "anchor": [
+            69.3,
+            71.4
+          ],
+          "position": [
+            84,
+            83
+          ],
+          "label": "DCC종점"
+        },
+        {
+          "steps": [
+            1
+          ],
+          "anchor": [
+            76.8,
+            58.6
+          ],
+          "position": [
+            89,
+            55
+          ],
+          "label": "입구 앞 횡단"
+        },
+        {
+          "steps": [
+            2
+          ],
+          "anchor": [
+            69.7,
+            54.7
+          ],
+          "position": [
+            79,
+            24
+          ],
+          "label": "공원 입구"
+        },
+        {
+          "steps": [
+            3
+          ],
+          "anchor": [
+            53.4,
+            60.5
+          ],
+          "position": [
+            57,
+            77
+          ],
+          "label": "통일관 앞"
+        },
+        {
+          "steps": [
+            4
+          ],
+          "anchor": [
+            57.3,
+            46.4
+          ],
+          "position": [
+            59,
+            47
+          ],
+          "label": "흰 기둥 통로"
+        },
+        {
+          "steps": [
+            5
+          ],
+          "anchor": [
+            42,
+            40.9
+          ],
+          "position": [
+            27,
+            50
+          ],
+          "label": "탑 경사로"
+        },
+        {
+          "steps": [
+            6
+          ],
+          "anchor": [
+            42,
+            39
+          ],
+          "position": [
+            38,
+            21
+          ],
+          "label": "탑 출입문"
+        }
+      ],
+      "routeSegments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              69.3,
+              71.4
+            ],
+            [
+              72,
+              68
+            ],
+            [
+              74.5,
+              62.8
+            ],
+            [
+              76.8,
+              58.6
+            ]
+          ]
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              76.8,
+              58.6
+            ],
+            [
+              72.9,
+              57.1
+            ],
+            [
+              69.7,
+              54.7
+            ]
+          ]
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              69.7,
+              54.7
+            ],
+            [
+              66.3,
+              62.8
+            ],
+            [
+              63,
+              63
+            ],
+            [
+              58,
+              62
+            ],
+            [
+              53.4,
+              60.5
+            ]
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              57.3,
+              46.4
+            ],
+            [
+              55,
+              44
+            ],
+            [
+              49,
+              42
+            ],
+            [
+              45,
+              43
+            ],
+            [
+              42,
+              40.9
+            ]
+          ]
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "kind": "illustrative-photo-review",
+          "points": [
+            [
+              42,
+              40.9
+            ],
+            [
+              42,
+              39
+            ]
+          ]
+        }
+      ],
+      "generated": true,
+      "positioning": "illustrative-area-not-coordinate",
+      "illustrationCreatedAt": "2026-10-07",
+      "artworkBasis": "Built-in image_gen alternate-camera edit of the existing whole-route miniature, then full-plinth framing. Illustration ground anchors calibrated; no new source photos or accessible-route certification."
+    }
+  ]
+}

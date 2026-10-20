@@ -1,0 +1,862 @@
+{
+  "skyroad": {
+    "step:skyroad-parking-floor": [
+      {
+        "id": "source-v77-skyroad-lot-f2",
+        "image": "/modu50m/route-photos-v77/skyroad-lot-f2.png",
+        "title": "장애인 주차구역과 차단기",
+        "viewLabel": "장애인 주차구역과 차단기",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=_JXHKMGIh7KH59jzLpgfww,0.0,10.0,80.0,Float",
+        "panoramaId": "_JXHKMGIh7KH59jzLpgfww",
+        "capturedAt": "2023-08-01",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3270798,
+          127.4283238
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "d2267db63cf71b44c07e29b869100ddf8ed77865464441621c3499abdba22061",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "사진 왼쪽 장애인 주차 표시와 오른쪽 차단기 사이 바닥을 비교해요. 차량이 드나드는 공간도 함께 보여요."
+        },
+        "scope": "사진 왼쪽 장애인 주차 표시와 오른쪽 차단기 사이 바닥을 비교해요. 차량이 드나드는 공간도 함께 보여요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2023-08-01 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "장애인 주차구역과 차단기",
+            "position": [
+              46,
+              55
+            ],
+            "detail": "사진 왼쪽 장애인 주차 표시와 오른쪽 차단기 사이 바닥을 비교해요. 차량이 드나드는 공간도 함께 보여요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v77-skyroad-lot-f3",
+        "image": "/modu50m/route-photos-v77/skyroad-lot-f3.png",
+        "title": "주차 차량 옆 바닥",
+        "viewLabel": "주차 차량 옆 바닥",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=_JXHKMGIh7KH59jzLpgfww,0.0,10.0,80.0,Float",
+        "panoramaId": "_JXHKMGIh7KH59jzLpgfww",
+        "capturedAt": "2023-08-01",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3270798,
+          127.4283238
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "6b599d2d9fb5cf26d3579ecc32ba24a60bb9893e61ab8b86817ff6fe428d7c26",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "주차 표시·멈춤턱·벽 옆 바닥을 확대해요. 사진의 차량 배치로 현재 통과 폭을 확정하지 않아요."
+        },
+        "scope": "주차 표시·멈춤턱·벽 옆 바닥을 확대해요. 사진의 차량 배치로 현재 통과 폭을 확정하지 않아요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2023-08-01 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "주차 차량 옆 바닥",
+            "position": [
+              27,
+              74
+            ],
+            "detail": "주차 표시·멈춤턱·벽 옆 바닥을 확대해요. 사진의 차량 배치로 현재 통과 폭을 확정하지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v78-skyroad-rear-street-f3",
+        "image": "/modu50m/route-photos-v78/skyroad-rear-street-f3.png",
+        "title": "주차장 뒤쪽 울타리·벽",
+        "viewLabel": "주차장 뒤쪽 울타리·벽",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=tlm-KzipwR45CsWUyOpJ0w,0.0,10.0,80.0,Float",
+        "panoramaId": "tlm-KzipwR45CsWUyOpJ0w",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3272736,
+          127.4283074
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "c96f8367b8e7f959aeb7097b85244082ba355731640fb561e9dcac25c31ac01a",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "주차장 뒤쪽의 울타리·벽과 차량을 봐요. 이 사진에는 골목으로 나가는 보행 출구가 보이지 않아요."
+        },
+        "scope": "주차장 뒤쪽의 울타리·벽과 차량을 봐요. 이 사진에는 골목으로 나가는 보행 출구가 보이지 않아요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "주차장 뒤쪽 울타리·벽",
+            "position": [
+              50,
+              43
+            ],
+            "detail": "주차장 뒤쪽의 울타리·벽과 차량을 봐요. 이 사진에는 골목으로 나가는 보행 출구가 보이지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "step:skyroad-parking-curb": [
+      {
+        "id": "source-v77-skyroad-exit-f2",
+        "image": "/modu50m/route-photos-v77/skyroad-exit-f2.png",
+        "title": "주차장 앞 보도",
+        "viewLabel": "주차장 앞 보도",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=q7Gw_xJ7uDBfQ_A5IO-JBQ,0.0,10.0,80.0,Float",
+        "panoramaId": "q7Gw_xJ7uDBfQ_A5IO-JBQ",
+        "capturedAt": "2026-04-13",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3268894,
+          127.428216
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "1e0e1fa92659e4095f9d3b410f7e4a21966ef31176e72deb43a5854995e8e32f",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "주차장 현수막·정산실 차양 앞 보도의 물건·배수구·나무 주변을 봐요. 사진을 찍은 차도와 보행 공간을 구분해요."
+        },
+        "scope": "주차장 현수막·정산실 차양 앞 보도의 물건·배수구·나무 주변을 봐요. 사진을 찍은 차도와 보행 공간을 구분해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-13 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "주차장 앞 보도",
+            "position": [
+              18,
+              63
+            ],
+            "detail": "주차장 현수막·정산실 차양 앞 보도의 물건·배수구·나무 주변을 봐요. 사진을 찍은 차도와 보행 공간을 구분해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v78-skyroad-road-f0",
+        "image": "/modu50m/route-photos-v78/skyroad-road-f0.png",
+        "title": "상점 골목 입구와 보도 경계",
+        "viewLabel": "상점 골목 입구와 보도 경계",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=EZn_bRgWcoySH_v5WGqtRQ,0.0,10.0,80.0,Float",
+        "panoramaId": "EZn_bRgWcoySH_v5WGqtRQ",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3269442,
+          127.4280506
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "3b74f5205b26c65bd4cf2f2182c841e4677205fbeb00c22bce8c245f592227e7",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "중교로와 상점 골목이 만나는 곳의 둥근 보도 경계·점자블록·검은 기둥을 비교해요."
+        },
+        "scope": "중교로와 상점 골목이 만나는 곳의 둥근 보도 경계·점자블록·검은 기둥을 비교해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "상점 골목 입구와 보도 경계",
+            "position": [
+              73,
+              62
+            ],
+            "detail": "중교로와 상점 골목이 만나는 곳의 둥근 보도 경계·점자블록·검은 기둥을 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "step:skyroad-parking-bollards": [
+      {
+        "id": "source-v77-skyroad-south-f0",
+        "image": "/modu50m/route-photos-v77/skyroad-south-f0.png",
+        "title": "볼라드와 자전거",
+        "viewLabel": "볼라드와 자전거",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=R6cBAE89KCZyktFPFC0lIQ,0.0,10.0,80.0,Float",
+        "panoramaId": "R6cBAE89KCZyktFPFC0lIQ",
+        "capturedAt": "2026-04-07",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3274191,
+          127.4280913
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "354fb98b1101adcfc5191c0f61d0741b94acff173801039a7648dca7eaa59da7",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "골목 입구 볼라드 사이 공간과 오른쪽 자전거를 살펴봐요. 사진에서 폭을 재거나 현재 통행을 판정하지 않아요."
+        },
+        "scope": "골목 입구 볼라드 사이 공간과 오른쪽 자전거를 살펴봐요. 사진에서 폭을 재거나 현재 통행을 판정하지 않아요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-07 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "볼라드와 자전거",
+            "position": [
+              49,
+              77
+            ],
+            "detail": "골목 입구 볼라드 사이 공간과 오른쪽 자전거를 살펴봐요. 사진에서 폭을 재거나 현재 통행을 판정하지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v77-skyroad-south-f2",
+        "image": "/modu50m/route-photos-v77/skyroad-south-f2.png",
+        "title": "골목에서 도로 쪽 돌아보기",
+        "viewLabel": "골목에서 도로 쪽 돌아보기",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=R6cBAE89KCZyktFPFC0lIQ,0.0,10.0,80.0,Float",
+        "panoramaId": "R6cBAE89KCZyktFPFC0lIQ",
+        "capturedAt": "2026-04-07",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3274191,
+          127.4280913
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "1b4406dd4ecba00c9a030c7816f68b9876c14e213d697ef6b6842a9b5aad0d21",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "배수구·가게 앞 의자와 입간판·도로 쪽 차량을 비교해요."
+        },
+        "scope": "배수구·가게 앞 의자와 입간판·도로 쪽 차량을 비교해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-07 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "골목에서 도로 쪽 돌아보기",
+            "position": [
+              47,
+              68
+            ],
+            "detail": "배수구·가게 앞 의자와 입간판·도로 쪽 차량을 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v78-skyroad-mouth-f0",
+        "image": "/modu50m/route-photos-v78/skyroad-mouth-f0.png",
+        "title": "볼라드 골목을 들어가기 전",
+        "viewLabel": "볼라드 골목을 들어가기 전",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=9eizkYBJK1h1EN-vxTxesw,0.0,10.0,80.0,Float",
+        "panoramaId": "9eizkYBJK1h1EN-vxTxesw",
+        "capturedAt": "2026-04-07",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3274038,
+          127.4280551
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "f48fd497360431eb5ca58918a0e52633cc51e28dea92f086301bd8b96f59bd6e",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "흰 건물 옆에서 볼라드 두 개·분홍 벽·초록 울타리 사이 공간을 먼저 비교해요."
+        },
+        "scope": "흰 건물 옆에서 볼라드 두 개·분홍 벽·초록 울타리 사이 공간을 먼저 비교해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-07 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "볼라드 골목을 들어가기 전",
+            "position": [
+              48,
+              66
+            ],
+            "detail": "흰 건물 옆에서 볼라드 두 개·분홍 벽·초록 울타리 사이 공간을 먼저 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v78-skyroad-mouth-f2",
+        "image": "/modu50m/route-photos-v78/skyroad-mouth-f2.png",
+        "title": "볼라드 앞 건물 모서리를 되돌아보기",
+        "viewLabel": "볼라드 앞 건물 모서리를 되돌아보기",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=9eizkYBJK1h1EN-vxTxesw,0.0,10.0,80.0,Float",
+        "panoramaId": "9eizkYBJK1h1EN-vxTxesw",
+        "capturedAt": "2026-04-07",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3274038,
+          127.4280551
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "1aa2dca90b5bd5386e4e5b0d5ba095e43db1133b088e22fc2c7e6e59b36fb9e3",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "볼라드 쪽에서 되돌아본 사진이에요. 같은 흰 건물 모서리·주황 차양·배수구가 앞 사진과 이어지는지 살펴봐요."
+        },
+        "scope": "볼라드 쪽에서 되돌아본 사진이에요. 같은 흰 건물 모서리·주황 차양·배수구가 앞 사진과 이어지는지 살펴봐요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-07 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "볼라드 앞 건물 모서리를 되돌아보기",
+            "position": [
+              51,
+              62
+            ],
+            "detail": "볼라드 쪽에서 되돌아본 사진이에요. 같은 흰 건물 모서리·주황 차양·배수구가 앞 사진과 이어지는지 살펴봐요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "step:skyroad-parking-alley": [
+      {
+        "id": "source-v77-skyroad-alley-f2",
+        "image": "/modu50m/route-photos-v77/skyroad-alley-f2.png",
+        "title": "캐노피가 보이는 골목 끝",
+        "viewLabel": "캐노피가 보이는 골목 끝",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=2L-TkvheXb6FkOPcB6ZIQQ,0.0,10.0,80.0,Float",
+        "panoramaId": "2L-TkvheXb6FkOPcB6ZIQQ",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3278333,
+          127.4280288
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "84f2a7a91f5b070df1761da19b016eca18abf60d1ec0c983ff003d3986d6dd17",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "골목 끝 캐노피를 기준으로 위치를 비교하고 입간판·배수구 옆 바닥을 확대해요."
+        },
+        "scope": "골목 끝 캐노피를 기준으로 위치를 비교하고 입간판·배수구 옆 바닥을 확대해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "캐노피가 보이는 골목 끝",
+            "position": [
+              48,
+              75
+            ],
+            "detail": "골목 끝 캐노피를 기준으로 위치를 비교하고 입간판·배수구 옆 바닥을 확대해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v77-skyroad-alley-f0",
+        "image": "/modu50m/route-photos-v77/skyroad-alley-f0.png",
+        "title": "차량·운반 짐이 놓인 공간",
+        "viewLabel": "차량·운반 짐이 놓인 공간",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=2L-TkvheXb6FkOPcB6ZIQQ,0.0,10.0,80.0,Float",
+        "panoramaId": "2L-TkvheXb6FkOPcB6ZIQQ",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3278333,
+          127.4280288
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "fefad00e9b2dd7f69ea86943645712b62246647784f58892f29a0ef6e7d058f9",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "골목의 차량·짐·작업 공간을 살펴봐요. 하차 장소나 넓은 보행 전용길로 보지 않아요."
+        },
+        "scope": "골목의 차량·짐·작업 공간을 살펴봐요. 하차 장소나 넓은 보행 전용길로 보지 않아요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "차량·운반 짐이 놓인 공간",
+            "position": [
+              52,
+              64
+            ],
+            "detail": "골목의 차량·짐·작업 공간을 살펴봐요. 하차 장소나 넓은 보행 전용길로 보지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "step:skyroad-parking-canopy": [
+      {
+        "id": "source-v77-skyroad-canopy-f2",
+        "image": "/modu50m/route-photos-v77/skyroad-canopy-f2.png",
+        "title": "골목과 넓은 거리의 접점",
+        "viewLabel": "골목과 넓은 거리의 접점",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=Ip0D0kKgTjKmGD8giCGyEg,0.0,10.0,80.0,Float",
+        "panoramaId": "Ip0D0kKgTjKmGD8giCGyEg",
+        "capturedAt": "2025-04-09",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3283029,
+          127.4279875
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "31d6db01c0f3dbefe1ae24852d36333f940afa52dd773a2abb225a6e2dc0ad95",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "아스팔트 골목과 스카이로드 아래 포장 바닥이 만나는 곳을 비교해요. 차량·입간판도 함께 확인해요."
+        },
+        "scope": "아스팔트 골목과 스카이로드 아래 포장 바닥이 만나는 곳을 비교해요. 차량·입간판도 함께 확인해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2025-04-09 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "골목과 넓은 거리의 접점",
+            "position": [
+              52,
+              74
+            ],
+            "detail": "아스팔트 골목과 스카이로드 아래 포장 바닥이 만나는 곳을 비교해요. 차량·입간판도 함께 확인해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v77-skyroad-canopy-f0",
+        "image": "/modu50m/route-photos-v77/skyroad-canopy-f0.png",
+        "title": "옆 골목의 볼라드",
+        "viewLabel": "옆 골목의 볼라드",
+        "preferredForStep": true,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=Ip0D0kKgTjKmGD8giCGyEg,0.0,10.0,80.0,Float",
+        "panoramaId": "Ip0D0kKgTjKmGD8giCGyEg",
+        "capturedAt": "2025-04-09",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3283029,
+          127.4279875
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "15047aa830854d39bf12934162ada5926228ad89989f92728707c1bbcffce88a",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "사진의 볼라드·차량·가게 앞 돌출 부분을 넓은 거리 쪽 사진과 비교해요."
+        },
+        "scope": "사진의 볼라드·차량·가게 앞 돌출 부분을 넓은 거리 쪽 사진과 비교해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2025-04-09 촬영 장면이에요. 모형의 번호는 근사 구역이며 현재 장애물 배치나 전체 통행 상태를 확인한 결과는 아니에요."
+        },
+        "observations": [
+          {
+            "label": "옆 골목의 볼라드",
+            "position": [
+              60,
+              67
+            ],
+            "detail": "사진의 볼라드·차량·가게 앞 돌출 부분을 넓은 거리 쪽 사진과 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "step:skyroad-parking-west-turn": [
+      {
+        "id": "source-v78-skyroad-corner-f2",
+        "image": "/modu50m/route-photos-v78/skyroad-corner-f2.png",
+        "title": "상점 골목 안쪽의 바닥",
+        "viewLabel": "상점 골목 안쪽의 바닥",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=4pl66M5kdeRoENnJ0PP4yQ,0.0,10.0,80.0,Float",
+        "panoramaId": "4pl66M5kdeRoENnJ0PP4yQ",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3270596,
+          127.427985
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "99049ff573d6baaa056d5bb3ab6af0c178c7f581a604fc628efd01adec4ff298",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "주차장 앞 큰길과 만나는 상점 골목에서 입간판·짐·가게 앞 바닥을 살펴봐요."
+        },
+        "scope": "주차장 앞 큰길과 만나는 상점 골목에서 입간판·짐·가게 앞 바닥을 살펴봐요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "상점 골목 안쪽의 바닥",
+            "position": [
+              46,
+              79
+            ],
+            "detail": "주차장 앞 큰길과 만나는 상점 골목에서 입간판·짐·가게 앞 바닥을 살펴봐요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v78-skyroad-west-f0",
+        "image": "/modu50m/route-photos-v78/skyroad-west-f0.png",
+        "title": "상점 골목을 되돌아본 사진",
+        "viewLabel": "상점 골목을 되돌아본 사진",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=xerAp3fbIeWqcV6hNM_Cyg,0.0,10.0,80.0,Float",
+        "panoramaId": "xerAp3fbIeWqcV6hNM_Cyg",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3272917,
+          127.4278531
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "59a3994ecc3162664ee87bbd91cc211500ff7e9401dc77683670096201c90ef6",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "같은 상점 골목을 반대 방향으로 본 사진이에요. 흰 건물·줄무늬 가게와 옆 바닥을 비교해요."
+        },
+        "scope": "같은 상점 골목을 반대 방향으로 본 사진이에요. 흰 건물·줄무늬 가게와 옆 바닥을 비교해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "상점 골목을 되돌아본 사진",
+            "position": [
+              48,
+              75
+            ],
+            "detail": "같은 상점 골목을 반대 방향으로 본 사진이에요. 흰 건물·줄무늬 가게와 옆 바닥을 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v78-skyroad-west-f3",
+        "image": "/modu50m/route-photos-v78/skyroad-west-f3.png",
+        "title": "흰 건물 모서리에서 옆 골목으로",
+        "viewLabel": "흰 건물 모서리에서 옆 골목으로",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=xerAp3fbIeWqcV6hNM_Cyg,0.0,10.0,80.0,Float",
+        "panoramaId": "xerAp3fbIeWqcV6hNM_Cyg",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3272917,
+          127.4278531
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "923ae9c7db9e6f502a041895b26e8b888bbeacf5be72cfec447a47b966d1121d",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "흰 건물 모서리와 주황색 차양 사이로 이어지는 옆 골목·배수구를 비교해요. 차량과 접이식 차단물도 살펴봐요."
+        },
+        "scope": "흰 건물 모서리와 주황색 차양 사이로 이어지는 옆 골목·배수구를 비교해요. 차량과 접이식 차단물도 살펴봐요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 바닥·기준물 비교",
+          "detail": "2026-04-08 촬영 장면이에요. 현재 차량·짐과 통과 폭은 달라질 수 있어요."
+        },
+        "observations": [
+          {
+            "label": "흰 건물 모서리에서 옆 골목으로",
+            "position": [
+              57,
+              66
+            ],
+            "detail": "흰 건물 모서리와 주황색 차양 사이로 이어지는 옆 골목·배수구를 비교해요. 차량과 접이식 차단물도 살펴봐요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "source-v83-skyroad-road-joint-f0",
+        "image": "/modu50m/route-photos-v83/skyroad-road-joint-f0.png",
+        "title": "상점 골목 입구에서 중교로 쪽 보기",
+        "viewLabel": "골목 입구 · 되돌아보기",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=s0nz0VVsA0dJ-DfBMz2HHA,0.0,10.0,80.0,Float",
+        "panoramaId": "s0nz0VVsA0dJ-DfBMz2HHA",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.3269826,
+          127.4280289
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "470e60fb57729896af70f5ad74cbef089d247528d78adb4014cec9ab8a7333ec",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "줄무늬 상점과 붉은 천막을 기준으로 중교로와 골목이 만나는 바닥을 비교해요. 차량이 지나가는 부분과 가장자리의 물건을 살펴봐요."
+        },
+        "scope": "줄무늬 상점과 붉은 천막을 기준으로 중교로와 골목이 만나는 바닥을 비교해요. 차량이 지나가는 부분과 가장자리의 물건을 살펴봐요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 골목 입구 비교",
+          "detail": "2026.04.08 촬영 장면이에요. 03번 갈림길에 도착하기 전의 같은 상점 골목 입구를 비교하는 사진이며 주차장 앞 보도와 이어지는 바닥 전체가 보이지는 않아요."
+        },
+        "observations": [
+          {
+            "label": "골목 입구의 포장 바닥",
+            "position": [
+              48,
+              63
+            ],
+            "detail": "네모 포장재와 골목의 아스팔트가 만나는 부분을 확대해요. 사진 아래 바닥 이음새와 반대편 차량길을 구분해요."
+          },
+          {
+            "label": "입구 가장자리의 물건",
+            "position": [
+              69,
+              67
+            ],
+            "detail": "주황색 표지와 천막 앞의 물건을 살펴봐요. 사진 속 빈 공간을 현재 통과 폭으로 측정한 것은 아니에요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "locationBinding": "same-approach-alley-before-junction-not-anchor-coordinate"
+      },
+      {
+        "id": "source-v83-skyroad-entrance-f2",
+        "image": "/modu50m/route-photos-v83/skyroad-entrance-f2.png",
+        "title": "상점 골목 입구에서 갈림길 쪽 보기",
+        "viewLabel": "골목 안쪽 · 앞으로 보기",
+        "preferredForStep": false,
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=_A6X17M9mKOTxGV9fVRSZQ,0.0,10.0,80.0,Float",
+        "panoramaId": "_A6X17M9mKOTxGV9fVRSZQ",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-10-07",
+        "cameraCoordinate": [
+          36.327021,
+          127.4280072
+        ],
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "sha256": "0d6bcc002b0520f9cc21a16c90e01cb200c323c88c095152a1121e543645364c",
+        "captureMethod": "lossless-original-cube-face-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "중교로 쪽 입구에서 흰 건물이 보이는 골목 안쪽을 바라본 사진이에요. 다음 갈림길 사진의 흰 벽과 간판을 비교하고 양쪽 짐과 바닥을 확대해요."
+        },
+        "scope": "중교로 쪽 입구에서 흰 건물이 보이는 골목 안쪽을 바라본 사진이에요. 다음 갈림길 사진의 흰 벽과 간판을 비교하고 양쪽 짐과 바닥을 확대해요.",
+        "evidenceRole": {
+          "label": "실제 촬영 사진 · 골목 입구 비교",
+          "detail": "2026.04.08 촬영 장면이에요. 03번 갈림길에 도착하기 전의 같은 상점 골목 입구를 비교하는 사진이며 주차장 앞 보도와 이어지는 바닥 전체가 보이지는 않아요."
+        },
+        "observations": [
+          {
+            "label": "흰 건물 앞 짐과 표지",
+            "position": [
+              17,
+              79
+            ],
+            "detail": "왼쪽 흰 건물 앞의 짐·테이프·주황색 표지를 살펴봐요. 골목 가운데의 차량 공간과 가게 앞 가장자리를 구분해요."
+          },
+          {
+            "label": "오른쪽 가게 앞 물건",
+            "position": [
+              89,
+              91
+            ],
+            "detail": "오른쪽의 검은 통과 타이어, 입간판·배수구 주변을 확대해요. 통행 가능 여부를 이 사진만으로 판단하지 않아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "locationBinding": "same-approach-alley-before-junction-not-anchor-coordinate"
+      }
+    ]
+  }
+}

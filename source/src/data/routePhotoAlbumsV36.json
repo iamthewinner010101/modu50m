@@ -1,0 +1,1234 @@
+{
+  "hanbit": {
+    "step:plaza-gap": [
+      {
+        "id": "naver-v36-hanbit-4",
+        "image": "/modu50m/route-photos-v36/hanbit-04.jpg",
+        "title": "물빛광장 옆 그늘막 통로 · 야간",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "밀리그램",
+        "sourceUrl": "https://blog.naver.com/think8711/223900533888",
+        "sourceTitle": "대전 한빛탑 음악분수 운영시간·주차장·주변 가볼만한 곳 후기",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA2MTNfMjk4/MDAxNzQ5ODAyMDEyOTAz.claVGV3W53I39sFO9OtgX5JFgzC8eFaYNjeaJjN5Gtog.ZFPHAHTNBGwZIZPuPdJ-FOBfx9fpWlxBshoUJ3FWOrQg.JPEG/output%EF%BC%BF1406355824.jpg?type=w466",
+        "publishedAt": "2025-06-16",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "8a35d22ae8d7ad3ec8ea8b4f2d2e085d2b23df09da012628e39ce052da40de7b",
+        "scope": "광장 주변 별도 통로예요. 정류장부터 이 통로까지 연결된 경로로 확인한 자료는 아니에요.",
+        "observations": [
+          {
+            "label": "기둥 사이 보행 공간",
+            "position": [
+              49,
+              68
+            ],
+            "detail": "기둥들이 통로 양옆으로 이어져요. 사람과 마주칠 때 비켜설 자리와 가장 좁은 폭을 확인해요."
+          },
+          {
+            "label": "포장과 기둥 밑 경계",
+            "position": [
+              77,
+              82
+            ],
+            "detail": "기둥 밑의 다른 바닥 재료와 보행로의 경계가 보여요. 야간 사진이라 작은 단차는 더 확인해야 해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-hanbit-5",
+        "image": "/modu50m/route-photos-v36/hanbit-05.jpg",
+        "title": "물빛광장 데크와 물가 경계 · 야간",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "밀리그램",
+        "sourceUrl": "https://blog.naver.com/think8711/223900533888",
+        "sourceTitle": "대전 한빛탑 음악분수 운영시간·주차장·주변 가볼만한 곳 후기",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA2MTNfMjkx/MDAxNzQ5ODAyMDEyNzgx.SUbqg30txZq4AG4liXEGVWENnK0z2XcwvtR8hBULvOMg.s6a2AY0OeuxXSStoGDwcPgQqJjj_qrzOe3GOf7HxWZUg.JPEG/output%EF%BC%BF1548965345.jpg?type=w466",
+        "publishedAt": "2025-06-16",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "87413b46463f4a9ea9323684734dc9815161a5998f6746ee4226ed5b90a0f9b6",
+        "scope": "탑을 바라보는 광장 옆 장면이에요. 데크를 이동 경로로 지정하지 않으며 주변 통로와 비교하는 자료예요.",
+        "observations": [
+          {
+            "label": "데크의 높이 차",
+            "position": [
+              72,
+              88
+            ],
+            "detail": "목재 바닥이 여러 높이로 나뉘어요. 계단을 피해서 이어지는 다른 통로를 확인해야 해요."
+          },
+          {
+            "label": "물가 가장자리",
+            "position": [
+              21,
+              68
+            ],
+            "detail": "왼쪽 물가와 목재 바닥 사이 경계가 보여요. 조명만으로 높이와 추락 방지 시설을 판단하지 않아요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "oworld": {
+    "mobility-01": [
+      {
+        "id": "naver-v36-oworld-3",
+        "image": "/modu50m/route-photos-v36/oworld-03.jpg",
+        "title": "오월드 정류장 쉼터와 보도",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "윤건미니네",
+        "sourceUrl": "https://blog.naver.com/kimjiae0126/224405631017",
+        "sourceTitle": "KTX대전역에서 오월드 가는 법(대중교통 이용 및 버스시간)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MjJfMTc5/MDAxNzg3NDA0MTAwMTUz.AN2ClrqCpictw7tuew-YoTaxVV5T_T9E_W7Pa4rvZlcg.45ha_CCWaoTQ7ez87v_9NGE_v7zHE-aY3c2LQAhn4msg.JPEG/900_20260822_104605.jpg?type=w966",
+        "publishedAt": "2026-09-09",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "e00ed72533b50a7d338f773a1b35cdb9f283e43dc8c26c7f02b3e2e10d8b8abd",
+        "scope": "네이버 방문자가 촬영한 오월드 정류장 주변이에요. 기존 01번 사진과 같은 승하차 방향인지는 추가 대조가 필요해요.",
+        "observations": [
+          {
+            "label": "쉼터 기둥과 벤치",
+            "position": [
+              61,
+              84
+            ],
+            "detail": "기둥과 벤치 사이의 지나갈 자리를 살펴봐요. 실제 남는 폭은 사진으로 측정하지 않았어요."
+          },
+          {
+            "label": "차도와 보도의 턱",
+            "position": [
+              43,
+              86
+            ],
+            "detail": "차도 옆에 경계석이 이어져요. 버스에서 내리는 정확한 위치와 턱 낮춤은 별도 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "mobility-02": [
+      {
+        "id": "naver-v36-oworld-4",
+        "image": "/modu50m/route-photos-v36/oworld-04.jpg",
+        "title": "정류장 뒤 주차 구역 비교",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "윤건미니네",
+        "sourceUrl": "https://blog.naver.com/kimjiae0126/224405631017",
+        "sourceTitle": "KTX대전역에서 오월드 가는 법(대중교통 이용 및 버스시간)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MjJfMTE4/MDAxNzg3NDA0MTAwMTgw.Y0gj7d_XKNCTwCKw7zAgybpAu-tpc8LUgdVRvigwCTAg.PK5jGNvvMcbYxWE0a4DG_o33RSzFhNKo_e4IemvWjO8g.JPEG/900_20260822_104637.jpg?type=w966",
+        "publishedAt": "2026-09-09",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "c2ab6cab4f9115226ce0af1b9253859c7973804acc1ff5830a9c9892a1c310f0",
+        "scope": "정류장 뒤에서 본 주차 구역이에요. 주차면을 지나가는 길로 안내하는 사진은 아니에요.",
+        "observations": [
+          {
+            "label": "보도와 녹지 경계",
+            "position": [
+              47,
+              92
+            ],
+            "detail": "앞쪽 경계석 너머에 녹지와 주차면이 있어요. 차를 피해 보행로가 어디로 이어지는지 확인해요."
+          },
+          {
+            "label": "주차 차량과 시야",
+            "position": [
+              36,
+              65
+            ],
+            "detail": "주차한 차가 길과 시야를 가릴 수 있어요. 횡단하기 전 차량이 나오는 방향을 비교해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "mobility-04": [
+      {
+        "id": "naver-v36-oworld-5",
+        "image": "/modu50m/route-photos-v36/oworld-05.jpg",
+        "title": "정문 주변 택시 승강장 비교",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "윤건미니네",
+        "sourceUrl": "https://blog.naver.com/kimjiae0126/224405631017",
+        "sourceTitle": "KTX대전역에서 오월드 가는 법(대중교통 이용 및 버스시간)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MjJfMjQ1/MDAxNzg3NDA0MTAwMTk4.cfXmQQqUOLEoQ4vx8fQ8-ZU2BiyQw53UhiiumcLXIe4g.c6apmu10F1arqyd7k4l3yDALnsZqnvGbDWsSElxS0vcg.JPEG/900_20260822_104918.jpg?type=w966",
+        "publishedAt": "2026-09-09",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "3bf87f7a5ad65b4456c4b6635ef055d9ee8dd49d94535cb5a625c22970fa9a1e",
+        "scope": "버스정류장과 다른 택시 승강장 장면이에요. 기존 번호 사이를 연결하는 보행 경로는 확인 전이에요.",
+        "observations": [
+          {
+            "label": "택시 승강장 표지",
+            "position": [
+              32,
+              63
+            ],
+            "detail": "노란 쉼터와 택시 승강장 표지로 버스정류장과 구분해요."
+          },
+          {
+            "label": "쉼터 앞 경계석",
+            "position": [
+              66,
+              79
+            ],
+            "detail": "쉼터 양쪽에 차량 공간과 보도 경계가 보여요. 건널 위치와 턱 낮춤을 더 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "arboretum": {
+    "bus-v31-door": [
+      {
+        "id": "naver-v36-arboretum-8",
+        "image": "/modu50m/route-photos-v36/arboretum-08.jpg",
+        "title": "열대식물원 앞 나무 경사판 · 2026년 게시",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "엠제이",
+        "sourceUrl": "https://blog.naver.com/ifnotnow_thenwhen/224376796257",
+        "sourceTitle": "한밭수목원 열대식물원 주차 대전 여행 실내 가볼만한 곳",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MTJfMjEx/MDAxNzg2NTQyMjI5NjM4.7qAGXgl9Gz5GhIZyu083XnP6FBoZe7oQ9di5zFCNvs4g.JS3SNyss6mGA31_Ao7nvK5ehK6Hc_ceyT7bxK2sDiF4g.JPEG/20260812_102337.jpg?type=w966",
+        "publishedAt": "2026-08-16",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "a05e20c297121a097adc5f5edf66ca517197e406e47bdb7e7b442065ee428470",
+        "scope": "출입부 앞마당을 다른 방향에서 본 사진이에요. 화분 배치와 문까지의 연결은 방문 전 다시 확인해요.",
+        "observations": [
+          {
+            "label": "목재 경사판",
+            "position": [
+              29,
+              92
+            ],
+            "detail": "붉은 포장에서 목재 경사판으로 올라가는 접점이 보여요. 경사와 끝부분 단차를 가까이 살펴봐요."
+          },
+          {
+            "label": "화분 사이 통로",
+            "position": [
+              33,
+              83
+            ],
+            "detail": "화분 사이로 문 방향의 바닥이 이어져요. 화분 배치에 따라 남는 폭이 달라질 수 있어요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-arboretum-9",
+        "image": "/modu50m/route-photos-v36/arboretum-09.jpg",
+        "title": "현장 안내판에서 입구·출구 구분",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "엠제이",
+        "sourceUrl": "https://blog.naver.com/ifnotnow_thenwhen/224376796257",
+        "sourceTitle": "한밭수목원 열대식물원 주차 대전 여행 실내 가볼만한 곳",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MTJfMTYx/MDAxNzg2NTQyMjM4MDI5.GYrk6uY6GSUyNpmByfIJPt2QHoiUc-qAGnVWdBup288g.YDAnc5CLg7aBmqIL7yRBYiRf6htdy0rEHFBv3IRS3RYg.JPEG/20260812_102556.jpg?type=w966",
+        "publishedAt": "2026-08-16",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "d3f5719512b6c0e605c115458a096cf232d41d2e368b64729214f3762cd8ba63",
+        "scope": "열대식물원 안 안내판을 찍은 사진이에요. 바닥 상태를 보여주는 사진과 함께 참고해요.",
+        "observations": [
+          {
+            "label": "입구 표시",
+            "position": [
+              21,
+              51
+            ],
+            "detail": "안내판은 입구와 출구를 나눠 보여줘요. 실제 운영 방향은 현장 표지를 함께 확인해요."
+          },
+          {
+            "label": "출구 표시",
+            "position": [
+              75,
+              53
+            ],
+            "detail": "입구와 출구가 같은 문이라고 생각하지 않도록 위치를 비교해요. 이 그림만으로 접근 가능한 길을 확정하지 않아요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-arboretum-10",
+        "image": "/modu50m/route-photos-v36/arboretum-10.jpg",
+        "title": "안쪽 입구의 통과 장치와 문턱",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "엠제이",
+        "sourceUrl": "https://blog.naver.com/ifnotnow_thenwhen/224376796257",
+        "sourceTitle": "한밭수목원 열대식물원 주차 대전 여행 실내 가볼만한 곳",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MTJfMTQ1/MDAxNzg2NTQyMjcyOTg2.YIamkYHHNaD971sg2iX4y4ygt0eQp-L4A2ejd4tjjuMg.sVoQQdx68lPb4MCj3U7hQ3kFaFHiHy3_sH1k3_LYlXgg.JPEG/20260812_102606.jpg?type=w966",
+        "publishedAt": "2026-08-16",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "8d810a99a0828a7a987956f561b1ddd760ee60550eb17c6a679e20a25f8c0add",
+        "scope": "건물 안쪽 입구를 보여주는 별도 장면이에요. 바깥 문과 구분해서 살펴봐요.",
+        "observations": [
+          {
+            "label": "입구 통과 장치",
+            "position": [
+              72,
+              78
+            ],
+            "detail": "통과 장치와 출입문이 보여요. 휠체어로 이용할 수 있는 폭과 별도 통로 여부를 확인해요."
+          },
+          {
+            "label": "문 아래 바닥 경계",
+            "position": [
+              60,
+              90
+            ],
+            "detail": "금속판·점자블록·문 아래 경계가 만나는 부분을 살펴봐요. 높이 차는 사진만으로 확정할 수 없어요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "museum": {
+    "mobility-01": [
+      {
+        "id": "naver-v36-museum-5",
+        "image": "/modu50m/route-photos-v36/museum-05.jpg",
+        "title": "경사로에서 미술관 입구 바라보기",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "선달영",
+        "sourceUrl": "https://blog.naver.com/qkrwlsdud13/224038594626",
+        "sourceTitle": "대전여행 가볼만한곳 대전시립미술관 관람요금 주차정보",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTEwMTJfMzUg/MDAxNzYwMjQ5MTUzODg1.cJowQicSQLxrWiSjqnYMCcXeoCLx-aJd5viB722GBo0g.w8FjCU2vNoEVRy47fVJUyXpPo-yapxMa12KySjbl25cg.JPEG/SE-3068E51F-CCA0-499B-8980-578DD38C9AEA.jpg?type=w966",
+        "publishedAt": "2025-10-12",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "806bfc3cc5189047a42cdad24cc15f47e8d7a41dbe763f34a310157b68fab469",
+        "scope": "2025년 게시된 경사로 사진이에요. 아래 도로에서 경사로 시작점까지의 연결은 별도로 확인해요.",
+        "observations": [
+          {
+            "label": "경사로와 손잡이",
+            "position": [
+              52,
+              74
+            ],
+            "detail": "양쪽 손잡이를 따라 입구 방향으로 바닥이 이어져요. 기울기와 쉬어갈 공간은 추가 확인해요."
+          },
+          {
+            "label": "문 앞 방향",
+            "position": [
+              38,
+              58
+            ],
+            "detail": "멀리 입구 차양과 문이 보여요. 문턱과 실제 열린 문 폭을 확인하려면 가까운 사진이 더 필요해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-leeungno-12",
+        "image": "/modu50m/route-photos-v36/leeungno-12.jpg",
+        "title": "광장에서 본 시립미술관과 경사 접근부",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "김체크",
+        "sourceUrl": "https://blog.naver.com/miracle1222/223879203534",
+        "sourceTitle": "대전 이응노미술관 주차 입장료 전시회 추천",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA1MjZfMTc1/MDAxNzQ4MjYxODEyOTc1.IoZ2M0yV2jdRwlPKsJ9NavoqNjLEGca3q0FC8pse3rcg.wEWM6-nf7EyF7GdEc1_Cq1iTLjARd19HBe1tYyoWkrYg.JPEG/SE-935072BC-39FA-41A4-ABE7-1EB35E6462A2.jpg?type=w966",
+        "publishedAt": "2025-05-27",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "f1cff362741df6b250be6a6eb80b004610bf413e6e3492ac6e8a8e655e1c551f",
+        "scope": "이응노미술관 방문기 중 이웃 시설인 시립미술관을 촬영한 사진이에요. 건물 형태와 입구 방향을 비교해요.",
+        "observations": [
+          {
+            "label": "시립미술관 입구 방향",
+            "position": [
+              70,
+              58
+            ],
+            "detail": "미술관 표지와 입구 차양이 보여요. 이웃한 이응노미술관의 문과 구분해요."
+          },
+          {
+            "label": "앞마당과 포장 경계",
+            "position": [
+              51,
+              76
+            ],
+            "detail": "잔디·물가·포장 구역이 나뉘어 있어요. 잔디나 물가를 가로지르는 경로로 안내하지 않아요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "leeungno": {
+    "research-a-01": [
+      {
+        "id": "naver-v36-leeungno-4",
+        "image": "/modu50m/route-photos-v36/leeungno-04.jpg",
+        "title": "이응노미술관 표지로 건물 구분",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "김체크",
+        "sourceUrl": "https://blog.naver.com/miracle1222/223879203534",
+        "sourceTitle": "대전 이응노미술관 주차 입장료 전시회 추천",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA1MjZfMjU1/MDAxNzQ4MjYxNzk1NTI0.az53JXgqCJgcKt2Crn-p568t_YAG4dCtMkfauvbKIq8g.6GVbOYr-OLiWovSzYS64rY4RqOcb4wh1yqaK-KmP-M8g.JPEG/SE-AC6084B5-0CDB-4D00-BEE4-8120B76E2D6A.jpg?type=w966",
+        "publishedAt": "2025-05-27",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "e8301df6419721d88a885779314c41622f3584c1dcb4f41c3c42c62119178e06",
+        "scope": "이응노미술관 앞 표지를 찍은 사진이에요. 정류장부터의 정확한 촬영 위치 연결은 확인 전이에요.",
+        "observations": [
+          {
+            "label": "미술관 이름 표지",
+            "position": [
+              76,
+              38
+            ],
+            "detail": "이응노미술관이라는 이름을 먼저 확인해요. 옆의 시립미술관과 목적지를 구분하는 표식이에요."
+          },
+          {
+            "label": "표지 옆 보행 공간",
+            "position": [
+              91,
+              71
+            ],
+            "detail": "표지 뒤로 포장 통로가 보이지만 나무와 표지에 일부가 가려져 있어요. 문까지 이어지는 바닥을 더 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "research-a-02": [
+      {
+        "id": "naver-v36-leeungno-13",
+        "image": "/modu50m/route-photos-v36/leeungno-13.jpg",
+        "title": "유리 전면과 건물 앞 바닥 비교",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "김체크",
+        "sourceUrl": "https://blog.naver.com/miracle1222/223879203534",
+        "sourceTitle": "대전 이응노미술관 주차 입장료 전시회 추천",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA1MjZfMjYz/MDAxNzQ4MjYxODE1Nzk5.Q0-Z772cXtB5UsYkp3S_iuI3cVJJjoo7hlcbJx732Kkg.CK-5zHSOeIRq1OPwDnoK6nNPHN8BFGLi4MQuRitdZUAg.JPEG/SE-F2D568B8-0DCE-4C7F-87B0-55C054E28C63.jpg?type=w466",
+        "publishedAt": "2025-05-27",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "faed13bb534d378b44a3894d1d59c2ebac30b54a138f9270c4a8a157be41772d",
+        "scope": "앞쪽 유리 전면을 담은 사진이에요. 사진에 보이는 모든 유리면이 관람객 출입문인 것은 아니에요.",
+        "observations": [
+          {
+            "label": "유리 전면",
+            "position": [
+              69,
+              59
+            ],
+            "detail": "전시 안내와 유리면이 보여요. 실제로 열리는 관람객 문은 현장 표지와 비교해야 해요."
+          },
+          {
+            "label": "잔디와 건물 앞 경계",
+            "position": [
+              52,
+              82
+            ],
+            "detail": "잔디 앞과 건물 기단이 나뉘어 있어요. 잔디를 가로질러 문으로 가는 길로 해석하지 않아요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "bus-v32-side": [
+      {
+        "id": "naver-v36-leeungno-14",
+        "image": "/modu50m/route-photos-v36/leeungno-14.jpg",
+        "title": "매표소 방향 안내판",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "김체크",
+        "sourceUrl": "https://blog.naver.com/miracle1222/223879203534",
+        "sourceTitle": "대전 이응노미술관 주차 입장료 전시회 추천",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA1MjZfODYg/MDAxNzQ4MjYxODE3NTIw.QVCllwBonl5ml743XP1CnfMIYGMtZ2ggYKXycisrMaAg.qnErXGKqb33FJjS10Irmz2eulogc2X-kmqzlKsLn91gg.JPEG/SE-AEA491ED-0457-4C88-ACD0-55649E460196.jpg?type=w466",
+        "publishedAt": "2025-05-27",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "834a84bafcd527cb5d15ef12a37217dc3136a18eb6861c08b33da3ac5e947595",
+        "scope": "미술관 주변에 설치된 안내판 사진이에요. 안내판 촬영 위치의 정확한 좌표는 확인 전이에요.",
+        "observations": [
+          {
+            "label": "미술관·매표소 화살표",
+            "position": [
+              50,
+              50
+            ],
+            "detail": "미술관과 매표소 방향을 알려주는 화살표를 확인해요. 사진 속 화살표를 현재 보는 방향으로 그대로 적용하지 않아요."
+          },
+          {
+            "label": "주변 바닥 확인",
+            "position": [
+              80,
+              87
+            ],
+            "detail": "표지 아래 바닥은 일부만 보여요. 표지에서 문까지 바닥이 이어지는 사진을 함께 살펴봐요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "science": {
+    "step:science-bus-gate": [
+      {
+        "id": "naver-v36-science-1",
+        "image": "/modu50m/route-photos-v36/science-01.jpg",
+        "title": "과학관 정문 앞 광장 · 공식 블로그",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "대전광역시 공식 네이버 블로그",
+        "author": "대전광역시",
+        "sourceUrl": "https://blog.naver.com/storydaejeon/224382311526",
+        "sourceTitle": "번뜩이는 아이디어의 향연! 국립중앙과학관 <제47회 전국학생 과학발명품 경진대회>",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MThfMjQz/MDAxNzg3MDE5MzkwNTQ4.FLESsbCnOGLHF1mED_1c7p6X3RICdG2lkvxmYZyJvpsg.Am5FI00bfYTHNU1wqnd4fUn1wfrMooIB5UDa4baX6lsg.JPEG/SE-1f4dd689-1ad2-4b80-b690-c18600bcec25.jpg?type=w966",
+        "publishedAt": "2026-08-18",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "03e939a93d2851fa76201bf8b79bc52d30569fc277a2e4cbeff07660fd0e056d",
+        "scope": "과학관 정문 앞을 보여주는 사진이에요. 꿈나래길에서 이 정문까지 이어지는 구간 전체를 확인한 자료는 아니에요.",
+        "observations": [
+          {
+            "label": "정문 앞 포장",
+            "position": [
+              51,
+              79
+            ],
+            "detail": "정문 앞에는 넓은 포장과 이음선이 보여요. 현재 파손이나 작은 단차는 더 가까이 확인해요."
+          },
+          {
+            "label": "정문 통과 구역",
+            "position": [
+              52,
+              39
+            ],
+            "detail": "중앙에 출입 시설과 안내물이 보여요. 휠체어로 사용할 문과 열린 폭을 확인해야 해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "research-a-01": [
+      {
+        "id": "naver-v36-science-2",
+        "image": "/modu50m/route-photos-v36/science-02.jpg",
+        "title": "미래기술관 표지·문·앞쪽 바닥",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "대전광역시 공식 네이버 블로그",
+        "author": "대전광역시",
+        "sourceUrl": "https://blog.naver.com/storydaejeon/224382311526",
+        "sourceTitle": "번뜩이는 아이디어의 향연! 국립중앙과학관 <제47회 전국학생 과학발명품 경진대회>",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA4MThfMjAz/MDAxNzg3MDE5MzkyODA2.Ag81ljVGEg2hZuminGsvwmJwreKJAYxcdZiLSR86n2cg.27lQusRDzsGG4sdPe_eKxZfUzcUOvcShy2x1-Jwcjp8g.JPEG/SE-deab33d5-9430-41f3-b4bb-0871e39f852d.jpg?type=w966",
+        "publishedAt": "2026-08-18",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "5f71b33c49d7bf41fcbe136ed79e99dd8048f4da77bc77f7364337debee0f6d7",
+        "scope": "대전광역시 공식 네이버 블로그의 미래기술관 사진이에요. 행사 안내물은 촬영 당시 배치예요.",
+        "observations": [
+          {
+            "label": "미래기술관과 입구",
+            "position": [
+              69,
+              52
+            ],
+            "detail": "미래기술관 표지와 입구 안내가 함께 보여요. 과학기술관·자연사관의 문과 구분할 수 있어요."
+          },
+          {
+            "label": "안내판 옆 바닥 경계",
+            "position": [
+              48,
+              82
+            ],
+            "detail": "큰 안내판과 기둥 앞 포장 경계가 보여요. 안내판을 피해 지나갈 폭과 문 앞 단차를 살펴봐요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "sungsim": {
+    "bus-v31-queue": [
+      {
+        "id": "naver-v36-sungsim-2",
+        "image": "/modu50m/route-photos-v36/sungsim-02.jpg",
+        "title": "본점 골목에서 대기 줄 옆 공간 보기",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "몽몽",
+        "sourceUrl": "https://blog.naver.com/kizaki56/224225802502",
+        "sourceTitle": "대전 성심당 본점 웨이팅 주차장 주말 방문 후기",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjAyMjJfNjgg/MDAxNzcxNzM3MjIwODEy.q9bs7EXO_l-DqbcR7vvgdoz1HmxWpnGP6FrlyFcHVMUg.NzND-SA8Z8ahwgKteezZhCdYvCgLzT5iDNtjA1tRWKIg.PNG/02.png?type=w966",
+        "publishedAt": "2026-05-02",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "4cc228c6c21efbba19f488bb40e43f97535b667b6b8eb66d8b073652ffbbe219",
+        "scope": "성심당 본점 골목 사진이에요. 현재 줄 길이나 혼잡도를 나타내는 실시간 사진은 아니에요.",
+        "observations": [
+          {
+            "label": "줄 옆 이동 공간",
+            "position": [
+              58,
+              76
+            ],
+            "detail": "건물 옆 대기 줄과 골목을 지나는 사람이 함께 보여요. 서로 비켜갈 공간을 확인해요."
+          },
+          {
+            "label": "대기 줄 고정대",
+            "position": [
+              27,
+              80
+            ],
+            "detail": "줄을 나누는 고정대가 바닥에 놓여 있어요. 바퀴가 걸리지 않도록 받침 위치도 살펴봐요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-sungsim-4",
+        "image": "/modu50m/route-photos-v36/sungsim-04.jpg",
+        "title": "줄을 옆에서 보고 통로 비교하기",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "몽몽",
+        "sourceUrl": "https://blog.naver.com/kizaki56/224225802502",
+        "sourceTitle": "대전 성심당 본점 웨이팅 주차장 주말 방문 후기",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjAyMjJfNzIg/MDAxNzcxNzM3MjE4MjUx.7CY72J9Cr3i2vhHTwTflvFiQ92fV9y8RB6ffevF68qwg.AWSvWu75ZGh6UvgvTymNcOKGoHm9DX5HbfQzQNt6ObEg.PNG/04.png?type=w966",
+        "publishedAt": "2026-05-02",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "c48b736bfcad3bfe72a10ec6d7fe5af991d41c4a5ccc15bee26f7de0b5e7efd3",
+        "scope": "동일 방문기의 다른 방향 사진이에요. 골목에서 입구로 바로 통과할 수 있다는 안내는 아니에요.",
+        "observations": [
+          {
+            "label": "입구 옆 줄과 고정대",
+            "position": [
+              42,
+              72
+            ],
+            "detail": "사람과 고정대가 차지한 공간을 살펴봐요. 현재 줄 동선과 휠체어 접근 안내를 별도로 확인해요."
+          },
+          {
+            "label": "문 앞 바닥",
+            "position": [
+              12,
+              72
+            ],
+            "detail": "왼쪽 문 앞에 높이 차가 보여요. 가까운 사진에서도 실제 높이·기울기는 측정하지 않았어요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "journey-door": [
+      {
+        "id": "naver-v36-sungsim-3",
+        "image": "/modu50m/route-photos-v36/sungsim-03.jpg",
+        "title": "본점 문 앞을 정면에서 보기",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "몽몽",
+        "sourceUrl": "https://blog.naver.com/kizaki56/224225802502",
+        "sourceTitle": "대전 성심당 본점 웨이팅 주차장 주말 방문 후기",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjAyMjJfNTIg/MDAxNzcxNzM3MjE5MjY1.ZW73ZGU851nXiTVLpwtVpwSGfvs9mr1GlkjLErLzlMkg.tl5Rlq04wtAzLE5KKU2CPzM6Ksr65j7Dq2z5OrKPOQcg.PNG/03.png?type=w966",
+        "publishedAt": "2026-05-02",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "9aa169d1a2d78af8237fa4ef8450a728e9c95911a0be36fb839c22d41869cdd0",
+        "scope": "본점 정면 사진이에요. 사람에 가려진 문턱과 보조 경사판 설치 여부는 현재 확인이 필요해요.",
+        "observations": [
+          {
+            "label": "문 앞 대기 인원",
+            "position": [
+              46,
+              62
+            ],
+            "detail": "문 안팎에 사람이 있어 바닥 일부가 가려져 있어요. 문 앞 회전 공간과 들어가는 순서를 확인해요."
+          },
+          {
+            "label": "문 앞 높이 차",
+            "position": [
+              33,
+              76
+            ],
+            "detail": "사람 사이로 문 앞 검은 바닥과 경계가 보여요. 높이를 추정하지 말고 경사판이나 도움 요청 방법을 더 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-sungsim-8",
+        "image": "/modu50m/route-photos-v36/sungsim-08.jpg",
+        "title": "입구 조형물 옆에서 바닥 경계 보기",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "몽몽",
+        "sourceUrl": "https://blog.naver.com/kizaki56/224225802502",
+        "sourceTitle": "대전 성심당 본점 웨이팅 주차장 주말 방문 후기",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjAyMjJfMjk2/MDAxNzcxNzM3MjE4NTk5.qQlHEGGii_au5CKq_xct9Tumc8X_A0ZabgoGzru1O04g.7OxMVNnNVrO5vScdJy-zcSahjsUapaDPw_72hCdHsCEg.PNG/10.png?type=w966",
+        "publishedAt": "2026-05-02",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "c763a12625ba932b00f64331debc8f714e59bb5a9ca966d45a4d9e45f8e581fc",
+        "scope": "본점 입구 표식과 그 옆 문 아래를 가까이 본 사진이에요. 사람과 조형물에 바닥 일부가 가려져 있어요.",
+        "observations": [
+          {
+            "label": "문 아래 높이 차",
+            "position": [
+              22,
+              63
+            ],
+            "detail": "왼쪽 문 아래에 겹친 바닥 경계가 보여요. 현재 턱 높이와 별도 진입 방법을 확인해요."
+          },
+          {
+            "label": "조형물과 통로",
+            "position": [
+              36,
+              88
+            ],
+            "detail": "입구 표식이 통로 옆에 있어요. 표식과 대기 인원 사이의 남는 폭을 살펴봐요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "skyroad": {
+    "bus-v31-entry": [
+      {
+        "id": "naver-v36-skyroad-2",
+        "image": "/modu50m/route-photos-v36/skyroad-02.jpg",
+        "title": "중앙로 건너편에서 거리 입구 보기",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "무드리",
+        "sourceUrl": "https://blog.naver.com/mudriy/224352563639",
+        "sourceTitle": "[대전광역시] 은행동 으능정이 문화의 거리(2026년 7월 19일 16시~20시)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA3MjBfMTE1/MDAxNzg0NTUwMDM2NTgy.KrJiXwui7fCkAv5JqxKQbVx0v7Lz1dy65w4WD_ZPJU4g.dTJJvCYgTQcwmICCy9Arc6EKYhtoitIu99Xvreh1ivEg.JPEG/20260719_164119.jpg?type=w966",
+        "publishedAt": "2026-07-20",
+        "capturedAt": "2026-07-19",
+        "captureDateBasis": "방문기 제목과 본문에 촬영일 명시",
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "809db3470165ed6c3186cca80f0cf7d3e2de5d3c1dd707d667ad9ff227d3ec6e",
+        "scope": "작성자는 중앙로에서 남쪽을 보며 촬영했다고 설명해요. 차도를 직접 건너라는 안내는 아니에요.",
+        "observations": [
+          {
+            "label": "차도와 보도 경계",
+            "position": [
+              48,
+              75
+            ],
+            "detail": "차량 뒤로 보도와 울타리가 보여요. 정해진 횡단보도와 턱 낮춤 위치를 따로 확인해요."
+          },
+          {
+            "label": "스카이로드 입구 표식",
+            "position": [
+              54,
+              42
+            ],
+            "detail": "긴 지붕과 스카이로드 간판으로 거리 입구를 알아봐요. 바닥 연결은 가까운 사진을 함께 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-skyroad-3",
+        "image": "/modu50m/route-photos-v36/skyroad-03.jpg",
+        "title": "입구의 원형 포장과 바닥 이음",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "무드리",
+        "sourceUrl": "https://blog.naver.com/mudriy/224352563639",
+        "sourceTitle": "[대전광역시] 은행동 으능정이 문화의 거리(2026년 7월 19일 16시~20시)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA3MjBfMTYg/MDAxNzg0NTUwMTAyNTIw.UfydFi50N7WMGMPY0HFAzR5SPbganJ7ElXpjDlbZZQgg.KYNeHW4QcX9_qf12Aa0jIXUGYTAaJvIiKiVqsCOAyxEg.JPEG/20260719_164332.jpg?type=w966",
+        "publishedAt": "2026-07-20",
+        "capturedAt": "2026-07-19",
+        "captureDateBasis": "방문기 제목과 본문에 촬영일 명시",
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "7de3ef2564986e9a2f511ec2b329c654045c36b4880e5bdc88e32bf92cd38ab6",
+        "scope": "거리 입구를 가까이 본 사진이에요. 실제 사진에서 작은 경계와 통과 공간을 비교해요.",
+        "observations": [
+          {
+            "label": "입구 바닥 경계",
+            "position": [
+              49,
+              92
+            ],
+            "detail": "앞쪽 보도와 원형 무늬 포장이 만나는 경계가 보여요. 바퀴가 걸릴 단차가 있는지 가까이 확인해요."
+          },
+          {
+            "label": "기둥 사이 공간",
+            "position": [
+              54,
+              76
+            ],
+            "detail": "사람·안내물·기둥 사이의 남는 통로를 살펴봐요. 현재 물건 배치는 달라질 수 있어요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-skyroad-4",
+        "image": "/modu50m/route-photos-v36/skyroad-04.jpg",
+        "title": "입구 주변 횡단보도 · 동쪽 방향",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "무드리",
+        "sourceUrl": "https://blog.naver.com/mudriy/224352563639",
+        "sourceTitle": "[대전광역시] 은행동 으능정이 문화의 거리(2026년 7월 19일 16시~20시)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA3MjBfMTQ4/MDAxNzg0NTUwMDk0MTI0.3UPuhUCvWviuOvrTba2J7rB0odfzuAzKeQ6LsVdSJoMg.46WZVC1DGO7nksbvLCgFrbhZ2KhjeWwior2KzTSfisMg.JPEG/20260719_164305.jpg?type=w966",
+        "publishedAt": "2026-07-20",
+        "capturedAt": "2026-07-19",
+        "captureDateBasis": "방문기 제목과 본문에 촬영일 명시",
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "42f7a5102793ae0f92565121d648c7335479d0d3c2ab8ce9fe7e3f0bfc541abc",
+        "scope": "작성자는 입구 주변 횡단보도에서 동쪽을 촬영했다고 설명해요. 신호와 건너편 턱 상태는 방문 시 확인해요.",
+        "observations": [
+          {
+            "label": "횡단부 접점",
+            "position": [
+              26,
+              84
+            ],
+            "detail": "횡단보도와 보도가 만나는 부분의 곡선 경계가 보여요. 양쪽 턱 낮춤을 모두 확인해야 해요."
+          },
+          {
+            "label": "신호 기둥 옆 보도",
+            "position": [
+              19,
+              73
+            ],
+            "detail": "보도 위 기둥과 점자블록이 보여요. 신호를 기다리며 멈출 공간을 살펴봐요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "bus-v31-bus": [
+      {
+        "id": "naver-v36-skyroad-5",
+        "image": "/modu50m/route-photos-v36/skyroad-05.jpg",
+        "title": "중앙로 보도 · 서쪽 방향 비교",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "무드리",
+        "sourceUrl": "https://blog.naver.com/mudriy/224352563639",
+        "sourceTitle": "[대전광역시] 은행동 으능정이 문화의 거리(2026년 7월 19일 16시~20시)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA3MjBfNzMg/MDAxNzg0NTUwMDQzOTMx.YNjgVp8QhhfTB9xtnrOOSRY2iB7xk4WtYPjol0ABNw8g.spVubUJajSa3pmUbYNg7HFE21Yb-1HqN0-Hl_InnwZcg.JPEG/20260719_164207.jpg?type=w966",
+        "publishedAt": "2026-07-20",
+        "capturedAt": "2026-07-19",
+        "captureDateBasis": "방문기 제목과 본문에 촬영일 명시",
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "803811c739d12fd715a6adc982988e272310e85a63a52f32d4c7d5d086f2acb4",
+        "scope": "입구 주변의 서쪽 방향 사진이에요. 선택한 정류장의 정확한 승하차 위치를 보여주는 자료는 아니에요.",
+        "observations": [
+          {
+            "label": "가로수와 점포 옆 공간",
+            "position": [
+              88,
+              83
+            ],
+            "detail": "오른쪽 보도에 가로수와 점포 앞 물건이 보여요. 좁아지는 곳의 유효 폭을 확인해요."
+          },
+          {
+            "label": "차도 경계",
+            "position": [
+              77,
+              86
+            ],
+            "detail": "보도 옆으로 차도가 바로 이어져요. 보도 안쪽으로 계속 이어지는 통로를 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "bus-v31-path": [
+      {
+        "id": "naver-v36-skyroad-7",
+        "image": "/modu50m/route-photos-v36/skyroad-07.jpg",
+        "title": "점포 문턱과 거리 바닥 비교",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "무드리",
+        "sourceUrl": "https://blog.naver.com/mudriy/224352563639",
+        "sourceTitle": "[대전광역시] 은행동 으능정이 문화의 거리(2026년 7월 19일 16시~20시)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA3MjBfMjcg/MDAxNzg0NTUwMDMwODYy.gGqnnfXeuKHOoF0zvGcn-9WHj_eBhVVPRcgh9-yBdzkg.NhseC8R310mjK_x47BLzBEab7Dx6o4I1B_FtpatqD_8g.JPEG/20260719_164002.jpg?type=w966",
+        "publishedAt": "2026-07-20",
+        "capturedAt": "2026-07-19",
+        "captureDateBasis": "방문기 제목과 본문에 촬영일 명시",
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "a18df1ef40e98d9334728615e7acbf2c04279f76b1086101a6f7c132f4e42460",
+        "scope": "거리 안 점포 앞을 다른 방향에서 본 사진이에요. 특정 점포 방문 경로로 안내하지 않아요.",
+        "observations": [
+          {
+            "label": "점포 앞 작은 경사판",
+            "position": [
+              26,
+              94
+            ],
+            "detail": "점포 문 앞에 붉은색 작은 경사판이 보여요. 점포마다 문턱과 접근 방식이 다를 수 있어요."
+          },
+          {
+            "label": "안내물 옆 통과 공간",
+            "position": [
+              78,
+              83
+            ],
+            "detail": "입간판과 기둥 사이를 지나는 공간을 살펴봐요. 영업 중 배치와 사람 수에 따라 달라져요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-skyroad-13",
+        "image": "/modu50m/route-photos-v36/skyroad-13.jpg",
+        "title": "반대 방향에서 본 보행 흐름",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "무드리",
+        "sourceUrl": "https://blog.naver.com/mudriy/224352563639",
+        "sourceTitle": "[대전광역시] 은행동 으능정이 문화의 거리(2026년 7월 19일 16시~20시)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNjA3MjBfODAg/MDAxNzg0NTU0MzEwMDY4.9Ffkp6mVvt_fJOhIifo4UdWmtfjNxD534-PeSJDZB_0g.utBDH0trtwKunVPX3xmXCL3GSaXmuItn9j7zM4YQPt8g.JPEG/20260719_163544.jpg?type=w966",
+        "publishedAt": "2026-07-20",
+        "capturedAt": "2026-07-19",
+        "captureDateBasis": "방문기 제목과 본문에 촬영일 명시",
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "bbcdcc4855d00644354daa3085ce21aab6e675ba0d9b139a91d74597b1eac41a",
+        "scope": "작성자는 남쪽에서 북쪽을 바라본 장면으로 구분해요. 혼잡과 시설물 배치는 촬영 당시 모습이에요.",
+        "observations": [
+          {
+            "label": "기둥 옆 안내판",
+            "position": [
+              29,
+              82
+            ],
+            "detail": "기둥 주변의 큰 입간판이 통로 일부를 차지해요. 안내판 받침과 바퀴가 만날 수 있는 부분을 확인해요."
+          },
+          {
+            "label": "사람 사이 이동 공간",
+            "position": [
+              64,
+              89
+            ],
+            "detail": "여러 방향으로 걷는 사람이 보여요. 비켜서거나 잠시 멈출 공간이 있는지 살펴봐요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "station": {
+    "bus-v32-square": [
+      {
+        "id": "naver-v36-station-1",
+        "image": "/modu50m/route-photos-v36/station-01.jpg",
+        "title": "서광장 꽃시계 주변 · 야간 비교",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "소소일",
+        "sourceUrl": "https://blog.naver.com/goodtime67890/223851589745",
+        "sourceTitle": "대전역 근처...구경하기,몇년만에 방문(대전역 지하상가까지)",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTA0MzBfMTc1/MDAxNzQ2MDE4MDI4MTkw.PpDsRSpP7xeKEGSGblibFG-78-cBX_UDrsT9l7teo_Ag.EkBI1AbuBZ83-Cb8pQi2DsoPUQdGf7SznyoctiPYtugg.JPEG/SE-9eb37b64-fe02-4f21-b561-a032e39b0d31.jpg?type=w580",
+        "publishedAt": "2025-05-01",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "3310e211de1c020ec20b28365d4dbf6bb6040ac400ade2674407df78ebcce154",
+        "scope": "대전역 서광장의 야간 사진이에요. 어두워서 작은 바닥 단차를 판단하기 어려워요.",
+        "observations": [
+          {
+            "label": "꽃시계 둘레 경계",
+            "position": [
+              59,
+              74
+            ],
+            "detail": "꽃시계 주위 울타리와 포장 경계가 보여요. 울타리를 따라갈 때 남는 공간을 살펴봐요."
+          },
+          {
+            "label": "지붕 있는 보행 공간",
+            "position": [
+              23,
+              54
+            ],
+            "detail": "광장 옆 지붕 있는 통로가 보여요. 문까지의 연결은 낮에 촬영된 다른 사진과 함께 비교해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  },
+  "terminal": {
+    "bus-v32-door": [
+      {
+        "id": "naver-v36-terminal-2",
+        "image": "/modu50m/route-photos-v36/terminal-02.jpg",
+        "title": "다른 문 비교 · 서관 GATE2",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "아라네",
+        "sourceUrl": "https://blog.naver.com/trip_with_ara/223502277469",
+        "sourceTitle": "대전 복합터미널 시간표 버스 예매 내부시설 물품보관함 식당 주차장",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNDA3MDNfMjY0/MDAxNzIwMDE3NzAwMjM2.ZvMNGGWvvJAYu0azUnkfxx9Vxgh8MuoQDLUCmEmKMuwg.h3nlbLz2W5jDf0CFX8PeyIp-IF5HZXdsj3V_Ix4xP1Eg.JPEG/IMG_3077.JPG?type=w966",
+        "publishedAt": "2024-07-05",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "980c785ddcb7c246085caba3c4150afe3c85e1c685b1a2610e5c3bb6dab0c210",
+        "scope": "기존 마지막 번호에서 살펴보는 GATE4와 다른 문인 GATE2예요. 이 문까지 연결된 경로로 안내하지 않아요.",
+        "observations": [
+          {
+            "label": "서관 GATE2 표지",
+            "position": [
+              78,
+              44
+            ],
+            "detail": "문 위에 서관 GATE2라고 쓰여 있어요. 현재 선택한 GATE4 사진과 구분해서 참고해요."
+          },
+          {
+            "label": "문 아래와 점자블록",
+            "position": [
+              46,
+              81
+            ],
+            "detail": "유리문 앞까지 점자블록과 포장이 이어져요. 문 아래 단차와 열린 폭은 가까이서 확인해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "naver-v36-terminal-3",
+        "image": "/modu50m/route-photos-v36/terminal-03.jpg",
+        "title": "서관 안의 매표소·타는 곳 방향 안내",
+        "provider": "blog",
+        "platform": "naver-blog",
+        "providerLabel": "네이버 블로그 방문 사진",
+        "author": "아라네",
+        "sourceUrl": "https://blog.naver.com/trip_with_ara/223502277469",
+        "sourceTitle": "대전 복합터미널 시간표 버스 예매 내부시설 물품보관함 식당 주차장",
+        "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNDA3MDNfMTIg/MDAxNzIwMDE3NjkyNjk5.aibKaYJHmDftI3SjVEL7QyBNtO83ig7p-6XOnL8iac8g.iTNtFAA5uAX6tLIXtKqTbC78zrnK5WCG8LqJdtM4bLkg.JPEG/IMG_3080.JPG?type=w966",
+        "publishedAt": "2024-07-05",
+        "capturedAt": null,
+        "captureDateBasis": null,
+        "retrievedAt": "2026-09-26",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "ecb622b5c783970b75595a3364aafee8465d8874a15e6f34fc402ff67fcdcd5f",
+        "scope": "서관 내부 안내판 사진이에요. 특정 출입문에서 이 지점까지의 연결을 확인한 자료는 아니에요.",
+        "observations": [
+          {
+            "label": "매표소·타는 곳 안내",
+            "position": [
+              68,
+              54
+            ],
+            "detail": "표지에서 매표소와 타는 곳 방향을 확인해요. 노선별 승차장은 현장 안내를 다시 확인해야 해요."
+          },
+          {
+            "label": "사진에 없는 바닥",
+            "position": [
+              51,
+              94
+            ],
+            "detail": "이 사진은 위쪽 표지 중심이라 바닥과 통로 폭을 충분히 보여주지 않아요. 이동 경로 판단에는 다른 사진이 필요해요."
+          }
+        ],
+        "locationBinding": "same-facility-context",
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  }
+}

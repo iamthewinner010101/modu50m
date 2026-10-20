@@ -1,0 +1,46 @@
+.mv5 .rp-zoom{display:block;width:100%;padding:10px 13px;border:0;border-bottom:1px solid #d2dfd2;border-radius:0;background:#eef5ec;color:#126858;text-align:right;font-size:12px;min-height:44px}
+.rp-context-note{margin:0 0 12px!important;padding:12px 14px;border:1px solid #e4d4a7;border-radius:8px;background:#fff9e8;color:#775821!important;font-size:12px!important;line-height:1.8!important}
+.rp-dialog{width:min(1100px,94vw);max-width:94vw;max-height:94vh;padding:0;border:1px solid #cbdacb;border-radius:12px;background:#f7faf3;color:#244c40;overflow:auto;box-shadow:0 18px 80px #123d3950}
+.rp-dialog::backdrop{background:#0c262cb8}
+.rp-dialog>header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 16px;background:#f7faf3;position:sticky;top:0;z-index:2}
+.mv5 .rp-dialog>header button{padding:8px 14px;min-height:44px;border:1px solid #d2dfd2;border-radius:7px;background:white;color:#176658}
+.rp-dialog .rp-photo{max-width:100%;margin:auto}
+.rp-dialog .rp-photo>img{max-height:none;object-fit:contain}
+.rp-dialog .rp-detail{font-size:15px!important}
+.rp-dialog .rp-source{font-size:12px!important}
+.rp-selected-title{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px;padding:10px 12px 2px;color:#245e4d}
+.rp-selected-title small{font-size:10px;color:#678273}
+.rp-selected-title strong{font-size:14px}
+.rp-view-choices{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px;background:#fff;border-bottom:1px solid #d2dfd2}
+.mv5 .rp-view-choices button{min-height:44px;padding:8px 12px;border:1px solid #cadbd4;border-radius:7px;background:#f7faf6;color:#285b50;font-size:12px;font-weight:650}
+.mv5 .rp-view-choices button[aria-pressed=true]{background:#086e62;border-color:#086e62;color:#fff}
+@media(min-width:761px){.rp-dialog .rp-photo:has(img[src*="naver-hanbit-face"]){width:min(70vh,100%)}}
+.rp-reading{padding:16px;background:#f0f7f1;border-bottom:1px solid #d5e4da}
+.rp-reading>span{display:inline-block;padding:4px 9px;border-radius:5px;background:#dbeee3;color:#155849;font-size:13px;font-weight:750}
+.rp-reading>strong{display:block;margin-top:9px;font-size:17px;line-height:1.55;color:#164d48}
+.mv5 .sv-preparation .rp-reading>p{margin:6px 0 0;font-size:16px;line-height:1.8;color:#355d53}
+.rp-reading[data-purpose=context]{background:#fff9ed}
+.rp-reading[data-purpose=context]>span{background:#f2e7cb;color:#715524}
+.rp-photo-navigation{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;background:#fff;border-bottom:1px solid #d5e4da}
+.mv5 .sv-preparation .rp-photo-navigation button{min-height:44px;padding:9px 12px;border:1px solid #b6cec1;border-radius:7px;background:#f7faf6;font:inherit;font-size:15px;color:#0d6256;cursor:pointer}
+.mv5 .sv-preparation .rp-photo-navigation button:disabled{opacity:.45;cursor:default}
+.rp-photo-navigation output{font-size:14px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.rp-gallery small{display:block;padding:5px 7px 0;color:#215d4c;font-size:12px;font-weight:700;text-align:left}
+.rp-photo-navigation button:focus-visible,.rp-gallery button:focus-visible{outline:3px solid #08786b;outline-offset:2px}
+@media(max-width:420px){.rp-reading{padding:12px}.mv5 .sv-preparation .rp-photo-navigation button{font-size:14px;padding:8px}.rp-photo-navigation{padding:10px 8px}}
+.rp-photo-state{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:4;max-width:90%;box-sizing:border-box;padding:12px 16px;border:1px solid #cadbd4;border-radius:8px;background:#f7faf6f5;color:#245c50;font-size:15px;line-height:1.6;text-align:center;pointer-events:none}
+.rp-photo[data-photo-state=error] .rp-photo-state{color:#775524;background:#fff9ec}
+.rp-photo-image{position:relative}
+.rp-photo-image[aria-busy=true]::after{content:'확대 사진 준비 중…';position:absolute;inset:0;z-index:4;display:grid;place-items:center;background:#f7faf6c9;color:#245c50;font-size:16px}
+
+.rp-photo-meta{display:flex;align-items:center;gap:8px;padding:6px 10px;background:#f7faf4;border-top:1px solid #d9e3d8}
+.rp-photo-meta .rp-photo-credit{flex:1;min-width:0;margin:0!important;padding:0!important;border:0!important}
+.rp-photo-meta .rp-photo-enlarge{position:static;flex-shrink:0;display:flex;align-items:center;justify-content:center;gap:7px;min-height:48px;margin:0;padding:8px 12px;border:1px solid #b6cec1;border-radius:8px;background:#fff;box-shadow:none;color:#1a5142;font:inherit;font-size:13px;font-weight:700;cursor:zoom-in;pointer-events:auto}
+.rp-photo-meta .rp-photo-enlarge:focus-visible{outline:3px solid #08786b;outline-offset:2px}
+
+/* Separate touch buttons; connecting lines retain the original photo point. */
+.rp-photo .rp-dot{width:44px;height:44px;min-width:44px;min-height:44px;box-sizing:border-box;z-index:3}
+.rp-marker-links{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:2}
+.rp-marker-links line{stroke:#08796b;stroke-width:2;vector-effect:non-scaling-stroke}
+.rp-marker-links .rp-marker-link-outline{stroke:#fff;stroke-width:5}
+.rp-marker-links circle{fill:#08796b;stroke:#fff;stroke-width:2;vector-effect:non-scaling-stroke}

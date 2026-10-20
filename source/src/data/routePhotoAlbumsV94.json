@@ -1,0 +1,250 @@
+{
+  "arboretum": {
+    "step:arboretum-parking-start": [
+      {
+        "id": "visitor-v94-arboretum-4",
+        "image": "/modu50m/route-photos-v94/arboretum-parking-crosswalk-published-201910.jpg",
+        "title": "주차장 쪽 보도에서 온실 앞 횡단 지점 보기",
+        "viewLabel": "주차장 보도·횡단 지점",
+        "provider": "visitor",
+        "providerLabel": "방문 글 · 실제 현장 사진",
+        "platform": "visitor-blog",
+        "author": "정원딸린집",
+        "sourceUrl": "https://www.omdroid.com/205",
+        "imageSourceUrl": "https://www.omdroid.com/wp-content/uploads/sites/2/tistory/205/%ED%95%9C%EB%B0%AD%EC%88%98%EB%AA%A9%EC%9B%90_20190910_124459.jpg",
+        "publishedAt": "2019-10-06",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-08",
+        "sha256": "575b8b0cfe97f95654fb85284349e205284e06dc71bf75197950e310f3277004",
+        "sourceDimensions": [
+          900,
+          506
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "빨간 보도블록 끝, 흰 횡단 표시와 건너편 점자블록을 함께 살펴봐요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "빨간 보도블록 끝, 흰 횡단 표시와 건너편 점자블록을 함께 살펴봐요."
+        },
+        "evidenceRole": {
+          "label": "온실 앞 주차장·횡단 지점 · 방문 사진",
+          "detail": "2019년 10월 6일 게시된 방문 글의 원본 사진이에요. 흰 횡단 표시·차양·온실 앞 바닥을 함께 비교할 수 있어요. 개별 촬영일과 현재 바닥 상태를 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "보도와 횡단 지점이 만나는 바닥",
+            "position": [
+              57,
+              84
+            ],
+            "detail": "사진 아래 빨간 보도블록에서 흰 횡단 표시로 이어지는 바닥을 봐요. 턱 높이는 사진으로 측정하지 않았어요."
+          },
+          {
+            "label": "건너편 보도와 점자블록",
+            "position": [
+              62,
+              63
+            ],
+            "detail": "흰 줄 끝과 노란 점자블록을 함께 찾아요. 양쪽 바닥의 이음새와 차가 드나드는 방향을 살펴봐요."
+          },
+          {
+            "label": "온실 왼쪽 차양",
+            "position": [
+              74,
+              51
+            ],
+            "detail": "횡단 지점 건너편에 온실과 차양이 보여요. 이 기준물로 다음 사진에서 같은 앞마당을 찾아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "step:arboretum-parking-crossing": [
+      {
+        "id": "visitor-v94-arboretum-4",
+        "image": "/modu50m/route-photos-v94/arboretum-parking-crosswalk-published-201910.jpg",
+        "title": "주차장 쪽 보도에서 온실 앞 횡단 지점 보기",
+        "viewLabel": "주차장 보도·횡단 지점",
+        "provider": "visitor",
+        "providerLabel": "방문 글 · 실제 현장 사진",
+        "platform": "visitor-blog",
+        "author": "정원딸린집",
+        "sourceUrl": "https://www.omdroid.com/205",
+        "imageSourceUrl": "https://www.omdroid.com/wp-content/uploads/sites/2/tistory/205/%ED%95%9C%EB%B0%AD%EC%88%98%EB%AA%A9%EC%9B%90_20190910_124459.jpg",
+        "publishedAt": "2019-10-06",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-08",
+        "sha256": "575b8b0cfe97f95654fb85284349e205284e06dc71bf75197950e310f3277004",
+        "sourceDimensions": [
+          900,
+          506
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "빨간 보도블록 끝, 흰 횡단 표시와 건너편 점자블록을 함께 살펴봐요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "빨간 보도블록 끝, 흰 횡단 표시와 건너편 점자블록을 함께 살펴봐요."
+        },
+        "evidenceRole": {
+          "label": "온실 앞 주차장·횡단 지점 · 방문 사진",
+          "detail": "2019년 10월 6일 게시된 방문 글의 원본 사진이에요. 흰 횡단 표시·차양·온실 앞 바닥을 함께 비교할 수 있어요. 개별 촬영일과 현재 바닥 상태를 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "보도와 횡단 지점이 만나는 바닥",
+            "position": [
+              57,
+              84
+            ],
+            "detail": "사진 아래 빨간 보도블록에서 흰 횡단 표시로 이어지는 바닥을 봐요. 턱 높이는 사진으로 측정하지 않았어요."
+          },
+          {
+            "label": "건너편 보도와 점자블록",
+            "position": [
+              62,
+              63
+            ],
+            "detail": "흰 줄 끝과 노란 점자블록을 함께 찾아요. 양쪽 바닥의 이음새와 차가 드나드는 방향을 살펴봐요."
+          },
+          {
+            "label": "온실 왼쪽 차양",
+            "position": [
+              74,
+              51
+            ],
+            "detail": "횡단 지점 건너편에 온실과 차양이 보여요. 이 기준물로 다음 사진에서 같은 앞마당을 찾아요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "visitor-v94-arboretum-5",
+        "image": "/modu50m/route-photos-v94/arboretum-crosswalk-courtyard-published-201910.jpg",
+        "title": "횡단 지점과 열대식물원 앞마당을 함께 보기",
+        "viewLabel": "횡단 지점·앞마당",
+        "provider": "visitor",
+        "providerLabel": "방문 글 · 실제 현장 사진",
+        "platform": "visitor-blog",
+        "author": "정원딸린집",
+        "sourceUrl": "https://www.omdroid.com/205",
+        "imageSourceUrl": "https://www.omdroid.com/wp-content/uploads/sites/2/tistory/205/%ED%95%9C%EB%B0%AD%EC%88%98%EB%AA%A9%EC%9B%90_20190910_124505(0).jpg",
+        "publishedAt": "2019-10-06",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-08",
+        "sha256": "55c7c089b4e7926629f3243ef1a3270120024cfc4c5df55e4540726dbe0a70f0",
+        "sourceDimensions": [
+          900,
+          506
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "왼쪽 횡단 표시에서 화분 앞 포장 바닥과 유리문 쪽을 이어서 비교해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "왼쪽 횡단 표시에서 화분 앞 포장 바닥과 유리문 쪽을 이어서 비교해요."
+        },
+        "evidenceRole": {
+          "label": "온실 앞 주차장·횡단 지점 · 방문 사진",
+          "detail": "2019년 10월 6일 게시된 방문 글의 원본 사진이에요. 흰 횡단 표시·차양·온실 앞 바닥을 함께 비교할 수 있어요. 개별 촬영일과 현재 바닥 상태를 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "횡단 지점 끝",
+            "position": [
+              9,
+              77
+            ],
+            "detail": "왼쪽 흰 줄 끝에 온실 앞 포장 바닥이 보여요. 보도 경계와 차량 통로를 구분해요."
+          },
+          {
+            "label": "화분 앞 보행 공간",
+            "position": [
+              45,
+              67
+            ],
+            "detail": "화분과 유리벽 앞의 바닥을 살펴봐요. 2019년 게시 사진이므로 현재 화분 배치는 달라질 수 있어요."
+          },
+          {
+            "label": "차양 옆 유리문",
+            "position": [
+              20,
+              49
+            ],
+            "detail": "열대식물원 글자 아래 유리문을 찾아요. 문 앞 경사판과 통과 장치는 더 최근의 입구 사진과 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "bus-v31-garden": [
+      {
+        "id": "visitor-v94-arboretum-5",
+        "image": "/modu50m/route-photos-v94/arboretum-crosswalk-courtyard-published-201910.jpg",
+        "title": "횡단 지점과 열대식물원 앞마당을 함께 보기",
+        "viewLabel": "횡단 지점·앞마당",
+        "provider": "visitor",
+        "providerLabel": "방문 글 · 실제 현장 사진",
+        "platform": "visitor-blog",
+        "author": "정원딸린집",
+        "sourceUrl": "https://www.omdroid.com/205",
+        "imageSourceUrl": "https://www.omdroid.com/wp-content/uploads/sites/2/tistory/205/%ED%95%9C%EB%B0%AD%EC%88%98%EB%AA%A9%EC%9B%90_20190910_124505(0).jpg",
+        "publishedAt": "2019-10-06",
+        "individualCaptureDateKnown": false,
+        "retrievedAt": "2026-10-08",
+        "sha256": "55c7c089b4e7926629f3243ef1a3270120024cfc4c5df55e4540726dbe0a70f0",
+        "sourceDimensions": [
+          900,
+          506
+        ],
+        "captureMethod": "literal-public-original-image-unmodified",
+        "scope": "왼쪽 횡단 표시에서 화분 앞 포장 바닥과 유리문 쪽을 이어서 비교해요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "왼쪽 횡단 표시에서 화분 앞 포장 바닥과 유리문 쪽을 이어서 비교해요."
+        },
+        "evidenceRole": {
+          "label": "온실 앞 주차장·횡단 지점 · 방문 사진",
+          "detail": "2019년 10월 6일 게시된 방문 글의 원본 사진이에요. 흰 횡단 표시·차양·온실 앞 바닥을 함께 비교할 수 있어요. 개별 촬영일과 현재 바닥 상태를 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "횡단 지점 끝",
+            "position": [
+              9,
+              77
+            ],
+            "detail": "왼쪽 흰 줄 끝에 온실 앞 포장 바닥이 보여요. 보도 경계와 차량 통로를 구분해요."
+          },
+          {
+            "label": "화분 앞 보행 공간",
+            "position": [
+              45,
+              67
+            ],
+            "detail": "화분과 유리벽 앞의 바닥을 살펴봐요. 2019년 게시 사진이므로 현재 화분 배치는 달라질 수 있어요."
+          },
+          {
+            "label": "차양 옆 유리문",
+            "position": [
+              20,
+              49
+            ],
+            "detail": "열대식물원 글자 아래 유리문을 찾아요. 문 앞 경사판과 통과 장치는 더 최근의 입구 사진과 비교해요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  }
+}

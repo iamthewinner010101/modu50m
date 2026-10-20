@@ -1,0 +1,174 @@
+{
+  "museum": {
+    "approach": {
+      "id": "naver-museum-west-2026-04",
+      "checkpointId": "approach",
+      "provider": "naver",
+      "providerLabel": "네이버 거리뷰",
+      "image": "/modu50m/naver-roadview-v2/museum-west-2026-04.png",
+      "sourceUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80/place/11620345?c=16.00,0,0,0,adh&placePath=%2Fhome%3Fbk_query%3D%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80%26entry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609211356%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80&p=KryEr54KRiTlD6lkApS1Yw,90.24,1.63,80,Float",
+      "panoId": "KryEr54KRiTlD6lkApS1Yw",
+      "heading": 90.24,
+      "pitch": 1.63,
+      "fov": 80,
+      "captureDate": "2026-04",
+      "captureDatePrecision": "month",
+      "retrievedAt": "2026-09-21",
+      "camera": null,
+      "mapBindingVerified": false,
+      "fieldVerified": false,
+      "entranceVerified": false,
+      "historical": false,
+      "captureMethod": "visible-browser-screenshot-clip",
+      "attribution": "NAVER 지도 · 거리뷰 화면 일부 캡처",
+      "sourceViewport": {
+        "width": 1278,
+        "height": 1236
+      },
+      "crop": {
+        "x": 0,
+        "y": 175,
+        "width": 1200,
+        "height": 750
+      },
+      "sha256": "d78f4edf099bb3a6cb6c66e72e010793d4b521aafea76b7a25fee404177fb5cb"
+    },
+    "doorway": {
+      "id": "naver-museum-door-2026-04",
+      "checkpointId": "doorway",
+      "provider": "naver",
+      "providerLabel": "네이버 거리뷰",
+      "image": "/modu50m/naver-roadview-v2/museum-door-2026-04.png",
+      "sourceUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80/place/11620345?c=16.00,0,0,0,adh&placePath=%2Fhome%3Fbk_query%3D%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80%26entry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609211356%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80&p=KryEr54KRiTlD6lkApS1Yw,90.24,1.63,55.94,Float",
+      "panoId": "KryEr54KRiTlD6lkApS1Yw",
+      "heading": 90.24,
+      "pitch": 1.63,
+      "fov": 55.94,
+      "captureDate": "2026-04",
+      "captureDatePrecision": "month",
+      "retrievedAt": "2026-09-21",
+      "camera": null,
+      "mapBindingVerified": false,
+      "fieldVerified": false,
+      "entranceVerified": false,
+      "historical": false,
+      "captureMethod": "visible-browser-screenshot-clip",
+      "attribution": "NAVER 지도 · 거리뷰 화면 일부 캡처",
+      "sourceViewport": {
+        "width": 1278,
+        "height": 1236
+      },
+      "crop": {
+        "x": 0,
+        "y": 175,
+        "width": 1200,
+        "height": 750
+      },
+      "sha256": "dfa35e07558749574ee36204c190a1ace66b59f6423a58e1cde6418d646b2e20",
+      "samePositionAs": "museum.approach"
+    },
+    "threshold": {
+      "id": "naver-museum-approach-2026-04",
+      "checkpointId": "threshold",
+      "provider": "naver",
+      "providerLabel": "네이버 거리뷰",
+      "image": "/modu50m/naver-roadview-v2/museum-approach-2026-04.png",
+      "sourceUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80/place/11620345?c=16.00,0,0,0,adh&placePath=%2Fhome%3Fbk_query%3D%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80%26entry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609211356%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%EC%8B%9C%EB%A6%BD%EB%AF%B8%EC%88%A0%EA%B4%80&p=UETeEIZByfR3zNrZTUwrQw,103.29,1.63,80,Float",
+      "panoId": "UETeEIZByfR3zNrZTUwrQw",
+      "heading": 103.29,
+      "pitch": 1.63,
+      "fov": 80,
+      "captureDate": "2026-04",
+      "captureDatePrecision": "month",
+      "retrievedAt": "2026-09-21",
+      "camera": null,
+      "mapBindingVerified": false,
+      "fieldVerified": false,
+      "entranceVerified": false,
+      "historical": false,
+      "captureMethod": "visible-browser-screenshot-clip",
+      "attribution": "NAVER 지도 · 거리뷰 화면 일부 캡처",
+      "sourceViewport": {
+        "width": 1278,
+        "height": 1236
+      },
+      "crop": {
+        "x": 0,
+        "y": 200,
+        "width": 1200,
+        "height": 750
+      },
+      "sha256": "aedc3bff518f9294c9ffec96558b7737d9bb67cae706a24235081bd6d22920aa"
+    }
+  },
+  "arts": {
+    "doorway": {
+      "id": "naver-arts-front-2026-04",
+      "checkpointId": "doorway",
+      "provider": "naver",
+      "providerLabel": "네이버 거리뷰",
+      "image": "/modu50m/naver-roadview-v2/arts-front-2026-04.png",
+      "sourceUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9/place/11547407?c=15.00,0,0,0,adh&placePath=%2Fhome%3Fbk_query%3D%EB%8C%80%EC%A0%84%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9%26entry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609182306%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609182314%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609211409%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%EC%98%88%EC%88%A0%EC%9D%98%EC%A0%84%EB%8B%B9&p=F6Pi9UR7xO9dBRjcLAzLkw,10.14,0.34,55,Float",
+      "panoId": "F6Pi9UR7xO9dBRjcLAzLkw",
+      "heading": 10.14,
+      "pitch": 0.34,
+      "fov": 55,
+      "captureDate": "2026-04",
+      "captureDatePrecision": "month",
+      "retrievedAt": "2026-09-21",
+      "camera": null,
+      "mapBindingVerified": false,
+      "fieldVerified": false,
+      "entranceVerified": false,
+      "historical": false,
+      "captureMethod": "visible-browser-screenshot-clip",
+      "attribution": "NAVER 지도 · 거리뷰 화면 일부 캡처",
+      "sourceViewport": {
+        "width": 1278,
+        "height": 1236
+      },
+      "crop": {
+        "x": 0,
+        "y": 200,
+        "width": 1200,
+        "height": 750
+      },
+      "sha256": "9cf7640f643e26f637bf4a769eadd3e6216a56031e93c1768fa850e6bf5de079"
+    }
+  },
+  "hanbit": {
+    "doorway": {
+      "id": "naver-hanbit-plaza-2025-04",
+      "checkpointId": "doorway",
+      "provider": "naver",
+      "providerLabel": "네이버 거리뷰",
+      "image": "/modu50m/naver-roadview-v2/hanbit-plaza-2025-04.png",
+      "sourceUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%20%ED%95%9C%EB%B9%9B%ED%83%91/place/16099731?c=15.00,0,0,0,adh&placePath=%2Fhome%3Fbk_query%3D%EB%8C%80%EC%A0%84%20%ED%95%9C%EB%B9%9B%ED%83%91%26entry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202609211411%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8C%80%EC%A0%84%20%ED%95%9C%EB%B9%9B%ED%83%91&p=dA9qJGbhoO_x_5lXsJzGzg,-0.69,3,64.69,Float",
+      "panoId": "dA9qJGbhoO_x_5lXsJzGzg",
+      "heading": -0.69,
+      "pitch": 3,
+      "fov": 64.69,
+      "captureDate": "2025-04",
+      "captureDatePrecision": "month",
+      "retrievedAt": "2026-09-21",
+      "camera": null,
+      "mapBindingVerified": false,
+      "fieldVerified": false,
+      "entranceVerified": false,
+      "historical": false,
+      "captureMethod": "visible-browser-screenshot-clip",
+      "attribution": "NAVER 지도 · 거리뷰 화면 일부 캡처",
+      "sourceViewport": {
+        "width": 1278,
+        "height": 1236
+      },
+      "crop": {
+        "x": 0,
+        "y": 175,
+        "width": 1200,
+        "height": 750
+      },
+      "sha256": "68624ecfb6e471849c7aed03a85be9c6e350a4ccd1482d5d967639033f7bb7f7"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema": "modu50m.roadview_image_selection.v1",
+  "generatedAt": "2026-09-08",
+  "reviewer": {
+    "provider": "OpenAI",
+    "model": "gpt-6-astra",
+    "mode": "parallel_local_visual_review",
+    "onlineInferenceRun": false
+  },
+  "policy": {
+    "primaryRule": "가장 가까운 사진이 아니라 실제 출입구와 보행 연결이 가장 잘 보이는 사진을 고른다.",
+    "secondaryRule": "대표 사진에서 빠진 장소 식별 또는 바닥 연결 근거를 새로 보여 주는 사진만 보조로 고른다.",
+    "hardGate": "실제 입구 또는 보도에서 입구까지의 연결이 보이지 않으면 대표 이미지로 선정하지 않는다.",
+    "humanBoundary": "Astra의 이미지 관찰 제안이며 장소 일치, 접근성, 학생 직접 조사 증거로 자동 승격하지 않는다."
+  },
+  "selections": {
+    "L50-002": {
+      "candidateAlias": "D50-002",
+      "status": "selected_pending_human_place_match",
+      "reviewPurpose": "last_50m_accessibility_observation",
+      "onlineAiEligible": false,
+      "primary": {
+        "key": "P4-R",
+        "assetSourcePath": "outputs/dunsan-roadview-direction-audit/D50-002/D50-002-P4-R.jpg",
+        "sha256": "9769cf157d4a816287b61551f177cbe8b24dd3a4f638cd59bef5967540030fd9",
+        "panoId": "1200993450",
+        "captureDate": "2025-09-18T03:45:02",
+        "panoLat": 36.3507556671394,
+        "panoLng": 127.386916941308,
+        "selectedHeading": 19.35,
+        "headingOffset": 18,
+        "pitch": -6,
+        "fov": 82,
+        "targetDistanceMeters": 20.45,
+        "label": "대표 사진 · 입구와 보행 연결",
+        "displayReason": "8번 출구 앞 계단, 바닥, 우측 점자블록과 횡단 접근 경계가 한 장에 보입니다.",
+        "selectionReason": "가까운 측면 사진보다 실제 출구 앞 바닥과 보행 연결을 한 프레임에서 설명하기 좋습니다.",
+        "guide": [
+          {
+            "centerX": 0.275,
+            "centerY": 0.69,
+            "radius": 0.08,
+            "label": "출구 앞 계단과 바닥",
+            "humanCheck": "8번 출구 앞에 계단과 그 아래 바닥이 보이나요? 계단의 실제 높이나 다른 진입로 유무는 이 사진만으로 정하지 마세요."
+          },
+          {
+            "centerX": 0.7,
+            "centerY": 0.83,
+            "radius": 0.08,
+            "label": "점자블록과 보도 연결",
+            "humanCheck": "노란 점자블록이 놓인 방향과 주변 보도가 이어지는 모습을 확인해 주세요. 사진에 보이지 않는 구간까지 연결된다고 추측하지 마세요."
+          },
+          {
+            "centerX": 0.89,
+            "centerY": 0.865,
+            "radius": 0.06,
+            "label": "횡단 표시와 보도 경계",
+            "humanCheck": "오른쪽 흰색 횡단 표시와 보도 경계가 만나는 부분을 확인해 주세요. 실제 턱 높이와 통과 폭은 현장 확인이 필요합니다."
+          }
+        ]
+      },
+      "secondary": {
+        "key": "P1-C",
+        "assetSourcePath": "outputs/dunsan-roadview-direction-audit/D50-002/D50-002-P1-C.jpg",
+        "sha256": "61eaf2a3385389970e77bc060c01cab12854785991dea417eff188075130d19e",
+        "panoId": "1200993172",
+        "captureDate": "2025-09-18T03:25:46",
+        "label": "보조 사진 · 장소 식별",
+        "addsEvidence": "큰 ‘시청 8’ 표시와 유리 출구 구조를 통해 대표 사진이 어느 출구를 보여 주는지 비교합니다."
+      },
+      "remainingUnknowns": [
+        "실제 턱 높이와 유효 폭",
+        "경사도",
+        "엘리베이터 연결과 현재 운영 상태",
+        "휠체어의 실제 통과 가능 여부"
+      ],
+      "humanVerificationStatus": "pending",
+      "accessibilityVerified": false,
+      "studentEvidence": false
+    },
+    "15012890:01711": {
+      "status": "input_insufficient_place_match_only",
+      "reviewPurpose": "place_match_only",
+      "existingImagePath": "/modu50m/review-photos/daejeon-roadview/15012890-01711-donggwangpark.png",
+      "reason": "저장 사진에서 공원 이름, 실제 진입구, 차도 또는 보도에서 공원 안쪽으로 이어지는 연결을 확인하기 어렵습니다.",
+      "nextImageNeeded": "공원 이름 또는 진입구와 그 앞 바닥, 외부 보행로 연결이 함께 보이는 방향",
+      "humanVerificationStatus": "pending",
+      "accessibilityVerified": false,
+      "studentEvidence": false
+    }
+  }
+}

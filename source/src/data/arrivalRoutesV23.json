@@ -1,0 +1,2346 @@
+[
+  {
+    "placeId": "hanbit",
+    "title": "DCC종점에서 한빛탑 문 앞까지",
+    "start": {
+      "name": "DCC종점 정류장 · 현재 하차 방향 확인",
+      "type": "bus"
+    },
+    "destination": "한빛탑 경사로 끝 유리문",
+    "checkedAt": "2026-09-24",
+    "continuousRouteVerified": false,
+    "summary": "한국관광공사의 정류장→횡단부→공원 입구 순서에 네이버 거리뷰(2023년)와 방문 사진을 함께 대조했어요. 통로 쪽에서 광장 바닥과 탑 경사로 앞을 한 사진으로 비교할 수 있어요. 주차 구역 연결판에서 통로 입구로 올라서는 접점은 아직 더 확인해야 해요. 2026년 안내의 스마트시티2단지 하차는 여기의 DCC종점과 다른 출발점이에요.",
+    "steps": [
+      {
+        "id": "stop",
+        "title": "DCC종점에서 내린 뒤",
+        "stage": "arrival",
+        "pointId": "research-stop",
+        "instruction": "DCC종점 표지와 정류장 대기 시설을 먼저 찾아요. 가로수 사이 보도와 버스에서 내려서는 바닥을 살펴봐요.",
+        "next": {
+          "status": "source-described",
+          "detail": "공식 대중교통 안내의 다음 지점은 공원 입구 앞 횡단부예요. 정류장 옆 보도에서 횡단선과 점자블록을 찾아볼 순서예요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e"
+          ]
+        }
+      },
+      {
+        "id": "crossing",
+        "title": "공원 입구 앞 횡단부",
+        "stage": "crossing",
+        "pointId": "research-crossing",
+        "instruction": "횡단선의 시작과 건너편 보도 접점을 살펴봐요. 출처는 신호등이 없는 차량 진입부라고 안내해요.",
+        "next": {
+          "status": "source-described",
+          "detail": "공식 안내의 ② 횡단부 다음은 ③ 공원 입구예요. 다음 사진에서 파란 입구 표지와 주차정산소를 찾아봐요. 현재 교통 상황과 턱 낮춤 상태는 별도 확인이 필요해요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e"
+          ]
+        }
+      },
+      {
+        "id": "gate",
+        "title": "입구 표지와 주차정산소",
+        "stage": "approach",
+        "pointId": "route-v23-h-01",
+        "instruction": "파란 입구 표지·정산소 → 흰 바닥 표시 → 갈색 연결판을 순서대로 비교해요. 사진에는 차량 구역이 함께 있어요. 차단기 아래 차선을 휠체어 전용 통로로 안내하지 않아요.",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "2023년 인접 촬영 지점에서 정산소 안쪽의 흰 표시와 갈색 연결판의 위치를 비교했습니다. 04번에는 같은 연결판의 가까운 사진이 있어요. 차량 구역이 겹치며, 이 비교는 휠체어 전용 통로나 현재 안전한 통행을 현장 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=XvAydClmxo7JhARcws-Hsw,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=DfwlDd-zLLXyxoc727G8bA,0.0,10.0,80.0,Float",
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e"
+          ],
+          "evidenceKind": "matching-payment-lane-hatched-edge-and-low-board",
+          "photoImages": [
+            "/modu50m/mobility-v23/hanbit-route-v23-h-01-dce7f3c6.jpg",
+            "/modu50m/route-photos-v40/hanbit-34-f2.jpg",
+            "/modu50m/route-photos-v44/hanbit-payment-to-board.png",
+            "/modu50m/route-photos-v44/hanbit-board-edge-close.png",
+            "/modu50m/mobility-v19/hanbit-02-7de85cbf.jpg"
+          ],
+          "fieldVerified": false,
+          "currentAccessVerified": false
+        },
+        "photoOrder": [
+          "/modu50m/mobility-v23/hanbit-route-v23-h-01-dce7f3c6.jpg",
+          "/modu50m/route-photos-v40/hanbit-34-f2.jpg",
+          "/modu50m/route-photos-v44/hanbit-payment-to-board.png"
+        ]
+      },
+      {
+        "id": "parking-ramp",
+        "title": "통일관 앞 연결판",
+        "stage": "approach",
+        "pointId": "mobility-02",
+        "instruction": "갈색 연결판과 흰 기둥 아래 통로 입구를 정면 사진으로 비교해요. 사이의 아스팔트는 차량이 오가는 곳이에요.",
+        "next": {
+          "status": "gap",
+          "detail": "05번 흰 기둥 아래 통로 입구를 찾아요. 주차장 바닥에서 통로로 올라서는 턱과 턱을 낮춘 곳이 있는지는 가까운 사진으로 더 확인해야 해요.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/haetsalbaram/223990219405"
+          ]
+        },
+        "photoOrder": [
+          "/modu50m/mobility-v19/hanbit-02-7de85cbf.jpg",
+          "/modu50m/route-photos-v44/hanbit-board-edge-close.png",
+          "/modu50m/route-photos-v44/hanbit-board-canopy-front-published-202508.jpg",
+          "/modu50m/route-photos-v50/hanbit-canopy-front-boundary-202011.png",
+          "/modu50m/route-photos-v27/naver-hanbit-face-1.jpg",
+          "/modu50m/route-photos-v27/taeran-01.jpg",
+          "/modu50m/route-photos-v40/hanbit-45-f3.jpg"
+        ]
+      },
+      {
+        "id": "plaza-gap",
+        "title": "통일관 옆길 → 탑 광장",
+        "stage": "crossing",
+        "pointId": null,
+        "instruction": "통로 입구·주차면과 보도 경계·안쪽·출구·탑 쪽 바닥을 골라 비교해요. 주차 차량 뒤에 가려진 부분과 보도 경계를 먼저 살펴봐요.",
+        "next": {
+          "status": "source-described",
+          "detail": "통로 쪽에서 바라본 새 사진에 광장 바닥과 탑 경사로 앞이 함께 보여요. 색깔 볼라드·화분을 지나 탑 아래 돌 볼라드와 유리문을 06번 가까운 사진과 비교해요. 현재 연속 통행을 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/lovesun1012/223035682263",
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e"
+          ]
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v27/naver-hanbit-face-3.jpg",
+          "/modu50m/route-photos-v44/hanbit-canopy-north-front-published-202303.jpg",
+          "/modu50m/route-photos-v44/hanbit-board-canopy-front-published-202508.jpg",
+          "/modu50m/route-photos-v50/hanbit-canopy-front-boundary-202011.png",
+          "/modu50m/route-photos-v44/hanbit-canopy-parking-curb-2023.png",
+          "/modu50m/route-photos-v44/hanbit-canopy-floor-2024.jpg",
+          "/modu50m/route-photos-v44/hanbit-canopy-plaza-side-2023.jpg",
+          "/modu50m/route-photos-v44/hanbit-canopy-to-tower-floor-2023.jpg",
+          "/modu50m/route-photos-v27/taeran-02.jpg",
+          "/modu50m/route-photos-v27/taeran-03.jpg",
+          "/modu50m/route-photos-v36/hanbit-04.jpg",
+          "/modu50m/route-photos-v36/hanbit-05.jpg",
+          "/modu50m/route-photos-v40/kto-178-full-f.jpg",
+          "/modu50m/route-photos-v40/kto-178-full-l.jpg"
+        ]
+      },
+      {
+        "id": "tower-ramp",
+        "title": "볼라드 사이 탑 경사로",
+        "stage": "approach",
+        "pointId": "mobility-01",
+        "instruction": "탑의 둥근 벽과 양쪽 돌 볼라드가 기준물이에요. 사진 안에서 경사로 시작부터 위쪽 유리문 앞까지 바닥을 따라 살펴봐요.",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 사진에서 경사로 위쪽과 유리문을 함께 볼 수 있어요. 다음 단계는 같은 장면에서 문 앞 바닥을 살펴보는 것이며 별도 촬영 지점이 아니에요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e"
+          ]
+        }
+      },
+      {
+        "id": "tower-door",
+        "title": "경사로 끝 유리문",
+        "stage": "entrance",
+        "pointId": "mobility-01",
+        "instruction": "경사로가 끝나는 위쪽의 유리문이 도착 지점 후보예요. 문턱의 가까운 사진과 실제로 열리는 문, 현재 이용 방법은 더 확인해야 해요."
+      }
+    ],
+    "sources": [
+      {
+        "title": "한국관광공사 · 공원 대중교통 순서와 시설 사진",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e"
+      },
+      {
+        "title": "한국관광공사 · 2026 등록 한빛탑 편의정보",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=1724920a-1e94-4b29-b6c3-220d434144f2"
+      },
+      {
+        "title": "DCC 공식 교통 안내",
+        "url": "https://www.dcckorea.or.kr/content/view.do?contentKey=69&menuKey=131"
+      }
+    ],
+    "gaps": [
+      "정류장 하차 지점과 보도 사이의 현재 턱 낮춤",
+      "차량 진입부에서 통일관 앞 연결판까지의 보행 접점",
+      "통일관 옆길에서 탑 광장과 경사로 시작까지의 연속 사진",
+      "유리문 문턱과 문을 여는 방법 및 현재 운영 상태"
+    ]
+  },
+  {
+    "placeId": "museum",
+    "title": "주차장 참고 장면에서 2층 관람 입구까지",
+    "start": {
+      "name": "서측 주차 공간 사진 · 관람객 진입 연결 미확인",
+      "type": "parking-reference"
+    },
+    "destination": "외부 경사로 끝의 2층 관람객 출입문",
+    "steps": [
+      {
+        "id": "museum-arrival",
+        "title": "내린 뒤 미술관 옆길 찾기",
+        "instruction": "서측 주차 사진은 출발 주변 참고입니다. 보도 접점과 관람객이 사용하는 입구를 먼저 확인하세요.",
+        "pointId": "approach",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "서측 주차 장면에서 북서측 옆길로 올라서는 바닥 접점 사진이 없습니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "museum-approach",
+        "title": "옆길의 경계와 바닥 살피기",
+        "instruction": "차도와 보도 경계를 살핀 뒤 외부 경사로 시작 위치를 확인하세요. 이 옆길이 경사로에 바로 연결된다는 근거는 없습니다.",
+        "pointId": "threshold",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "북서측 옆길에서 정문 외부 경사로까지의 연결은 미촬영입니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "museum-ramp",
+        "title": "2층으로 이어지는 외부 경사로",
+        "instruction": "2016년 공식 자료가 2층 입구로 설명한 외부 경사로입니다. 난간과 시작부를 보고 현재 기울기·턱을 별도로 확인하세요.",
+        "pointId": "research-a-01",
+        "stage": "approach",
+        "next": {
+          "status": "source-described",
+          "detail": "공식 여행 기사와 접근성 조사 도서가 외부 경사로를 따라 2층 출입문에 도달하는 관계를 설명합니다. 현재 문과 바닥은 확인 전입니다.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+            "https://www.yes24.com/product/goods/88389449"
+          ]
+        }
+      },
+      {
+        "id": "museum-entrance",
+        "title": "경사로 끝의 2층 자동문 확인",
+        "instruction": "도서는 2층 출입구를 자동문으로 설명합니다. 경사로 끝에서 문턱과 현재 관람객 출입 여부를 확인할 가까운 사진이 더 필요합니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "한국관광공사 · 2016년 대전 무장애 여행 기사",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "접근성 현장조사 도서 · 대전시립미술관 편의시설 설명",
+        "url": "https://www.yes24.com/product/goods/88389449",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "서측 주차 사진과 관람객 입구의 장소별 연결",
+      "북서측 옆길에서 경사로 시작까지",
+      "경사로 끝 2층 자동문과 문턱의 현재 사진"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "alternativeApproach": {
+      "pointId": "research-a-02",
+      "title": "1층 외부 승강기라는 다른 진입 방법",
+      "detail": "도서는 1층 외부 오른편 승강기로 2층에 오르는 방법도 설명합니다. 경사로 다음에 승강기를 타는 순서로 합치지 않습니다.",
+      "sourceUrls": [
+        "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "https://www.yes24.com/product/goods/88389449"
+      ]
+    },
+    "preservedModelPointId": "research-a-01"
+  },
+  {
+    "placeId": "arts",
+    "title": "서측 하차 사진에서 아트홀 문까지 확인할 지점",
+    "start": {
+      "name": "서측 주차구역과 승강기 주변",
+      "type": "parking"
+    },
+    "destination": "아트홀 104·105번 문 주변",
+    "steps": [
+      {
+        "id": "arts-arrival",
+        "title": "주차구역과 승강기 사이 살피기",
+        "instruction": "주차면과 승강기 주변 사진에서 차도·보도의 경계를 살펴보세요. 이 승강기가 아트홀 로비로 이어지는지는 확인 전입니다.",
+        "pointId": "approach",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "승강기 이용 층과 아트홀 관람객용 진입문까지의 연결 사진이 없습니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arts-approach",
+        "title": "아트홀로 이어지는 진입구 확인",
+        "instruction": "방문할 공연의 아트홀 진입문과 계단 없는 접근 방향을 전당 안내에 확인하세요. 아카데미로 내려가는 별도 안내를 아트홀 경로로 사용하지 않습니다.",
+        "pointId": null,
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "확인한 진입구에서 아래 실내 로비 사진 위치까지 이어지는 장면이 없습니다.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/djac/djacContentsHtmlView.do?menuSeq=6770",
+            "https://www.daejeon.go.kr/djac/ac/acContentsHtmlView.do?menuSeq=6975"
+          ]
+        }
+      },
+      {
+        "id": "arts-lobby",
+        "title": "로비 유리문과 계단 옆 공간",
+        "instruction": "유리문·매트·계단 옆 공간을 살펴보세요. 서측 승강기에서 이 로비까지의 실제 이동은 미확인입니다.",
+        "pointId": "research-a-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "이 로비와 아트홀 104·105번 문 사이의 바닥·갈림길 사진이 없습니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arts-entrance",
+        "title": "아트홀 번호가 적힌 문 찾기",
+        "instruction": "아트홀 104·105번 문 앞 사진입니다. 이용할 문 번호와 개방 여부, 문턱을 공연 안내에 맞춰 확인하세요.",
+        "pointId": "research-a-02",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전예술의전당 · 장애인 이용 안내",
+        "url": "https://www.daejeon.go.kr/djac/djacContentsHtmlView.do?menuSeq=6770",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "대전예술의전당 아카데미 · 별도 지하 진입 안내",
+        "url": "https://www.daejeon.go.kr/djac/ac/acContentsHtmlView.do?menuSeq=6975",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 대전예술의전당 무장애 정보",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=af31b729-4eda-469b-b4cc-73ea3a1c8028",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "서측 승강기에서 아트홀 로비까지의 연결",
+      "관람객용 계단 없는 외부 진입문",
+      "로비에서 실제 이용할 아트홀 문까지의 연결"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "preservedModelPointId": "research-a-02"
+  },
+  {
+    "placeId": "leeungno",
+    "title": "주차 뒤 실제 출입문을 구분하며 준비하기",
+    "start": {
+      "name": "둔산대공원 3·4번 주차장 · 공식 안내",
+      "type": "parking"
+    },
+    "destination": "157번 주소판 옆 이응노미술관 출입문",
+    "steps": [
+      {
+        "id": "leeungno-arrival",
+        "title": "공식 주차 출발점 확인",
+        "instruction": "공식 오시는길은 둔산대공원 3·4번 주차장을 안내합니다. 내린 곳에서 보도로 올라오는 접점은 아직 사진이 없습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "주차장 출구에서 미술관 앞 포장길로 이어지는 실제 보행 연결이 없습니다.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-caution",
+        "title": "계단길을 입구로 착각하지 않기",
+        "instruction": "외벽 옆 긴 통로에는 계단이 있습니다. 사진 게시자는 이 길이 입구로 가는 길이 아니라고 설명합니다. 이동 전에 실제 문 위치를 확인하세요.",
+        "pointId": "route-v23-a-09",
+        "stage": "crossing",
+        "next": {
+          "status": "source-described",
+          "detail": "같은 방문기는 이 계단길의 반대쪽으로 돌아가 실제 출입구를 찾았다고 설명합니다. 계단 없는 우회로의 전 구간은 촬영되지 않았습니다.",
+          "sourceUrls": [
+            "https://bmh00.tistory.com/entry/대전-Part-1-1-이응노-미술관-로랑-보두앵Laurent-Beaudouin"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-approach",
+        "title": "앞마당 판석길에서 문 위치 찾기",
+        "instruction": "같은 방문기의 앞마당 장면입니다. 게시자는 문이 사진 왼편에 있다고 설명하므로 돌 바닥과 건물 모서리를 함께 살펴보세요.",
+        "pointId": "research-a-01",
+        "stage": "approach",
+        "next": {
+          "status": "source-described",
+          "detail": "동일 방문기의 앞마당 사진 설명과 바로 이어지는 실제 출입구 사진을 대조했습니다. 두 장 사이 바닥 치수는 확인 전입니다.",
+          "sourceUrls": [
+            "https://bmh00.tistory.com/entry/대전-Part-1-1-이응노-미술관-로랑-보두앵Laurent-Beaudouin"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-entrance",
+        "title": "157번 주소판 옆 출입문 확인",
+        "instruction": "주소판과 출입문이 함께 보이는 사진에서 문 앞 매트와 포장 접점을 살펴보세요. 문 열림과 턱의 현재 상태는 확인이 필요합니다.",
+        "pointId": "research-a-02",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "이응노미술관 · 공식 오시는길",
+        "url": "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "luj-jules · 실제 출입구를 찾은 2022년 방문기",
+        "url": "https://bmh00.tistory.com/entry/대전-Part-1-1-이응노-미술관-로랑-보두앵Laurent-Beaudouin",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 미술관 내부 접근 설명",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "3·4번 주차장에서 미술관까지의 보도 접점",
+      "계단을 피하며 건물 반대쪽으로 도는 전체 바닥",
+      "사진 촬영 이후 변경된 안내와 현재 출입문 운영"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "preservedModelPointId": "research-a-02"
+  },
+  {
+    "placeId": "arboretum",
+    "title": "주차구역에서 열대식물원 문까지 준비하기",
+    "start": {
+      "name": "장애인 주차구역 사진 · 출구 위치 미확인",
+      "type": "parking-reference"
+    },
+    "destination": "한밭수목원 열대식물원 관람객 출입문",
+    "steps": [
+      {
+        "id": "arboretum-arrival",
+        "title": "주차면 뒤쪽 보도 접점 찾기",
+        "instruction": "주차 표시와 뒤쪽 경계석을 보세요. 하차 지점에서 보도로 올라서는 낮은 접점은 아직 보이지 않습니다.",
+        "pointId": "research-a-01",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "주차 사진과 건물 옆 붉은 벽돌길을 잇는 장면이 없습니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arboretum-approach",
+        "title": "건물 옆 벽돌길 살피기",
+        "instruction": "벽돌 포장과 옆 경계를 살펴보세요. 이 길의 정확한 위치와 열대식물원 출입문까지의 방향은 확인 전입니다.",
+        "pointId": "research-a-02",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "건물 옆 길에서 열대식물원 외부 출입문까지 이어지는 사진이 없습니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arboretum-entrance",
+        "title": "열대식물원 실제 문 확인",
+        "instruction": "도착할 곳을 열대식물원으로 정했다면 외부 문과 문턱 사진부터 추가 확인하세요. 동원 산책길이나 방문객안내센터 문으로 대신하지 않습니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "외부 문과 기존 열대식물원 실내 데크를 잇는 문 안팎 사진이 없습니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "arboretum-inside",
+        "title": "문 안쪽 목재길 참고",
+        "instruction": "열대식물원 내부 데크 사진입니다. 문을 통과한 직후 장면인지는 미확인이므로 내부 참고로 확인하세요.",
+        "pointId": "research-a-03",
+        "stage": "approach",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "한국관광공사 · 2025년 한밭수목원 사진과 편의정보",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=4973c767-8e6c-4c86-99b4-4419e819011e",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한밭수목원 · 공식 찾아오시는길",
+        "url": "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한밭수목원 · 방문객안내센터 등 편의시설",
+        "url": "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8031",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 2016년 동원 산책 연결 설명",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "주차면에서 보도로 진입하는 접점",
+      "벽돌길 사진의 정확한 위치와 식물원 입구 연결",
+      "열대식물원 문 바깥·문턱·실내 데크 연결"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "supplementaryPoints": [
+      {
+        "pointId": "route-v23-a-08",
+        "title": "동원 내부 산책길 참고",
+        "detail": "2016년 동원 곡선길입니다. 열대식물원 진입 순서에 끼워 넣지 않습니다."
+      }
+    ],
+    "sourceDescribedAlternative": {
+      "start": "대전시립연정국악원 앞 주차장",
+      "via": [
+        "열대식물원",
+        "호수 산책로"
+      ],
+      "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+      "sourcePublishedAt": "2016-08-09",
+      "detail": "2016년 여행 기사에서 제시한 동원 관람 흐름입니다. 현재 주차 사진의 위치와 같다는 근거 및 바닥 접점 사진은 없습니다."
+    },
+    "preservedModelPointId": "research-a-01"
+  },
+  {
+    "placeId": "science",
+    "title": "관람객 주차장에서 정문을 거쳐 미래기술관까지",
+    "start": {
+      "name": "국립중앙과학관 관람객 주차장 · 공식 답변",
+      "type": "parking"
+    },
+    "destination": "미래기술관 전면 유리문",
+    "steps": [
+      {
+        "id": "science-arrival",
+        "title": "주차장에서 정문을 목적지로 잡기",
+        "instruction": "2023년 과학관 답변은 주차장에서 정문까지 약 200m라고 설명합니다. 하차면에서 보도로 올라서는 지점과 횡단 구간 사진은 더 필요합니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "source-described",
+          "detail": "국립중앙과학관이 관람객 주차장과 정문 사이 약 200m 관계를 직접 설명합니다. 걸리는 시간을 휠체어 소요시간으로 환산하지 않습니다.",
+          "sourceUrls": [
+            "https://rsvn.science.go.kr/nsm/rsvguidcntr/think/detail?nttId=871"
+          ]
+        }
+      },
+      {
+        "id": "science-main-gate",
+        "title": "정문 옆 안내·매표소 확인",
+        "instruction": "공식 안내에 따르면 정문 옆 안내·매표소에서 휠체어 대여 등을 문의할 수 있습니다. 확보한 공식 사진은 196×140으로 접점을 보기 어려워 이동 증거 사진에 추가하지 않았습니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "정문·안내소에서 미래기술관까지 지나가는 광장·갈림길 연결 사진이 없습니다.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1023/moveCntnts.do"
+          ]
+        }
+      },
+      {
+        "id": "science-approach",
+        "title": "미래기술관 문 앞 포장 살피기",
+        "instruction": "미래기술관 전면 사진에서 유리문 앞 포장과 매트가 만나는 부분을 살펴보세요. 정문에서 여기까지의 이동은 아직 이어지지 않았습니다.",
+        "pointId": "research-a-01",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "detail": "다음은 같은 미래기술관 사진 안에서 문 앞을 더 살펴보는 단계입니다. 새 촬영 위치나 별도 이동 구간이 아닙니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "science-entrance",
+        "title": "같은 사진의 유리문 확인",
+        "instruction": "같은 사진에 보이는 출입문입니다. 문 열림 폭과 실제 문턱, 관람객 이용 여부의 현재 확인이 필요합니다.",
+        "pointId": "research-a-01",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "국립중앙과학관 · 2023.04.27 휠체어 대여 공식 답변",
+        "url": "https://rsvn.science.go.kr/nsm/rsvguidcntr/think/detail?nttId=871",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "국립중앙과학관 · 종합안내센터와 정문 편의시설",
+        "url": "https://www.science.go.kr/mps/cntnts/1023/moveCntnts.do",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "We-map · 과학관 주차장·진입 지점 정보",
+        "url": "https://we-map.kr/service/map/courses/126",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "주차 하차면→보도→정문 사이 가까운 바닥 사진",
+      "정문에서 미래기술관까지의 갈림길과 횡단부",
+      "미래기술관 문턱 치수와 실제 개방 상태"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "preservedModelPointId": "research-a-01"
+  },
+  {
+    "placeId": "oworld",
+    "title": "정류장에서 세 번의 횡단을 거쳐 주출입구까지",
+    "start": {
+      "name": "오월드 버스정류장 · 공식 이동 지도 출발점",
+      "type": "bus-stop"
+    },
+    "destination": "오월드 매표소와 주출입구",
+    "steps": [
+      {
+        "id": "oworld-1",
+        "title": "정류장 옆 보도",
+        "instruction": "오월드 정류장에서 보도 접점을 살펴본 뒤 첫 횡단보도를 찾으세요. 공식 자료는 다음 지점까지 약 32m로 안내합니다.",
+        "pointId": "mobility-01",
+        "stage": "arrival",
+        "next": {
+          "status": "source-described",
+          "detail": "공식 안내 기준으로 정류장에서 약 32m 이동하면 첫 번째 횡단보도를 만납니다. 보도 끝과 횡단 시작점을 찾아보세요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119"
+          ],
+          "sourceExcerpt": "오월드 버스정류장에서 약 32m 이동"
+        }
+      },
+      {
+        "id": "oworld-2",
+        "title": "첫 번째 횡단보도",
+        "instruction": "첫 횡단보도의 양 끝 턱을 살피세요. 공식 자료는 직진 방향으로 건너 약 23m 이동하는 순서로 안내합니다.",
+        "pointId": "mobility-02",
+        "stage": "crossing",
+        "next": {
+          "status": "source-described",
+          "detail": "첫 횡단보도를 직진 방향으로 건넌 뒤 약 23m 이동하는 순서입니다. 다음 횡단보도의 시작점을 찾아보세요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119"
+          ],
+          "sourceExcerpt": "직진 방향 횡단보도를 건너 약 23m 이동"
+        }
+      },
+      {
+        "id": "oworld-3",
+        "title": "두 번째 횡단보도",
+        "instruction": "건너편 보도부터 정문 앞까지 이어지는 구간이에요. 아래 사진을 눌러 횡단부 → 나무 옆 보도 → 중간 배수구 순서로 비교해요. 공식 자료는 횡단 뒤 오른쪽 길로 약 130m 이동한다고 설명해요.",
+        "pointId": "mobility-03",
+        "stage": "crossing",
+        "next": {
+          "status": "source-described",
+          "detail": "두 번째 횡단보도를 건넌 뒤 오른쪽 길로 약 130m 이동하는 순서입니다. 정문 앞 차량 진입로의 횡단보도를 찾아보세요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119"
+          ],
+          "sourceExcerpt": "정면 횡단보도를 건너 오른쪽 길로 약 130m 이동"
+        }
+      },
+      {
+        "id": "oworld-4",
+        "title": "정문 앞 차량 진입로 횡단",
+        "instruction": "정문 앞 차량 진입로와 만나는 횡단부를 살피세요. 공식 자료는 횡단 후 오른쪽 주출입구 방향으로 약 63m 이동한다고 설명합니다.",
+        "pointId": "mobility-04",
+        "stage": "crossing",
+        "next": {
+          "status": "source-described",
+          "detail": "정문 앞 횡단보도를 건넌 뒤 오른쪽 주출입구 방향으로 약 63m 이동하는 순서입니다. 매표소와 주출입구를 찾아보세요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119"
+          ],
+          "sourceExcerpt": "정면 횡단보도를 건너 오른쪽 오월드 주 출입구 방향으로 약 63m 이동 "
+        }
+      },
+      {
+        "id": "oworld-5",
+        "title": "매표소와 주출입구",
+        "instruction": "매표소와 주출입구 앞 사진입니다. 실제 사용할 입장 게이트의 폭·문턱과 현재 개방 여부를 마지막으로 확인하세요.",
+        "pointId": "mobility-05",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "한국관광공사 · 오월드 공식 이동 지도 ①~⑤",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "대전오월드 · 공식 교통정보",
+        "url": "https://www.oworld.kr/newkfsweb/cop/bbs/selectViewPage.do?bbsId=BBSMSTR_1465&mn=KFS_34_01_04",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "하차 경사판 공간과 각 횡단보도 양 끝의 실제 턱·폭",
+      "거리·방향은 출처의 안내이며 현장 재측정하지 않음",
+      "입장 게이트 폭·문턱과 현재 운영·혼잡·공사 상태"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "routeEvidence": {
+      "type": "official-numbered-route",
+      "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119",
+      "sourceImageIds": [
+        "174",
+        "175",
+        "176",
+        "178",
+        "177"
+      ],
+      "distanceLegsMeters": [
+        32,
+        23,
+        130,
+        63
+      ],
+      "distancesAreSourceProvided": true,
+      "measuredByProject": false
+    },
+    "supplementaryPoints": [
+      {
+        "pointId": "research-a-01",
+        "title": "차로 온 경우 장애인 주차면",
+        "detail": "공식 출처는 주차구역→주출입구 약 72m이며 별도 보행안전통로가 없다고 설명합니다. 버스 출발 동선의 첫 지점과 혼합하지 않습니다."
+      },
+      {
+        "pointId": "route-v23-a-06",
+        "title": "매표소 옆 화장실 경사로",
+        "detail": "주출입구 자체가 아닌 입장 주변 편의시설입니다."
+      },
+      {
+        "pointId": "route-v23-a-07",
+        "title": "입장 후 대여소",
+        "detail": "공식 출처가 주출입구 통과 후 오른쪽 고객지원센터 1층으로 설명한 별도 지점입니다."
+      }
+    ],
+    "preservedModelPointId": "research-a-02"
+  },
+  {
+    "placeId": "ppuri",
+    "title": "주차 뒤 만성교를 건너 공원 안내 표식까지",
+    "start": {
+      "name": "만성교 쪽 하상주차장 · 공식 공원 안내",
+      "type": "parking"
+    },
+    "destination": "만성교 건너 공원 표석과 관광안내소 입구",
+    "steps": [
+      {
+        "id": "ppuri-arrival",
+        "title": "주차 뒤 만성교 진입점 찾기",
+        "instruction": "공식 안내는 하상주차장을 공원 입구 쪽 주차시설로 소개합니다. 기존 어르신 주차장 사진을 이 출발 지점의 사진으로 대신하지 않습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "주차면에서 보행로로 나오는 접점과 만성교 시작까지의 사진이 없습니다.",
+          "sourceUrls": [
+            "https://www.djjunggu.go.kr/hyo/sub03_01_05.do"
+          ]
+        }
+      },
+      {
+        "id": "ppuri-crossing",
+        "title": "만성교 바닥과 난간 살피기",
+        "instruction": "격자형 바닥과 양쪽 난간을 살펴보세요. 진입 턱·연결부와 사진의 바라보는 방향은 확인 전입니다.",
+        "pointId": "route-v23-a-04",
+        "stage": "crossing",
+        "next": {
+          "status": "source-described",
+          "detail": "중구 공식 공원 안내는 만성교를 통과하면 뿌리공원 표석과 관광안내소가 이어진다고 설명합니다.",
+          "sourceUrls": [
+            "https://www.djjunggu.go.kr/hyo/sub03_01_05.do",
+            "https://white-circle.tistory.com/280"
+          ]
+        }
+      },
+      {
+        "id": "ppuri-marker",
+        "title": "공원 표석으로 도착 위치 구분",
+        "instruction": "뿌리공원 표석과 옆 계단을 찾으세요. 이 표석 사진은 안내소 문을 보여주는 사진이 아닙니다.",
+        "pointId": "route-v23-a-05",
+        "stage": "approach",
+        "next": {
+          "status": "source-described",
+          "detail": "공식 안내는 만성교 뒤 표석과 1층 관광안내소의 관계를 설명하고, 열린관광은 다리 건너 1층 안내데스크를 대여 지점으로 설명합니다. 실제 사용할 문과 가까운 연결 사진은 없습니다.",
+          "sourceUrls": [
+            "https://www.djjunggu.go.kr/hyo/sub03_01_05.do",
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=ec329a80-4ff9-40cf-a456-3e66e1a6ec97"
+          ]
+        }
+      },
+      {
+        "id": "ppuri-entrance",
+        "title": "관광안내소의 계단 없는 문 확인",
+        "instruction": "1층 관광안내소에 갈 경우 계단을 피하는 실제 출입문 위치를 확인하세요. 문 앞 바닥과 문턱은 새 촬영이 필요한 지점입니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전 중구 효월드 · 공원안내도와 시설 설명",
+        "url": "https://www.djjunggu.go.kr/hyo/sub03_01_05.do",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 다리 건너 안내데스크 정보",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=ec329a80-4ff9-40cf-a456-3e66e1a6ec97",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "하얀 동그라미 · 만성교와 공원 입구 방문기",
+        "url": "https://white-circle.tistory.com/280",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "내외뉴스통신 · 2021년 별도 주차장 정비 기사",
+        "url": "https://www.nbnnews.co.kr/news/articleView.html?idxno=498658",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "만성교 쪽 주차면→보도→다리 진입부",
+      "만성교 양 끝의 턱·기울기·격자 틈 치수",
+      "표석 주변에서 관광안내소 문까지의 계단 없는 연결"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "supplementaryPoints": [
+      {
+        "pointId": "mobility-v20-02",
+        "title": "물가 목재길 참고",
+        "detail": "기존 미니어처 대응 사진입니다. 만성교·안내소 동선과의 실제 연결을 확인하지 않았습니다."
+      },
+      {
+        "pointId": "research-a-01",
+        "title": "과거 어르신 주차장 사진",
+        "detail": "만성교 쪽 하상주차장의 정확한 하차 지점으로 단정하지 않습니다."
+      }
+    ],
+    "preservedModelPointId": "mobility-v20-02"
+  },
+  {
+    "placeId": "jangtaesan",
+    "title": "정류장 방향을 구분하고 숲길 입구까지 준비하기",
+    "start": {
+      "name": "장태산자연휴양림 정류장 주변 · 사진은 귀가 방향",
+      "type": "bus-stop-reference"
+    },
+    "destination": "장태산자연휴양림 초입 포장 산책길",
+    "steps": [
+      {
+        "id": "jangtaesan-arrival",
+        "title": "승강장 방향부터 구분하기",
+        "instruction": "사진은 방문자가 흑석네거리 쪽으로 돌아갈 때 기다린 정류장입니다. 방문할 때 내리는 쪽과 같다고 가정하지 말고 승강장 방향부터 확인하세요.",
+        "pointId": "route-v23-a-01",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "도착 승강장에서 입구 쪽으로 건너거나 보도로 올라서는 정확한 접점 사진이 없습니다.",
+          "sourceUrls": [
+            "https://countrysidebus.tistory.com/476",
+            "https://www.seogu.go.kr/prog/tursm/tour/sub02_07/01/view.do?tursmNo=32"
+          ]
+        }
+      },
+      {
+        "id": "jangtaesan-junction",
+        "title": "입구 옆 갈림 표지 살피기",
+        "instruction": "주차장·야영장 차량 방향 표지와 숲 입구를 구분하세요. 이 차량용 화살표를 휠체어 경로 안내로 사용하지 않습니다.",
+        "pointId": "route-v23-a-02",
+        "stage": "crossing",
+        "next": {
+          "status": "source-described",
+          "detail": "동일 2024.06.02 방문 기록은 하차 후 입구 주변을 보고 휴양림 초입으로 들어간 순서를 설명합니다. 그 사이의 모든 바닥 접점 사진은 없습니다.",
+          "sourceUrls": [
+            "https://countrysidebus.tistory.com/476"
+          ]
+        }
+      },
+      {
+        "id": "jangtaesan-approach",
+        "title": "숲길 초입에서 포장과 가장자리 살피기",
+        "instruction": "가운데 포장길과 나무·벤치 옆 공간을 살펴보세요. 정류장 쪽 차량 도로에서 이 포장길로 들어오는 턱은 미확인입니다.",
+        "pointId": "route-v23-a-03",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "detail": "다음 단계는 같은 초입 사진의 앞쪽 갈림을 살펴봅니다. 새 촬영 지점이 아닙니다.",
+          "sourceUrls": []
+        }
+      },
+      {
+        "id": "jangtaesan-entrance",
+        "title": "같은 장면의 앞쪽 갈림 확인",
+        "instruction": "앞쪽에서 길이 나뉘는 모습이 보입니다. 이용할 산책길의 표지와 기울기를 확인한 뒤 다음 구간을 정하세요. 산책로 전체 통과 가능 판정은 아닙니다.",
+        "pointId": "route-v23-a-03",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "회관앞 느티나무 · 2024.06.02 정류장과 초입 실제 방문",
+        "url": "https://countrysidebus.tistory.com/476",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "대전 서구 · 장태산자연휴양림 공식 교통안내",
+        "url": "https://www.seogu.go.kr/prog/tursm/tour/sub02_07/01/view.do?tursmNo=32",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "도봉산고양이 · 정류장과 정문 관계를 설명한 과거 방문기",
+        "url": "https://pynce43.tistory.com/304",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "방문 방향 하차 승강장과 보도 접점",
+      "차량 도로에서 숲길 초입까지 턱·횡단부",
+      "선택할 산책로의 현재 폭·기울기·통제 상태"
+    ],
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-23",
+    "supplementaryPoints": [
+      {
+        "pointId": "research-a-01",
+        "title": "관광버스와 주차 주변의 기존 사진",
+        "detail": "기존 미니어처 대응 장면입니다. 시내버스 승강장 사진으로 바꾸어 설명하지 않습니다."
+      }
+    ],
+    "preservedModelPointId": "research-a-01"
+  },
+  {
+    "placeId": "library",
+    "title": "한밭도서관 하차 지점부터 본관까지",
+    "start": {
+      "name": "한밭도서관 정류장 · 승하차 방향 확인 필요",
+      "type": "bus-stop"
+    },
+    "destination": "한밭도서관 본관 이용 출입문 · 무단차 문 위치 확인 필요",
+    "steps": [
+      {
+        "id": "library-arrival",
+        "title": "정류장에서 내리는 곳",
+        "instruction": "공식 오시는길에는 한밭도서관 경유 노선과 정류장에서 정문까지의 안내가 있습니다. 실제 내릴 정류장의 방향과 보도 진입부 사진은 아직 없습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "정류장 승하차면에서 도서관 부지 입구까지 바닥 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://daejeon.go.kr/hanbatlibrary/contentsHtmlView.do?menuSeq=6174"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "library-approach",
+        "title": "부지 입구로 들어가는 곳",
+        "instruction": "정류장 또는 주차타워에서 광장으로 이어지는 보행 통로를 확인해야 합니다. 차가 드나드는 길을 보행 경로로 대신 안내하지 않습니다.",
+        "pointId": null,
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "부지 입구·차량 진입로 횡단·광장 시작점을 잇는 사진을 확보하지 못했습니다.",
+          "sourceUrls": [
+            "https://daejeon.go.kr/hanbatlibrary/contentsHtmlView.do?menuSeq=6174",
+            "https://www.daejeon.go.kr/hanbatlibrary/hanlibHopeView.do?menuSeq=6246&ntatcSeq=1510058954&pageIndex=1"
+          ],
+          "pointId": "research-b-01"
+        }
+      },
+      {
+        "id": "library-plaza",
+        "title": "본관 앞 광장과 정면 계단",
+        "instruction": "사진 가운데의 넓은 사각 포장을 따라 본관 간판과 정면 계단이 보입니다. 오른쪽 화분·나무와 계단 앞 바닥을 살펴보세요. 이 사진에는 계단을 거치지 않는 문이 담기지 않았습니다.",
+        "pointId": "research-b-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "광장에서 무단차 출입문으로 이어지는 방향·문 앞 바닥·문턱 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://ccnnews.co.kr/news/articleView.html?idxno=410922"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "library-door",
+        "title": "이용할 문 확인 필요",
+        "instruction": "정면 계단 사진을 휠체어 진입 가능 증거로 보지 않습니다. 2025년 리모델링 이후 이용 가능한 무단차 출입문 위치와 주차타워에서의 연결을 확인해야 합니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "현재 이용 가능한 무단차 문과 정류장·주차타워 연결을 확인하지 못했습니다.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/hanbatlibrary/hanlibHopeView.do?menuSeq=6246&ntatcSeq=1510058954&pageIndex=1",
+            "https://ccnnews.co.kr/news/articleView.html?idxno=410922"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "한밭도서관 공식 오시는길",
+        "url": "https://daejeon.go.kr/hanbatlibrary/contentsHtmlView.do?menuSeq=6174",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "경유 버스와 정류장→정문 소요 안내가 있으나 구간별 바닥·횡단 설명이 없음."
+      },
+      {
+        "title": "한밭도서관 주차장 질의답변",
+        "url": "https://www.daejeon.go.kr/hanbatlibrary/hanlibHopeView.do?menuSeq=6246&ntatcSeq=1510058954&pageIndex=1",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "2026-03-26 관리과 답변에서 주차타워 운영을 확인. 보행 통로와 출입문 연결 설명은 없음.",
+        "sourcePublishedAt": "2026-03-26"
+      },
+      {
+        "title": "리모델링 후 본관 사진 기사",
+        "url": "https://ccnnews.co.kr/news/articleView.html?idxno=410922",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "2026년 광장·정면 계단 사진. 무단차 문은 확인 불가.",
+        "sourcePublishedAt": "2026-06-18"
+      }
+    ],
+    "gaps": [
+      "정류장 하차 방향·보도 진입부",
+      "주차타워→본관 보행 통로",
+      "정면 계단을 우회하는 현재 이용 출입문"
+    ],
+    "contextPoint": "research-b-01",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "dunsan1",
+    "title": "둔산1동 주차 공간에서 민원실 앞까지",
+    "start": {
+      "name": "둔산1동 행정복지센터 앞 주차 공간",
+      "type": "parking"
+    },
+    "destination": "둔산1동 행정복지센터 민원실 유리문",
+    "steps": [
+      {
+        "id": "dunsan1-parking",
+        "title": "차에서 내린 뒤 건물 표지 찾기",
+        "instruction": "앞쪽 아스팔트와 파란 선 뒤로 회색 기둥들이 서 있습니다. 건물 중앙의 ‘둔산1동 행정복지센터’ 간판 아래를 다음 표식으로 삼아 살펴보세요.",
+        "pointId": "research-b-01",
+        "stage": "arrival",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 한 장 안에서 주차 공간과 회색 기둥 뒤 포장면을 함께 볼 수 있습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223816195563"
+          ],
+          "pointId": "research-b-01"
+        }
+      },
+      {
+        "id": "dunsan1-paving",
+        "title": "기둥 사이와 초록색 포장 보기",
+        "instruction": "같은 사진에서 회색 기둥 사이, 파란 선과 초록색 포장면이 만나는 경계를 살펴보세요. 노란 점자블록 끝에는 계단이 있어, 그 오른쪽의 붉은 통로도 함께 확인합니다.",
+        "pointId": "research-b-01",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 사진의 초록색 바닥에서 계단 오른쪽 붉은 통로와 손잡이를 볼 수 있습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223816195563"
+          ],
+          "pointId": "research-b-01"
+        }
+      },
+      {
+        "id": "dunsan1-ramp",
+        "title": "계단 오른쪽 붉은 통로",
+        "instruction": "계단 오른쪽에는 붉은 경사 통로가 있고, 그 끝에 유리문 앞 공간이 보입니다. 시작 턱·기울기·화분 옆 폭은 사진만으로 측정할 수 없습니다.",
+        "pointId": "research-b-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "다음은 유리문을 가까이 본 별도 사진입니다. 경사 통로의 위쪽 회전부를 연속 촬영한 자료는 없습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223816195563"
+          ],
+          "pointId": "research-b-02"
+        }
+      },
+      {
+        "id": "dunsan1-door",
+        "title": "간판 아래 유리문 앞 바닥",
+        "instruction": "가까운 사진에서 초록 매트, 노란 점자블록, 왼쪽 안내판과 오른쪽 이동식 표지판을 살펴보세요. 문턱과 열리는 폭, 돌아설 공간은 실제 확인이 필요합니다.",
+        "pointId": "research-b-02",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "문 통과와 현재 통행 가능 여부는 확인하지 않았습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223816195563"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "서구 공식 블로그 · 둔산1동 방문 안내",
+        "url": "https://m.blog.naver.com/first_seogu/223816195563",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "주차 공간·붉은 경사 통로·간판 아래 유리문이 넓은 사진에 함께 보이고 문 앞 사진도 제공됨. 글은 주차시설과 입구의 수거기 위치만 설명.",
+        "sourcePublishedAt": "2025-03-31"
+      },
+      {
+        "title": "둔산1동 공식 찾아오시는길",
+        "url": "https://www.seogu.go.kr/kor/sub05_05_08_07.do",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "주소 둔산중로65 확인. 정류장부터 상세 보행 경로는 없음."
+      }
+    ],
+    "gaps": [
+      "하차 위치별 보도 진입 턱",
+      "붉은 경사 통로 상단의 회전부 연속 사진",
+      "현재 문 개방 폭·문턱·통행"
+    ],
+    "contextPoint": "research-b-02",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "civic",
+    "title": "둔산2동 보도와 주차장 진입부 살피기",
+    "start": {
+      "name": "둔산2동 행정복지센터 주변 · 실제 하차 지점 미확인",
+      "type": "unconfirmed"
+    },
+    "destination": "둔산2동 행정복지센터 민원실 이용 출입문 · 위치 확인 필요",
+    "steps": [
+      {
+        "id": "civic-arrival",
+        "title": "내릴 지점 확인 필요",
+        "instruction": "공식 주소는 둔산서로80입니다. 내릴 정류장이나 주차면에서 보도로 나오는 구간은 사진이 없어 위치를 확정하지 않았습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "하차 지점에서 센터 앞 보도까지 실제 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://www.seogu.go.kr/kor/sub05_05_09_07.do"
+          ],
+          "pointId": "mobility-v20-02"
+        }
+      },
+      {
+        "id": "civic-driveway",
+        "title": "석재 기둥 사이 차량 진입부",
+        "instruction": "사진 오른쪽의 석재 기둥 사이로 아스팔트 진입로가 보이고, 안쪽에는 차량들이 주차돼 있습니다. 보도와 차량 진입부가 만나는 가장자리를 살펴보세요.",
+        "pointId": "mobility-v20-02",
+        "stage": "crossing",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 사진에서 진입로 안쪽의 파란 표시와 차량들이 선 공간까지 볼 수 있습니다.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996379&urlX=586062.0&urlY=793361.0&pan=316.901500528663&tilt=0.0&zoom=0&urlLevel=3"
+          ],
+          "pointId": "mobility-v20-02"
+        }
+      },
+      {
+        "id": "civic-inside",
+        "title": "주차 공간 안쪽 보기",
+        "instruction": "같은 사진의 오른쪽 파란 표시와 차량 옆 공간을 확인하세요. 사진에 없는 민원실 문까지 어느 쪽으로 가야 하는지는 안내할 수 없습니다.",
+        "pointId": "mobility-v20-02",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "주차 공간 안쪽에서 민원실 이용 출입문까지 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996379&urlX=586062.0&urlY=793361.0&pan=316.901500528663&tilt=0.0&zoom=0&urlLevel=3"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "civic-door",
+        "title": "민원실 문 앞 사진 필요",
+        "instruction": "현재 자료는 외부 차량 진입부까지만 보여 줍니다. 건물 안쪽의 이용 출입문·문턱·계단 없는 연결은 아직 확인하지 못했습니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "이용 출입문을 확정할 근거리 사진이 없습니다.",
+          "sourceUrls": [
+            "https://www.seogu.go.kr/kor/sub05_05_09_07.do",
+            "https://www.seogu.go.kr/kor/sub05_05_09_01.do"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "둔산2동 공식 찾아오시는길",
+        "url": "https://www.seogu.go.kr/kor/sub05_05_09_07.do",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "주소 둔산서로80 확인. 특정 하차 지점과 이용 출입문을 잇는 설명은 없음."
+      },
+      {
+        "title": "둔산2동 공식 소개",
+        "url": "https://www.seogu.go.kr/kor/sub05_05_09_01.do",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "공식 전경은 바닥·문턱 확인에 충분하지 않아 신규 이동 사진으로 채택하지 않음."
+      },
+      {
+        "title": "기존 센터 앞 거리 사진",
+        "url": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200996379&urlX=586062.0&urlY=793361.0&pan=316.901500528663&tilt=0.0&zoom=0&urlLevel=3",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "석재 기둥과 차량 진입로 관찰. 내부 문은 보이지 않음."
+      }
+    ],
+    "gaps": [
+      "하차 지점과 보도 연결",
+      "차량 진입부를 지난 뒤 이용할 보행 통로",
+      "민원실 무단차 문"
+    ],
+    "contextPoint": "mobility-v20-02",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "cityhall",
+    "title": "대전시청 하차 안내와 북쪽 바닥 살피기",
+    "start": {
+      "name": "대전광역시청 정류장 32-350 · 공식 안내",
+      "type": "bus-stop"
+    },
+    "destination": "대전시청 본관 이용 출입문 · 무단차 연결 확인 필요",
+    "steps": [
+      {
+        "id": "cityhall-arrival",
+        "title": "공식 하차 지점 확인",
+        "instruction": "시청 공식 오시는길은 대전광역시청 정류장 32-350과 시청·교육청 정류장 32-310을 안내합니다. 선택한 하차 방향에서 아래 북쪽 장면으로 이어지는 보도 사진은 없습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "선택한 정류장 승하차면→북쪽 주차장·보도의 연결 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1643"
+          ],
+          "pointId": "mobility-01"
+        }
+      },
+      {
+        "id": "cityhall-crossing",
+        "title": "흰 줄무늬와 둥근 화분",
+        "instruction": "사진 뒤쪽의 흰 줄무늬 횡단 표시와 그 앞의 둥근 화분 세 개를 확인하세요. 횡단 표시 양끝의 높이 차와 차량 흐름은 별도 확인이 필요합니다.",
+        "pointId": "mobility-01",
+        "stage": "crossing",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 사진에서 화분 앞 아스팔트와 붉은 바닥 띠를 함께 볼 수 있습니다.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=normal_0189&menuSeq=1632&ntatcSeq=1461941828&pageIndex=8"
+          ],
+          "pointId": "mobility-01"
+        }
+      },
+      {
+        "id": "cityhall-paving",
+        "title": "붉은 띠와 초록색 바닥 경계",
+        "instruction": "같은 사진에서 붉은 띠 양쪽의 사각 화분, 초록색 바닥과의 이음부를 살펴보세요. 다음 출입문은 이 장면에 담기지 않았습니다.",
+        "pointId": "mobility-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "이 바닥에서 본관 이용 출입문까지 이어지는 보행 경로 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=normal_0189&menuSeq=1632&ntatcSeq=1461941828&pageIndex=8"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "cityhall-door",
+        "title": "본관 이용할 문 확인 필요",
+        "instruction": "북쪽 주차장 주변 장면과 본관 문 사이가 비어 있습니다. 공식 청사 사진만으로 무단차 출입문과 현재 개방 상태를 확정하지 않았습니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "이용할 문 앞 근거리 사진을 확보하지 못했습니다.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1846"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전시청 공식 오시는길",
+        "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1643",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "정류장 32-350·32-310과 일반 도보 안내 확인. 휠체어 승하차·보도 접속 상세는 없음."
+      },
+      {
+        "title": "대전시청 공식 청사둘러보기",
+        "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1846",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "동·북·서 주차장 표기. 북문 사진은168×129로 바닥 검토에 부족하여 제외."
+      },
+      {
+        "title": "대전시청 공식 북쪽 주변 사진",
+        "url": "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=normal_0189&menuSeq=1632&ntatcSeq=1461941828&pageIndex=8",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "횡단 표시·화분·붉은 띠가 한 장에 보이나 문은 보이지 않음."
+      }
+    ],
+    "gaps": [
+      "정류장→북쪽 구간 연결",
+      "횡단 표시 양끝 턱",
+      "북쪽 구간→본관 이용 출입문"
+    ],
+    "contextPoint": "mobility-01",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "happywelfare",
+    "title": "행복한우리복지관 하차 안내와 옆 통로 참고",
+    "start": {
+      "name": "동방고등학교 정류장 · 공식 안내",
+      "type": "bus-stop"
+    },
+    "destination": "행복한우리복지관 방문자 이용 출입문 · 위치 확인 필요",
+    "steps": [
+      {
+        "id": "happy-arrival",
+        "title": "동방고등학교 정류장 안내",
+        "instruction": "복지관 공식 오시는길과 2026 이용안내서는 동방고등학교 정류장 하차를 안내합니다. 실제 하차면과 보도 진입 모습은 아직 확보하지 못했습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "정류장에서 복지관까지 보도·횡단 지점 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://www.happywoori.or.kr/about/map.php",
+            "https://www.happywoori.or.kr/biz/howtouse.php"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "happy-between",
+        "title": "복지관으로 향하는 중간 길",
+        "instruction": "계백로에서 복지관으로 접근하는 보행 통로와 갈림길의 실제 사진이 비어 있습니다. 공식 약도만 보고 차량 접근 방향을 휠체어 경로로 정하지 않았습니다.",
+        "pointId": null,
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "정류장→계백로1093-32의 이용 출입문 연결 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://www.happywoori.or.kr/about/map.php",
+            "https://www.happywoori.or.kr/biz/howtouse.php"
+          ],
+          "pointId": "mobility-v20-01"
+        }
+      },
+      {
+        "id": "happy-side",
+        "title": "건물 옆 통로 참고",
+        "instruction": "기존 사진에는 회색 벽과 나무 울타리 사이의 길, 아스팔트에서 붉은 포장으로 바뀌는 경계가 보입니다. 이 옆길이 방문자 출입문으로 연결되는지는 확인하지 못했습니다.",
+        "pointId": "mobility-v20-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "옆 통로의 주황색 문을 방문자 이용 출입문으로 확인할 자료가 없습니다.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1164141539&urlX=577593.0&urlY=779904.0&pan=314.6026928127639&tilt=0.0&zoom=0&urlLevel=3"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "happy-door",
+        "title": "방문자가 이용할 문 확인 필요",
+        "instruction": "2026 공식 안내서와 읽기 쉬운 안내서는 이용 절차·약도를 제공하지만, 하차 지점에서 주출입문까지의 실제 바닥 사진은 없습니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "현재 주출입문·단차·옆 통로와의 연결 확인이 필요합니다.",
+          "sourceUrls": [
+            "https://www.happywoori.or.kr/biz/howtouse.php"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "행복한우리복지관 공식 오시는길",
+        "url": "https://www.happywoori.or.kr/about/map.php",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "동방고등학교 하차 안내. 지상 보행 상세와 주출입문 사진 없음."
+      },
+      {
+        "title": "공식 이용안내서 · 2026 및 알기쉬운 자료",
+        "url": "https://www.happywoori.or.kr/biz/howtouse.php",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "2026 PDF7쪽과 쉬운 PDF12쪽 전체 시각 확인. 삽화·약도이며 실제 이동 사진 아님."
+      },
+      {
+        "title": "기존 건물 옆 거리 사진",
+        "url": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1164141539&urlX=577593.0&urlY=779904.0&pan=314.6026928127639&tilt=0.0&zoom=0&urlLevel=3",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "2023년 옆 통로 참고. 방문자 이용 출입문 여부 미확인."
+      }
+    ],
+    "gaps": [
+      "동방고등학교 정류장 하차면",
+      "중간 보도·갈림길·차량 진입부",
+      "방문자 이용 출입문 및 옆 통로의 역할"
+    ],
+    "contextPoint": "mobility-v20-01",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "wolpyeonglib",
+    "title": "월평도서관 하차 안내에서 파란 문 앞까지",
+    "start": {
+      "name": "102번 버스 하차 지점 · 정류장명·방향 확인 필요",
+      "type": "bus-stop"
+    },
+    "destination": "월평도서관 1층 파란 틀의 유리문",
+    "steps": [
+      {
+        "id": "wolpyeong-arrival",
+        "title": "102번 버스 하차 안내",
+        "instruction": "공식 오시는길에는 102번 직접노선과 도서관까지 거리 안내가 있습니다. 실제 정류장명·하차 방향과 건물 앞 광장으로 들어오는 접점 사진은 아직 없습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "하차면→광장 시작점의 보도와 횡단 여부 확인이 필요합니다.",
+          "sourceUrls": [
+            "https://www.seogu.go.kr/library/wolpyeonglib/contents/learning/content/content.motion?mnucd=MENU0600018"
+          ],
+          "pointId": "research-b-01"
+        }
+      },
+      {
+        "id": "wolpyeong-plaza",
+        "title": "넓은 광장의 포장",
+        "instruction": "사진 아래의 넓은 포장면에서 건물 오른쪽 아래 파란색 문틀을 찾으세요. 왼쪽에는 바깥 계단이 있고, 파란 문 앞까지 다른 바닥 무늬가 이어져 보입니다.",
+        "pointId": "research-b-01",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 사진 안에서 넓은 광장과 파란 문 앞 노란 점자블록을 함께 볼 수 있습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223493426314"
+          ],
+          "pointId": "research-b-01"
+        }
+      },
+      {
+        "id": "wolpyeong-direction",
+        "title": "파란 문틀을 다음 표식으로",
+        "instruction": "같은 사진에서 ‘월평도서관’ 글자가 있는 파란 문틀, 왼쪽 자전거, 문 앞 점자블록을 살펴보세요. 바닥의 높이 차와 실제 유효 폭은 측정하지 않았습니다.",
+        "pointId": "research-b-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "다음 근거리 문 사진은 별도 장면입니다. 광장의 촬영점과 문 앞을 연속 촬영한 자료는 없습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223493426314"
+          ],
+          "pointId": "research-b-02"
+        }
+      },
+      {
+        "id": "wolpyeong-door",
+        "title": "문 앞 바닥과 여는 방식",
+        "instruction": "가까운 사진의 문 앞 포장, 점자블록, 자전거와 표지판을 확인하세요. 2019년 기사는 자동문·여닫이문을 구분하지만, 현재 작동 방식은 다시 확인해야 합니다.",
+        "pointId": "research-b-02",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "현재 문 작동·문턱·정류장부터의 전체 연결은 미확인입니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223493426314",
+            "https://boda.or.kr/News/news.php?board=13&board_code=13&mode=detail&no=50107"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "월평도서관 공식 오시는길",
+        "url": "https://www.seogu.go.kr/library/wolpyeonglib/contents/learning/content/content.motion?mnucd=MENU0600018",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "버스102번 직접노선과 일반 도착 거리 안내. 갈마역2번출구 표기를 엘리베이터 출구로 해석하지 않음."
+      },
+      {
+        "title": "서구 공식 월평도서관 방문 사진",
+        "url": "https://m.blog.naver.com/first_seogu/223493426314",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "광장과 파란 문을 한 장에서 확인하고 별도 문 앞 근거리 사진도 확인.",
+        "sourcePublishedAt": "2024-06-27"
+      },
+      {
+        "title": "월평도서관 접근성 현장 기사 · 보다센터 재게시",
+        "url": "https://boda.or.kr/News/news.php?board=13&board_code=13&mode=detail&no=50107",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "2019-12-24 기사에 당시 자동문 종류 설명. 원본 사진 링크2개404. 현재 상태 증거로 사용하지 않음.",
+        "sourcePublishedAt": "2019-12-24"
+      }
+    ],
+    "gaps": [
+      "정류장명·방향과 광장 진입 접점",
+      "광장→문 앞 연속 촬영",
+      "현재 자동문 작동·문턱"
+    ],
+    "contextPoint": "research-b-02",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "dunsanlib",
+    "title": "둔산도서관 주차 승하차와 바깥 진입부 비교",
+    "start": {
+      "name": "장애인 주차구역 · 촬영 층·현재 상태 확인 필요",
+      "type": "parking"
+    },
+    "destination": "둔산도서관 이용 출입문 · 주차장 연결 확인 필요",
+    "steps": [
+      {
+        "id": "dunsanlib-parking",
+        "title": "장애인 주차구역에서 내릴 공간",
+        "instruction": "파란 휠체어 표시 옆 사선 구역과 벽 쪽의 카트·봉투·주차 스토퍼를 살펴보세요. 사진 밖에 있는 승강기와 출입문 방향은 정하지 않았습니다.",
+        "pointId": "route-v23-b-01",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "주차면→보행 출입문 또는 승강기 방향의 중간 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://we-map.kr/service/map/359"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "dunsanlib-parking-link",
+        "title": "주차장에서 나오는 연결 필요",
+        "instruction": "주차 사진과 건물 바깥 사진은 서로 다른 장면입니다. 주차장에서 밖으로 나가는 길 또는 승강기로 올라가는 길은 자료가 없습니다.",
+        "pointId": null,
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "주차 구역에서 다음 외부 장면까지 이어지는 경로는 미확인입니다.",
+          "sourceUrls": [
+            "https://we-map.kr/service/map/359"
+          ],
+          "pointId": "research-b-01"
+        }
+      },
+      {
+        "id": "dunsanlib-front",
+        "title": "별도 참고: 정면 계단과 경사로 표식",
+        "instruction": "바깥 사진에는 계단, 손잡이, 파란 ‘경사로’ 표식, 오른쪽으로 이어지는 노란 점자블록이 보입니다. 표식만으로 경사로의 시작점이나 문까지의 무단차 연결을 확정하지 않습니다.",
+        "pointId": "research-b-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "실제 경사로 시작·끝과 출입문 앞 바닥을 이어서 보여 주는 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/first_seogu/223950016793"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "dunsanlib-door",
+        "title": "이용할 출입문 사진 필요",
+        "instruction": "현재 정면 자료는 계단과 진입 공간이며 문턱까지 담긴 출입구 사진이 아닙니다. 주차장에서 이용할 문과 승강기의 연결을 먼저 확인해야 합니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "주차장 연결과 실제 이용 출입문 모두 확인 전입니다.",
+          "sourceUrls": [
+            "https://www.seogu.go.kr/library/dunsanlib/contents/learning/content/content.motion?mnucd=MENU0400018",
+            "https://m.blog.naver.com/first_seogu/223950016793"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "둔산도서관 공식 오시는길",
+        "url": "https://www.seogu.go.kr/library/dunsanlib/contents/learning/content/content.motion?mnucd=MENU0400018",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "일반버스와131m 도착 거리 안내만 있으며 상세 보도 연결은 없음."
+      },
+      {
+        "title": "위맵 둔산도서관 공개 장소 기록",
+        "url": "https://we-map.kr/service/map/359",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "주차구역 원본 신규 채택. 승강기 사진은 바닥 잘림, 실내 자료실 문은 방문 주출입문과 달라 제외. 통행 가능 태그는 검증으로 채택하지 않음."
+      },
+      {
+        "title": "서구 공식 둔산도서관 방문 사진",
+        "url": "https://m.blog.naver.com/first_seogu/223950016793",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "정면 진입부의 계단과 경사로 표식. 실제 이용 출입문은 프레임 밖.",
+        "sourcePublishedAt": "2025-07-29"
+      }
+    ],
+    "gaps": [
+      "장애인 주차구역의 촬영 층·시점",
+      "주차면→승강기·보행 출입문",
+      "경사로 시작과 끝·이용 출입문 문턱"
+    ],
+    "contextPoint": "research-b-01",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "yuseongwelfare",
+    "title": "유성구장애인종합복지관 하차 안내와 진입부 확인",
+    "start": {
+      "name": "복지관 주변 버스정류장 · 명칭·방향 대조 필요",
+      "type": "bus-stop"
+    },
+    "destination": "유성구장애인종합복지관 현재 이용 출입문 · 확인 필요",
+    "steps": [
+      {
+        "id": "yuseong-arrival",
+        "title": "정류장 이름과 하차 방향 확인",
+        "instruction": "공식 페이지 지도에는 유성장애인복지관 주변 정류장이, 본문에는 침례신학대학교 앞 하차가 안내돼 있습니다. 실제 정류장명과 방향을 대조할 하차 사진은 없습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "detail": "어느 승하차면에서 복지관 쪽 보도로 이어지는지 확인할 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://withway.or.kr/xe/menu17",
+            "https://withway.or.kr/xe/page/webzine/deploy/guide.html"
+          ],
+          "pointId": "mobility-v20-01"
+        }
+      },
+      {
+        "id": "yuseong-edge",
+        "title": "차량 진입부의 바닥 경계",
+        "instruction": "기존 사진 앞쪽의 배수로, 노란 점자블록과 검은 기둥이 있는 작은 포장면을 살펴보세요. 안쪽에는 트럭과 공사 시설이 보여 현재 통로로 그대로 안내할 수 없습니다.",
+        "pointId": "mobility-v20-01",
+        "stage": "crossing",
+        "next": {
+          "status": "same-scene",
+          "detail": "같은 장면 안에서 바닥 경계와 트럭·가림막·기둥이 있는 안쪽 진입부가 보입니다.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200983119&urlX=572640.0&urlY=801057.0&pan=259.69771512536886&tilt=0.0&zoom=0&urlLevel=3"
+          ],
+          "pointId": "mobility-v20-01"
+        }
+      },
+      {
+        "id": "yuseong-work",
+        "title": "공사 장면 뒤 연결 확인 필요",
+        "instruction": "같은 사진의 흰 기둥 사이에는 비계가 있고 오른쪽에 트럭과 가림막이 있습니다. 공사 구역을 지나갈 수 있다고 판단하지 않았으며, 현재 문으로 가는 방향 사진이 필요합니다.",
+        "pointId": "mobility-v20-01",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "2025년 공사 장면 이후의 현재 보행 통로·문 앞 사진을 확보하지 못했습니다.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200983119&urlX=572640.0&urlY=801057.0&pan=259.69771512536886&tilt=0.0&zoom=0&urlLevel=3"
+          ],
+          "pointId": null
+        }
+      },
+      {
+        "id": "yuseong-door",
+        "title": "현재 이용하는 문 확인 필요",
+        "instruction": "공식 쉬운 안내서는 주변 약도를 제공하지만 실제 문 앞 사진은 없습니다. 공사 이후 이용하는 출입문과 정류장부터의 경로를 확인해야 합니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "detail": "현재 주출입문·문턱·공사 해제 상태는 확인 전입니다.",
+          "sourceUrls": [
+            "https://withway.or.kr/xe/menu17",
+            "https://withway.or.kr/xe/page/webzine/deploy/guide.html"
+          ],
+          "pointId": null
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "복지관 공식 오시는길",
+        "url": "https://withway.or.kr/xe/menu17",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "정류장·지족역2번출구 일반 안내. 지도와 본문 명칭이 달라 방향 대조 필요."
+      },
+      {
+        "title": "복지관 공식 읽기 쉬운 이용안내서",
+        "url": "https://withway.or.kr/xe/page/webzine/deploy/guide.html",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "PDF15쪽 전체 시각 확인.14쪽 주변 정류장 약도이며 실제 진입 사진이 없음."
+      },
+      {
+        "title": "기존 공사 당시 진입부 사진",
+        "url": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200983119&urlX=572640.0&urlY=801057.0&pan=259.69771512536886&tilt=0.0&zoom=0&urlLevel=3",
+        "checkedAt": "2026-09-23T12:13:05.698271+00:00",
+        "finding": "2025-09-18 촬영. 현재 통행 가능한 경로로 안내하지 않음."
+      }
+    ],
+    "gaps": [
+      "정류장 명칭·하차 방향·보도 접속",
+      "공사 이후 현재 보행 통로",
+      "이용 출입문 근거리 사진"
+    ],
+    "contextPoint": "mobility-v20-01",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "entranceVerified": false,
+    "checkedAt": "2026-09-23"
+  },
+  {
+    "placeId": "subway",
+    "title": "시청역 2번 출구 쪽 보도에서 지상 승강기 찾기",
+    "start": {
+      "name": "시청역 2번 출구 옆 보도",
+      "type": "sidewalk"
+    },
+    "destination": "2번 출구 근처 지상 승강기 문",
+    "steps": [
+      {
+        "id": "sidewalk",
+        "title": "화분과 가로수 옆 보도",
+        "instruction": "노란 점자블록 옆 큰 화분과 가로수를 먼저 찾고, 그 사이에 남는 바닥을 살펴보세요.",
+        "pointId": "route-v23-c-01",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "pointId": "route-v23-c-01",
+          "detail": "한 사진 안에서 보도와 앞쪽 차량 진출입 접점을 관찰합니다.",
+          "sourceUrls": [
+            "https://www.djtc.kr/stationVR/111-vtour/tour.html"
+          ]
+        }
+      },
+      {
+        "id": "driveway",
+        "title": "차량 진출입 접점",
+        "instruction": "같은 사진 앞쪽의 흰 횡단 표시와 출입 관리 시설이 있는 부분에서 보도 경계와 차량 진출입을 확인하세요.",
+        "pointId": "route-v23-c-01",
+        "stage": "crossing",
+        "next": {
+          "status": "gap",
+          "pointId": "research-c-01",
+          "detail": "공식 VR의 이웃 장면 링크는 있으나 보도부터 승강기 문까지 무단차 연결을 입증하는 연속 사진은 없습니다.",
+          "sourceUrls": [
+            "https://www.djtc.kr/stationVR/111-vtour/tour.html"
+          ]
+        }
+      },
+      {
+        "id": "elevator",
+        "title": "2번 출구 근처 지상 승강기",
+        "instruction": "다음 사진에서는 유리 승강기 문과 앞쪽 바닥을 확인합니다. 앞 보도에서 이 문까지 이어지는 구간은 아직 사진이 비어 있습니다.",
+        "pointId": "research-c-01",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전교통공사 시청역 공식 스테이션뷰",
+        "url": "https://www.djtc.kr/stationVR/111-vtour/tour.html"
+      },
+      {
+        "title": "철도산업정보센터 시청역 교통약자 이동경로",
+        "url": "https://station.kric.go.kr/v2/altmInfoSys/index.do?areCd=05&lnCd=1&railOprIsttCd=DJ&prprStinCd=0870"
+      }
+    ],
+    "gaps": [
+      "실제 버스·택시 하차 위치에서 2번 출구 옆 보도까지 미확보",
+      "진출입로 횡단 뒤 승강기 문까지 미확보",
+      "현재 승강기 작동·문턱·통과 폭 미확인"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false,
+    "officialContinuation": {
+      "title": "지상 승강기 이후의 공식 설명",
+      "sourceUrl": "https://station.kric.go.kr/v2/altmInfoSys/index.do?areCd=05&lnCd=1&railOprIsttCd=DJ&prprStinCd=0870",
+      "instruction": "공식 안내는 2번 출구 근처 승강기로 지하 1층에 내린 뒤 정면 5m, 왼쪽 25m 이동하여 승강장 방향에 맞는 승강기로 지하 2층에 가도록 설명합니다. 두 번째 승강기 선택은 탑승 방향 안내를 확인해야 합니다.",
+      "photoConnectionVerified": false
+    }
+  },
+  {
+    "placeId": "govstation",
+    "title": "정부청사역 버스 쉼터 주변에서 지상 승강기 찾기",
+    "start": {
+      "name": "정부청사역 4번 출구 옆 버스 대기 쉼터",
+      "type": "bus-stop"
+    },
+    "destination": "3·4번 출구 사이 지상 승강기 문",
+    "steps": [
+      {
+        "id": "shelter",
+        "title": "4번 출구 옆 버스 쉼터",
+        "instruction": "4번 출구 표지와 유리 쉼터를 찾으세요. 버스가 서는 위치에서 보도로 올라오는 턱은 별도로 확인해야 합니다.",
+        "pointId": "route-v23-c-02",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "pointId": "route-v23-c-03",
+          "detail": "두 촬영 위치 사이의 정확한 보도 연결과 턱 낮춤은 확보하지 못했습니다.",
+          "sourceUrls": [
+            "https://www.djtc.kr/stationVR/112-vtour/tour.html"
+          ]
+        }
+      },
+      {
+        "id": "sidewalk",
+        "title": "3번 출구 옆 보도 관찰",
+        "instruction": "이 사진은 다른 촬영 지점입니다. 자전거 거치대와 가로수 옆 바닥을 살펴보되, 쉼터에서 이곳까지의 회전 방향은 아직 정하지 않습니다.",
+        "pointId": "route-v23-c-03",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": "research-c-02",
+          "detail": "보도 앞 시설과 문 앞 장면의 연결에 대한 실측·연속 사진은 없습니다.",
+          "sourceUrls": [
+            "https://www.djtc.kr/stationVR/112-vtour/tour.html"
+          ]
+        }
+      },
+      {
+        "id": "elevator",
+        "title": "3·4번 사이 승강기 문",
+        "instruction": "회색 석재와 유리로 된 지상 승강기 및 문 앞 바닥을 확인하세요. 1·2번 사이의 다른 승강기와 구분합니다.",
+        "pointId": "research-c-02",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전교통공사 정부청사역 공식 스테이션뷰",
+        "url": "https://www.djtc.kr/stationVR/112-vtour/tour.html"
+      },
+      {
+        "title": "철도산업정보센터 정부청사역 교통약자 이동경로",
+        "url": "https://station.kric.go.kr/v2/altmInfoSys/index.do?areCd=05&lnCd=1&railOprIsttCd=DJ&prprStinCd=0877"
+      }
+    ],
+    "gaps": [
+      "쉼터의 실제 정류장 번호·버스 운행 방향 미확인",
+      "버스 하차 턱과 3·4번 사이 승강기까지 보도 연결 미확보",
+      "현재 승강기 운행 및 문 앞 치수 미확인"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false,
+    "officialContinuation": {
+      "title": "3·4번 쪽 지상 승강기 이후 공식 설명",
+      "sourceUrl": "https://station.kric.go.kr/v2/altmInfoSys/index.do?areCd=05&lnCd=1&railOprIsttCd=DJ&prprStinCd=0877",
+      "instruction": "3·4번 사이 승강기로 지하 1층에 내려 정면 20m, 왼쪽 10m 이동한 다음, 탑승 방향에 맞는 승강기로 지하 2층에 가는 경로가 안내됩니다. 이 실내 구간의 사진 연결은 아직 없습니다.",
+      "photoConnectionVerified": false
+    }
+  },
+  {
+    "placeId": "station",
+    "title": "도시철도 대전역 차량 공간 주변에서 승강기 문 찾기",
+    "start": {
+      "name": "도시철도 대전역 공식 VR의 지상 광장",
+      "type": "plaza"
+    },
+    "destination": "사진에 보이는 도시철도 지상 승강기 문",
+    "steps": [
+      {
+        "id": "plaza",
+        "title": "차량과 보행 경계 먼저 보기",
+        "instruction": "차량·난간·기둥이 있는 광장에서 보도로 접하는 위치를 확인하세요. 차량 공간을 가로질러 이동하라는 안내는 아닙니다.",
+        "pointId": "route-v23-c-04",
+        "stage": "arrival",
+        "next": {
+          "status": "same-scene",
+          "pointId": "route-v23-c-04",
+          "detail": "한 장면 안에서 차량 공간과 뒤편 승강기의 상대적인 위치를 살핍니다.",
+          "sourceUrls": [
+            "https://www.djtc.kr/stationVR/104-vtour/tour.html"
+          ]
+        }
+      },
+      {
+        "id": "landmark",
+        "title": "오른쪽 뒤 유리 승강기 찾기",
+        "instruction": "같은 사진 오른쪽 뒤에 보이는 유리 승강기 구조물의 모양을 기억하세요. 그 앞까지의 보행 연결은 별도 사진이 필요합니다.",
+        "pointId": "route-v23-c-04",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": "research-c-02",
+          "detail": "서로 다른 촬영 위치입니다. 광장에서 난간을 지나 문까지 오는 보행 연결은 사진으로 입증되지 않았습니다.",
+          "sourceUrls": [
+            "https://www.djtc.kr/stationVR/104-vtour/tour.html"
+          ]
+        }
+      },
+      {
+        "id": "door",
+        "title": "승강기 문 앞 관찰",
+        "instruction": "문 앞의 포장 경계와 기둥 사이 공간을 살펴보세요. VR 장면 번호를 현재 출구 번호로 읽지 않습니다.",
+        "pointId": "research-c-02",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전교통공사 대전역 공식 스테이션뷰",
+        "url": "https://www.djtc.kr/stationVR/104-vtour/tour.html"
+      },
+      {
+        "title": "철도산업정보센터 도시철도 대전역 교통약자 이동경로",
+        "url": "https://station.kric.go.kr/v2/altmInfoSys/index.do?areCd=05&lnCd=1&railOprIsttCd=DJ&prprStinCd=0867"
+      }
+    ],
+    "gaps": [
+      "KTX 역사·택시·버스 하차 위치에서 도시철도 승강기까지 연결 미확인",
+      "공식 경로의 1번·3번 출구 승강기와 이 VR 사진의 대응 미확인",
+      "차량 공간 옆 보도 접점과 문 앞 치수 미확인"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false,
+    "officialContinuation": {
+      "title": "도시철도 실내 이동은 별도 확인",
+      "sourceUrl": "https://station.kric.go.kr/v2/altmInfoSys/index.do?areCd=05&lnCd=1&railOprIsttCd=DJ&prprStinCd=0867",
+      "instruction": "철도산업정보센터는 1번 또는 3번 쪽 지상 승강기에서 지하 3층 대합실, 개찰구, 지하 5층 승강장으로 가는 경로를 각각 안내합니다. 사진의 출구 번호 대응이 확정되지 않아 어느 설명을 이 사진에 연결할지는 남겨둡니다.",
+      "photoConnectionVerified": false
+    }
+  },
+  {
+    "placeId": "seodaejeon",
+    "title": "서대전역 정면 광장에서 역사 문까지 살피기",
+    "start": {
+      "name": "서대전역 정면 광장",
+      "type": "plaza"
+    },
+    "destination": "정면 덮개 아래 역사 출입문",
+    "steps": [
+      {
+        "id": "plaza",
+        "title": "정면 광장 바닥",
+        "instruction": "사진 가운데 노란 점자블록과 넓은 포장면을 찾으세요. 이 사진의 시작은 광장이며 버스에서 내린 위치는 아닙니다.",
+        "pointId": "route-v23-c-05",
+        "stage": "arrival",
+        "next": {
+          "status": "same-scene",
+          "pointId": "route-v23-c-05",
+          "detail": "공식 사진 한 장에 광장과 덮개 아래 진입부가 함께 보입니다.",
+          "sourceUrls": [
+            "https://photo.daejeon.go.kr/prog/photodb/74364/view.do?downloadType=photo&cateNo=50"
+          ]
+        }
+      },
+      {
+        "id": "canopy",
+        "title": "곡선 덮개 아래 진입부",
+        "instruction": "같은 장면에서 점자블록이 향하는 곡선 덮개와 양옆 화단·기둥을 확인하세요.",
+        "pointId": "route-v23-c-05",
+        "stage": "approach",
+        "next": {
+          "status": "same-scene",
+          "pointId": "route-v23-c-05",
+          "detail": "같은 사진 안의 역사 문을 관찰합니다. 실제 문턱 높이를 측정한 것은 아닙니다.",
+          "sourceUrls": [
+            "https://photo.daejeon.go.kr/prog/photodb/74364/view.do?downloadType=photo&cateNo=50"
+          ]
+        }
+      },
+      {
+        "id": "door",
+        "title": "덮개 아래 역사 문",
+        "instruction": "덮개 아래 정면 유리문을 찾으세요. 문 앞의 세부 단차와 문 작동은 가까이에서 확인해야 합니다.",
+        "pointId": "route-v23-c-05",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전광역시 사진기록관 서대전역 · 2026-06-29 촬영",
+        "url": "https://photo.daejeon.go.kr/prog/photodb/74364/view.do?downloadType=photo&cateNo=50"
+      },
+      {
+        "title": "한국민족문화대백과 서대전역 시설 개요",
+        "url": "https://encykorea.aks.ac.kr/Article/E0081096"
+      }
+    ],
+    "gaps": [
+      "버스·택시 하차 지점에서 정면 광장까지 미확보",
+      "문턱·문 폭·현재 자동문 작동 미확인",
+      "역사 내부에서 승강장까지 무단차 연결 미확인"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false
+  },
+  {
+    "placeId": "terminal",
+    "title": "복합터미널 동관 하차 뒤 서관 승차장 방향 구분하기",
+    "start": {
+      "name": "대전복합터미널 동관 1층 하차장",
+      "type": "bus-alighting"
+    },
+    "destination": "서관 1층 대합실로 들어가는 공용 출입문 · 문 근접 사진 필요",
+    "steps": [
+      {
+        "id": "alight",
+        "title": "동관 1층에서 내리기",
+        "instruction": "공식 안내에서 하차장은 동관 1층입니다. 실제 내리는 승강장과 문 앞 바닥 사진은 아직 없습니다.",
+        "pointId": null,
+        "stage": "arrival",
+        "next": {
+          "status": "source-described",
+          "pointId": null,
+          "detail": "터미널 공식 동관 1층 안내도는 하차장과 서관 승차장 방향 게이트의 관계를 설명합니다. 실측한 휠체어 경로는 아닙니다.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_east"
+          ]
+        }
+      },
+      {
+        "id": "gate",
+        "title": "서관 승차장 방향 게이트 찾기",
+        "instruction": "동관 1층 안내도의 아래쪽 게이트가 서관 승차장 방향으로 연결된다고 설명합니다. 실제 현장에서는 서관·승차장 표지를 확인해야 합니다.",
+        "pointId": null,
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": "route-v23-c-06",
+          "detail": "공식 방향 설명만으로 게이트와 이 광장 촬영 위치가 직접 연결된다고 판정하지 않았습니다.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_east",
+            "https://photo.daejeon.go.kr/prog/photodb/74299/view.do?downloadType=photo&cateNo=50"
+          ]
+        }
+      },
+      {
+        "id": "plaza",
+        "title": "터미널 앞 보도·광장 경계 살피기",
+        "instruction": "사진에서는 오른쪽 노란 점자블록, 왼쪽 계단, 조형물이 있는 광장을 구분하세요. 게이트에서 이 사진 위치로 오는 경로는 아직 이어지지 않았습니다.",
+        "pointId": "route-v23-c-06",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "사진 속 유리 시설은 대합실 공용 문으로 식별하지 않았습니다. 계단을 피하는 문 앞 연결 사진이 필요합니다.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_west"
+          ]
+        }
+      },
+      {
+        "id": "door",
+        "title": "서관 1층 대합실 문 확인하기",
+        "instruction": "서관 1층에는 대합실·매표소·승차장이 있습니다. 이 광장에서 계단을 피하여 들어가는 공용 문과 문턱의 근접 사진이 더 필요합니다.",
+        "pointId": null,
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "복합터미널 공식 동관 안내",
+        "url": "https://www.djbusterminal.co.kr/facility_east"
+      },
+      {
+        "title": "복합터미널 공식 서관 안내",
+        "url": "https://www.djbusterminal.co.kr/facility_west"
+      },
+      {
+        "title": "복합터미널 공식 승차장 안내",
+        "url": "https://www.djbusterminal.co.kr/boarding"
+      },
+      {
+        "title": "대전광역시 사진기록관 터미널 광장 · 2026-01-22 촬영",
+        "url": "https://photo.daejeon.go.kr/prog/photodb/74299/view.do?downloadType=photo&cateNo=50"
+      }
+    ],
+    "gaps": [
+      "실제 하차 승강장→동관 게이트 바닥 사진 미확보",
+      "동관 게이트→서관 사이 횡단·보도 연결 사진 미확보",
+      "광장 계단을 피하는 경로와 서관 공용 문 식별 미완료"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false
+  },
+  {
+    "placeId": "govbus",
+    "title": "청사로 189 승차 정류소에서 대기·승차 위치 구분하기",
+    "start": {
+      "name": "청사로 189 시외버스 승차 정류소 앞 보도",
+      "type": "sidewalk"
+    },
+    "destination": "시외버스 승차 표지 앞 대기 위치",
+    "steps": [
+      {
+        "id": "sidewalk",
+        "title": "청사로 189 승차 정류소 확인",
+        "instruction": "선사유적지 맞은편 시외버스 승차 정류소를 기준으로 살펴보세요. 한밭대로 755의 하차 정류소와 다릅니다.",
+        "pointId": "research-c-03",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "pointId": "research-c-02",
+          "detail": "같은 공식 방문기의 별도 사진이며 보도 전체를 연속 촬영한 기록은 아닙니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/PostView.naver?blogId=first_seogu&logNo=223529573343"
+          ]
+        }
+      },
+      {
+        "id": "ticket",
+        "title": "매표소 앞 바닥 보기",
+        "instruction": "매표소 표지와 문 앞 보도 경계를 확인하세요. 이 문이 버스 탑승문은 아닙니다.",
+        "pointId": "research-c-02",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": "route-v23-c-07",
+          "detail": "공식 글은 발권기 옆 쉼터를 설명하지만 매표소 문에서 쉼터까지 모든 바닥 접점은 보이지 않습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/PostView.naver?blogId=first_seogu&logNo=223529573343"
+          ]
+        }
+      },
+      {
+        "id": "shelter",
+        "title": "쉼터에서 대기 공간 찾기",
+        "instruction": "덮개·벤치와 큰 가로수를 표식으로 보고, 사람과 짐 사이에 휠체어가 기다리고 회전할 공간이 있는지 확인하세요.",
+        "pointId": "route-v23-c-07",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": "research-c-01",
+          "detail": "쉼터에서 버스 승차문까지 이동·단차 사진과 탑승 지원 정보가 필요합니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/PostView.naver?blogId=first_seogu&logNo=223529573343"
+          ]
+        }
+      },
+      {
+        "id": "boarding",
+        "title": "승차 표지 앞 경계 확인",
+        "instruction": "승차 표지와 버스가 서는 쪽 보도 경계를 확인하세요. 실제 버스의 휠체어 탑승 가능 여부와 지원은 해당 운행사 확인이 필요합니다.",
+        "pointId": "research-c-01",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전 서구 공식 블로그 청사 시외버스 정류소 안내 · 2024-07-29 게시",
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=first_seogu&logNo=223529573343"
+      },
+      {
+        "title": "대전시 공식 블로그 정부청사 정류소 안내",
+        "url": "https://daejeon-story.tistory.com/6504"
+      }
+    ],
+    "gaps": [
+      "한밭대로 755 하차 정류소에서 이 승차 정류소까지 경로 미확보",
+      "혼잡 시 보도 통과 폭과 쉼터 회전 공간 미측정",
+      "승차문 단차·리프트·휠체어 탑승 지원 미확인"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false
+  },
+  {
+    "placeId": "sintanjin",
+    "title": "신탄진역 정면 보도에서 승강기 표지·맞이방 문 살피기",
+    "start": {
+      "name": "신탄진역 건물 정면 지상 보도",
+      "type": "sidewalk"
+    },
+    "destination": "2층 표 사는 곳·맞이방 출입문",
+    "steps": [
+      {
+        "id": "front",
+        "title": "정면 보도와 출입구 구분",
+        "instruction": "정면 덮개와 역 건물을 먼저 확인하세요. TMO라고 적힌 여행장병 시설 문은 일반 맞이방 문과 구분합니다.",
+        "pointId": "route-v23-c-08",
+        "stage": "arrival",
+        "next": {
+          "status": "gap",
+          "pointId": "route-v23-c-09",
+          "detail": "정면 보도와 승강기 표지 앞은 서로 다른 사진입니다. 두 위치를 잇는 회전·단차 구간은 확보하지 못했습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136"
+          ]
+        }
+      },
+      {
+        "id": "elevator",
+        "title": "파란 엘리베이터 표지 찾기",
+        "instruction": "덮개 아래 흰 울타리 안쪽의 노란 점자블록과 파란 엘리베이터 표지를 살펴보세요. 구조물 뒤 실제 문 앞 모습은 추가 확인이 필요합니다.",
+        "pointId": "route-v23-c-09",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "pointId": "route-v23-c-10",
+          "detail": "공식 방문기는 2층 맞이방을 설명하지만 이 승강기의 문·층간 이동·내린 뒤 복도를 연속으로 보여주지 않습니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136"
+          ]
+        }
+      },
+      {
+        "id": "hall",
+        "title": "2층 맞이방 출입문 확인",
+        "instruction": "2층에서는 파란 표 사는 곳·맞이방 표지와 유리문을 찾습니다. 앞 승강기에서 이 문까지 이어지는 사진은 아직 없습니다.",
+        "pointId": "route-v23-c-10",
+        "stage": "entrance",
+        "next": {
+          "status": "same-scene",
+          "pointId": "route-v23-c-10",
+          "detail": "같은 사진에 맞이방 문과 안쪽 매표 창구가 함께 보입니다.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136"
+          ]
+        }
+      },
+      {
+        "id": "counter",
+        "title": "문 안 매표 창구 방향",
+        "instruction": "같은 문 사진 안에서 점자블록이 향하는 매표 창구를 살펴보세요. 승강장으로 가는 길은 이 단계에 포함하지 않았습니다.",
+        "pointId": "route-v23-c-10",
+        "stage": "entrance",
+        "next": {
+          "status": "gap",
+          "pointId": null,
+          "detail": "이 안내의 마지막 확인 지점입니다. 이후 구간은 별도 확인이 필요합니다.",
+          "sourceUrls": []
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "대전 대덕구 공식 신탄진역 방문기 · 2024-12-03 게시",
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136"
+      },
+      {
+        "title": "철도산업정보센터 신탄진역 정보",
+        "url": "https://station.kric.go.kr/v2/altmInfoSys/railway/index.do?railOprIsttCd=KR&prprStinCd=0985"
+      }
+    ],
+    "gaps": [
+      "기존 스마트 버스정류장 사진에서 역 정면 보도까지 연결 미확보",
+      "승강기 문과 작동·2층에 내리는 위치 미확인",
+      "승강기에서 맞이방 문까지 실제 복도 연결 미확보",
+      "맞이방에서 열차 승강장까지 무단차 연결 미확인"
+    ],
+    "continuousRouteVerified": false,
+    "checkedAt": "2026-09-23",
+    "fieldVerified": false
+  }
+]

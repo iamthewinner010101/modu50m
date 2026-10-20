@@ -1,0 +1,390 @@
+{
+  "version": "daejeon-precinct-v3",
+  "generatedAt": "2026-09-17T09:20:04.513865+00:00",
+  "sites": [
+    {
+      "id": "museum",
+      "name": "대전시립미술관",
+      "anchor": {
+        "lat": 36.36675015,
+        "lon": 127.3857597
+      },
+      "footprint": [
+        {
+          "lat": 36.3665772,
+          "lon": 127.3862065
+        },
+        {
+          "lat": 36.3666707,
+          "lon": 127.3862096
+        },
+        {
+          "lat": 36.3666707,
+          "lon": 127.3861352
+        },
+        {
+          "lat": 36.3667645,
+          "lon": 127.386135
+        },
+        {
+          "lat": 36.3667647,
+          "lon": 127.3862244
+        },
+        {
+          "lat": 36.3669841,
+          "lon": 127.3862239
+        },
+        {
+          "lat": 36.3669842,
+          "lon": 127.3863221
+        },
+        {
+          "lat": 36.3671103,
+          "lon": 127.386324
+        },
+        {
+          "lat": 36.3671199,
+          "lon": 127.3851954
+        },
+        {
+          "lat": 36.3669813,
+          "lon": 127.3851981
+        },
+        {
+          "lat": 36.3669796,
+          "lon": 127.385382
+        },
+        {
+          "lat": 36.3668962,
+          "lon": 127.3853822
+        },
+        {
+          "lat": 36.366896,
+          "lon": 127.3852536
+        },
+        {
+          "lat": 36.3667867,
+          "lon": 127.3852538
+        },
+        {
+          "lat": 36.3667869,
+          "lon": 127.3853499
+        },
+        {
+          "lat": 36.3666687,
+          "lon": 127.3853501
+        },
+        {
+          "lat": 36.3666693,
+          "lon": 127.3857756
+        },
+        {
+          "lat": 36.3666447,
+          "lon": 127.3857761
+        },
+        {
+          "lat": 36.3666433,
+          "lon": 127.385676
+        },
+        {
+          "lat": 36.3666146,
+          "lon": 127.3855609
+        },
+        {
+          "lat": 36.3665638,
+          "lon": 127.385428
+        },
+        {
+          "lat": 36.3665104,
+          "lon": 127.3853472
+        },
+        {
+          "lat": 36.3664712,
+          "lon": 127.3853022
+        },
+        {
+          "lat": 36.3663804,
+          "lon": 127.3854234
+        },
+        {
+          "lat": 36.3664302,
+          "lon": 127.3854746
+        },
+        {
+          "lat": 36.3664391,
+          "lon": 127.3854835
+        },
+        {
+          "lat": 36.366465,
+          "lon": 127.3855267
+        },
+        {
+          "lat": 36.3664871,
+          "lon": 127.3855774
+        },
+        {
+          "lat": 36.3665116,
+          "lon": 127.3856347
+        },
+        {
+          "lat": 36.3665242,
+          "lon": 127.3856877
+        },
+        {
+          "lat": 36.3665336,
+          "lon": 127.3857454
+        },
+        {
+          "lat": 36.3665325,
+          "lon": 127.3859419
+        },
+        {
+          "lat": 36.3665773,
+          "lon": 127.3859405
+        },
+        {
+          "lat": 36.3665772,
+          "lon": 127.3862065
+        }
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/way/32660186",
+      "osmVersion": 10,
+      "images": [
+        {
+          "id": "museum-approach-1200852131",
+          "checkpointId": "approach",
+          "placeId": "museum",
+          "name": "대전시립미술관 · approach",
+          "source": "roadview",
+          "provider": "Kakao Roadview",
+          "image": "/modu50m/daejeon-precinct-v3/museum-approach.jpg",
+          "panoId": 1200852131,
+          "captureDate": "2025-09-15",
+          "retrievedAt": "2026-09-17T09:19:58.027001+00:00",
+          "camera": {
+            "lat": 36.3653987937308,
+            "lon": 127.385536443868
+          },
+          "heading": 30,
+          "pitch": 3,
+          "fov": 86,
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200852131&pan=30&tilt=-3&zoom=0",
+          "sha256": "b610d7024631482b51b1c492794a9bb143b31576b40be933a1491b45e40aacf4",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureStatus": "source_retrieved"
+        },
+        {
+          "id": "museum-threshold-1200852127",
+          "checkpointId": "threshold",
+          "placeId": "museum",
+          "name": "대전시립미술관 · threshold",
+          "source": "roadview",
+          "provider": "Kakao Roadview",
+          "image": "/modu50m/daejeon-precinct-v3/museum-threshold.jpg",
+          "panoId": 1200852127,
+          "captureDate": "2025-09-15",
+          "retrievedAt": "2026-09-17T09:19:59.300012+00:00",
+          "camera": {
+            "lat": 36.3654526187057,
+            "lon": 127.385612478399
+          },
+          "heading": 345,
+          "pitch": 3,
+          "fov": 86,
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200852127&pan=345&tilt=-3&zoom=0",
+          "sha256": "5d1e6619a6ff136b69d95931a5c1bcac7c09f747120a2433d4d7024b05399f65",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureStatus": "source_retrieved"
+        },
+        {
+          "id": "museum-doorway-1200852104",
+          "checkpointId": "doorway",
+          "placeId": "museum",
+          "name": "대전시립미술관 · doorway",
+          "source": "roadview",
+          "provider": "Kakao Roadview",
+          "image": "/modu50m/daejeon-precinct-v3/museum-doorway.jpg",
+          "panoId": 1200852104,
+          "captureDate": "2025-09-15",
+          "retrievedAt": "2026-09-17T09:20:00.638938+00:00",
+          "camera": {
+            "lat": 36.3654396308172,
+            "lon": 127.386285421208
+          },
+          "heading": 340,
+          "pitch": -2,
+          "fov": 70,
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200852104&pan=340&tilt=2&zoom=0",
+          "sha256": "138057bc923439d9ca31c6d7f1726016fcf0b24cd95ab8e57af0cf86dee9571f",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureStatus": "source_retrieved"
+        }
+      ]
+    },
+    {
+      "id": "arts",
+      "name": "대전예술의전당",
+      "anchor": {
+        "lat": 36.36660965,
+        "lon": 127.3838301
+      },
+      "footprint": [
+        {
+          "lat": 36.3663065,
+          "lon": 127.3842702
+        },
+        {
+          "lat": 36.3667955,
+          "lon": 127.3842734
+        },
+        {
+          "lat": 36.3667939,
+          "lon": 127.3846561
+        },
+        {
+          "lat": 36.3671029,
+          "lon": 127.3846581
+        },
+        {
+          "lat": 36.3671062,
+          "lon": 127.3839032
+        },
+        {
+          "lat": 36.367066,
+          "lon": 127.3838543
+        },
+        {
+          "lat": 36.3671424,
+          "lon": 127.3837575
+        },
+        {
+          "lat": 36.3670024,
+          "lon": 127.383587
+        },
+        {
+          "lat": 36.3670845,
+          "lon": 127.3834829
+        },
+        {
+          "lat": 36.3666895,
+          "lon": 127.3830021
+        },
+        {
+          "lat": 36.3665366,
+          "lon": 127.3831959
+        },
+        {
+          "lat": 36.3663865,
+          "lon": 127.383195
+        },
+        {
+          "lat": 36.3663871,
+          "lon": 127.3830314
+        },
+        {
+          "lat": 36.3661619,
+          "lon": 127.3830301
+        },
+        {
+          "lat": 36.3661612,
+          "lon": 127.3831975
+        },
+        {
+          "lat": 36.3660793,
+          "lon": 127.383197
+        },
+        {
+          "lat": 36.3660769,
+          "lon": 127.3837801
+        },
+        {
+          "lat": 36.3663085,
+          "lon": 127.3837817
+        },
+        {
+          "lat": 36.3663065,
+          "lon": 127.3842702
+        }
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/way/32660185",
+      "osmVersion": 7,
+      "images": [
+        {
+          "id": "arts-approach-1200833413",
+          "checkpointId": "approach",
+          "placeId": "arts",
+          "name": "대전예술의전당 · approach",
+          "source": "roadview",
+          "provider": "Kakao Roadview",
+          "image": "/modu50m/daejeon-precinct-v3/arts-approach.jpg",
+          "panoId": 1200833413,
+          "captureDate": "2025-09-15",
+          "retrievedAt": "2026-09-17T09:20:02.661688+00:00",
+          "camera": {
+            "lat": 36.3649333850386,
+            "lon": 127.383421543848
+          },
+          "heading": 25,
+          "pitch": 3,
+          "fov": 86,
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833413&pan=25&tilt=-3&zoom=0",
+          "sha256": "66b82b45ce948d3fde61691b23a04ec277c31bbda33c91c4120227bf2dcec621",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureStatus": "source_retrieved"
+        },
+        {
+          "id": "arts-threshold-1200833397",
+          "checkpointId": "threshold",
+          "placeId": "arts",
+          "name": "대전예술의전당 · threshold",
+          "source": "roadview",
+          "provider": "Kakao Roadview",
+          "image": "/modu50m/daejeon-precinct-v3/arts-threshold.jpg",
+          "panoId": 1200833397,
+          "captureDate": "2025-09-15",
+          "retrievedAt": "2026-09-17T09:20:03.294370+00:00",
+          "camera": {
+            "lat": 36.3649319539236,
+            "lon": 127.383867233897
+          },
+          "heading": 0,
+          "pitch": 4,
+          "fov": 86,
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833397&pan=0&tilt=-4&zoom=0",
+          "sha256": "57737d94fd00a7884cf733e80025ae52e8dfac483be829bfa56e5f755d291a2a",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureStatus": "source_retrieved"
+        },
+        {
+          "id": "arts-doorway-1200833382",
+          "checkpointId": "doorway",
+          "placeId": "arts",
+          "name": "대전예술의전당 · doorway",
+          "source": "roadview",
+          "provider": "Kakao Roadview",
+          "image": "/modu50m/daejeon-precinct-v3/arts-doorway.jpg",
+          "panoId": 1200833382,
+          "captureDate": "2025-09-15",
+          "retrievedAt": "2026-09-17T09:20:04.504863+00:00",
+          "camera": {
+            "lat": 36.3649341114436,
+            "lon": 127.384317398541
+          },
+          "heading": 350,
+          "pitch": -2,
+          "fov": 70,
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833382&pan=350&tilt=2&zoom=0",
+          "sha256": "32708cacc77b58ae7e54edda768e74b3ef3ee2635a05c123a0d4d99311324dc4",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureStatus": "source_retrieved"
+        }
+      ]
+    }
+  ]
+}

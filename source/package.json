@@ -1,0 +1,34 @@
+{
+  "name": "last-50m-accessibility-mvp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build-pages.mjs"
+  },
+  "dependencies": {
+    "@annotorious/annotorious": "3.8.10",
+    "@phosphor-icons/react": "^2.1.10",
+    "@vercel/blob": "2.4.0",
+    "leaflet": "1.9.4",
+    "maplibre-gl": "6.10.0",
+    "photoswipe": "5.4.4",
+    "qrcode": "1.5.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "esbuild": "0.28.2",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "playwright": "^1.61.1",
+    "vite": "^8.0.16"
+  }
+}

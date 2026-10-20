@@ -1,0 +1,1136 @@
+{
+  "station": {
+    "placeId": "station",
+    "title": "대전역 정류장에서 입구까지 살펴봐요",
+    "start": {
+      "name": "대전역",
+      "code": "12410",
+      "direction": "철도역 서광장 쪽 보도",
+      "coordinate": [
+        36.3323201,
+        127.4322583
+      ],
+      "osm": "10216539153",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/10216539153"
+    },
+    "destination": "대전역 철도역 · 서광장 출입부",
+    "steps": [
+      {
+        "id": "station-bus-bus",
+        "title": "대전역 정류장 하차",
+        "instruction": "12410번, 철도역 서광장 쪽 보도예요. 정차한 버스 옆 상가 보도를 찾아요. 가로수·볼라드·가판대 사이 공간과 하차 경계를 살펴봐요.",
+        "pointId": "bus-v32-bus",
+        "coordinate": [
+          36.3323201,
+          127.4322583
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 대전로를 건너지 않고 남쪽으로 살펴봐요. 상가가 끝나는 곳에서 왼쪽, 철도역 광장으로 들어가는 길을 찾아요.",
+          "sourceUrls": [
+            "https://www.letskorail.com/",
+            "https://www.openstreetmap.org/node/10216539153"
+          ]
+        }
+      },
+      {
+        "id": "station-bus-walk",
+        "title": "같은 보도를 따라 광장 쪽으로",
+        "instruction": "대전로를 건너지 않고 남쪽으로 살펴봐요. 상가가 끝나는 곳에서 왼쪽, 철도역 광장으로 들어가는 길을 찾아요.",
+        "pointId": "bus-v32-walk",
+        "coordinate": [
+          36.33198,
+          127.43237
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 광장 입구에서 택시가 드나드는 통로를 만나요. 흰 횡단 표시 양끝의 턱과 차단기 주변을 확대해 살펴봐요.",
+          "sourceUrls": [
+            "https://www.letskorail.com/",
+            "https://www.openstreetmap.org/node/10216539153"
+          ]
+        }
+      },
+      {
+        "id": "station-bus-turn",
+        "title": "서광장 진입부의 횡단 지점",
+        "instruction": "광장 입구에서 택시가 드나드는 통로를 만나요. 흰 횡단 표시 양끝의 턱과 차단기 주변을 확대해 살펴봐요.",
+        "pointId": "bus-v32-turn",
+        "coordinate": [
+          36.33183,
+          127.4325
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 초록 지붕을 기준으로 철도역 방향을 확인해요. 택시 통로의 횡단 표시와 볼라드 사이 보행 공간을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.letskorail.com/",
+            "https://www.openstreetmap.org/node/10216539153"
+          ]
+        }
+      },
+      {
+        "id": "station-bus-cross",
+        "title": "초록 지붕 옆 택시 통로",
+        "instruction": "초록 지붕을 기준으로 철도역 방향을 확인해요. 택시 통로의 횡단 표시와 볼라드 사이 보행 공간을 살펴봐요.",
+        "pointId": "bus-v32-cross",
+        "coordinate": [
+          36.3319,
+          127.433
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 역 건물 앞의 포장 바닥과 택시 통로를 구분해요. 승강기 쪽 보행 연결은 별도 사진이 필요해요.",
+          "sourceUrls": [
+            "https://www.letskorail.com/",
+            "https://www.openstreetmap.org/node/10216539153"
+          ]
+        }
+      },
+      {
+        "id": "station-bus-square",
+        "title": "철도역 건물이 보이는 서광장",
+        "instruction": "역 건물 앞의 포장 바닥과 택시 통로를 구분해요. 승강기 쪽 보행 연결은 별도 사진이 필요해요.",
+        "pointId": "bus-v32-square",
+        "coordinate": [
+          36.33195,
+          127.43345
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "광장 사진과 노란 4번 문 앞 바닥을 비교해요. 광장에서 이 문까지 이어지는 보행 바닥과 문에서 승강기로 가는 중간 사진은 더 필요해요.",
+          "sourceUrls": [
+            "https://www.letskorail.com/",
+            "https://www.openstreetmap.org/node/10216539153"
+          ]
+        }
+      },
+      {
+        "id": "station-bus-door",
+        "miniatureLabel": "문·계단 비교",
+        "title": "서광장 문·승강기 살펴보기",
+        "instruction": "노란 4번 문과 문 앞 바닥을 먼저 봐요. 작은 사진을 눌러 문 안쪽·승강기 통로·승강기를 비교해요. 5번 계단형 출입부와 도시철도 4번 계단은 다른 곳이에요.",
+        "pointId": "bus-v32-door",
+        "coordinate": [
+          36.332,
+          127.43395
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null,
+        "sourceNotice": {
+          "title": "서광장 승강기·교통약자 안내지도",
+          "publishedAt": "2023-07-31",
+          "detail": "4번 문 밖·안쪽과 실내 승강기 사진을 작은 사진 버튼으로 골라 볼 수 있어요. 광장에서 문까지, 문에서 승강기까지 중간 바닥이 모두 이어져 보이는 자료는 아니에요.",
+          "documentUrl": "/modu50m/route-notices-v44/station-west-elevator-reference.html",
+          "documentLabel": "승강기·통로·문 사진 보기",
+          "sourceUrl": "https://blog.naver.com/djdonggu/223168553206"
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v44/station-exit4-exterior-2025.jpg",
+          "/modu50m/route-photos-v44/station-exit4-and-metro-stairs-published-202501.jpg",
+          "/modu50m/route-notices-v44/station-west-exit4-2024.jpg",
+          "/modu50m/route-notices-v44/station-lift-corridor-2023.png",
+          "/modu50m/route-notices-v44/station-west-elevator-2023.jpg",
+          "/modu50m/route-photos-v44/station-west-stair-entrance.jpg",
+          "/modu50m/bus-v32/station-blog-02.jpg"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "시설 공식 안내",
+        "url": "https://www.letskorail.com/"
+      },
+      {
+        "title": "대전역 12410 · 정류장 좌표",
+        "url": "https://www.openstreetmap.org/node/10216539153"
+      },
+      {
+        "title": "라오니스 · 철도역 서광장과 출입문 방문 사진 · 2022년 게시",
+        "url": "https://raonyss.tistory.com/m/2643"
+      },
+      {
+        "title": "대전광역시 대전관광 · 서광장 출입부와 꽃시계 · 2025년 7~8월 취재",
+        "url": "https://daejeontour.co.kr/subway_djt/5"
+      }
+    ],
+    "gaps": [
+      "서광장에서 철도역 승강기로 이어지는 접근로와 실제 문 앞 사진",
+      "하차 턱·횡단부 단차·출입문 통과 폭의 현장 확인"
+    ],
+    "summary": "정류장 → 보도 → 횡단·갈림길 → 목적 입구 순서로 사진을 비교해요. 지도 선은 방문 전 확인할 후보 동선이며 연속 통행을 검증한 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "terminal": {
+    "placeId": "terminal",
+    "title": "복합터미널 정류장에서 입구까지 살펴봐요",
+    "start": {
+      "name": "복합터미널",
+      "code": "11830",
+      "direction": "터미널 쪽 보도 · 동부네거리 방향",
+      "coordinate": [
+        36.3489046,
+        127.4356248
+      ],
+      "osm": "10221664426",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/10221664426"
+    },
+    "destination": "대전복합터미널 서관 · GATE 4 대합실 입구",
+    "steps": [
+      {
+        "id": "terminal-bus-bus",
+        "title": "복합터미널 정류장 하차",
+        "instruction": "11830번, 터미널이 있는 쪽 보도에서 시작해요. 검은 쉼터 옆으로 올라서는 경계와 기다리는 사람 사이 공간을 살펴봐요.",
+        "pointId": "bus-v32-bus",
+        "coordinate": [
+          36.3489046,
+          127.4356248
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 같은 쪽 보도를 동쪽으로 따라가면 작은 진입 도로를 만나요. 큰 대로 반대편으로 건너는 길이 아니에요. 횡단 표시 양끝과 차량을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_west",
+            "https://www.openstreetmap.org/node/10221664426"
+          ]
+        }
+      },
+      {
+        "id": "terminal-bus-cross",
+        "title": "서관 남서쪽 작은 도로 횡단",
+        "instruction": "같은 쪽 보도를 동쪽으로 따라가면 작은 진입 도로를 만나요. 큰 대로 반대편으로 건너는 길이 아니에요. 횡단 표시 양끝과 차량을 살펴봐요.",
+        "pointId": "bus-v32-cross",
+        "coordinate": [
+          36.34928,
+          127.43662
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 복합터미널 표지와 조형물을 기준으로 서관 앞을 찾아요. 차도 쪽 울타리와 보행 공간을 구분하고 건물 쪽으로 살펴봐요.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_west",
+            "https://www.openstreetmap.org/node/10221664426"
+          ]
+        }
+      },
+      {
+        "id": "terminal-bus-forecourt",
+        "title": "서관 앞 조형물과 보행 공간",
+        "instruction": "복합터미널 표지와 조형물을 기준으로 서관 앞을 찾아요. 차도 쪽 울타리와 보행 공간을 구분하고 건물 쪽으로 살펴봐요.",
+        "pointId": "bus-v32-forecourt",
+        "coordinate": [
+          36.3497,
+          127.43708
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 두 건물 사이 길에서 왼쪽 서관을 확인해요. 택시 대기 공간·볼라드·점자블록이 만나는 구간을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_west",
+            "https://www.openstreetmap.org/node/10221664426"
+          ]
+        }
+      },
+      {
+        "id": "terminal-bus-walk",
+        "title": "서관 난간 안쪽 보도에서 GATE 4 방향으로",
+        "instruction": "살펴볼 길은 서관 매장과 검은 난간 사이 보도예요. 사진의 오른쪽 방향, 배스킨라빈스와 GS25 사이 GATE 4를 찾아보세요. 택시가 대기하는 차도와 구분해요.",
+        "pointId": "bus-v32-walk",
+        "coordinate": [
+          36.3501,
+          127.4374
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. GS25 옆 서관 GATE 4 표지와 유리문을 찾아요. 고속버스 승차장과 매표소는 서관에 있어요. 문 앞 점자블록과 택시 통로 경계를 확대해 봐요.",
+          "sourceUrls": [
+            "https://www.djbusterminal.co.kr/facility_west",
+            "https://www.openstreetmap.org/node/10221664426"
+          ]
+        }
+      },
+      {
+        "id": "terminal-bus-door",
+        "title": "서관 GATE 4 · 대합실 쪽 출입문",
+        "instruction": "GATE 4 표지와 문 앞 점자블록을 함께 살펴봐요. 문 가까이 찍은 방문자 사진과 안쪽 사진을 비교할 수 있어요. 서로 촬영 시기가 달라 현재 문 운영과 통과 폭은 별도 확인이 필요해요.",
+        "pointId": "bus-v32-door",
+        "coordinate": [
+          36.35027,
+          127.43718
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "시설 공식 안내",
+        "url": "https://www.djbusterminal.co.kr/facility_west"
+      },
+      {
+        "title": "복합터미널 11830 · 정류장 좌표",
+        "url": "https://www.openstreetmap.org/node/10221664426"
+      },
+      {
+        "title": "서관 1층 승차장·대합실 배치도",
+        "url": "https://www.djbusterminal.co.kr/public/images/sub/map_1f.svg"
+      }
+    ],
+    "gaps": [
+      "GATE 4 문턱 높이·열린 폭·여는 방법과 현재 상태",
+      "정류장부터 서관까지 사진에 가려진 바닥과 현재 통행 상태"
+    ],
+    "summary": "정류장 → 보도 → 횡단·갈림길 → 목적 입구 순서로 사진을 비교해요. 지도 선은 방문 전 확인할 후보 동선이며 연속 통행을 검증한 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "museum": {
+    "placeId": "museum",
+    "title": "대전예술의전당 정류장에서 입구까지 살펴봐요",
+    "start": {
+      "name": "대전예술의전당",
+      "code": "34730",
+      "direction": "예술의전당·미술관 쪽 보도",
+      "coordinate": [
+        36.365063,
+        127.3845703
+      ],
+      "osm": "11338234779",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/11338234779"
+    },
+    "destination": "대전시립미술관 이름 아래 유리 출입문",
+    "steps": [
+      {
+        "id": "museum-bus-bus",
+        "title": "대전예술의전당 정류장 하차",
+        "instruction": "34730번, 미술관이 있는 쪽 보도에서 시작해요. 정류장 뒤 붉은 보도와 쉼터 기둥 사이를 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.365063,
+          127.3845703
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-walk",
+        "title": "미술관 표지가 있는 보도",
+        "instruction": "같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.36512,
+          127.38512
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-garden",
+        "title": "주차 진출입로 옆 보행 접점",
+        "instruction": "안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+        "pointId": "bus-v31-garden",
+        "coordinate": [
+          36.36552,
+          127.38538
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 2026년 사진으로 공원 안쪽 갈림길을 비교해요. 보도 경계가 낮아지는 곳을 찾아야 하며, 높은 턱을 넘는 길로 판단하지 않아요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-corner",
+        "miniatureLabel": "공원 앞 보도 경계",
+        "title": "공원 진입 전 보도 경계",
+        "instruction": "사진 앞쪽의 높은 보도 턱과 나무 사이 갈림길을 살펴봐요. 이 사진에는 턱을 지나 경사로로 이어지는 바닥이 보이지 않아요. 잔디나 차도를 지름길로 따라가지 않아요.",
+        "pointId": "bus-v32-corner",
+        "coordinate": [
+          36.36555,
+          127.38559
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "05번 사진에서 앞마당과 경사로가 만나는 바닥은 볼 수 있어요. 04번 공원 갈림길에서 그 앞마당까지 이어지는 중간 보행 바닥·턱 낮춤은 아직 보이지 않아요. 주차장 차도나 잔디를 가로지르는 길로 안내하지 않아요.",
+          "sourceUrls": [
+            "https://donginsmom.com/119",
+            "https://blog.naver.com/qkrwlsdud13/224038594626",
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=16128884-a91d-4455-95bb-200e8f5ac024"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-ramp",
+        "title": "경사로 시작점부터 입구 쪽으로",
+        "instruction": "주변 사진에서 조각공원 포장길과 앞마당 방향을 비교해요. 앞마당과 손잡이 사이 경사로가 만나는 바닥을 먼저 봐요. 노란 선·곡선 손잡이·둥근 차양을 찾아 유리문까지 비교해요.",
+        "pointId": "museum-ramp-v43",
+        "coordinate": [
+          36.3664,
+          127.38565
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "source-described",
+          "detail": "05번에서 보이는 미술관 이름과 둥근 차양을 06번 문 앞 사진에서도 찾을 수 있어요. 손잡이 사이 경사로와 유리문 앞 바닥을 비교해요. 한국관광공사는 경사로 접근과 주출입구를 안내합니다. 서로 다른 시기에 촬영한 사진이며 실제 연속 통행을 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://donginsmom.com/119",
+            "https://blog.naver.com/qkrwlsdud13/224038594626",
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=16128884-a91d-4455-95bb-200e8f5ac024"
+          ],
+          "evidenceKind": "matching-entrance-landmarks",
+          "photoImages": [
+            "/modu50m/route-photos-v44/museum-ramp-entry-2026.jpg",
+            "/modu50m/route-photos-v36/museum-05.jpg",
+            "/modu50m/mobility-v19/museum-01-f53f934b.jpg"
+          ],
+          "fieldVerified": false
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v44/museum-ramp-entry-2026.jpg",
+          "/modu50m/route-photos-v51/museum-city-plaza-ramp-published-202604.jpg",
+          "/modu50m/route-photos-v74/museum-handrail-floor-published-202512.jpg",
+          "/modu50m/route-photos-v63/museum-garden-to-forecourt-published-202609.jpg",
+          "/modu50m/route-photos-v36/museum-05.jpg",
+          "/modu50m/route-photos-v48/museum-name-sign-and-plaza-published-202506.jpg",
+          "/modu50m/route-photos-v43/museum-kto-01.jpg",
+          "/modu50m/route-photos-v44/museum-ramp-start-wide.jpg"
+        ]
+      },
+      {
+        "id": "museum-bus-door",
+        "title": "미술관 이름이 있는 유리문",
+        "instruction": "대전시립미술관 이름 아래 유리문을 찾아요. 05번 경사로의 차양과 손잡이를 함께 비교하고, 문 앞 점자블록·바닥 경계·열리는 폭을 가까이 살펴봐요.",
+        "pointId": "mobility-01",
+        "coordinate": [
+          36.36655,
+          127.3857
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null,
+        "sourceNotice": {
+          "title": "경사로 위 문·아래층 문 비교",
+          "providerLabel": "건축 답사 사진",
+          "sourceLabel": "사진 원문",
+          "publishedAt": "2026-03-10",
+          "detail": "06번은 경사로 위쪽 문이에요. 계단 옆 아래층 문은 다른 입구이므로 두 문 앞 바닥을 비교해요. 한국관광공사는 승강기를 안내하지만, 사진 속 어느 문인지와 현재 운행 상태는 따로 확인해야 해요.",
+          "documentUrl": "/modu50m/route-notices-v44/museum-entrance-comparison.html",
+          "documentLabel": "두 입구와 바닥 사진 보기",
+          "sourceUrl": "https://blog.naver.com/lecreation/224211722032"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "title": "시설·장소 공식 안내",
+        "url": "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+        "checkedAt": "2026-09-26"
+      },
+      {
+        "title": "대전예술의전당 34730 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/11338234779",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "한국관광공사 · 2016년 대전 무장애 여행 기사",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "접근성 현장조사 도서 · 대전시립미술관 편의시설 설명",
+        "url": "https://www.yes24.com/product/goods/88389449",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 미술관 경사로 접근·주출입구와 현장 사진",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=16128884-a91d-4455-95bb-200e8f5ac024",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "title": "네이버 방문 사진 · 경사로와 미술관 이름 아래 출입문",
+        "url": "https://blog.naver.com/qkrwlsdud13/224038594626",
+        "checkedAt": "2026-10-01"
+      },
+      {
+        "title": "2026년 6월 실제 방문 · 앞마당과 경사로 시작점 원본",
+        "url": "https://donginsmom.com/119",
+        "checkedAt": "2026-10-03"
+      },
+      {
+        "title": "렉터스 LECTUS · 미술관 위·아래층 입구의 건축 답사 사진",
+        "url": "https://blog.naver.com/lecreation/224211722032",
+        "checkedAt": "2026-10-03"
+      }
+    ],
+    "gaps": [
+      "공원 04번 갈림길에서 05번 경사로 시작점까지의 보행 바닥·턱 낮춤·갈림길 사진"
+    ],
+    "summary": "정류장 → 보도 → 횡단·갈림길 → 목적 입구 순서로 사진을 비교해요. 지도 선은 방문 전 확인할 후보 동선이며 연속 통행을 검증한 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-10-03"
+  },
+  "leeungno": {
+    "placeId": "leeungno",
+    "title": "대전예술의전당 정류장에서 입구까지 살펴봐요",
+    "start": {
+      "name": "대전예술의전당",
+      "code": "34730",
+      "direction": "예술의전당·미술관 쪽 보도",
+      "coordinate": [
+        36.365063,
+        127.3845703
+      ],
+      "osm": "11338234779",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/11338234779"
+    },
+    "destination": "157번 주소판 옆 이응노미술관 출입문",
+    "steps": [
+      {
+        "id": "leeungno-bus-bus",
+        "title": "대전예술의전당 정류장 하차",
+        "instruction": "34730번, 미술관들이 있는 쪽 보도에서 시작해요. 도로 반대편 정류장과 구분해요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.365063,
+          127.3845703
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-walk",
+        "title": "미술관 표지 쪽 보도",
+        "instruction": "정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.36512,
+          127.38512
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-junction",
+        "title": "공원 보행로 갈림길",
+        "instruction": "안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+        "pointId": "bus-v31-junction",
+        "coordinate": [
+          36.36552,
+          127.38538
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "04번에서 보도 턱과 차량 진입로를 구분해요. 사진 사이의 실제 보행 연결은 아직 보이지 않아요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-south",
+        "miniatureLabel": "진입로 옆 보도",
+        "title": "차량 진입로 옆 보도 경계",
+        "instruction": "사진 왼쪽의 보도 턱과 차단봉이 있는 차량 진입로를 구분해요. 미술관 쪽 보행로가 이어지는 접점은 이 사진에서 보이지 않아요.",
+        "pointId": "bus-v32-south",
+        "coordinate": [
+          36.36555,
+          127.38622
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "04번 차량 진입로 옆 보도에서 05번 공원 쪽 보행길까지의 중간 바닥은 추가 사진이 필요해요. 주차장 안쪽 계단을 입구로 가는 지름길로 따라가지 않아요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779",
+            "https://m.blog.naver.com/ddooss4321/224420617761",
+            "https://m.blog.naver.com/459745/224394305507"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-side",
+        "title": "공원 쪽 보행길 → 앞마당",
+        "instruction": "공원 쪽 넓은 포장 길에서 벽의 긴 창·소나무·점자블록을 찾아요. 앞마당으로 향한 사진과 공원을 돌아본 사진을 비교해요. 주차장 쪽 사진의 계단은 다른 접근 방향이에요.",
+        "pointId": "bus-v32-side",
+        "coordinate": [
+          36.36661342242301,
+          127.3866358523769
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "source-described",
+          "detail": "05번 두 사진에서 벽의 긴 창·소나무·점자블록을 차례로 찾아요. 06번은 같은 점자블록이 문 앞으로 꺾이는 앞마당이에요. 주차장 계단을 거치는 길과 구분해요. 서로 다른 시기의 사진 비교이며 실제 연속 통행을 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://artsandculture.google.com/streetview/이응노미술관-외부/uQFbDo7NlhL6_Q?sv_pid=Kw0jwMLT0EMAAARE-vWQ1A&sv_lat=36.36661342242301&sv_lng=127.3866358523769&sv_h=0&sv_p=-12&sv_z=1",
+            "https://artsandculture.google.com/streetview/이응노미술관-외부/uQFbDo7NlhL6_Q?sv_pid=M_lD1PSSV2sAAARE-vWQ0w&sv_lat=36.36668576727486&sv_lng=127.386633488766&sv_h=0&sv_p=-12&sv_z=1",
+            "https://blog.naver.com/metelsk/224308329645"
+          ],
+          "evidenceKind": "matching-park-approach-floor",
+          "photoImages": [
+            "/modu50m/route-photos-v47/leeungno-park-approach-201910.jpg",
+            "/modu50m/route-photos-v47/leeungno-park-wall-joint-201910.jpg",
+            "/modu50m/route-photos-v47/leeungno-park-forecourt-published-202606.jpg"
+          ],
+          "fieldVerified": false
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v47/leeungno-park-approach-201910.jpg",
+          "/modu50m/route-photos-v47/leeungno-park-wall-joint-201910.jpg",
+          "/modu50m/route-photos-v48/leeungno-park-ground-published-202609.jpg",
+          "/modu50m/route-photos-v47/leeungno-park-approach-return-201910.jpg",
+          "/modu50m/bus-v32/leeungno-forecourt-face1.jpg",
+          "/modu50m/route-photos-v44/leeungno-side-parking-202609.jpg",
+          "/modu50m/route-photos-v44/leeungno-green-paving-end-202609.jpg",
+          "/modu50m/route-photos-v44/leeungno-parking-forecourt-boundary-2023.jpg",
+          "/modu50m/route-photos-v36/leeungno-14.jpg",
+          "/modu50m/route-photos-v40/leeungno-southpath-f1.jpg",
+          "/modu50m/route-photos-v40/leeungno-southpath-f3.jpg",
+          "/modu50m/route-photos-v44/leeungno-parking-wall.jpg"
+        ],
+        "sourceNotice": {
+          "title": "공원 쪽 보행길 · 주차장 쪽 계단 구분",
+          "detail": "공원 쪽 보행길 사진에서 벽의 긴 창·소나무·점자블록을 찾아 앞마당과 비교해요. 2019년 10월 공식 투어와 2026년 9월 게시된 방문 사진은 시기가 달라요. 뒤의 주차장·녹색 포장·계단 사진은 다른 쪽 접근 방향이에요.",
+          "sourceUrl": "https://artsandculture.google.com/streetview/이응노미술관-외부/uQFbDo7NlhL6_Q?sv_pid=Kw0jwMLT0EMAAARE-vWQ1A&sv_lat=36.36661342242301&sv_lng=127.3866358523769&sv_h=0&sv_p=-12&sv_z=1",
+          "capturedAt": "2019-10",
+          "providerLabel": "공식 야외 투어",
+          "sourceLabel": "야외 투어 원본"
+        }
+      },
+      {
+        "id": "leeungno-bus-forecourt",
+        "title": "이응노미술관 앞마당",
+        "instruction": "공원 쪽 점자블록이 지붕 아래 앞마당으로 꺾이는 바닥을 먼저 봐요. 벽의 긴 창·소나무를 05번과 맞추고, 07번의 157번 주소판·유리문을 찾아요.",
+        "pointId": "research-a-01",
+        "coordinate": [
+          36.36678,
+          127.38669
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "두 방문 사진의 157번 주소판·나무·기둥을 맞춰 보고, 앞마당 점자블록과 문 앞 가로 경계를 확대해 비교해요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779",
+            "https://m.blog.naver.com/ddooss4321/224420617761",
+            "https://m.blog.naver.com/459745/224394305507"
+          ]
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v47/leeungno-park-forecourt-published-202606.jpg",
+          "/modu50m/route-photos-v74/leeungno-forecourt-floor-published-202512.jpg",
+          "/modu50m/route-photos-v44/leeungno-forecourt-connection.jpg",
+          "/modu50m/route-photos-v44/leeungno-forecourt-park-facing.jpg",
+          "/modu50m/route-photos-v44/leeungno-forecourt-door-202609.jpg",
+          "/modu50m/mobility-v21/leeungno-research-a-01-084bf8f1.jpg",
+          "/modu50m/mobility-v19/leeungno-01-d38bf7e9.jpg",
+          "/modu50m/route-photos-v36/leeungno-04.jpg"
+        ]
+      },
+      {
+        "id": "leeungno-bus-door",
+        "title": "157번 주소판 옆 문",
+        "instruction": "157번 주소판 옆 유리문을 정면에서 살펴봐요. 문 앞 가로 경계와 나무 주변 바닥을 확대해 비교해요.",
+        "pointId": "research-a-02",
+        "coordinate": [
+          36.36688,
+          127.38675
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null,
+        "photoOrder": [
+          "/modu50m/route-photos-v44/leeungno-door157-front-202608.jpg",
+          "/modu50m/route-photos-v44/leeungno-door-floor-published-202601.jpg",
+          "/modu50m/mobility-v21/leeungno-research-a-02-885a13a1.jpg",
+          "/modu50m/route-photos-v36/leeungno-13.jpg"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "이응노미술관 · 공식 오시는길",
+        "url": "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "대전예술의전당 34730 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/11338234779",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "luj-jules · 실제 출입구를 찾은 2022년 방문기",
+        "url": "https://bmh00.tistory.com/entry/대전-Part-1-1-이응노-미술관-로랑-보두앵Laurent-Beaudouin",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 미술관 내부 접근 설명",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "공원 남쪽 갈림길에서 미술관 옆까지 연속 사진",
+      "2026년 주변 사진과 기존 앞마당·출입문 사진 사이 연결"
+    ],
+    "summary": "정류장 → 보도 → 횡단·갈림길 → 목적 입구 순서로 사진을 비교해요. 지도 선은 방문 전 확인할 후보 동선이며 연속 통행을 검증한 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "science": {
+    "placeId": "science",
+    "title": "국립중앙과학관 정류장에서 입구까지 살펴봐요",
+    "start": {
+      "name": "국립중앙과학관",
+      "code": "42930",
+      "direction": "과학관 부지 쪽 · 구성삼거리 방향",
+      "coordinate": [
+        36.3740427,
+        127.3779386
+      ],
+      "osm": "4191147889",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/4191147889"
+    },
+    "destination": "국립중앙과학관 미래기술관 유리 출입문",
+    "steps": [
+      {
+        "id": "science-bus-bus",
+        "title": "국립중앙과학관 정류장 하차",
+        "instruction": "42930번, 과학관 부지가 있는 쪽에서 내려요. 쉼터 옆 점자블록과 나무 주변 보도 폭을 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.3740427,
+          127.3779386
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        }
+      },
+      {
+        "id": "science-bus-walk",
+        "miniatureLabel": "보도·광장 바닥",
+        "title": "정류장 옆 보도 → 광장 바닥",
+        "instruction": "정류장 옆 보도 → 광장 바닥 접점 → 광장 정면 → 정류장 쪽 돌아보기를 순서대로 살펴봐요. 돌기둥 사이 바닥과 오른쪽 붉은 바닥의 계단을 비교해요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.37413,
+          127.3782
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "도로 옆 보도와 광장이 만나는 바닥을 새 사진에서 확대해요. 03번 주차장 앞까지의 전체 바닥과 현재 공사 이후 동선은 아직 사진이 부족해요.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200672846&pan=0&tilt=-15&zoom=0",
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200672837&pan=270&tilt=-10&zoom=0",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=SvbjQeLOoZpHl-igoLHV4A,0.0,10.0,80.0,Float",
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        },
+        "photoOrder": [
+          "/modu50m/bus-v31/science-stop-70.jpg",
+          "/modu50m/route-photos-v44/science-sidewalk-plaza-joint-2025.jpg",
+          "/modu50m/route-photos-v62/science-sidewalk-plaza-front-202504.png",
+          "/modu50m/route-photos-v44/science-roadside-plaza-edge.jpg"
+        ]
+      },
+      {
+        "id": "science-bus-parking",
+        "title": "주차장과 보행광장 접점",
+        "instruction": "회색 광장과 주차장 사이의 돌기둥을 살펴봐요. 마지막 2025년 사진에서 볼라드·주황색 바닥·꿈나래길 아치를 함께 보고 04번 지붕 아래 사진과 비교해요.",
+        "pointId": "bus-v32-parking",
+        "coordinate": [
+          36.37565,
+          127.3784
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "광장 바닥 → 주황색 바닥 → 꿈나래길 아치 → 지붕 아래를 순서대로 비교해요. 2025년 거리 사진과 2026년 공식 첨부 사진에서 같은 아치·SCIENCE 조형물·기둥 사이 바닥을 대조했습니다. 현재 공사 이후 연속 통행을 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200671958&pan=165&tilt=-10&zoom=0",
+            "https://smart.science.go.kr/board/view.action?boardId=BBS_0000002&dataSid=7993&menuCd=DOM_000000101004004000&startPage=14"
+          ],
+          "evidenceKind": "matching-plaza-arch-and-covered-path-floor",
+          "photoImages": [
+            "/modu50m/route-photos-v44/science-dreamwalk-plaza-entry-2025.jpg",
+            "/modu50m/route-photos-v44/science-dreamwalk-path-entry.jpg"
+          ],
+          "fieldVerified": false,
+          "currentAccessVerified": false
+        },
+        "sourceNotice": {
+          "title": "주차장 동선 변경 안내 · 2029 상반기까지 예정",
+          "publishedAt": "2026-08-10",
+          "detail": "공식 건립공사 예정 기간은 2026.08~2029년 상반기예요. 고객주차장 일부와 차량·보행 동선이 바뀔 수 있다고 안내했어요. 현재 열린 보행 통로는 사진으로 더 확인해야 해요.",
+          "sourceUrl": "https://rsvn.science.go.kr/nsm/rsvguidcntr/notice/detail?nttId=1785",
+          "documentUrl": "/modu50m/route-photos-v44/science-construction-area.png",
+          "documentLabel": "공사구역 위치도 보기"
+        },
+        "photoOrder": [
+          "/modu50m/bus-v32/science-mainbridge-face1.jpg",
+          "/modu50m/route-photos-v44/science-parking-plaza-south.png",
+          "/modu50m/route-photos-v44/science-parking-map-dreamwalk.png",
+          "/modu50m/route-photos-v44/science-dreamwalk-plaza-entry-2025.jpg"
+        ]
+      },
+      {
+        "id": "science-bus-gate",
+        "title": "꿈나래길 → 정문 앞",
+        "instruction": "아치 → 지붕 길 → 정문 앞 → 정문 지난 바닥을 순서대로 살펴봐요. 차단기 간격과 배수구·바닥 이음새를 확대하고, 큰 아치를 05번 광장 사진과 비교해요.",
+        "pointId": null,
+        "coordinate": [
+          36.37565,
+          127.3773
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "gap",
+          "detail": "정문 앞과 정문을 지난 바닥을 골라 비교해요. 배수구·왼쪽 광장 공간이 보이지만, 05번 서쪽 나무 화단까지의 전체 바닥과 현재 출입 간격은 더 확인해야 해요.",
+          "sourceUrls": [
+            "https://m.blog.naver.com/simple_pleasures04/224354156380",
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889",
+            "https://whaleseaus.tistory.com/20",
+            "https://alinou.tistory.com/64",
+            "https://yangej78.tistory.com/23"
+          ]
+        },
+        "sourceNotice": {
+          "title": "꿈나래길 보도 확장 안내 · 07.20~08.17",
+          "publishedAt": "2026-07-23",
+          "detail": "이 보도 확장 안내 기간은 2026.07.20~08.17이에요. 주차장 인근 건립공사와는 별도 안내예요. 아래 사진은 당시 첨부 자료이며, 보도 확장 후 현재 모습은 확인 전이에요.",
+          "sourceUrl": "https://smart.science.go.kr/board/view.action?boardId=BBS_0000002&dataSid=7993&menuCd=DOM_000000101004004000&startPage=14",
+          "documentUrl": "/modu50m/route-photos-v44/science-dreamwalk-location.pdf"
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v44/science-dreamwalk-path-entry.jpg",
+          "/modu50m/route-photos-v89/science-inside-gate-paving-published-202501.jpg",
+          "/modu50m/route-photos-v44/science-dreamwalk-sheltered-path.jpg",
+          "/modu50m/route-photos-v44/science-covered-path-gate.jpg",
+          "/modu50m/route-photos-v44/science-dreamwalk-gate-approach-2023.jpg",
+          "/modu50m/route-photos-v53/science-gate-floor-published-202606.jpg",
+          "/modu50m/route-photos-v44/science-main-gate-front-2022.jpg",
+          "/modu50m/route-photos-v44/science-post-gate-floor-published-202607.jpg",
+          "/modu50m/route-photos-v44/science-dreamwalk-corner.jpg",
+          "/modu50m/route-photos-v36/science-01.jpg",
+          "/modu50m/route-photos-v42/science-dreamwalk.jpg",
+          "/modu50m/route-photos-v42/science-direction-sign.jpg"
+        ]
+      },
+      {
+        "id": "science-bus-plaza",
+        "title": "정문 안 광장·행정동 앞",
+        "instruction": "정문을 지난 광장과 큰 아치, 행정동 앞 나무 화단을 비교해요. 행정동 옆 바닥·배수구를 확대하고, 계단형 문은 09번 미래기술관 입구와 구분해요.",
+        "pointId": "bus-v31-plaza",
+        "coordinate": [
+          36.37504,
+          127.37604
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "광장 나무 화단·은색 건물과 06번 붉은 보도를 비교해요. 건물 뒤로 이어지는 바닥은 사진이 부족해요. 계단형 문이나 건물 아래 차도를 목적 입구로 안내하지 않아요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v75/science-administration-tree-floor-202011.png",
+          "/modu50m/route-photos-v89/science-plaza-busts-floor-published-202501.jpg",
+          "/modu50m/route-photos-v44/science-inner-plaza-mainhall-2023.jpg",
+          "/modu50m/route-photos-v44/science-central-arch-inside-published-202405.jpg",
+          "/modu50m/bus-v31/naver-science-plaza.jpg",
+          "/modu50m/route-photos-v44/science-plaza-tree-and-floor.png",
+          "/modu50m/route-photos-v44/science-plaza-building-steps.png"
+        ],
+        "sourceNotice": {
+          "title": "광장 옆 큰 아치 · 앞뒤 비교",
+          "publishedAt": "2026-08-12",
+          "detail": "중앙 계단·왼쪽 경사로와 아치 안쪽 바닥을 비교해요. 새 사진은 나로호 방향이며 06번 서쪽 붉은 보도와 다른 위치예요. 현재 통과 폭·기울기와 다음 구간 연결은 확인 전이에요.",
+          "documentUrl": "/modu50m/route-notices-v44/science-central-tunnel-reference.html",
+          "documentLabel": "계단·통로 앞뒤 사진 보기",
+          "sourceUrl": "https://m.blog.naver.com/yuseonggu/224376059630"
+        }
+      },
+      {
+        "id": "science-bus-paving",
+        "title": "행정동 옆 붉은 보도",
+        "instruction": "붉은 보도의 기둥 옆 공간과 경계석·배수구를 살펴봐요. 건물 아래 검은 차도와 계단형 문을 구분하고, 다음 사진의 흰·노란 횡단 표시를 비교해요.",
+        "pointId": "bus-v32-paving",
+        "coordinate": [
+          36.37541,
+          127.375
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "지도와 사진에서 다음 위치를 비교해요. 2020년 사진에서 광장 바닥과 점자블록을 살펴봐요. 왼쪽 미래기술관 표지와 오른쪽 곡선 지붕을 구분하고, 마지막 09번 문 앞 사진과 비교해요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        },
+        "photoOrder": [
+          "/modu50m/route-photos-v44/science-red-sidewalk-floor.png",
+          "/modu50m/route-photos-v44/science-under-building-traffic.png",
+          "/modu50m/route-photos-v44/science-west-pillar-curb-drain-202011.png",
+          "/modu50m/bus-v32/science-join-face0.jpg"
+        ],
+        "sourceNotice": {
+          "title": "붉은 보도 남쪽의 차량 구역 비교",
+          "capturedAt": "2020-11-06",
+          "providerLabel": "네이버 거리뷰",
+          "detail": "당시 사진에는 차량 차단기와 직원 차량 출입 통제 표지가 보여요. 이 차량 통로를 방문객 이동선으로 연결하지 않았어요. 사진의 붉은 바닥·기둥·차도 경계를 비교해요.",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=_5uSXyuPS9xzqB7kn7OKoA,0.0,10.0,80.0,Float",
+          "sourceLabel": "출입 통제 표지가 있는 촬영 위치",
+          "documentUrl": "/modu50m/route-notices-v75/science-staff-vehicle-reference.html",
+          "documentLabel": "차단기·기둥 옆 바닥 사진 보기"
+        }
+      },
+      {
+        "id": "science-bus-hall",
+        "title": "과학기술관 앞 광장",
+        "instruction": "2020년 사진을 순서대로 봐요. 과학기술관의 은색 벽을 오른쪽에 두고 미래기술관 이름이 보이는 쪽으로 이동한 뒤, 파란 안내판·쉼터 앞에서 왼쪽 열차길을 찾아요.",
+        "pointId": "bus-v32-hall",
+        "coordinate": [
+          36.37566,
+          127.37465
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "은색 전시관 벽 → 파란 안내판·나무 쉼터 → 왼쪽으로 꺾이는 열차길 → 08번 전시 차량 옆 바닥을 순서대로 비교해요. 2020년 거리 사진에서 같은 건물·쉼터·포장 경계를 대조했습니다. 현재 통행 상태를 현장에서 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=SpHzr8ZA4GBKi9sMq1J3xw,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=RcgP7sW_pnjXH9D2X6O2Og,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=IAvSaBa0tZDwFNVQ8yoGRg,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=v8GFJZOsdwrZZj-Vi1oDJA,0.0,10.0,80.0,Float"
+          ],
+          "evidenceKind": "matching-plaza-pavilion-turn-and-train-lane",
+          "photoImages": [
+            "/modu50m/bus-v32/science-path-face0.jpg",
+            "/modu50m/route-photos-v40/science-78-f0.jpg",
+            "/modu50m/route-photos-v44/science-hall-north-junction.png",
+            "/modu50m/route-photos-v44/science-train-lane-entry.png",
+            "/modu50m/bus-v31/naver-science-walk.jpg"
+          ],
+          "fieldVerified": false,
+          "currentAccessVerified": false
+        },
+        "photoOrder": [
+          "/modu50m/bus-v32/science-path-face0.jpg",
+          "/modu50m/route-photos-v40/science-78-f0.jpg",
+          "/modu50m/route-photos-v44/science-hall-north-junction.png",
+          "/modu50m/route-photos-v44/science-train-lane-entry.png",
+          "/modu50m/route-photos-v40/science-78-f2.jpg",
+          "/modu50m/route-photos-v42/science-hall-ground.jpg"
+        ]
+      },
+      {
+        "id": "science-bus-path",
+        "title": "열차 전시물 옆 보행로",
+        "instruction": "2020년 사진을 순서대로 봐요. 열차 옆 길 끝에서 오른쪽으로 꺾어 미래기술관 이름이 보이는 길을 찾고, 흰 건물 모서리에서 다시 오른쪽 기둥 아래 바닥을 살펴봐요.",
+        "pointId": "bus-v31-path",
+        "coordinate": [
+          36.376215,
+          127.37438
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "열차길 끝의 초록 울타리 → 미래기술관 이름이 보이는 포장 길 → 흰 건물 모서리 → 기둥 아래 유리문을 이어 비교해요. 2020년 거리 사진과 2026년 공식 취재 사진의 기둥·천장·출입문을 대조했습니다. 현재 연속 통행을 현장에서 확인한 결과는 아니에요.",
+          "sourceUrls": [
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=wKAtAeJwvJ9P5zVDrX-WcQ,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=24JLMsNoqCCcueOmDOFIrg,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=5E98cjEe3C6M0BN22a6rYQ,0.0,10.0,80.0,Float",
+            "https://map.naver.com/p?c=17.0,0,0,0,adh&p=4zO96twYf-4f6OSijfmY9A,0.0,10.0,80.0,Float",
+            "https://blog.naver.com/storydaejeon/224382311526"
+          ],
+          "evidenceKind": "matching-path-turn-and-entrance-landmarks",
+          "photoImages": [
+            "/modu50m/bus-v31/naver-science-walk.jpg",
+            "/modu50m/route-photos-v44/science-junction-turn.png",
+            "/modu50m/route-photos-v44/science-middle-turn.png",
+            "/modu50m/route-photos-v44/science-corner-turn.png",
+            "/modu50m/route-photos-v40/science-89-f0.jpg",
+            "/modu50m/route-photos-v40/science-89-f1.jpg",
+            "/modu50m/route-photos-v40/science-89-f2.jpg",
+            "/modu50m/route-photos-v36/science-02.jpg"
+          ],
+          "fieldVerified": false,
+          "currentAccessVerified": false
+        },
+        "photoOrder": [
+          "/modu50m/bus-v31/naver-science-walk.jpg",
+          "/modu50m/route-photos-v44/science-junction-turn.png",
+          "/modu50m/route-photos-v44/science-middle-turn.png",
+          "/modu50m/route-photos-v44/science-corner-turn.png",
+          "/modu50m/route-photos-v40/science-89-f0.jpg",
+          "/modu50m/route-photos-v40/science-89-f1.jpg",
+          "/modu50m/route-photos-v40/science-89-f2.jpg"
+        ]
+      },
+      {
+        "id": "science-bus-door",
+        "title": "미래기술관 유리문 도착",
+        "instruction": "미래기술관 문 앞 사진이에요. 정문 도착과 전시관 도착을 구분하고, 기둥 사이 바닥·문턱을 살펴봐요.",
+        "pointId": "research-a-01",
+        "coordinate": [
+          36.3769,
+          127.37443
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "시설·장소 공식 안내",
+        "url": "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "국립중앙과학관 42930 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/4191147889",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "국립중앙과학관 · 2023.04.27 휠체어 대여 공식 답변",
+        "url": "https://rsvn.science.go.kr/nsm/rsvguidcntr/think/detail?nttId=871",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "국립중앙과학관 · 종합안내센터와 정문 편의시설",
+        "url": "https://www.science.go.kr/mps/cntnts/1023/moveCntnts.do",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "We-map · 과학관 주차장·진입 지점 정보",
+        "url": "https://we-map.kr/service/map/courses/126",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "공식 배치도 · 꿈나래길과 정문",
+        "url": "https://www.science.go.kr/resources/web/res/img/facilities/img-facilities-map.png"
+      },
+      {
+        "title": "현재 공식 전시관 안내도 · 미래기술관 위치 비교",
+        "url": "https://www.science.go.kr/mps/cntnts/1168/moveCntnts.do",
+        "checkedAt": "2026-09-26"
+      }
+    ],
+    "gaps": [
+      "주차장에서 꿈나래길·정문을 지나 내부 광장까지 연결 사진",
+      "2020년 내부 사진 이후의 현재 배치와 미래기술관까지 연속 바닥"
+    ],
+    "summary": "정류장 → 보도 → 횡단·갈림길 → 목적 입구 순서로 사진을 비교해요. 지도 선은 방문 전 확인할 후보 동선이며 연속 통행을 검증한 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25",
+    "sourceChecks": [
+      {
+        "title": "국립중앙과학관 · 주차장 인근 건립공사 및 차량·보행 동선 조정 안내",
+        "url": "https://rsvn.science.go.kr/nsm/rsvguidcntr/notice/detail?nttId=1785",
+        "checkedAt": "2026-10-04T03:02:32.227653+00:00",
+        "publishedAt": "2026-08-10",
+        "reportedPeriod": "2026.08~2029년 상반기 예정",
+        "notVerifiedCurrentClosure": true
+      }
+    ]
+  }
+}

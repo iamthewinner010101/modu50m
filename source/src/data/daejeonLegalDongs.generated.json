@@ -1,0 +1,3257 @@
+{
+  "schema": "modu50m.daejeon_legal_dongs.v1",
+  "title": "대전광역시 177개 법정동과 82개 행정동 연결",
+  "expectedAdministrativeDongCount": 82,
+  "expectedLegalDongCount": 177,
+  "expectedRelationCount": 202,
+  "administrativeUnitType": "행정동",
+  "legalUnitType": "법정동",
+  "hasAuthoritativeRecords": true,
+  "sourceLabel": "행정안전부 주민등록 행정기관코드·관할구역 연결코드",
+  "municipality": {
+    "name": "대전광역시",
+    "code": "3000000000"
+  },
+  "source": {
+    "authoritative": true,
+    "publisher": "행정안전부",
+    "title": "행정기관(행정동) 및 관할구역(법정동) 변경내역(2026.7.20. 시행)",
+    "articleUrl": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=127979",
+    "downloadUrl": "https://www.mois.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_00147311ctH5-ah&fileSn=1",
+    "archiveFile": "jscode20260720.zip",
+    "legalCodeFile": "KIKcd_B.20260720",
+    "relationFile": "KIKmix.20260720",
+    "effectiveDate": "2026-07-20",
+    "retrievedAt": "2026-09-04T08:05:51Z",
+    "archiveSha256": "18b5c31bf8bbc341828513c35dcbd6265d934f27be41c3fc77984ddf1d377783",
+    "legalCodeFileSha256": "904c3d24d6b0d56dfb22d102af3cd5c4a2d124adcbac131a432c7329be94a284",
+    "relationFileSha256": "7d10b46ef3de80a5875930adf973fb4799fb2429f49bcff2276570205e73897c"
+  },
+  "geometryKind": "schematic_only",
+  "geometry": {
+    "kind": "schematic_only",
+    "included": false,
+    "reason": "이 파일은 공식 명칭·코드·관할 연결관계를 제공하며, 검증된 최신 경계 폴리곤이나 중심점은 포함하지 않는다."
+  },
+  "interpretation": {
+    "boundary": "행정동 82개와 법정동 177개는 서로 다른 중첩 단위이므로 259개 독립 지역으로 합산하지 않는다.",
+    "relationMeaning": "202는 행정동과 법정동 사이의 고유 연결관계 수이다.",
+    "evidenceBoundary": "공식 지역 목록 확인은 장소 후보 수집, 사진 관찰, 학생 검수, 독립 검수, 현장 확인 또는 접근성 판정이 아니다."
+  },
+  "reconciliation": {
+    "status": "NEEDS_LOCAL_CONFIRMATION",
+    "issueCount": 2,
+    "checkedAt": "2026-09-04",
+    "boundary": "KIKmix 원문 관계는 그대로 보존하고, 자치구 안내와 다른 두 항목은 임의 수정하지 않고 별도 확인 대상으로 표시한다.",
+    "issues": [
+      {
+        "id": "SEO-LEGAL-3017010400-ADMIN-3017053000",
+        "district": "서구",
+        "legalDongCode": "3017010400",
+        "legalDongName": "정림동",
+        "administrativeDongCode": "3017053000",
+        "administrativeDongName": "도마2동",
+        "moisRelationState": "present",
+        "localTableState": "not_listed",
+        "reconciliationStatus": "needs_local_confirmation",
+        "localSourceUrl": "https://www.seogu.go.kr/kor/sub05_01_05.do",
+        "note": "KIKmix는 정림동을 도마2동과 정림동에 연결하지만 서구 2026-03-31 표는 정림동을 정림동에만 표시한다."
+      },
+      {
+        "id": "DONG-LEGAL-3011010600-ADMIN-3011058500",
+        "district": "동구",
+        "legalDongCode": "3011010600",
+        "legalDongName": "신흥동",
+        "administrativeDongCode": "3011058500",
+        "administrativeDongName": "대동",
+        "moisRelationState": "absent",
+        "localTableState": "partially_listed",
+        "reconciliationStatus": "needs_local_confirmation",
+        "localSourceUrl": "https://www.donggu.go.kr/dg/kor/contents/105",
+        "note": "KIKmix에는 신흥동과 대동의 연결이 없지만 동구 표는 신흥동 일부를 신인동과 대동 양쪽 관할로 표시한다."
+      }
+    ]
+  },
+  "validation": {
+    "status": "PASS",
+    "administrativeDongCount": 82,
+    "legalDongCount": 177,
+    "relationCount": 202,
+    "linkedAdministrativeDongCount": 82,
+    "multiAdministrativeLegalDongCount": 21,
+    "legalCodeSetMatchesRelationSource": true
+  },
+  "districts": [
+    {
+      "name": "동구",
+      "code": "3011000000",
+      "administrativeDongCount": 16,
+      "legalDongCount": 45,
+      "relationCount": 47
+    },
+    {
+      "name": "중구",
+      "code": "3014000000",
+      "administrativeDongCount": 17,
+      "legalDongCount": 26,
+      "relationCount": 29
+    },
+    {
+      "name": "서구",
+      "code": "3017000000",
+      "administrativeDongCount": 24,
+      "legalDongCount": 27,
+      "relationCount": 36
+    },
+    {
+      "name": "유성구",
+      "code": "3020000000",
+      "administrativeDongCount": 13,
+      "legalDongCount": 53,
+      "relationCount": 63
+    },
+    {
+      "name": "대덕구",
+      "code": "3023000000",
+      "administrativeDongCount": 12,
+      "legalDongCount": 26,
+      "relationCount": 27
+    }
+  ],
+  "legalDongs": [
+    {
+      "id": "3011010100",
+      "code": "3011010100",
+      "district": "동구",
+      "name": "원동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011051500",
+          "name": "중앙동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010200",
+      "code": "3011010200",
+      "district": "동구",
+      "name": "인동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011054500",
+          "name": "신인동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010300",
+      "code": "3011010300",
+      "district": "동구",
+      "name": "효동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011053000",
+          "name": "효동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010400",
+      "code": "3011010400",
+      "district": "동구",
+      "name": "천동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011053000",
+          "name": "효동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010500",
+      "code": "3011010500",
+      "district": "동구",
+      "name": "가오동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011053000",
+          "name": "효동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010600",
+      "code": "3011010600",
+      "district": "동구",
+      "name": "신흥동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011054500",
+          "name": "신인동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "needs_local_confirmation"
+    },
+    {
+      "id": "3011010700",
+      "code": "3011010700",
+      "district": "동구",
+      "name": "판암동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011055100",
+          "name": "판암1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3011055200",
+          "name": "판암2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010800",
+      "code": "3011010800",
+      "district": "동구",
+      "name": "삼정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011055100",
+          "name": "판암1동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011010900",
+      "code": "3011010900",
+      "district": "동구",
+      "name": "용운동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011056000",
+          "name": "용운동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011000",
+      "code": "3011011000",
+      "district": "동구",
+      "name": "대동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011058500",
+          "name": "대동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011100",
+      "code": "3011011100",
+      "district": "동구",
+      "name": "자양동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011059000",
+          "name": "자양동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011200",
+      "code": "3011011200",
+      "district": "동구",
+      "name": "신안동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011051500",
+          "name": "중앙동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011300",
+      "code": "3011011300",
+      "district": "동구",
+      "name": "소제동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011051500",
+          "name": "중앙동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011400",
+      "code": "3011011400",
+      "district": "동구",
+      "name": "가양동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011062000",
+          "name": "가양1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3011063000",
+          "name": "가양2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011500",
+      "code": "3011011500",
+      "district": "동구",
+      "name": "용전동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011064000",
+          "name": "용전동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011600",
+      "code": "3011011600",
+      "district": "동구",
+      "name": "성남동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011066500",
+          "name": "성남동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011700",
+      "code": "3011011700",
+      "district": "동구",
+      "name": "홍도동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011067000",
+          "name": "홍도동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011800",
+      "code": "3011011800",
+      "district": "동구",
+      "name": "삼성동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011069500",
+          "name": "삼성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011011900",
+      "code": "3011011900",
+      "district": "동구",
+      "name": "정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011051500",
+          "name": "중앙동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012000",
+      "code": "3011012000",
+      "district": "동구",
+      "name": "중동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011051500",
+          "name": "중앙동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012100",
+      "code": "3011012100",
+      "district": "동구",
+      "name": "추동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012200",
+      "code": "3011012200",
+      "district": "동구",
+      "name": "비룡동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012300",
+      "code": "3011012300",
+      "district": "동구",
+      "name": "주산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012400",
+      "code": "3011012400",
+      "district": "동구",
+      "name": "용계동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012500",
+      "code": "3011012500",
+      "district": "동구",
+      "name": "마산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012600",
+      "code": "3011012600",
+      "district": "동구",
+      "name": "효평동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012700",
+      "code": "3011012700",
+      "district": "동구",
+      "name": "직동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012800",
+      "code": "3011012800",
+      "district": "동구",
+      "name": "세천동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011012900",
+      "code": "3011012900",
+      "district": "동구",
+      "name": "신상동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013000",
+      "code": "3011013000",
+      "district": "동구",
+      "name": "신하동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013100",
+      "code": "3011013100",
+      "district": "동구",
+      "name": "신촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013200",
+      "code": "3011013200",
+      "district": "동구",
+      "name": "사성동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013300",
+      "code": "3011013300",
+      "district": "동구",
+      "name": "내탑동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013400",
+      "code": "3011013400",
+      "district": "동구",
+      "name": "오동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013500",
+      "code": "3011013500",
+      "district": "동구",
+      "name": "주촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011072500",
+          "name": "대청동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013600",
+      "code": "3011013600",
+      "district": "동구",
+      "name": "낭월동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013700",
+      "code": "3011013700",
+      "district": "동구",
+      "name": "대별동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013800",
+      "code": "3011013800",
+      "district": "동구",
+      "name": "이사동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011013900",
+      "code": "3011013900",
+      "district": "동구",
+      "name": "대성동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011014000",
+      "code": "3011014000",
+      "district": "동구",
+      "name": "장척동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011014100",
+      "code": "3011014100",
+      "district": "동구",
+      "name": "소호동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011014200",
+      "code": "3011014200",
+      "district": "동구",
+      "name": "구도동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011014300",
+      "code": "3011014300",
+      "district": "동구",
+      "name": "삼괴동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011014400",
+      "code": "3011014400",
+      "district": "동구",
+      "name": "상소동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3011014500",
+      "code": "3011014500",
+      "district": "동구",
+      "name": "하소동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3011074000",
+          "name": "산내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010100",
+      "code": "3014010100",
+      "district": "중구",
+      "name": "은행동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014053500",
+          "name": "은행선화동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010200",
+      "code": "3014010200",
+      "district": "중구",
+      "name": "선화동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014053500",
+          "name": "은행선화동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010300",
+      "code": "3014010300",
+      "district": "중구",
+      "name": "목동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014055000",
+          "name": "목동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010400",
+      "code": "3014010400",
+      "district": "중구",
+      "name": "중촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014056000",
+          "name": "중촌동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010500",
+      "code": "3014010500",
+      "district": "중구",
+      "name": "대흥동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014057500",
+          "name": "대흥동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010600",
+      "code": "3014010600",
+      "district": "중구",
+      "name": "문창동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014060500",
+          "name": "문창동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010700",
+      "code": "3014010700",
+      "district": "중구",
+      "name": "석교동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014062000",
+          "name": "석교동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010800",
+      "code": "3014010800",
+      "district": "중구",
+      "name": "호동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014062000",
+          "name": "석교동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014010900",
+      "code": "3014010900",
+      "district": "중구",
+      "name": "옥계동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014062000",
+          "name": "석교동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011000",
+      "code": "3014011000",
+      "district": "중구",
+      "name": "대사동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014063000",
+          "name": "대사동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011100",
+      "code": "3014011100",
+      "district": "중구",
+      "name": "부사동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014064000",
+          "name": "부사동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011200",
+      "code": "3014011200",
+      "district": "중구",
+      "name": "용두동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014065500",
+          "name": "용두동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011300",
+      "code": "3014011300",
+      "district": "중구",
+      "name": "오류동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014067000",
+          "name": "오류동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011400",
+      "code": "3014011400",
+      "district": "중구",
+      "name": "태평동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014068000",
+          "name": "태평1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3014069000",
+          "name": "태평2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011500",
+      "code": "3014011500",
+      "district": "중구",
+      "name": "유천동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014070000",
+          "name": "유천1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3014071000",
+          "name": "유천2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011600",
+      "code": "3014011600",
+      "district": "중구",
+      "name": "문화동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014072000",
+          "name": "문화1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3014073000",
+          "name": "문화2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011700",
+      "code": "3014011700",
+      "district": "중구",
+      "name": "산성동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011800",
+      "code": "3014011800",
+      "district": "중구",
+      "name": "사정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014011900",
+      "code": "3014011900",
+      "district": "중구",
+      "name": "안영동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012000",
+      "code": "3014012000",
+      "district": "중구",
+      "name": "무수동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012100",
+      "code": "3014012100",
+      "district": "중구",
+      "name": "구완동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012200",
+      "code": "3014012200",
+      "district": "중구",
+      "name": "침산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012300",
+      "code": "3014012300",
+      "district": "중구",
+      "name": "목달동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012400",
+      "code": "3014012400",
+      "district": "중구",
+      "name": "정생동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012500",
+      "code": "3014012500",
+      "district": "중구",
+      "name": "어남동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3014012600",
+      "code": "3014012600",
+      "district": "중구",
+      "name": "금동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3014074000",
+          "name": "산성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010100",
+      "code": "3017010100",
+      "district": "서구",
+      "name": "복수동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017051000",
+          "name": "복수동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010200",
+      "code": "3017010200",
+      "district": "서구",
+      "name": "변동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017054000",
+          "name": "변동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010300",
+      "code": "3017010300",
+      "district": "서구",
+      "name": "도마동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017052000",
+          "name": "도마1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017053000",
+          "name": "도마2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010400",
+      "code": "3017010400",
+      "district": "서구",
+      "name": "정림동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017053000",
+          "name": "도마2동",
+          "reconciliationStatus": "needs_local_confirmation"
+        },
+        {
+          "code": "3017053500",
+          "name": "정림동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "needs_local_confirmation"
+    },
+    {
+      "id": "3017010500",
+      "code": "3017010500",
+      "district": "서구",
+      "name": "용문동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017055000",
+          "name": "용문동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010600",
+      "code": "3017010600",
+      "district": "서구",
+      "name": "탄방동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017055500",
+          "name": "탄방동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010800",
+      "code": "3017010800",
+      "district": "서구",
+      "name": "괴정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017056000",
+          "name": "괴정동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017010900",
+      "code": "3017010900",
+      "district": "서구",
+      "name": "가장동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017057000",
+          "name": "가장동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011000",
+      "code": "3017011000",
+      "district": "서구",
+      "name": "내동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017057500",
+          "name": "내동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011100",
+      "code": "3017011100",
+      "district": "서구",
+      "name": "갈마동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017058100",
+          "name": "갈마1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017058200",
+          "name": "갈마2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011200",
+      "code": "3017011200",
+      "district": "서구",
+      "name": "둔산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017063000",
+          "name": "둔산1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017064000",
+          "name": "둔산2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017066000",
+          "name": "둔산3동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 3,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011300",
+      "code": "3017011300",
+      "district": "서구",
+      "name": "월평동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017058600",
+          "name": "월평1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017058700",
+          "name": "월평2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017058800",
+          "name": "월평3동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 3,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011400",
+      "code": "3017011400",
+      "district": "서구",
+      "name": "가수원동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017059000",
+          "name": "가수원동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011500",
+      "code": "3017011500",
+      "district": "서구",
+      "name": "도안동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017059300",
+          "name": "도안동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011600",
+      "code": "3017011600",
+      "district": "서구",
+      "name": "관저동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017059600",
+          "name": "관저1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017059700",
+          "name": "관저2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011700",
+      "code": "3017011700",
+      "district": "서구",
+      "name": "흑석동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011800",
+      "code": "3017011800",
+      "district": "서구",
+      "name": "매노동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017011900",
+      "code": "3017011900",
+      "district": "서구",
+      "name": "산직동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012000",
+      "code": "3017012000",
+      "district": "서구",
+      "name": "장안동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012100",
+      "code": "3017012100",
+      "district": "서구",
+      "name": "평촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012200",
+      "code": "3017012200",
+      "district": "서구",
+      "name": "오동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012300",
+      "code": "3017012300",
+      "district": "서구",
+      "name": "우명동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012400",
+      "code": "3017012400",
+      "district": "서구",
+      "name": "원정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012500",
+      "code": "3017012500",
+      "district": "서구",
+      "name": "용촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012600",
+      "code": "3017012600",
+      "district": "서구",
+      "name": "봉곡동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017060000",
+          "name": "기성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012700",
+      "code": "3017012700",
+      "district": "서구",
+      "name": "괴곡동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017053500",
+          "name": "정림동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3017059000",
+          "name": "가수원동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3017012800",
+      "code": "3017012800",
+      "district": "서구",
+      "name": "만년동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3017065000",
+          "name": "만년동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010100",
+      "code": "3020010100",
+      "district": "유성구",
+      "name": "원내동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010200",
+      "code": "3020010200",
+      "district": "유성구",
+      "name": "교촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010300",
+      "code": "3020010300",
+      "district": "유성구",
+      "name": "대정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010400",
+      "code": "3020010400",
+      "district": "유성구",
+      "name": "용계동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010500",
+      "code": "3020010500",
+      "district": "유성구",
+      "name": "학하동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052600",
+          "name": "학하동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010600",
+      "code": "3020010600",
+      "district": "유성구",
+      "name": "계산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052600",
+          "name": "학하동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010700",
+      "code": "3020010700",
+      "district": "유성구",
+      "name": "성북동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010800",
+      "code": "3020010800",
+      "district": "유성구",
+      "name": "세동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020010900",
+      "code": "3020010900",
+      "district": "유성구",
+      "name": "송정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011000",
+      "code": "3020011000",
+      "district": "유성구",
+      "name": "방동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052000",
+          "name": "진잠동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011100",
+      "code": "3020011100",
+      "district": "유성구",
+      "name": "봉명동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020053000",
+          "name": "온천1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020061000",
+          "name": "원신흥동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011200",
+      "code": "3020011200",
+      "district": "유성구",
+      "name": "구암동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020053000",
+          "name": "온천1동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011300",
+      "code": "3020011300",
+      "district": "유성구",
+      "name": "덕명동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052600",
+          "name": "학하동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011400",
+      "code": "3020011400",
+      "district": "유성구",
+      "name": "원신흥동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020061000",
+          "name": "원신흥동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011500",
+      "code": "3020011500",
+      "district": "유성구",
+      "name": "상대동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052700",
+          "name": "상대동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011600",
+      "code": "3020011600",
+      "district": "유성구",
+      "name": "복용동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020052600",
+          "name": "학하동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020052700",
+          "name": "상대동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011700",
+      "code": "3020011700",
+      "district": "유성구",
+      "name": "장대동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054000",
+          "name": "온천2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054600",
+          "name": "노은1동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011800",
+      "code": "3020011800",
+      "district": "유성구",
+      "name": "갑동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054600",
+          "name": "노은1동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020011900",
+      "code": "3020011900",
+      "district": "유성구",
+      "name": "노은동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054000",
+          "name": "온천2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054600",
+          "name": "노은1동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012000",
+      "code": "3020012000",
+      "district": "유성구",
+      "name": "지족동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054600",
+          "name": "노은1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054800",
+          "name": "노은3동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 3,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012100",
+      "code": "3020012100",
+      "district": "유성구",
+      "name": "죽동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054000",
+          "name": "온천2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054600",
+          "name": "노은1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 3,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012200",
+      "code": "3020012200",
+      "district": "유성구",
+      "name": "궁동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054000",
+          "name": "온천2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012300",
+      "code": "3020012300",
+      "district": "유성구",
+      "name": "어은동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054000",
+          "name": "온천2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012400",
+      "code": "3020012400",
+      "district": "유성구",
+      "name": "구성동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054000",
+          "name": "온천2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012500",
+      "code": "3020012500",
+      "district": "유성구",
+      "name": "신성동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012600",
+      "code": "3020012600",
+      "district": "유성구",
+      "name": "가정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012700",
+      "code": "3020012700",
+      "district": "유성구",
+      "name": "도룡동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012800",
+      "code": "3020012800",
+      "district": "유성구",
+      "name": "장동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020012900",
+      "code": "3020012900",
+      "district": "유성구",
+      "name": "방현동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013000",
+      "code": "3020013000",
+      "district": "유성구",
+      "name": "화암동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013100",
+      "code": "3020013100",
+      "district": "유성구",
+      "name": "덕진동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013200",
+      "code": "3020013200",
+      "district": "유성구",
+      "name": "하기동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013300",
+      "code": "3020013300",
+      "district": "유성구",
+      "name": "추목동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013400",
+      "code": "3020013400",
+      "district": "유성구",
+      "name": "자운동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013500",
+      "code": "3020013500",
+      "district": "유성구",
+      "name": "신봉동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020055000",
+          "name": "신성동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013600",
+      "code": "3020013600",
+      "district": "유성구",
+      "name": "수남동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013700",
+      "code": "3020013700",
+      "district": "유성구",
+      "name": "안산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013800",
+      "code": "3020013800",
+      "district": "유성구",
+      "name": "외삼동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020013900",
+      "code": "3020013900",
+      "district": "유성구",
+      "name": "반석동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020054700",
+          "name": "노은2동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3020054800",
+          "name": "노은3동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014000",
+      "code": "3020014000",
+      "district": "유성구",
+      "name": "문지동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020057000",
+          "name": "전민동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014100",
+      "code": "3020014100",
+      "district": "유성구",
+      "name": "전민동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020057000",
+          "name": "전민동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014200",
+      "code": "3020014200",
+      "district": "유성구",
+      "name": "원촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020057000",
+          "name": "전민동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014300",
+      "code": "3020014300",
+      "district": "유성구",
+      "name": "탑립동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020060000",
+          "name": "관평동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014400",
+      "code": "3020014400",
+      "district": "유성구",
+      "name": "용산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020060000",
+          "name": "관평동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014500",
+      "code": "3020014500",
+      "district": "유성구",
+      "name": "봉산동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014600",
+      "code": "3020014600",
+      "district": "유성구",
+      "name": "관평동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020060000",
+          "name": "관평동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014700",
+      "code": "3020014700",
+      "district": "유성구",
+      "name": "송강동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014800",
+      "code": "3020014800",
+      "district": "유성구",
+      "name": "금고동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020014900",
+      "code": "3020014900",
+      "district": "유성구",
+      "name": "대동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020015000",
+      "code": "3020015000",
+      "district": "유성구",
+      "name": "금탄동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020015100",
+      "code": "3020015100",
+      "district": "유성구",
+      "name": "신동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020015200",
+      "code": "3020015200",
+      "district": "유성구",
+      "name": "둔곡동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3020015300",
+      "code": "3020015300",
+      "district": "유성구",
+      "name": "구룡동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3020058000",
+          "name": "구즉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010100",
+      "code": "3023010100",
+      "district": "대덕구",
+      "name": "오정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023051000",
+          "name": "오정동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010200",
+      "code": "3023010200",
+      "district": "대덕구",
+      "name": "대화동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023052000",
+          "name": "대화동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010300",
+      "code": "3023010300",
+      "district": "대덕구",
+      "name": "읍내동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023052500",
+          "name": "회덕동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010400",
+      "code": "3023010400",
+      "district": "대덕구",
+      "name": "연축동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023052500",
+          "name": "회덕동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010500",
+      "code": "3023010500",
+      "district": "대덕구",
+      "name": "신대동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023052500",
+          "name": "회덕동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010600",
+      "code": "3023010600",
+      "district": "대덕구",
+      "name": "와동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023052500",
+          "name": "회덕동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010700",
+      "code": "3023010700",
+      "district": "대덕구",
+      "name": "송촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023054300",
+          "name": "송촌동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010800",
+      "code": "3023010800",
+      "district": "대덕구",
+      "name": "법동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023060000",
+          "name": "법1동",
+          "reconciliationStatus": "source_confirmed"
+        },
+        {
+          "code": "3023061000",
+          "name": "법2동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 2,
+      "spansMultipleAdministrativeDongs": true,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023010900",
+      "code": "3023010900",
+      "district": "대덕구",
+      "name": "중리동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023054600",
+          "name": "중리동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011000",
+      "code": "3023011000",
+      "district": "대덕구",
+      "name": "비래동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023053300",
+          "name": "비래동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011100",
+      "code": "3023011100",
+      "district": "대덕구",
+      "name": "석봉동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023056000",
+          "name": "석봉동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011200",
+      "code": "3023011200",
+      "district": "대덕구",
+      "name": "목상동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023058000",
+          "name": "목상동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011300",
+      "code": "3023011300",
+      "district": "대덕구",
+      "name": "문평동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023058000",
+          "name": "목상동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011400",
+      "code": "3023011400",
+      "district": "대덕구",
+      "name": "신일동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023058000",
+          "name": "목상동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011500",
+      "code": "3023011500",
+      "district": "대덕구",
+      "name": "덕암동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023057000",
+          "name": "덕암동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011600",
+      "code": "3023011600",
+      "district": "대덕구",
+      "name": "상서동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023057000",
+          "name": "덕암동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011700",
+      "code": "3023011700",
+      "district": "대덕구",
+      "name": "평촌동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023057000",
+          "name": "덕암동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011800",
+      "code": "3023011800",
+      "district": "대덕구",
+      "name": "장동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023052500",
+          "name": "회덕동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023011900",
+      "code": "3023011900",
+      "district": "대덕구",
+      "name": "용호동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012000",
+      "code": "3023012000",
+      "district": "대덕구",
+      "name": "이현동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012100",
+      "code": "3023012100",
+      "district": "대덕구",
+      "name": "갈전동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012200",
+      "code": "3023012200",
+      "district": "대덕구",
+      "name": "부수동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012300",
+      "code": "3023012300",
+      "district": "대덕구",
+      "name": "황호동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012400",
+      "code": "3023012400",
+      "district": "대덕구",
+      "name": "삼정동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012500",
+      "code": "3023012500",
+      "district": "대덕구",
+      "name": "미호동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    },
+    {
+      "id": "3023012600",
+      "code": "3023012600",
+      "district": "대덕구",
+      "name": "신탄진동",
+      "status": "source_frame",
+      "administrativeDongs": [
+        {
+          "code": "3023055000",
+          "name": "신탄진동",
+          "reconciliationStatus": "source_confirmed"
+        }
+      ],
+      "administrativeDongCount": 1,
+      "spansMultipleAdministrativeDongs": false,
+      "relationReviewStatus": "source_confirmed"
+    }
+  ]
+}

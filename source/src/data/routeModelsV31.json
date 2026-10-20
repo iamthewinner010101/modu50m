@@ -1,0 +1,279 @@
+{
+  "arboretum": {
+    "image": "/modu50m/journeys-v30/arboretum-miniature.png",
+    "alt": "한밭수목원 열대식물원 실제 입구 사진을 참고한 AI 미니어처. 유리 온실·노란 벽·왼쪽 문·화분 앞 나무 경사판을 표현했습니다.",
+    "pins": [
+      {
+        "steps": [
+          4
+        ],
+        "label": "나무 경사판",
+        "anchor": [
+          26,
+          66
+        ],
+        "position": [
+          40,
+          85
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "왼쪽 출입문",
+        "anchor": [
+          15,
+          45
+        ],
+        "position": [
+          15,
+          29
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 열대식물원 앞마당과 왼쪽 출입문을 표현한 모형이에요. 주차장은 모형 밖이며, 실내 길은 별도 사진으로 봐요.",
+    "referenceUrl": "https://hyuntori83.tistory.com/1101",
+    "title": "한밭수목원에서 내려 입구까지 살펴봐요",
+    "startLabel": "한밭수목원 34740",
+    "endLabel": "열대식물원 관람객 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "동선 선은 지도·사진을 비교한 검토 순서예요. 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://hyuntori83.tistory.com/1101",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "museum": {
+    "image": "/modu50m/visual-preview-v1/museum-miniature-photo-informed-v3.png",
+    "alt": "공식 외관 사진을 참고한 대전시립미술관 AI 미니어처. 낮은 석재 건물, 위로 휘어진 지붕, 경사 벽과 앞쪽 수공간을 표현한 근사 모형입니다.",
+    "pins": [
+      {
+        "steps": [
+          3
+        ],
+        "label": "외부 경사로 참고",
+        "anchor": [
+          63,
+          37
+        ],
+        "position": [
+          78,
+          20
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 전체 외관의 근사 모형이에요. 서측 사진과 외부 경사로의 정확한 연결 위치는 확인 전입니다.",
+    "referenceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+    "title": "대전예술의전당에서 내려 입구까지 살펴봐요",
+    "startLabel": "대전예술의전당 34730",
+    "endLabel": "외부 경사로를 거치는 2층 관람객 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "동선 선은 지도·사진을 비교한 검토 순서예요. 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "leeungno": {
+    "image": "/modu50m/visual-preview-v1/leeungno-miniature-v18.png",
+    "alt": "이응노미술관의 낮은 노출콘크리트 외관과 유리 입구, 나무와 앞마당을 공개 사진으로 참고한 AI 근사 모형.",
+    "pins": [
+      {
+        "steps": [
+          3
+        ],
+        "label": "앞마당 판석길",
+        "anchor": [
+          32,
+          61
+        ],
+        "position": [
+          27,
+          77
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "유리 출입문 구역",
+        "anchor": [
+          65,
+          43
+        ],
+        "position": [
+          78,
+          24
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 앞마당과 출입문 구역의 근사 모형이에요. 주차장과 외벽 옆 계단길은 모형에 위치를 확정해 표시하지 않았어요.",
+    "referenceUrl": "https://bmh00.tistory.com/entry/%EB%8C%80%EC%A0%84-Part-1-1-%EC%9D%B4%EC%9D%91%EB%85%B8-%EB%AF%B8%EC%88%A0%EA%B4%80-%EB%A1%9C%EB%9E%91-%EB%B3%B4%EB%91%90%EC%95%B5Laurent-Beaudouin",
+    "title": "대전예술의전당에서 내려 입구까지 살펴봐요",
+    "startLabel": "대전예술의전당 34730",
+    "endLabel": "157번 주소판 옆 이응노미술관 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "동선 선은 지도·사진을 비교한 검토 순서예요. 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://bmh00.tistory.com/entry/%EB%8C%80%EC%A0%84-Part-1-1-%EC%9D%B4%EC%9D%91%EB%85%B8-%EB%AF%B8%EC%88%A0%EA%B4%80-%EB%A1%9C%EB%9E%91-%EB%B3%B4%EB%91%90%EC%95%B5Laurent-Beaudouin",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "science": {
+    "image": "/modu50m/visual-preview-v22/science-approach-v22.png",
+    "alt": "국립중앙과학관 미래기술관 전면 문 앞 구간의 실제 사진을 참고한 AI 미니어처. 현재 상태나 통행 가능 판정이 아닙니다.",
+    "pins": [
+      {
+        "steps": [
+          5
+        ],
+        "label": "문 앞 포장",
+        "anchor": [
+          44,
+          78
+        ],
+        "position": [
+          25,
+          85
+        ]
+      },
+      {
+        "steps": [
+          5
+        ],
+        "label": "미래기술관 문",
+        "anchor": [
+          65,
+          59
+        ],
+        "position": [
+          79,
+          38
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 국립중앙과학관의 미래기술관 문 앞을 표현했어요. 캠퍼스 정문과 다른 전시관 입구를 구분해요.",
+    "referenceUrl": "https://we-map.kr/service/map/522",
+    "title": "국립중앙과학관에서 내려 입구까지 살펴봐요",
+    "startLabel": "국립중앙과학관 42930",
+    "endLabel": "국립중앙과학관 미래기술관 유리 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "동선 선은 지도·사진을 비교한 검토 순서예요. 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://we-map.kr/service/map/522",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "sungsim": {
+    "image": "/modu50m/journeys-v30/sungsim-miniature.png",
+    "alt": "성심당 본점의 회색 벽돌, 갈색 간판, 유리 출입문과 금색 조형물을 실제 사진으로 참고한 AI 근사 모형.",
+    "pins": [
+      {
+        "steps": [
+          3
+        ],
+        "label": "본점 대기 구역",
+        "anchor": [
+          25,
+          65
+        ],
+        "position": [
+          19,
+          80
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "조형물 옆 문",
+        "anchor": [
+          52,
+          57
+        ],
+        "position": [
+          70,
+          44
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 성심당 본점 문 앞의 근사 모형이에요. 케익부띠끄와는 다른 입구이며, 하차 지점부터의 길은 모형 밖입니다.",
+    "referenceUrl": "https://sungsimdang.co.kr/31/15",
+    "title": "대흥동성당에서 내려 입구까지 살펴봐요",
+    "startLabel": "대흥동성당 20780",
+    "endLabel": "성심당 본점 · 대종로480번길 15 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "동선 선은 지도·사진을 비교한 검토 순서예요. 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://sungsimdang.co.kr/31/15",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "skyroad": {
+    "image": "/modu50m/visual-preview-v20/skyroad-miniature-v20.png",
+    "alt": "스카이로드의 실제 사진에서 보이는 외관·구조를 참고한 AI 근사 미니어처. 촬영 좌표, 실측 배치, 실제 이동 경로 또는 접근성 증거가 아닙니다.",
+    "pins": [
+      {"steps":[1],"label":"거리 진입부 사진","anchor":[50,73],"position":[31,80]},
+      {"steps":[2],"label":"지붕 아래 보행 구간","anchor":[50,54],"position":[67,58]}
+    ],
+    "scope": "지붕 아래 거리의 근사 모형이에요. 번호는 진입부와 보행 공간의 사진을 고르는 구역 표시예요. 실제 촬영 좌표가 아니며 정류장부터의 위치는 전체 동선 지도에서 비교해요. 성심당 입구를 대신하지 않아요.",
+    "referenceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595",
+    "title": "으능정이거리에서 내려 입구까지 살펴봐요",
+    "startLabel": "으능정이거리 20050",
+    "endLabel": "으능정이문화의거리 · 스카이로드 북측 진입부",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "동선 선은 지도·사진을 비교한 검토 순서예요. 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  }
+}

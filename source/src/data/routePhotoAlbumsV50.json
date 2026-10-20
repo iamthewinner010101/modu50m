@@ -1,0 +1,116 @@
+{
+  "hanbit": {
+    "mobility-02": [
+      {
+        "id": "naver-v50-hanbit-canopy-front-boundary",
+        "image": "/modu50m/route-photos-v50/hanbit-canopy-front-boundary-202011.png",
+        "title": "통로 앞 보도 경계 · 2020년 가까운 사진",
+        "viewLabel": "2020년 앞 경계",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=Fsd09GQakRSDKS7cdwErYA,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-12",
+        "retrievedAt": "2026-10-06",
+        "cameraCoordinate": [
+          36.3765607,
+          127.3892572
+        ],
+        "panoramaId": "Fsd09GQakRSDKS7cdwErYA",
+        "faceIndex": 3,
+        "sha256": "baeab327b884815803a8f15eb049283a3448fc276bc4baa99d4f85177c8412a1",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "sourceCubemapSha256": "068b4e2bd3af73f9990b988899fbd7e537489b793c90561aef3adfe00aa7810d",
+        "captureMethod": "original-cubemap-face-extraction-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "2020년 사진이에요. 흰 기둥 아래 통로를 기준으로 앞 보도 경계와 돌볼라드·자전거 거치대 사이 바닥을 확대해요. 2025년 정면 사진과 배치를 비교해요."
+        },
+        "scope": "2020년 사진이에요. 흰 기둥 아래 통로를 기준으로 앞 보도 경계와 돌볼라드·자전거 거치대 사이 바닥을 확대해요. 2025년 정면 사진과 배치를 비교해요.",
+        "evidenceRole": {
+          "label": "2020년 거리 사진 · 통로 앞 경계 비교",
+          "detail": "주차 차량에 덜 가린 보도 경계와 돌볼라드 앞 바닥을 비교해요. 2020년 모습이므로 현재의 턱 낮춤·통과 폭을 보여 주는 자료와 구분해요."
+        },
+        "observations": [
+          {
+            "label": "주차면과 보도 경계",
+            "position": [
+              22,
+              56
+            ],
+            "detail": "장애인 주차면 뒤의 흰 경계선과 회색 보도가 만나는 부분을 확대해요. 사진으로 턱 높이를 재거나 현재 턱 낮춤을 판단하지 않아요."
+          },
+          {
+            "label": "돌볼라드와 안내판 사이",
+            "position": [
+              61,
+              58
+            ],
+            "detail": "돌볼라드·안내판·자전거 거치대 사이로 보이는 바닥을 비교해요. 현재 물품 배치와 남은 폭은 달라질 수 있어요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "step:plaza-gap": [
+      {
+        "id": "naver-v50-hanbit-canopy-front-boundary",
+        "image": "/modu50m/route-photos-v50/hanbit-canopy-front-boundary-202011.png",
+        "title": "통로 앞 보도 경계 · 2020년 가까운 사진",
+        "viewLabel": "2020년 앞 경계",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=Fsd09GQakRSDKS7cdwErYA,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-12",
+        "retrievedAt": "2026-10-06",
+        "cameraCoordinate": [
+          36.3765607,
+          127.3892572
+        ],
+        "panoramaId": "Fsd09GQakRSDKS7cdwErYA",
+        "faceIndex": 3,
+        "sha256": "baeab327b884815803a8f15eb049283a3448fc276bc4baa99d4f85177c8412a1",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "sourceCubemapSha256": "068b4e2bd3af73f9990b988899fbd7e537489b793c90561aef3adfe00aa7810d",
+        "captureMethod": "original-cubemap-face-extraction-no-retouch",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "2020년 사진이에요. 흰 기둥 아래 통로를 기준으로 앞 보도 경계와 돌볼라드·자전거 거치대 사이 바닥을 확대해요. 2025년 정면 사진과 배치를 비교해요."
+        },
+        "scope": "2020년 사진이에요. 흰 기둥 아래 통로를 기준으로 앞 보도 경계와 돌볼라드·자전거 거치대 사이 바닥을 확대해요. 2025년 정면 사진과 배치를 비교해요.",
+        "evidenceRole": {
+          "label": "2020년 거리 사진 · 통로 앞 경계 비교",
+          "detail": "주차 차량에 덜 가린 보도 경계와 돌볼라드 앞 바닥을 비교해요. 2020년 모습이므로 현재의 턱 낮춤·통과 폭을 보여 주는 자료와 구분해요."
+        },
+        "observations": [
+          {
+            "label": "주차면과 보도 경계",
+            "position": [
+              22,
+              56
+            ],
+            "detail": "장애인 주차면 뒤의 흰 경계선과 회색 보도가 만나는 부분을 확대해요. 사진으로 턱 높이를 재거나 현재 턱 낮춤을 판단하지 않아요."
+          },
+          {
+            "label": "돌볼라드와 안내판 사이",
+            "position": [
+              61,
+              58
+            ],
+            "detail": "돌볼라드·안내판·자전거 거치대 사이로 보이는 바닥을 비교해요. 현재 물품 배치와 남은 폭은 달라질 수 있어요."
+          }
+        ],
+        "continuousRouteVerified": false,
+        "fieldVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  }
+}

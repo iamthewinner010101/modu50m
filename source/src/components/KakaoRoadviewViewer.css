@@ -1,0 +1,190 @@
+.daejeon-live-roadview {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 10px;
+  background: rgba(6, 18, 37, 0.58);
+  border: 1px solid rgba(194, 215, 241, 0.28);
+  border-radius: 12px;
+}
+
+.daejeon-live-roadview > header,
+.daejeon-live-roadview > footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.daejeon-live-roadview > header span,
+.daejeon-live-roadview > header strong {
+  display: block;
+}
+
+.daejeon-live-roadview > header strong {
+  margin-top: 3px;
+  color: #fff;
+  font-size: 0.82rem;
+}
+
+.daejeon-live-roadview > header b {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  color: #ffe0a8;
+  background: rgba(180, 117, 34, 0.2);
+  border: 1px solid rgba(247, 190, 103, 0.45);
+  border-radius: 999px;
+  font-size: 0.64rem;
+  letter-spacing: 0.04em;
+}
+
+.daejeon-live-roadview > header b.live {
+  color: #d8ffeb;
+  background: rgba(28, 155, 98, 0.2);
+  border-color: rgba(82, 221, 154, 0.5);
+}
+
+.daejeon-live-roadview > header b.stored {
+  color: #d6e6ff;
+  background: rgba(36, 107, 254, 0.2);
+  border-color: rgba(121, 164, 255, 0.5);
+}
+
+.daejeon-live-roadview__stage {
+  position: relative;
+  min-height: 270px;
+  overflow: hidden;
+  background: #0d1b31;
+  border-radius: 9px;
+}
+
+.daejeon-live-roadview__sdk,
+.daejeon-live-roadview__stored,
+.daejeon-live-roadview__placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.daejeon-live-roadview__sdk {
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.daejeon-live-roadview.is-live .daejeon-live-roadview__sdk {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.daejeon-live-roadview__stored {
+  z-index: 1;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  background: #0d1b31;
+  border: 0;
+  cursor: pointer;
+}
+
+.daejeon-live-roadview__stored:disabled {
+  cursor: default;
+}
+
+.daejeon-live-roadview__stored img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.daejeon-live-roadview__stored span {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 5px 8px;
+  color: #fff;
+  background: rgba(7, 17, 31, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 7px;
+  font-size: 0.62rem;
+}
+
+.daejeon-live-roadview__placeholder {
+  display: grid;
+  place-items: center;
+  color: #7e94b3;
+  background:
+    radial-gradient(circle at 50% 48%, rgba(70, 105, 153, 0.22), transparent 34%),
+    linear-gradient(145deg, #0d1b31, #172945);
+}
+
+.daejeon-live-roadview__placeholder span {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: -0.06em;
+}
+
+.daejeon-live-roadview__status {
+  padding: 10px 11px;
+  background: rgba(180, 117, 34, 0.16);
+  border: 1px solid rgba(247, 190, 103, 0.35);
+  border-radius: 9px;
+}
+
+.daejeon-live-roadview__status.live {
+  background: rgba(28, 155, 98, 0.16);
+  border-color: rgba(82, 221, 154, 0.35);
+}
+
+.daejeon-live-roadview__status strong,
+.daejeon-live-roadview__status p,
+.daejeon-live-roadview__status small {
+  display: block;
+  margin: 0;
+}
+
+.daejeon-live-roadview__status strong {
+  color: #fff;
+  font-size: 0.76rem;
+}
+
+.daejeon-live-roadview__status p {
+  margin-top: 4px;
+  color: #e4d6bc;
+  font-size: 0.68rem;
+  line-height: 1.45;
+}
+
+.daejeon-live-roadview__status.live p,
+.daejeon-live-roadview__status.live small {
+  color: #ccebdc;
+}
+
+.daejeon-live-roadview__status small {
+  margin-top: 5px;
+  color: #d7c29d;
+  font-size: 0.62rem;
+  overflow-wrap: anywhere;
+}
+
+.daejeon-live-roadview > footer {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.daejeon-live-roadview > footer span {
+  padding: 4px 7px;
+  color: #ffd58f;
+  background: rgba(180, 117, 34, 0.14);
+  border-radius: 999px;
+  font-size: 0.6rem;
+}
+
+@media (max-width: 560px) {
+  .daejeon-live-roadview__stage {
+    min-height: 230px;
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "hanbit": {
+    "research-stop": [
+      {
+        "id": "v33-HANBIT-approach-1200671592",
+        "checkpointId": "approach",
+        "name": "한빛탑 동측 로드뷰 · approach",
+        "source": "roadview",
+        "provider": "kakao",
+        "image": "/modu50m/hanbit-roadview-v2/approach.jpg",
+        "panorama": "/modu50m/hanbit-roadview-v2/1200671592-panorama.jpg",
+        "panoId": 1200671592,
+        "captureDate": "2025-09-10",
+        "retrievedAt": "2026-09-17T08:06:00.476867+00:00",
+        "camera": {
+          "lat": 36.3761951452913,
+          "lon": 127.389882399643
+        },
+        "heading": 305,
+        "pitch": 5,
+        "fov": 90,
+        "northOffset": 16.0,
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200671592&pan=305&tilt=-5&zoom=0",
+        "sha256": "89e6a7a5d67e6ae833abde1302a1143540f6843274d5bcd457f33e153bee4a42",
+        "captureStatus": "source_retrieved",
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "author": "카카오 로드뷰",
+        "title": "카카오 · 정류장 옆 보도",
+        "capturedAt": "2025-09-10",
+        "viewHeading": 305,
+        "sourceSha256": "89e6a7a5d67e6ae833abde1302a1143540f6843274d5bcd457f33e153bee4a42",
+        "observations": [
+          {
+            "label": "정류장과 가로수 사이 보도",
+            "position": [
+              46,
+              62
+            ],
+            "detail": "쉼터와 가로수 옆으로 보도가 보여요. 촬영 차량은 차도에 있으며 휠체어의 위치가 아니에요."
+          }
+        ],
+        "scope": "로드뷰 차량의 촬영 좌표와 사진 속 보도 구역을 구분해요. 현재 연속 통행 확인 전입니다.",
+        "cameraLocationVerified": true,
+        "locationBinding": "provider-camera-coordinate",
+        "continuousRouteVerified": false
+      }
+    ],
+    "research-crossing": [
+      {
+        "id": "v33-HANBIT-threshold-1200671583",
+        "checkpointId": "threshold",
+        "name": "한빛탑 동측 로드뷰 · threshold",
+        "source": "roadview",
+        "provider": "kakao",
+        "image": "/modu50m/hanbit-roadview-v2/threshold.jpg",
+        "panorama": "/modu50m/hanbit-roadview-v2/1200671583-panorama.jpg",
+        "panoId": 1200671583,
+        "captureDate": "2025-09-10",
+        "retrievedAt": "2026-09-17T08:06:01.095803+00:00",
+        "camera": {
+          "lat": 36.3765486748515,
+          "lon": 127.389799469035
+        },
+        "heading": 273,
+        "pitch": 3,
+        "fov": 90,
+        "northOffset": 3.0,
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200671583&pan=273&tilt=-3&zoom=0",
+        "sha256": "1707607cbab8fadfcdff8fd2c745318444f7efec7c7d3226e7fe02dfdb33f136",
+        "captureStatus": "source_retrieved",
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "author": "카카오 로드뷰",
+        "title": "카카오 · 차량 진입부 횡단 표시",
+        "capturedAt": "2025-09-10",
+        "viewHeading": 273,
+        "sourceSha256": "1707607cbab8fadfcdff8fd2c745318444f7efec7c7d3226e7fe02dfdb33f136",
+        "observations": [
+          {
+            "label": "보도 끝과 횡단 표시",
+            "position": [
+              53,
+              77
+            ],
+            "detail": "보도 끝 점자블록과 차량 진입부의 횡단 표시를 비교해요. 현재 단차와 차량 상황은 추가 확인이 필요해요."
+          }
+        ],
+        "scope": "로드뷰 차량의 촬영 좌표와 사진 속 보도 구역을 구분해요. 현재 연속 통행 확인 전입니다.",
+        "cameraLocationVerified": true,
+        "locationBinding": "provider-camera-coordinate",
+        "continuousRouteVerified": false
+      }
+    ]
+  }
+}

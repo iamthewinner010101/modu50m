@@ -1,0 +1,194 @@
+{
+  "schema": "modu50m.dunsan_roadview_codex_visual_selection.v2",
+  "generatedAt": "2026-07-22",
+  "selectedBy": "OpenAI Codex independent visual review",
+  "projectionConvention": "kakao_world_to_raw_equirectangular_v1",
+  "auditManifest": "outputs/dunsan-roadview-direction-audit/alternatives.generated.json",
+  "auditManifestGeneratedAt": "2026-07-21T16:26:26.963205+00:00",
+  "auditManifestSha256": "95cc414eb4797eb61cae05fe1abb9b9fec633de89136c006c0993d707ab901bc",
+  "policy": "Selections are valid only for the bound corrected manifest. A useful scene must visibly contain the facility, entrance, pedestrian approach, and acceptable occlusion. It does not confirm accessibility or safety.",
+  "localLlmCalls": 0,
+  "humanVerificationStatus": "pending",
+  "selections": {
+    "D50-001": {
+      "selectedKey": "P1-L", "panoId": 1200993087, "headingOffset": -18, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "시청 본관·부지 입구·붉은 보행 연결이 함께 보입니다.",
+      "selectionReason": "P1-L은 시청 본관, 부지 입구, 차량 진입로, 양측 붉은 보행로와 턱 경계를 함께 담고 흰 차량이 핵심 접근축을 벗어나 있어 가장 설명력이 높습니다.",
+      "runnerUpKey": "P1-C", "rejectionReason": "P1-C는 같은 거리의 중심 장면이지만 흰 차량이 전경을 더 크게 가리고 부지 입구가 왼쪽으로 밀립니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-002": {
+      "selectedKey": "P1-C", "panoId": 1200993172, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "8번 표지·유리 출구·계단과 보도 경계가 함께 보입니다.",
+      "selectionReason": "P1-C는 보정된 최근접 중심 장면에서 시청 8번 표지, 유리 출구 구조, 내부 계단·난간, 출구 앞 경계석과 차도를 함께 명확히 보여 줍니다.",
+      "runnerUpKey": "P1-R", "rejectionReason": "P1-R은 8번 표지가 더 크지만 출구 구조가 왼쪽으로 밀리고 오른쪽 보도 연결이 잘려 최종 접근 설명력이 낮습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-003": {
+      "selectedKey": "P1-C", "panoId": 1200993347, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "5번 표지·유리 출구·점자블록과 횡단 연결이 보입니다.",
+      "selectionReason": "P1-C는 가장 가까운 중심 장면에서 시청 5번 표지, 유리 계단 출구, 점자블록, 곡선 경계석과 이면도로 횡단 표시를 함께 보여 줍니다.",
+      "runnerUpKey": "P4-C", "rejectionReason": "P4-C는 5번 숫자가 더 크지만 더 멀고 출구가 오른쪽 가장자리에 걸려 접근축이 압축됩니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-004": {
+      "selectedKey": "P1-C", "panoId": 1200829345, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "3번 출구·자전거 보관소·보도와 차도 경계가 보입니다.",
+      "selectionReason": "P1-C는 최근접 중심 장면에서 3번 표지, 유리 계단 출구, 자전거 보관소, 붉은 보행면과 도로 경계를 함께 담으며 나무 가림도 핵심 구조를 막지 않습니다.",
+      "runnerUpKey": "P1-R", "rejectionReason": "P1-R은 출구 구조를 더 중앙에 두지만 왼쪽 자전거 보관소와 보행 접근 맥락을 더 많이 잃습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-005": {
+      "selectedKey": "P1-C", "panoId": 1200829338, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "유리 출구·계단·자전거 보관소와 보도 경계가 함께 보입니다.",
+      "selectionReason": "P1-C는 가장 가까운 중심 장면에서 유리 출구 구조와 계단, 자전거 보관소, 보행면, 잔디·경계석과 차도를 가장 균형 있게 보여 줍니다.",
+      "runnerUpKey": "P1-R", "rejectionReason": "P1-R은 4번 표지를 추가로 보여 주지만 나무가 출구와 표지 사이를 갈라 놓고 접근축을 오른쪽으로 밀어냅니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-006": {
+      "selectedKey": "P1-C", "panoId": 1200835164, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "청사로 263 도서관 입구·계단·점자블록이 보입니다.",
+      "selectionReason": "P1-C는 가장 가까운 중심 장면에서 도서관 유리 외벽, 청사로 263 표지, 출입구·계단, 점자블록과 도로변 보행 경계를 함께 보여 줍니다.",
+      "runnerUpKey": "P2-L", "rejectionReason": "P2-L은 계단과 점자블록이 더 깨끗하지만 더 멀고 건물 외벽과 도로 접근 맥락을 더 많이 자릅니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-007": {
+      "selectedKey": "P1-C", "panoId": 1200995256, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "구청 주출입문·계단·전면 보도와 도로 경계가 보입니다.",
+      "selectionReason": "P1-C는 가장 가까운 중심 장면에서 구청 주출입문과 계단, 넓은 전면 보행면, 자전거 거치대, 도로변 경계와 분리 난간을 함께 선명하게 보여 줍니다.",
+      "runnerUpKey": "P1-L", "rejectionReason": "P1-L은 출입구를 오른쪽으로 밀고 깃대와 수목 때문에 자전거 거치대에서 입구까지의 연속성이 약해집니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-008": {
+      "selectedKey": "P4-C", "panoId": 1200996505, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "센터 건물·주출입문·주차장 접근 차로가 함께 보입니다.",
+      "selectionReason": "센터 건물과 주출입문, 주차장 진입 차로와 진행 화살표가 한 프레임에 들어와 시설과 마지막 접근 방향을 함께 확인할 수 있습니다.",
+      "runnerUpKey": "P4-L", "rejectionReason": "P4-L은 건물 정면이 조금 더 중앙에 오지만 좌표 방향이 빗겨나고 우측 진입 차로와 경계 연결이 덜 보입니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-009": {
+      "selectedKey": "P2-C", "panoId": 1200996377, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "센터 출입문·진입로·장애인 주차 구역이 함께 보입니다.",
+      "selectionReason": "센터 명칭이 있는 출입문과 진입로, 장애인 주차 표시 및 도로측 보도가 함께 보여 장소와 접근 구조를 확인할 수 있습니다.",
+      "runnerUpKey": "P2-R", "rejectionReason": "P2-R은 출입문을 더 크게 보여주지만 좌표 방향에서 18도 벗어나고 좌측 보도와 도로 접근 맥락이 줄어듭니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-010": {
+      "selectedKey": "P4-C", "panoId": 1200994682, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "센터 출입문·노란 횡단 구간·보도 연결이 함께 보입니다.",
+      "selectionReason": "둔산3동 행정복지센터 표지와 출입문, 노란 횡단 구간 및 우측 보도 연결이 좌표 중심 장면에 함께 담깁니다.",
+      "runnerUpKey": "P4-L", "rejectionReason": "P4-L은 건물 표지를 더 크게 보여주지만 우측 보도와 경계 연결을 잘라 마지막 접근 동선 설명력이 낮습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-011": {
+      "selectedKey": "P1-C", "panoId": 1200996744, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "법원 건물·보안 출입구·횡단보도 접근이 함께 보입니다.",
+      "selectionReason": "법원 건물과 상징 표식, 보안 출입구, 진입로와 횡단보도가 좌표 중심에 정렬되어 시설과 보행 접근을 명확히 비교할 수 있습니다.",
+      "runnerUpKey": "P1-L", "rejectionReason": "P1-L은 건물 전경이 넓지만 출입구가 오른쪽으로 밀리고 하단 차량이 도로 경계 일부를 가립니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-012": {
+      "selectedKey": "P1-C", "panoId": 1200996713, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "검찰청 건물·출입 게이트·횡단보도가 함께 보입니다.",
+      "selectionReason": "검찰청 건물명과 출입 게이트, 횡단보도와 보도 경계가 좌표 중심 장면에 함께 보여 시설과 접근 연결을 확인할 수 있습니다.",
+      "runnerUpKey": "P1-L", "rejectionReason": "P1-L은 차량 가림이 없지만 좌표 방향이 18도 벗어나며 우측 보도 연결과 안내 시설이 덜 보입니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-013": {
+      "selectedKey": null, "panoId": null, "headingOffset": null, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "low", "fieldFirst": true,
+      "roadviewSufficiency": "insufficient_field_required",
+      "displayReason": "건물 외곽만 보이며 실제 입구와 접근 연결은 현장 확인이 필요합니다.",
+      "selectionReason": "교육청 건물 외곽은 보이지만 실제 입구와 보행 연결을 함께 확인할 수 있는 표준 장면이 없습니다.",
+      "runnerUpKey": "P1-L", "rejectionReason": "P1-L도 나무와 주차 차량 뒤의 실제 입구 및 보행 연결이 확인되지 않아 사용자 화면에 사진을 제시하지 않습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": false, "approachVisible": false, "occlusionAcceptable": false}
+    },
+    "D50-014": {
+      "selectedKey": "P1-C", "panoId": 1200995171, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "이마트 간판·출입문·전면 보도 접근이 함께 보입니다.",
+      "selectionReason": "이마트 간판과 출입문, 전면 보도·경계석 및 우측 보행 진입로가 좌표 중심 장면에 함께 보여 목표 입구를 명확히 식별할 수 있습니다.",
+      "runnerUpKey": "P3-C", "rejectionReason": "P3-C는 횡단보도까지 넓게 담지만 거리가 더 멀고 차량이 횡단 접근부를 크게 가립니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-015": {
+      "selectedKey": "P1-C", "panoId": 1200993749, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "세무서 민원 출입구와 보도 연결이 함께 보입니다.",
+      "selectionReason": "가장 가까운 중심 장면에서 세무서 청사, 민원 출입구, 보도·경계석과 진입부를 함께 읽을 수 있습니다.",
+      "runnerUpKey": "P1-R", "rejectionReason": "P1-R은 출입구가 더 중앙에 오지만 흰 차량이 횡단 표시와 진입부를 크게 가립니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-016": {
+      "selectedKey": null, "panoId": null, "headingOffset": null, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "low", "fieldFirst": true,
+      "roadviewSufficiency": "insufficient_field_required",
+      "displayReason": "현수막에 가린 우체국 출입문과 접근 동선은 현장 확인이 필요합니다.",
+      "selectionReason": "시설·출입문·접근 연결을 모두 통과하는 표준 장면이 없어 사용자 화면에는 사진을 제시하지 않습니다.",
+      "runnerUpKey": "P4-L", "rejectionReason": "P4-L은 우체국 전체와 횡단보도를 보여 주지만 대형 현수막이 출입문과 입구 광장을 가리고 차량도 접근축을 침범합니다.",
+      "evidence": {"facilityVisible": false, "entranceVisible": false, "approachVisible": false, "occlusionAcceptable": false}
+    },
+    "D50-017": {
+      "selectedKey": "P1-C", "panoId": 1200993974, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "병원 주출입구와 보도·승하차 진입 동선이 함께 보입니다.",
+      "selectionReason": "가장 가까운 중심 장면에서 병원명, 외부 보도 횡단부, 내부 승하차 진입로와 주출입구 캐노피가 연속적으로 보입니다.",
+      "runnerUpKey": "P1-L", "rejectionReason": "P1-L도 접근축은 선명하지만 병원명과 우측 시설 맥락이 약해 장소 식별력이 낮습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-018": {
+      "selectedKey": null, "panoId": null, "headingOffset": null, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "low", "fieldFirst": true,
+      "roadviewSufficiency": "insufficient_field_required",
+      "displayReason": "화장실 입구와 공원 보행로 연결은 현장 촬영이 필요합니다.",
+      "selectionReason": "화장실 시설과 실제 출입문, 공원 보행로 연결을 동시에 검증할 표준 장면이 없어 사용자 화면에는 사진을 제시하지 않습니다.",
+      "runnerUpKey": "P2-C", "rejectionReason": "P2-C에는 추정 건물이 보이지만 수목과 울타리 때문에 출입문 식별과 보행로 연결이 불명확합니다.",
+      "evidence": {"facilityVisible": false, "entranceVisible": false, "approachVisible": false, "occlusionAcceptable": false}
+    },
+    "D50-019": {
+      "selectedKey": "P1-C", "panoId": 1200834516, "headingOffset": 0, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "high", "fieldFirst": true,
+      "roadviewSufficiency": "partial_field_measurement_required",
+      "displayReason": "SAVEZONE 주출입문과 계단·보도 접근축이 보이며 현장 측정이 필요합니다.",
+      "selectionReason": "가장 가까운 중심 장면에서 SAVEZONE 출입문, 계단·점자 접근축, 넓은 보도와 차도 경계가 보이지만 낮은 우회 진입로와 실제 폭·경사는 현장에서 확인해야 합니다.",
+      "runnerUpKey": "P1-L", "rejectionReason": "P1-L은 문을 더 중앙에 두지만 우측 보도와 경계 맥락을 더 많이 잘라 접근 설명력이 낮습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    },
+    "D50-020": {
+      "selectedKey": "P2-R", "panoId": 1201123474, "headingOffset": 18, "fov": 82, "pitch": -6,
+      "auditSource": "standard", "auditCandidateCount": 12, "confidence": "medium", "fieldFirst": false,
+      "roadviewSufficiency": "useful_pending_human_place_match",
+      "displayReason": "시외버스 정류소 출입문·대기 공간·승차 차로가 함께 보입니다.",
+      "selectionReason": "가까운 P2에서 우측 보정을 적용하면 정류소 건물·출입문, 대기 인원, 보도 경계와 파란 승차 차로가 한 장에 들어오며 P1의 큰 차량 가림도 피합니다.",
+      "runnerUpKey": "P4-R", "rejectionReason": "P4-R은 전체 맥락이 좋지만 더 멀어 출입문과 승차 경계가 작습니다.",
+      "evidence": {"facilityVisible": true, "entranceVisible": true, "approachVisible": true, "occlusionAcceptable": true}
+    }
+  }
+}

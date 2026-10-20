@@ -1,0 +1,109 @@
+{
+  "hanbit": {
+    "mobility-01": [
+      {
+        "id": "hanbit2-26",
+        "image": "/modu50m/route-photos-v25/hanbit-hanbit2-26.png",
+        "title": "경사로 정면",
+        "author": "팬더베리",
+        "publishedAt": "2024-08-16",
+        "capturedAt": null,
+        "sourceUrl": "https://pandaberry.tistory.com/152",
+        "sourceImageUrl": "https://blog.kakaocdn.net/dna/m9YG6/btsI4q3jgAA/AAAAAAAAAAAAAAAAAAAAAEJcPHpBpx3s4Pcs6OyNRt424UnirRuKafZsQqfaexdm/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=YFRY%2FxqnArPhUi8Xo%2FpyXzGGv%2BU%3D",
+        "sourceSha256": "3aba3333a8ca25b682bc052a31a0cdcd5a1bf2da06579f131a66ea6bf87dc5f0",
+        "scope": "한빛탑 경사로·문 앞 구역. 촬영자의 정확한 위치와 방향은 미확인.",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "observations": [
+          {
+            "label": "경사로 시작과 볼라드",
+            "position": [
+              48,
+              83
+            ],
+            "detail": "경사로 앞쪽에 돌기둥이 보이고, 양옆에는 낮은 벽이 이어집니다. 기둥 사이 폭과 경사로 기울기는 이 사진으로 측정하지 않았어요."
+          },
+          {
+            "label": "출입문 앞 바닥",
+            "position": [
+              49,
+              54
+            ],
+            "detail": "경사로 끝에서 유리 출입문 앞 바닥까지 보입니다. 문턱 높이와 현재 문이 열리는 방식은 추가로 확인해야 해요."
+          }
+        ],
+        "fieldVerified": false,
+        "continuousRouteVerified": false
+      },
+      {
+        "id": "hanbit2-27",
+        "image": "/modu50m/route-photos-v25/hanbit-hanbit2-27.png",
+        "title": "입구 옆에서 본 바닥",
+        "author": "팬더베리",
+        "publishedAt": "2024-08-16",
+        "capturedAt": null,
+        "sourceUrl": "https://pandaberry.tistory.com/152",
+        "sourceImageUrl": "https://blog.kakaocdn.net/dna/dmqSjo/btsI5xtwRjE/AAAAAAAAAAAAAAAAAAAAAI7cZpLmY7xtOBwbWKa7Xdu1JGFuFIhs8hhvxnD6DvZM/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=b%2FOmu8qjQwaxopw%2FK6z43Dx8Pho%3D",
+        "sourceSha256": "27dfd4b936ea9773c3118d60e4cfddc1fff32538c6398d33cbe68fc20b8a7238",
+        "scope": "한빛탑 출입문 주변의 다른 각도. 조형물 뒤 연결과 카메라 좌표는 미확인.",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "observations": [
+          {
+            "label": "경사로 옆 돌기둥",
+            "position": [
+              88,
+              60
+            ],
+            "detail": "오른쪽에 경사 통로 옆 돌기둥과 낮은 벽이 보입니다. 앞의 조형물과 경사 통로 사이에 남는 공간을 함께 살펴봐요."
+          },
+          {
+            "label": "조형물 뒤 출입문",
+            "position": [
+              51,
+              40
+            ],
+            "detail": "꿈돌이 조형물 뒤로 출입문이 일부 보입니다. 조형물에 가려진 길과 문 앞 상태는 정면 사진과 비교해요."
+          }
+        ],
+        "fieldVerified": false,
+        "continuousRouteVerified": false
+      }
+    ]
+  },
+  "oworld": {
+    "mobility-05": [
+      {
+        "id": "oworld2-1",
+        "image": "/modu50m/route-photos-v25/oworld-oworld2-1.jpg",
+        "title": "정문 앞 횡단·광장",
+        "author": "즐기Go",
+        "publishedAt": "2023-09-05",
+        "capturedAt": null,
+        "sourceUrl": "https://winny100.tistory.com/51",
+        "sourceImageUrl": "https://blog.kakaocdn.net/dna/Y7paB/btssT5gfYBn/AAAAAAAAAAAAAAAAAAAAAKK1aGZGlFX0fr1OxfytazIGEBD6YVVGpLJ11YkdQbGW/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=owc4%2BTG6ekV8YnUudmzXA9CZri0%3D",
+        "sourceSha256": "08a42b5276c51e297eac968415047a6bb7946e0e95d1955c45ff6bbca69ed593",
+        "scope": "정문을 바라본 다른 각도. 게시자는 전년도 초겨울 방문으로 설명하며 정확한 촬영일·좌표는 미확인.",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "observations": [
+          {
+            "label": "차량 길과 만나는 바닥",
+            "position": [
+              45,
+              85
+            ],
+            "detail": "정문 앞으로 향하는 포장 통로가 차가 다니는 길과 만납니다. 지금 차량이 어떻게 다니는지와 양끝의 단차는 다시 확인해야 해요."
+          },
+          {
+            "label": "기둥 사이 입장 방향",
+            "position": [
+              43,
+              75
+            ],
+            "detail": "입구 앞에 여러 기둥과 안내물이 놓여 있습니다. 기둥 사이 통과 폭과 실제 사용하는 개찰구는 사진만으로 확정하지 않아요."
+          }
+        ],
+        "fieldVerified": false,
+        "continuousRouteVerified": false
+      }
+    ]
+  }
+}

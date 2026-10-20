@@ -1,0 +1,797 @@
+{
+  "oworld": {
+    "scope": "정류장·주차장 옆 접근부·정문",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/oworld-high.png",
+        "alt": "오월드 정류장·주차장 옆 접근부·정문를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              0
+            ],
+            "label": "정류장",
+            "anchor": [
+              35,
+              83
+            ],
+            "position": [
+              23,
+              90
+            ]
+          },
+          {
+            "steps": [
+              1
+            ],
+            "label": "첫 횡단",
+            "anchor": [
+              60,
+              79
+            ],
+            "position": [
+              50,
+              90
+            ]
+          },
+          {
+            "steps": [
+              2
+            ],
+            "label": "주차장 옆 횡단",
+            "anchor": [
+              69,
+              80
+            ],
+            "position": [
+              81,
+              88
+            ]
+          },
+          {
+            "steps": [
+              3
+            ],
+            "label": "정문 방향",
+            "anchor": [
+              69,
+              44
+            ],
+            "position": [
+              82,
+              51
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "매표소·입장",
+            "anchor": [
+              60,
+              20
+            ],
+            "position": [
+              70,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/oworld-side.png",
+        "alt": "오월드 정류장·주차장 옆 접근부·정문를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              0
+            ],
+            "label": "정류장",
+            "anchor": [
+              50,
+              75
+            ],
+            "position": [
+              39,
+              85
+            ]
+          },
+          {
+            "steps": [
+              1
+            ],
+            "label": "첫 횡단",
+            "anchor": [
+              71,
+              62
+            ],
+            "position": [
+              64,
+              80
+            ]
+          },
+          {
+            "steps": [
+              2
+            ],
+            "label": "주차장 옆 횡단",
+            "anchor": [
+              82,
+              62
+            ],
+            "position": [
+              89,
+              72
+            ]
+          },
+          {
+            "steps": [
+              3
+            ],
+            "label": "정문 방향",
+            "anchor": [
+              63,
+              40
+            ],
+            "position": [
+              76,
+              39
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "매표소·입장",
+            "anchor": [
+              35,
+              21
+            ],
+            "position": [
+              25,
+              13
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "arboretum": {
+    "scope": "열대식물원 앞 경사로·출입문",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/arboretum-high.png",
+        "alt": "한밭수목원 열대식물원 앞 경사로·출입문를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              4
+            ],
+            "label": "문 앞 경사로",
+            "anchor": [
+              33,
+              68
+            ],
+            "position": [
+              46,
+              82
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "출입문",
+            "anchor": [
+              17,
+              45
+            ],
+            "position": [
+              15,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/arboretum-side.png",
+        "alt": "한밭수목원 열대식물원 앞 경사로·출입문를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              4
+            ],
+            "label": "문 앞 경사로",
+            "anchor": [
+              46,
+              66
+            ],
+            "position": [
+              62,
+              79
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "출입문",
+            "anchor": [
+              19,
+              45
+            ],
+            "position": [
+              16,
+              26
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "museum": {
+    "scope": "시립미술관 앞마당·출입부",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/museum-high.png",
+        "alt": "대전시립미술관 시립미술관 앞마당·출입부를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              5
+            ],
+            "label": "미술관 출입부",
+            "anchor": [
+              59,
+              40
+            ],
+            "position": [
+              74,
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/museum-side.png",
+        "alt": "대전시립미술관 시립미술관 앞마당·출입부를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              5
+            ],
+            "label": "미술관 출입부",
+            "anchor": [
+              49,
+              33
+            ],
+            "position": [
+              64,
+              19
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "leeungno": {
+    "scope": "미술관 앞 보행 공간·출입문",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/leeungno-high.png",
+        "alt": "이응노미술관 미술관 앞 보행 공간·출입문를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              5
+            ],
+            "label": "앞마당",
+            "anchor": [
+              32,
+              56
+            ],
+            "position": [
+              22,
+              74
+            ]
+          },
+          {
+            "steps": [
+              6
+            ],
+            "label": "출입문",
+            "anchor": [
+              70,
+              26
+            ],
+            "position": [
+              82,
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/leeungno-side.png",
+        "alt": "이응노미술관 미술관 앞 보행 공간·출입문를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              5
+            ],
+            "label": "앞마당",
+            "anchor": [
+              30,
+              58
+            ],
+            "position": [
+              23,
+              76
+            ]
+          },
+          {
+            "steps": [
+              6
+            ],
+            "label": "출입문",
+            "anchor": [
+              53,
+              42
+            ],
+            "position": [
+              70,
+              29
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "science": {
+    "scope": "미래기술관 앞마당·출입문",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/science-high.png",
+        "alt": "국립중앙과학관 미래기술관 앞마당·출입문를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              8
+            ],
+            "label": "문 앞 보행 공간",
+            "anchor": [
+              45,
+              73
+            ],
+            "position": [
+              29,
+              84
+            ]
+          },
+          {
+            "steps": [
+              8
+            ],
+            "label": "미래기술관 출입문",
+            "anchor": [
+              59,
+              51
+            ],
+            "position": [
+              77,
+              37
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/science-side.png",
+        "alt": "국립중앙과학관 미래기술관 앞마당·출입문를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              8
+            ],
+            "label": "문 앞 보행 공간",
+            "anchor": [
+              40,
+              76
+            ],
+            "position": [
+              24,
+              86
+            ]
+          },
+          {
+            "steps": [
+              8
+            ],
+            "label": "미래기술관 출입문",
+            "anchor": [
+              55,
+              62
+            ],
+            "position": [
+              73,
+              48
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sungsim": {
+    "scope": "성심당 본점 앞 대기 공간·출입문",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/sungsim-high.png",
+        "alt": "성심당 본점 성심당 본점 앞 대기 공간·출입문를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              3
+            ],
+            "label": "대기 공간",
+            "anchor": [
+              28,
+              63
+            ],
+            "position": [
+              18,
+              79
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "본점 출입문",
+            "anchor": [
+              49,
+              56
+            ],
+            "position": [
+              68,
+              45
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/sungsim-side.png",
+        "alt": "성심당 본점 성심당 본점 앞 대기 공간·출입문를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              3
+            ],
+            "label": "대기 공간",
+            "anchor": [
+              33,
+              69
+            ],
+            "position": [
+              23,
+              83
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "본점 출입문",
+            "anchor": [
+              53,
+              58
+            ],
+            "position": [
+              71,
+              44
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "skyroad": {
+    "scope": "으능정이 거리 진입부·보행 공간",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/skyroad-high.png",
+        "alt": "으능정이문화의거리 으능정이 거리 진입부·보행 공간를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              1
+            ],
+            "label": "거리 진입부",
+            "anchor": [
+              50,
+              74
+            ],
+            "position": [
+              32,
+              85
+            ]
+          },
+          {
+            "steps": [
+              2
+            ],
+            "label": "스카이로드 아래",
+            "anchor": [
+              50,
+              49
+            ],
+            "position": [
+              70,
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/skyroad-side.png",
+        "alt": "으능정이문화의거리 으능정이 거리 진입부·보행 공간를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              1
+            ],
+            "label": "거리 진입부",
+            "anchor": [
+              40,
+              71
+            ],
+            "position": [
+              24,
+              82
+            ]
+          },
+          {
+            "steps": [
+              2
+            ],
+            "label": "스카이로드 아래",
+            "anchor": [
+              51,
+              48
+            ],
+            "position": [
+              72,
+              48
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "station": {
+    "scope": "대전역 서광장·철도역 출입부",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/station-high.png",
+        "alt": "대전역 대전역 서광장·철도역 출입부를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              4
+            ],
+            "label": "서광장",
+            "anchor": [
+              48,
+              59
+            ],
+            "position": [
+              31,
+              75
+            ]
+          },
+          {
+            "steps": [
+              5
+            ],
+            "label": "철도역 출입부",
+            "anchor": [
+              64,
+              50
+            ],
+            "position": [
+              80,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/station-side.png",
+        "alt": "대전역 대전역 서광장·철도역 출입부를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              4
+            ],
+            "label": "서광장",
+            "anchor": [
+              43,
+              58
+            ],
+            "position": [
+              27,
+              76
+            ]
+          },
+          {
+            "steps": [
+              5
+            ],
+            "label": "철도역 출입부",
+            "anchor": [
+              57,
+              54
+            ],
+            "position": [
+              75,
+              41
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "terminal": {
+    "scope": "복합터미널 서관 앞 보행 공간·출입부",
+    "views": [
+      {
+        "id": "high",
+        "label": "높은 시점",
+        "description": "건물과 앞쪽 보행 공간을 위에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/terminal-high.png",
+        "alt": "대전복합터미널 복합터미널 서관 앞 보행 공간·출입부를 높은 시점로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              2
+            ],
+            "label": "서관 앞마당",
+            "anchor": [
+              30,
+              59
+            ],
+            "position": [
+              17,
+              76
+            ]
+          },
+          {
+            "steps": [
+              3
+            ],
+            "label": "서관 앞 보도",
+            "anchor": [
+              45,
+              44
+            ],
+            "position": [
+              65,
+              61
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "서관 출입부",
+            "anchor": [
+              37,
+              53
+            ],
+            "position": [
+              32,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "id": "side",
+        "label": "옆에서 보기",
+        "description": "출입부와 주변 공간을 다른 각도에서 살펴봐요",
+        "image": "/modu50m/miniature-views-v35/terminal-side.png",
+        "alt": "대전복합터미널 복합터미널 서관 앞 보행 공간·출입부를 옆에서 보기로 표현한 AI 미니어처 참고 모형",
+        "pins": [
+          {
+            "steps": [
+              2
+            ],
+            "label": "서관 앞마당",
+            "anchor": [
+              20,
+              52
+            ],
+            "position": [
+              15,
+              74
+            ]
+          },
+          {
+            "steps": [
+              3
+            ],
+            "label": "서관 앞 보도",
+            "anchor": [
+              40,
+              48
+            ],
+            "position": [
+              57,
+              68
+            ]
+          },
+          {
+            "steps": [
+              4
+            ],
+            "label": "서관 출입부",
+            "anchor": [
+              26,
+              46
+            ],
+            "position": [
+              27,
+              27
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1701 @@
+[
+  {
+    "placeId": "hanbit",
+    "photos": [
+      {
+        "pointId": "route-v23-h-02",
+        "shortTitle": "한빛탑 안 안내데스크",
+        "photo": {
+          "id": "hanbit-route-v23-h-02",
+          "image": "/modu50m/mobility-v23/hanbit-route-v23-h-02-73e12c15.jpg",
+          "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e",
+          "sourceImageUrl": "https://access.visitkorea.or.kr/cos/imageLoad.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e&cmvSeq=13&imageNo=",
+          "provider": "public-mobility",
+          "providerLabel": "한국관광공사 열린관광",
+          "attribution": "한국관광공사 · 공개 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "73e12c15f4562cb800326204f81e44842f38ecb66697d738676e2b04026c5cf3",
+          "mobilityEvidence": true,
+          "scope": "공식 코스 지도 2022-02-05 갱신 자료의 사진입니다. 촬영일은 미상이며 현재 연결 상태는 별도 확인이 필요합니다.",
+          "sourceFeatureMarker": {
+            "lat": 36.37649591335313,
+            "lon": 127.38801336792022,
+            "meaning": "출처의 시설 위치 표시; 촬영 좌표 아님"
+          }
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/hanbit-route-v23-h-02-73e12c15.jpg",
+          "photoId": "hanbit-route-v23-h-02",
+          "sourceSha256": "73e12c15f4562cb800326204f81e44842f38ecb66697d738676e2b04026c5cf3",
+          "kind": "segment",
+          "stage": "entrance",
+          "title": "한빛탑 안 안내데스크",
+          "focus": [
+            50,
+            65
+          ],
+          "question": "문을 지난 뒤 찾을 안내데스크의 모습을 살펴봐요.",
+          "observations": [
+            {
+              "label": "안내데스크",
+              "detail": "INFORMATION 표시가 있는 안내데스크와 앞 바닥이 보입니다.",
+              "position": [
+                62,
+                62
+              ]
+            },
+            {
+              "label": "안내판과 비치물",
+              "detail": "데스크 위 안내물과 옆 비치물이 보입니다. 현재 배치와 접근 공간은 다시 확인해야 합니다.",
+              "position": [
+                28,
+                42
+              ]
+            }
+          ],
+          "unknowns": [
+            "바깥 유리문 문턱에서 안내데스크까지의 연속 사진",
+            "현재 안내데스크 위치와 시설 운영 상태"
+          ],
+          "connection": "공식 코스 지도 2022-02-05 갱신 자료의 사진입니다. 촬영일은 미상이며 현재 연결 상태는 별도 확인이 필요합니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본을 직접 열어 바닥과 기준물을 검토했습니다. 새 모형이나 위치 좌표로 변형하지 않았습니다."
+      },
+      {
+        "pointId": "route-v23-h-01",
+        "shortTitle": "횡단부 건너 공원 진입부",
+        "photo": {
+          "id": "hanbit-route-v23-h-01",
+          "image": "/modu50m/mobility-v23/hanbit-route-v23-h-01-dce7f3c6.jpg",
+          "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=b55fb417-4e5d-4810-bd9f-4e49c0c69e4e",
+          "sourceImageUrl": "https://access.visitkorea.or.kr/ms/imageLoad.do?criSeq=181&imageNo=",
+          "provider": "public-mobility",
+          "providerLabel": "한국관광공사 열린관광",
+          "attribution": "한국관광공사 · 공개 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "dce7f3c65871aff68970a5216dcebfb3da0503d4cc6f2443c81fffaf2805add2",
+          "mobilityEvidence": true,
+          "scope": "공식 코스 지도 2022-02-05 갱신 자료의 사진입니다. 촬영일은 미상이며 현재 연결 상태는 별도 확인이 필요합니다.",
+          "sourceFeatureMarker": {
+            "lat": 36.37663012431165,
+            "lon": 127.38969400657278,
+            "meaning": "출처의 시설 위치 표시; 촬영 좌표 아님"
+          }
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/hanbit-route-v23-h-01-dce7f3c6.jpg",
+          "photoId": "hanbit-route-v23-h-01",
+          "sourceSha256": "dce7f3c65871aff68970a5216dcebfb3da0503d4cc6f2443c81fffaf2805add2",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "횡단부 건너 공원 진입부",
+          "focus": [
+            50,
+            65
+          ],
+          "question": "주차정산소와 입구 표지, 횡단선의 위치를 같이 살펴봐요.",
+          "observations": [
+            {
+              "label": "횡단선과 입구 표지",
+              "detail": "사진 왼쪽 횡단선과 오른쪽 파란 입구 표지가 함께 보입니다. 보행자가 들어갈 접점을 더 확인해야 합니다.",
+              "position": [
+                25,
+                75
+              ]
+            },
+            {
+              "label": "차단기와 정산소",
+              "detail": "차량용 차단기와 주차정산소가 보입니다. 차량 진입로를 보행 통로로 판정하지 않습니다.",
+              "position": [
+                53,
+                48
+              ]
+            }
+          ],
+          "unknowns": [
+            "차단기 앞에서 보행자가 들어갈 별도 접점",
+            "정산소 주변에서 통일관 옆 보행 공간까지의 현재 바닥"
+          ],
+          "connection": "공식 코스 지도 2022-02-05 갱신 자료의 사진입니다. 촬영일은 미상이며 현재 연결 상태는 별도 확인이 필요합니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본을 직접 열어 바닥과 기준물을 검토했습니다. 새 모형이나 위치 좌표로 변형하지 않았습니다."
+      }
+    ]
+  },
+  {
+    "placeId": "leeungno",
+    "photos": [
+      {
+        "pointId": "route-v23-a-09",
+        "shortTitle": "입구로 착각하기 쉬운 외벽 옆 계단길",
+        "photo": {
+          "id": "leeungno-route-v23-a-09",
+          "image": "/modu50m/mobility-v23/leeungno-route-v23-a-09-a76cdbb1.jpg",
+          "sourceUrl": "https://bmh00.tistory.com/entry/대전-Part-1-1-이응노-미술관-로랑-보두앵Laurent-Beaudouin",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/cuEpSb/btrRozDttS7/AAAAAAAAAAAAAAAAAAAAAEpmVspWJ9DwVwNikASvSjnzaPWYtPZc__yW2_NeRhdg/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=NrPbybqvOR%2FFB2VDYNv490qSfaM%3D",
+          "provider": "public-mobility",
+          "providerLabel": "luj-jules · 직접 건축 방문기",
+          "attribution": "luj-jules · 직접 건축 방문기 · 출처 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2022-12-06",
+          "sourcePeriodLabel": "2022.12.06 게시 자료 · 촬영일 미상",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "a76cdbb18f287858c9022aefd7724af9b51de4b04648a1dda868fed01408fe6f",
+          "mobilityEvidence": true,
+          "scope": "이응노미술관 외벽 옆 계단길의 2022년 게시 사진입니다. 출처가 입구로 가는 길이 아니라고 명시한 위치이며 권장 이동 경로로 표시하지 않습니다."
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/leeungno-route-v23-a-09-a76cdbb1.jpg",
+          "photoId": "leeungno-route-v23-a-09",
+          "sourceSha256": "a76cdbb18f287858c9022aefd7724af9b51de4b04648a1dda868fed01408fe6f",
+          "kind": "segment",
+          "stage": "crossing",
+          "title": "입구로 착각하기 쉬운 외벽 옆 계단길",
+          "question": "이 통로가 실제 입구인지, 계단 없이 이어지는지 구분할 수 있나요?",
+          "observations": [
+            {
+              "label": "통로 중간 계단",
+              "detail": "건물 외벽과 벽돌 난간 사이 통로 앞에 여러 단의 계단이 보입니다."
+            },
+            {
+              "label": "출입문 여부",
+              "detail": "가까운 곳에 관람객 출입문은 보이지 않습니다. 사진 게시자는 이 길이 입구로 가는 길이 아니며 입구는 반대쪽이라고 설명합니다."
+            }
+          ],
+          "unknowns": [
+            "현재 안내 표지와 계단을 피하는 실제 통로",
+            "출처가 설명한 반대쪽 입구까지 바닥이 끊기지 않는지"
+          ],
+          "connection": "동일 방문기는 반대쪽으로 돌아가 실제 출입문을 찾았다고 설명합니다. 기존 research-a-01 앞마당과 research-a-02 출입문 사진의 출처와 같습니다. 전체 우회 경로의 턱과 폭은 미확인입니다.",
+          "scope": "이응노미술관 외벽 옆 계단길의 2022년 게시 사진입니다. 출처가 입구로 가는 길이 아니라고 명시한 위치이며 권장 이동 경로로 표시하지 않습니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 3024×4032. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2022.12.06 게시 자료 · 촬영일 미상"
+      }
+    ]
+  },
+  {
+    "placeId": "arboretum",
+    "photos": [
+      {
+        "pointId": "route-v23-a-08",
+        "shortTitle": "동원 화단 사이 곡선 산책길",
+        "photo": {
+          "id": "arboretum-route-v23-a-08",
+          "image": "/modu50m/mobility-v23/arboretum-route-v23-a-08-c21c408e.jpg",
+          "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+          "sourceImageUrl": "https://access.visitkorea.or.kr/bfvk_img/call?cmd=VIEW&id=7d8d42fc-d11a-428f-b4c1-f45290bb3f25&",
+          "provider": "public-mobility",
+          "providerLabel": "한국관광공사 열린관광",
+          "attribution": "한국관광공사 열린관광 · 출처 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2016-08-09",
+          "sourcePeriodLabel": "2016.08.09 게시 자료 · 촬영일 미상",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "c21c408ef954fe681b92746d93e13ba02dc8f712270a2212e76889d8b0352d17",
+          "mobilityEvidence": true,
+          "scope": "한밭수목원 동원 내부 곡선길의 2016년 게시 사진입니다. 과거 자료이며 현재 시설과 주차장부터의 연결을 확인한 사진이 아닙니다."
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/arboretum-route-v23-a-08-c21c408e.jpg",
+          "photoId": "arboretum-route-v23-a-08",
+          "sourceSha256": "c21c408ef954fe681b92746d93e13ba02dc8f712270a2212e76889d8b0352d17",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "동원 화단 사이 곡선 산책길",
+          "question": "굽은 길의 가장자리와 앞쪽 시야를 어떻게 살펴볼까요?",
+          "observations": [
+            {
+              "label": "곡선 포장길",
+              "detail": "밝은색 포장길이 화단 사이로 휘어져 이어집니다. 정확한 포장 재료와 기울기는 측정하지 않았습니다."
+            },
+            {
+              "label": "화단 경계",
+              "detail": "길 양옆에 낮은 울타리와 경계가 있습니다. 방문 당시 휠체어를 사용하는 사람이 보여도 현재 통행 가능 판정 근거로 사용하지 않습니다."
+            }
+          ],
+          "unknowns": [
+            "사진 속 동원 산책길의 정확한 지점과 입구에서의 연결",
+            "가장 좁은 폭·횡단경사·현재 포장 손상 여부"
+          ],
+          "connection": "2016년 공식 여행 기사의 한밭수목원 동원 장면입니다. 기존 2025년 주차장·벽돌길 사진과 이어진다고 가정하지 않습니다.",
+          "scope": "한밭수목원 동원 내부 곡선길의 2016년 게시 사진입니다. 과거 자료이며 현재 시설과 주차장부터의 연결을 확인한 사진이 아닙니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 700×466. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2016.08.09 게시 자료 · 촬영일 미상"
+      }
+    ]
+  },
+  {
+    "placeId": "oworld",
+    "photos": [
+      {
+        "pointId": "route-v23-a-06",
+        "shortTitle": "주출입구 매표소 옆 화장실 경사로",
+        "photo": {
+          "id": "oworld-route-v23-a-06",
+          "image": "/modu50m/mobility-v23/oworld-route-v23-a-06-2ea73a68.jpg",
+          "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119",
+          "sourceImageUrl": "https://access.visitkorea.or.kr/cos/imageLoad.do?cotId=6814a375-ed51-4a73-b84f-645e29518119&cmvSeq=2&imageNo=",
+          "provider": "public-mobility",
+          "providerLabel": "한국관광공사 열린관광",
+          "attribution": "한국관광공사 열린관광 · 출처 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": null,
+          "sourcePeriodLabel": "공식 접근성 사진 · 촬영일 미상",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "2ea73a686448b768898d17f3fc2a03fea82f35c6375b6264f95163a077aa2726",
+          "mobilityEvidence": true,
+          "scope": "대전오월드의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "sourceAssetPathPeriod": "2022-02-04",
+          "sourceAssetPathPeriodMeaning": "원본의 서버 파일 경로 날짜; 촬영일이나 게시일로 사용하지 않음"
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/oworld-route-v23-a-06-2ea73a68.jpg",
+          "photoId": "oworld-route-v23-a-06",
+          "sourceSha256": "2ea73a686448b768898d17f3fc2a03fea82f35c6375b6264f95163a077aa2726",
+          "kind": "segment",
+          "stage": "entrance",
+          "title": "주출입구 매표소 옆 화장실 경사로",
+          "question": "경사로 시작과 출입문 앞에서 바닥이 어떻게 이어지나요?",
+          "observations": [
+            {
+              "label": "경사로와 난간",
+              "detail": "왼쪽에 타일 경사로와 양쪽 손잡이가 보입니다. 아래쪽 보도와 경사로의 경계도 보입니다."
+            },
+            {
+              "label": "출입문 앞",
+              "detail": "경사로 옆에 낮은 계단과 점자블록이 있고 안쪽에 화장실 문들이 보입니다. 공원 주출입구 자체는 아닙니다."
+            }
+          ],
+          "unknowns": [
+            "현재 경사로 기울기·폭과 시작 턱 높이",
+            "매표소 앞 광장에서 이 화장실 경사로까지의 가까운 연결"
+          ],
+          "connection": "한국관광공사 공식 설명은 주출입구 매표소 옆 화장실로 특정합니다. 주출입구까지의 기본 동선과 구분하는 편의시설 사진입니다.",
+          "scope": "대전오월드의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 700×467. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 공식 접근성 사진 · 촬영일 미상"
+      },
+      {
+        "pointId": "route-v23-a-07",
+        "shortTitle": "주출입구 통과 뒤 대여소 앞 공간",
+        "photo": {
+          "id": "oworld-route-v23-a-07",
+          "image": "/modu50m/mobility-v23/oworld-route-v23-a-07-abff2de0.jpg",
+          "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6814a375-ed51-4a73-b84f-645e29518119",
+          "sourceImageUrl": "https://access.visitkorea.or.kr/cos/imageLoad.do?cotId=6814a375-ed51-4a73-b84f-645e29518119&cmvSeq=6&imageNo=",
+          "provider": "public-mobility",
+          "providerLabel": "한국관광공사 열린관광",
+          "attribution": "한국관광공사 열린관광 · 출처 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": null,
+          "sourcePeriodLabel": "공식 접근성 사진 · 촬영일 미상",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "abff2de04c93f25ab281cfc3ae2d3f091c5c8b616a565aee296350ed2cbe8008",
+          "mobilityEvidence": true,
+          "scope": "대전오월드의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "sourceAssetPathPeriod": "2022-02-04",
+          "sourceAssetPathPeriodMeaning": "원본의 서버 파일 경로 날짜; 촬영일이나 게시일로 사용하지 않음"
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/oworld-route-v23-a-07-abff2de0.jpg",
+          "photoId": "oworld-route-v23-a-07",
+          "sourceSha256": "abff2de04c93f25ab281cfc3ae2d3f091c5c8b616a565aee296350ed2cbe8008",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "주출입구 통과 뒤 대여소 앞 공간",
+          "question": "휠체어·유아차 대여소 앞 물건과 이동 공간은 어떻게 보이나요?",
+          "observations": [
+            {
+              "label": "대여소 표시",
+              "detail": "건물 위에 휠체어 대여소 등 편의시설 표지가 보입니다."
+            },
+            {
+              "label": "이동 공간의 물건",
+              "detail": "유아차가 앞쪽에 여러 줄로 놓여 있고 기둥과 수거함도 있습니다. 이 배치를 현재 상태로 단정하지 않습니다."
+            }
+          ],
+          "unknowns": [
+            "입장 게이트에서 대여소까지의 실제 바닥 연결",
+            "대여소 앞 최소 통과 폭과 현재 적치·운영 상태"
+          ],
+          "connection": "공식 출처는 주출입구를 지난 뒤 오른쪽 고객지원센터 1층의 대여소라고 설명합니다. 입장 전 안내소 사진과 같은 문으로 취급하지 않습니다.",
+          "scope": "대전오월드의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 700×467. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 공식 접근성 사진 · 촬영일 미상"
+      }
+    ]
+  },
+  {
+    "placeId": "ppuri",
+    "photos": [
+      {
+        "pointId": "route-v23-a-04",
+        "shortTitle": "만성교의 바닥과 양쪽 난간",
+        "photo": {
+          "id": "ppuri-route-v23-a-04",
+          "image": "/modu50m/mobility-v23/ppuri-route-v23-a-04-d1e5abe2.webp",
+          "sourceUrl": "https://white-circle.tistory.com/280",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/bvCzGW/btsEyavrRDk/AAAAAAAAAAAAAAAAAAAAANssg32QftMRt6OWEJGukC21rqXEfo08kEH0CEj6DNo4/img.webp?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=NETBstQCJCiENjuL3jtuQEPO6yI%3D",
+          "provider": "public-mobility",
+          "providerLabel": "하얀 동그라미 · 공개 방문기",
+          "attribution": "하얀 동그라미 · 공개 방문기 · 출처 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2024-02-06",
+          "sourcePeriodLabel": "2024.02.06 게시 자료 · 촬영일 미상",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "d1e5abe205ab4ffa37ef033d42d5d3fd94526076ce45e85722322be64c151809",
+          "mobilityEvidence": true,
+          "scope": "뿌리공원의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다."
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/ppuri-route-v23-a-04-d1e5abe2.webp",
+          "photoId": "ppuri-route-v23-a-04",
+          "sourceSha256": "d1e5abe205ab4ffa37ef033d42d5d3fd94526076ce45e85722322be64c151809",
+          "kind": "segment",
+          "stage": "crossing",
+          "title": "만성교의 바닥과 양쪽 난간",
+          "question": "다리 바닥의 틈과 난간 사이 공간은 어떻게 보이나요?",
+          "observations": [
+            {
+              "label": "다리 바닥",
+              "detail": "중앙에 격자 형태의 바닥이 길게 이어지고 양옆은 녹색으로 보입니다. 실제 틈 크기는 사진으로 측정하지 않았습니다."
+            },
+            {
+              "label": "양쪽 난간",
+              "detail": "양쪽에 난간이 이어집니다. 다리 양 끝에서 지면으로 이어지는 접점은 사진에 가깝게 담겨 있지 않습니다."
+            }
+          ],
+          "unknowns": [
+            "다리 양 끝 진입 턱과 연결부 기울기",
+            "격자 틈의 실제 크기·난간 사이 유효 폭·현재 다리 상태"
+          ],
+          "connection": "중구 공식 안내는 만성교를 건너면 공원 표석과 관광안내소가 이어진다고 설명합니다. 사진의 바라보는 방향과 촬영 위치는 측정하지 않았습니다.",
+          "scope": "뿌리공원의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 500×375. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2024.02.06 게시 자료 · 촬영일 미상"
+      },
+      {
+        "pointId": "route-v23-a-05",
+        "shortTitle": "뿌리공원 표석 앞 포장과 옆 계단",
+        "photo": {
+          "id": "ppuri-route-v23-a-05",
+          "image": "/modu50m/mobility-v23/ppuri-route-v23-a-05-23bb2fda.webp",
+          "sourceUrl": "https://white-circle.tistory.com/280",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/DjvBy/btsEx7Fuaob/AAAAAAAAAAAAAAAAAAAAALcQ6-NtCgxFH7NX0E-rEPJkHOHkU7G61JAWU98ZtjCM/img.webp?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=RVgNFb%2B7GyYZr0dKfG0X3%2BYCo5E%3D",
+          "provider": "public-mobility",
+          "providerLabel": "하얀 동그라미 · 공개 방문기",
+          "attribution": "하얀 동그라미 · 공개 방문기 · 출처 사진 원본",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": "2024-02-06",
+          "sourcePeriodLabel": "2024.02.06 게시 자료 · 촬영일 미상",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "23bb2fdab8d29a6f2afa5ebbc46e8789d520c728eb7ced4bb04bdede085c9865",
+          "mobilityEvidence": true,
+          "scope": "뿌리공원의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다."
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/ppuri-route-v23-a-05-23bb2fda.webp",
+          "photoId": "ppuri-route-v23-a-05",
+          "sourceSha256": "23bb2fdab8d29a6f2afa5ebbc46e8789d520c728eb7ced4bb04bdede085c9865",
+          "kind": "segment",
+          "stage": "entrance",
+          "title": "뿌리공원 표석 앞 포장과 옆 계단",
+          "question": "다리를 건넌 뒤 공원 표석과 계단 옆 바닥을 찾을 수 있나요?",
+          "observations": [
+            {
+              "label": "공원 표석",
+              "detail": "뿌리공원 이름이 새겨진 돌이 보입니다. 중구 공식 안내는 이 표석을 만성교를 통과한 뒤 만나는 표식으로 설명합니다."
+            },
+            {
+              "label": "옆 계단과 포장",
+              "detail": "사진 왼쪽에 계단이 있고 앞쪽에는 붉은색과 회색 포장이 보입니다. 계단을 피하는 구체적인 통로는 이 사진 밖입니다."
+            }
+          ],
+          "unknowns": [
+            "만성교 끝에서 표석 앞까지의 가까운 바닥 연결",
+            "관광안내소의 계단 없는 출입문 위치와 실제 문턱"
+          ],
+          "connection": "만성교 뒤 공원 표석이라는 공식 시설 설명에 대응합니다. 표석 장면을 관광안내소 출입문 사진으로 표시하지 않습니다.",
+          "scope": "뿌리공원의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 500×375. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2024.02.06 게시 자료 · 촬영일 미상"
+      }
+    ]
+  },
+  {
+    "placeId": "jangtaesan",
+    "photos": [
+      {
+        "pointId": "route-v23-a-01",
+        "shortTitle": "돌아가는 방향 정류장과 도로 가장자리",
+        "photo": {
+          "id": "jangtaesan-route-v23-a-01",
+          "image": "/modu50m/mobility-v23/jangtaesan-route-v23-a-01-3de1682a.jpg",
+          "sourceUrl": "https://countrysidebus.tistory.com/476",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/bL1BHk/dJMcaaDJz5s/AAAAAAAAAAAAAAAAAAAAAC_gHMDrwwpLM2y5he_KnbuTWHYUAPoA1HcgyiJgQU_Y/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=FLVqyQzzShAyNMTdbO4TFRLsBj0%3D",
+          "provider": "public-mobility",
+          "providerLabel": "회관앞 느티나무 · 직접 방문기",
+          "attribution": "회관앞 느티나무 · 직접 방문기 · 출처 사진 원본",
+          "captureDate": "2024-06-02",
+          "captureDatePrecision": "day",
+          "sourcePublishedAt": "2025-11-28",
+          "sourcePeriodLabel": "2024.06.02 촬영(EXIF·방문기) · 2025.11.28 게시",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "3de1682ab293fd87040200af963e7adbf8170f722b6c71c44c612d8118b6f0fa",
+          "mobilityEvidence": true,
+          "scope": "장태산자연휴양림의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "captureDateEvidence": "EXIF DateTimeOriginal 2024:06:02 18:44:28 및 본문 방문일 2024.06.02"
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/jangtaesan-route-v23-a-01-3de1682a.jpg",
+          "photoId": "jangtaesan-route-v23-a-01",
+          "sourceSha256": "3de1682ab293fd87040200af963e7adbf8170f722b6c71c44c612d8118b6f0fa",
+          "kind": "segment",
+          "stage": "arrival",
+          "title": "돌아가는 방향 정류장과 도로 가장자리",
+          "question": "정류장 대기 공간과 차량이 다니는 면 사이에 어떤 경계가 보이나요?",
+          "observations": [
+            {
+              "label": "정류장 이름",
+              "detail": "지붕에 장태산자연휴양림 정류장 이름이 보입니다. 방문기는 이 장면을 흑석네거리 쪽으로 돌아가는 정류장으로 설명합니다."
+            },
+            {
+              "label": "보호봉과 대기 공간",
+              "detail": "벤치 양쪽에 보호봉이 있고 대기 공간 바로 앞에 도로가 있습니다. 사진 밖의 연속 보도는 확인할 수 없습니다."
+            }
+          ],
+          "unknowns": [
+            "방문할 때 내리는 정류장의 방향과 이 승강장이 같은지",
+            "버스 경사판을 펼칠 공간과 도로에서 벗어나는 실제 접점"
+          ],
+          "connection": "같은 방문기에 입구와 숲길 사진이 있습니다. 이 사진은 귀가 방향 승강장이므로 도착 승강장으로 대체하지 않습니다.",
+          "scope": "장태산자연휴양림의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 4032×2268. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2024.06.02 촬영(EXIF·방문기) · 2025.11.28 게시"
+      },
+      {
+        "pointId": "route-v23-a-02",
+        "shortTitle": "입구 옆 주차장·야영장 갈림 표지",
+        "photo": {
+          "id": "jangtaesan-route-v23-a-02",
+          "image": "/modu50m/mobility-v23/jangtaesan-route-v23-a-02-6f9fbc2c.jpg",
+          "sourceUrl": "https://countrysidebus.tistory.com/476",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/z6p8T/dJMcadf6XF7/AAAAAAAAAAAAAAAAAAAAAGPMgiU3A1vrYhQ4T-D_7NBncwhrdcpw9eslJwSxtTzP/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=o%2BiE20MUsHIbV9Gr6U3DnSCbDTY%3D",
+          "provider": "public-mobility",
+          "providerLabel": "회관앞 느티나무 · 직접 방문기",
+          "attribution": "회관앞 느티나무 · 직접 방문기 · 출처 사진 원본",
+          "captureDate": "2024-06-02",
+          "captureDatePrecision": "day",
+          "sourcePublishedAt": "2025-11-28",
+          "sourcePeriodLabel": "2024.06.02 촬영(EXIF·방문기) · 2025.11.28 게시",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "6f9fbc2c47002bce0349f7c75e20c59f4cb418be25403854540d0be7a06e3599",
+          "mobilityEvidence": true,
+          "scope": "장태산자연휴양림의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "captureDateEvidence": "EXIF DateTimeOriginal 2024:06:02 16:58:17 및 본문 방문일 2024.06.02"
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/jangtaesan-route-v23-a-02-6f9fbc2c.jpg",
+          "photoId": "jangtaesan-route-v23-a-02",
+          "sourceSha256": "6f9fbc2c47002bce0349f7c75e20c59f4cb418be25403854540d0be7a06e3599",
+          "kind": "segment",
+          "stage": "crossing",
+          "title": "입구 옆 주차장·야영장 갈림 표지",
+          "question": "숲 입구와 차량용 주차장·야영장 길을 구분할 수 있나요?",
+          "observations": [
+            {
+              "label": "갈림 표지",
+              "detail": "장태산자연휴양림 표지와 주차장·야영장 방향 안내가 함께 있습니다. 차량 방향을 휠체어 보행 경로로 해석하지 않습니다."
+            },
+            {
+              "label": "도로 가장자리",
+              "detail": "포장 도로 옆에 흙과 돌, 나무, 주차금지 표지가 보입니다. 보도 진입 턱을 잇는 가까운 장면은 없습니다."
+            }
+          ],
+          "unknowns": [
+            "정류장에서 이 표지까지 차도를 피하는 실제 연결",
+            "표지에서 휴양림 보행 입구까지의 턱·폭·횡단 위치"
+          ],
+          "connection": "2024.06.02 방문기는 하차 후 입구 주변을 살펴보고 휴양림 초입으로 들어간 흐름을 기록합니다. 보행 접점의 연속 촬영은 없습니다.",
+          "scope": "장태산자연휴양림의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 4032×2268. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2024.06.02 촬영(EXIF·방문기) · 2025.11.28 게시"
+      },
+      {
+        "pointId": "route-v23-a-03",
+        "shortTitle": "휴양림 초입 포장길과 갈림부",
+        "photo": {
+          "id": "jangtaesan-route-v23-a-03",
+          "image": "/modu50m/mobility-v23/jangtaesan-route-v23-a-03-b5b178bd.jpg",
+          "sourceUrl": "https://countrysidebus.tistory.com/476",
+          "sourceImageUrl": "https://blog.kakaocdn.net/dna/0FGgn/dJMcaaRhggf/AAAAAAAAAAAAAAAAAAAAAFrxhJjKfg8zMmNUh5JYZnAvx6qgZaPWXo8G4kOez7ro/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=k8wvoB4ggDv3OMH3oltCUrl%2Bdng%3D",
+          "provider": "public-mobility",
+          "providerLabel": "회관앞 느티나무 · 직접 방문기",
+          "attribution": "회관앞 느티나무 · 직접 방문기 · 출처 사진 원본",
+          "captureDate": "2024-06-02",
+          "captureDatePrecision": "day",
+          "sourcePublishedAt": "2025-11-28",
+          "sourcePeriodLabel": "2024.06.02 촬영(EXIF·방문기) · 2025.11.28 게시",
+          "retrievedAt": "2026-09-23T12:16:51.700745+00:00",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "b5b178bdf17fbd7930893e170d0474d3bfb01fc016e91554fb063e6342f3ddad",
+          "mobilityEvidence": true,
+          "scope": "장태산자연휴양림의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "captureDateEvidence": "EXIF DateTimeOriginal 2024:06:02 17:00:29 및 본문 방문일 2024.06.02"
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/jangtaesan-route-v23-a-03-b5b178bd.jpg",
+          "photoId": "jangtaesan-route-v23-a-03",
+          "sourceSha256": "b5b178bdf17fbd7930893e170d0474d3bfb01fc016e91554fb063e6342f3ddad",
+          "kind": "segment",
+          "stage": "entrance",
+          "title": "휴양림 초입 포장길과 갈림부",
+          "question": "초입 길에서 나무·벤치 옆 공간과 앞쪽 갈림을 어떻게 살펴볼까요?",
+          "observations": [
+            {
+              "label": "포장길",
+              "detail": "가운데에 포장된 길이 이어지고 양쪽에 나무와 흙바닥이 보입니다."
+            },
+            {
+              "label": "갈림과 시설",
+              "detail": "앞쪽에서 길이 나뉘며 오른쪽에 벤치와 안내 시설이 있습니다. 사진 밖 목적지까지의 연결은 보이지 않습니다."
+            }
+          ],
+          "unknowns": [
+            "입구 도로에서 이 포장길 시작까지의 경계와 높이 차",
+            "갈림 이후 선택할 길의 실제 폭·기울기와 현재 통제 상태"
+          ],
+          "connection": "같은 방문기의 휴양림 초입 장면입니다. 입구 옆 갈림 표지에서 이곳까지의 이동 과정이 언급되지만 모든 바닥 접점이 촬영되지는 않았습니다.",
+          "scope": "장태산자연휴양림의 사진에 보이는 구간입니다. 촬영 좌표와 치수는 측정하지 않았으며 현재 통행 가능 여부는 확인 전입니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "원본 개별 view_image 검토 완료. 4032×2268. 원본 바이트와 SHA-256 보존. 미측정 장애물 마커 없음. 2024.06.02 촬영(EXIF·방문기) · 2025.11.28 게시"
+      }
+    ]
+  },
+  {
+    "placeId": "dunsanlib",
+    "photos": [
+      {
+        "pointId": "route-v23-b-01",
+        "shortTitle": "장애인 주차구역 승하차 공간",
+        "localPath": "C:\\Users\\pjmin\\Documents\\카카오톡 받은 파일\\태윤_코드페어_프로젝트\\public\\mobility-v23\\dunsanlib-route-v23-b-01-6ec54da7.jpg",
+        "photo": {
+          "id": "dunsanlib-route-v23-b-01",
+          "image": "/modu50m/mobility-v23/dunsanlib-route-v23-b-01-6ec54da7.jpg",
+          "sourceUrl": "https://we-map.kr/service/map/359",
+          "sourceImageUrl": "https://wemap-upload.s3.amazonaws.com/places/1717551238755/1717565193232_E1255955-3ED2-4573-9461-62F1093F1253.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "위맵 · 둔산도서관 공개 장소 기록",
+          "attribution": "위맵 · 둔산도서관 공개 사진 · 촬영자 표시 없음",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "sourcePublishedAt": null,
+          "sourcePeriodLabel": "촬영일·게시일 미상 · 2026-09-23 확인",
+          "retrievedAt": "2026-09-23T12:13:05.698271+00:00",
+          "sourceSha256": "6ec54da76a110638ad5b1392db45f3adc7a9bc54a9b3be37d8971195d38c465a",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "mobilityEvidence": true,
+          "captureMethod": "public-source-photo-unmodified",
+          "scope": "둔산도서관의 공개 장소 기록에 등록된 장애인 주차구역입니다. 내릴 공간의 바닥과 표시만 보이며 주차장에서 승강기·출입문까지 연결은 보이지 않습니다."
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/dunsanlib-route-v23-b-01-6ec54da7.jpg",
+          "photoId": "dunsanlib-route-v23-b-01",
+          "sourceSha256": "6ec54da76a110638ad5b1392db45f3adc7a9bc54a9b3be37d8971195d38c465a",
+          "kind": "segment",
+          "stage": "arrival",
+          "title": "장애인 주차구역에서 내릴 공간",
+          "question": "차 옆의 사선 구역과 바퀴 멈춤턱 주변에 내릴 공간이 있나요?",
+          "observations": [
+            {
+              "label": "파란 승하차 구역",
+              "detail": "휠체어 표시 주차면 옆에 파란 사선 표시가 있고, 왼쪽 바닥 가장자리에는 배수로가 보입니다."
+            },
+            {
+              "label": "차 뒤쪽 물품",
+              "detail": "벽 쪽에 주차 스토퍼, 카트, 봉투와 고깔이 보입니다. 문으로 이어지는 보행 통로는 사진 밖입니다."
+            }
+          ],
+          "unknowns": [
+            "주차면에서 승강기·보행 출입문까지 이어지는 통로",
+            "현재 물품 배치와 실제 승하차 폭"
+          ],
+          "connection": "주차구역 한 장면입니다. 현장 이용 확인 및 다음 사진과의 연속 연결을 확인하지 않았습니다.",
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "750×1000 원본 전체를 직접 열어 바닥·장애인 주차 표식·카트·주차 스토퍼를 확인함. 기존 184장 원본의 SHA-256과 중복 없음. 촬영자와 촬영일 미상. 위맵의 통행 가능 표시는 현장 검증으로 채택하지 않음."
+      }
+    ]
+  },
+  {
+    "placeId": "subway",
+    "photos": [
+      {
+        "pointId": "route-v23-c-01",
+        "shortTitle": "2번 출구 옆 보도와 차량 진출입 접점",
+        "photo": {
+          "id": "subway-v23-route-v23-c-01",
+          "image": "/modu50m/mobility-v23/subway-route-c-01-8bd0e7a3.png",
+          "sourceUrl": "https://www.djtc.kr/stationVR/111-vtour/tour.html",
+          "sourceImageUrl": "https://www.djtc.kr/stationVR/111-vtour/panos/111A02.tiles/l/l1/1/l1_l_1_1.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "대전교통공사 공식 스테이션뷰",
+          "attribution": "대전교통공사 공식 스테이션뷰 · 공식 타일 무보정 결합",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": null,
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "official-cube-face-tile-assembly",
+          "sourceSha256": "8bd0e7a346c7dc0b642704d6fe046406335b75eba8355ba7d4783c86e9d23c93",
+          "mobilityEvidence": true,
+          "scope": "시청역 공식 스테이션뷰 111A02 촬영 지점의 보도·진출입로. 8번 계단 출입구 사진과 구분합니다.",
+          "sourcePeriodLabel": "2021년 공식 스테이션뷰 · 현재 상태 확인 전",
+          "sourceSceneId": "111A02",
+          "sourceCubeFace": "l",
+          "sourceImageUrlMeaning": "첫 원본 타일 URL. 완성 면의 구성 원본 4개는 imageSourceAssets에 모두 기록.",
+          "imageSourceAssets": [
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\subway-subway-111A02-l-1-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/111-vtour/panos/111A02.tiles/l/l1/1/l1_l_1_1.jpg",
+              "sha256": "8cf66f7ef5741718eeb012799b4f7335bbd145ed0a32dad32c42d52602d3a36d",
+              "pixelPlacement": [
+                0,
+                0,
+                512,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\subway-subway-111A02-l-1-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/111-vtour/panos/111A02.tiles/l/l1/1/l1_l_1_2.jpg",
+              "sha256": "4d5d6e5b3308e5e50b8527bbf56aeaf95118122af90024ee37ba7c88c9e50350",
+              "pixelPlacement": [
+                512,
+                0,
+                1024,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\subway-subway-111A02-l-2-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/111-vtour/panos/111A02.tiles/l/l1/2/l1_l_2_1.jpg",
+              "sha256": "0d18fc50b295bf65f968b80e4d823f9b380e25708948e150d196b46ab664745d",
+              "pixelPlacement": [
+                0,
+                512,
+                512,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\subway-subway-111A02-l-2-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/111-vtour/panos/111A02.tiles/l/l1/2/l1_l_2_2.jpg",
+              "sha256": "cb4b93229be44252675990b59951c005cfc6a9b33983dc6dd600c510f5224468",
+              "pixelPlacement": [
+                512,
+                512,
+                1024,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            }
+          ],
+          "assembly": {
+            "operation": "place 2x2 source tiles without resizing, projection, retouching or generative edits",
+            "outputSize": [
+              1024,
+              1024
+            ]
+          }
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/subway-route-c-01-8bd0e7a3.png",
+          "photoId": "subway-v23-route-v23-c-01",
+          "sourceSha256": "8bd0e7a346c7dc0b642704d6fe046406335b75eba8355ba7d4783c86e9d23c93",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "2번 출구 옆 보도와 차량 진출입 접점",
+          "question": "화분과 가로수 사이를 지난 뒤 차량 진출입 부분에서 어떤 바닥 경계를 만나나요?",
+          "observations": [
+            {
+              "label": "보도 위 물체",
+              "detail": "노란 점자블록 주변에 큰 화분과 가로수가 놓여 있습니다."
+            },
+            {
+              "label": "차량 진출입 접점",
+              "detail": "앞쪽 진출입로에 흰 횡단 표시와 출입 관리 시설이 보입니다."
+            }
+          ],
+          "unknowns": [
+            "화분과 나무 사이의 실제 통과 폭·보도 경계 높이",
+            "이 지점에서 2번 출구 근처 지상 승강기 문까지 이어지는 전 구간"
+          ],
+          "connection": "시청역 공식 스테이션뷰 111A02 촬영 지점의 보도·진출입로. 8번 계단 출입구 사진과 구분합니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 공식 큐브 면 타일의 픽셀을 그대로 결합했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\subway-route-c-01-8bd0e7a3.png"
+      }
+    ]
+  },
+  {
+    "placeId": "govstation",
+    "photos": [
+      {
+        "pointId": "route-v23-c-02",
+        "shortTitle": "4번 출구 옆 버스 대기 쉼터",
+        "photo": {
+          "id": "govstation-v23-route-v23-c-02",
+          "image": "/modu50m/mobility-v23/govstation-route-c-02-52d798b9.png",
+          "sourceUrl": "https://www.djtc.kr/stationVR/112-vtour/tour.html",
+          "sourceImageUrl": "https://www.djtc.kr/stationVR/112-vtour/panos/112A04.tiles/f/l1/1/l1_f_1_1.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "대전교통공사 공식 스테이션뷰",
+          "attribution": "대전교통공사 공식 스테이션뷰 · 공식 타일 무보정 결합",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": null,
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "official-cube-face-tile-assembly",
+          "sourceSha256": "52d798b9559cca652b3af77ee26bad900f43bfbae91e4a80882ead9177d42eea",
+          "mobilityEvidence": true,
+          "scope": "정부청사역 4번 출구 옆 쉼터의 실제 장면. 정부청사 시외버스 정류소와 다른 장소입니다.",
+          "sourcePeriodLabel": "2021년 공식 스테이션뷰 · 현재 상태 확인 전",
+          "sourceSceneId": "112A04",
+          "sourceCubeFace": "f",
+          "sourceImageUrlMeaning": "첫 원본 타일 URL. 완성 면의 구성 원본 4개는 imageSourceAssets에 모두 기록.",
+          "imageSourceAssets": [
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A04-f-1-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A04.tiles/f/l1/1/l1_f_1_1.jpg",
+              "sha256": "5e2075e95109de24af02b6549dbc660f658d01e1245cb99766ea0f12aa9c6a26",
+              "pixelPlacement": [
+                0,
+                0,
+                512,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A04-f-1-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A04.tiles/f/l1/1/l1_f_1_2.jpg",
+              "sha256": "0ecdfb3456076b026d6a8c748cb0842a10abccacd78d453681d7b20859bccd22",
+              "pixelPlacement": [
+                512,
+                0,
+                1024,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A04-f-2-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A04.tiles/f/l1/2/l1_f_2_1.jpg",
+              "sha256": "57f7cb2320aa5b76f515a72b7c5d6bd663f82899c2bfc01f8e517f9470dad385",
+              "pixelPlacement": [
+                0,
+                512,
+                512,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A04-f-2-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A04.tiles/f/l1/2/l1_f_2_2.jpg",
+              "sha256": "b04925ddebc175f17528917d9bdc5ad965a3a4b73998ce54f308fbbb832aadad",
+              "pixelPlacement": [
+                512,
+                512,
+                1024,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            }
+          ],
+          "assembly": {
+            "operation": "place 2x2 source tiles without resizing, projection, retouching or generative edits",
+            "outputSize": [
+              1024,
+              1024
+            ]
+          }
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/govstation-route-c-02-52d798b9.png",
+          "photoId": "govstation-v23-route-v23-c-02",
+          "sourceSha256": "52d798b9559cca652b3af77ee26bad900f43bfbae91e4a80882ead9177d42eea",
+          "kind": "segment",
+          "stage": "arrival",
+          "title": "4번 출구 옆 버스 대기 쉼터",
+          "question": "버스에서 내리는 위치와 쉼터 앞 통행 공간이 어떻게 만나는지 확인할 수 있나요?",
+          "observations": [
+            {
+              "label": "출구와 쉼터",
+              "detail": "4번 출구 표지 옆으로 유리 벽의 버스 대기 쉼터가 보입니다."
+            },
+            {
+              "label": "바닥의 물건",
+              "detail": "쉼터와 가로수 주변에 사람·짐·봉투가 있어 사진 당시 통행 공간을 나눕니다."
+            }
+          ],
+          "unknowns": [
+            "정류장 번호·운행 방향과 실제 저상버스 하차 위치",
+            "하차 턱 낮춤과 3·4번 사이 승강기까지의 연속 보도"
+          ],
+          "connection": "정부청사역 4번 출구 옆 쉼터의 실제 장면. 정부청사 시외버스 정류소와 다른 장소입니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 공식 큐브 면 타일의 픽셀을 그대로 결합했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\govstation-route-c-02-52d798b9.png"
+      },
+      {
+        "pointId": "route-v23-c-03",
+        "shortTitle": "3번 출구 옆 자전거 거치대와 보도",
+        "photo": {
+          "id": "govstation-v23-route-v23-c-03",
+          "image": "/modu50m/mobility-v23/govstation-route-c-03-3f2b3887.png",
+          "sourceUrl": "https://www.djtc.kr/stationVR/112-vtour/tour.html",
+          "sourceImageUrl": "https://www.djtc.kr/stationVR/112-vtour/panos/112A03.tiles/r/l1/1/l1_r_1_1.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "대전교통공사 공식 스테이션뷰",
+          "attribution": "대전교통공사 공식 스테이션뷰 · 공식 타일 무보정 결합",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": null,
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "official-cube-face-tile-assembly",
+          "sourceSha256": "3f2b3887a393209e2148ed2f0e8812c54d1710cc1b59b1289a1e0f936c0b5c3c",
+          "mobilityEvidence": true,
+          "scope": "정부청사역 공식 스테이션뷰 112A03 보도. 112A04 쉼터와 다른 촬영 지점이며 두 사진 사이를 실측하지 않았습니다.",
+          "sourcePeriodLabel": "2021년 공식 스테이션뷰 · 현재 상태 확인 전",
+          "sourceSceneId": "112A03",
+          "sourceCubeFace": "r",
+          "sourceImageUrlMeaning": "첫 원본 타일 URL. 완성 면의 구성 원본 4개는 imageSourceAssets에 모두 기록.",
+          "imageSourceAssets": [
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A03-r-1-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A03.tiles/r/l1/1/l1_r_1_1.jpg",
+              "sha256": "24adb978331f4e228aff9b716885ba092593659767eb62e590dc358b1581aa4c",
+              "pixelPlacement": [
+                0,
+                0,
+                512,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A03-r-1-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A03.tiles/r/l1/1/l1_r_1_2.jpg",
+              "sha256": "3ed37b970d4b4b229ff9eb379b25cd0892acff10211870df3fff4ef0fef81c53",
+              "pixelPlacement": [
+                512,
+                0,
+                1024,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A03-r-2-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A03.tiles/r/l1/2/l1_r_2_1.jpg",
+              "sha256": "3c0fa49b3bf983ecd93f0bc3e25bc8d0f45328aa076edbe9e30b7ffc0d1e18cd",
+              "pixelPlacement": [
+                0,
+                512,
+                512,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\govstation-gov-112A03-r-2-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/112-vtour/panos/112A03.tiles/r/l1/2/l1_r_2_2.jpg",
+              "sha256": "671a5f33fe214f805f530d6f696d800b237b6ccf306ded1065a4ac3172442afd",
+              "pixelPlacement": [
+                512,
+                512,
+                1024,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            }
+          ],
+          "assembly": {
+            "operation": "place 2x2 source tiles without resizing, projection, retouching or generative edits",
+            "outputSize": [
+              1024,
+              1024
+            ]
+          }
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/govstation-route-c-03-3f2b3887.png",
+          "photoId": "govstation-v23-route-v23-c-03",
+          "sourceSha256": "3f2b3887a393209e2148ed2f0e8812c54d1710cc1b59b1289a1e0f936c0b5c3c",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "3번 출구 옆 자전거 거치대와 보도",
+          "question": "가로수와 자전거 거치대 옆으로 남는 보도와 앞쪽 시설을 살펴보세요.",
+          "observations": [
+            {
+              "label": "자전거 거치대",
+              "detail": "덮개가 있는 자전거 거치대가 보도 한쪽에 놓여 있습니다."
+            },
+            {
+              "label": "가로수와 보도",
+              "detail": "가로수와 점자블록이 이어지고 앞쪽에 회색 석재 시설이 보입니다."
+            }
+          ],
+          "unknowns": [
+            "쉼터 사진 지점에서 이 지점까지의 정확한 이동 순서·턱",
+            "회색 시설 주변에서 승강기 문 앞까지의 통과 폭과 경사"
+          ],
+          "connection": "정부청사역 공식 스테이션뷰 112A03 보도. 112A04 쉼터와 다른 촬영 지점이며 두 사진 사이를 실측하지 않았습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 공식 큐브 면 타일의 픽셀을 그대로 결합했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\govstation-route-c-03-3f2b3887.png"
+      }
+    ]
+  },
+  {
+    "placeId": "station",
+    "photos": [
+      {
+        "pointId": "route-v23-c-04",
+        "shortTitle": "도시철도 출입구 앞 차량 공간과 승강기",
+        "photo": {
+          "id": "station-v23-route-v23-c-04",
+          "image": "/modu50m/mobility-v23/station-route-c-04-5c1c40f0.png",
+          "sourceUrl": "https://www.djtc.kr/stationVR/104-vtour/tour.html",
+          "sourceImageUrl": "https://www.djtc.kr/stationVR/104-vtour/panos/104A03.tiles/f/l1/1/l1_f_1_1.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "대전교통공사 공식 스테이션뷰",
+          "attribution": "대전교통공사 공식 스테이션뷰 · 공식 타일 무보정 결합",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": null,
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "official-cube-face-tile-assembly",
+          "sourceSha256": "5c1c40f094a426f9ab85c2d9e68b7be6faa6ad2a864095d2106f0a68627ac044",
+          "mobilityEvidence": true,
+          "scope": "도시철도 1호선 대전역 스테이션뷰 104A03. KTX 역사 입구나 KTX에서 도시철도로 이어지는 환승 경로를 뜻하지 않습니다.",
+          "sourcePeriodLabel": "2021년 공식 스테이션뷰 · 현재 상태 확인 전",
+          "sourceSceneId": "104A03",
+          "sourceCubeFace": "f",
+          "sourceImageUrlMeaning": "첫 원본 타일 URL. 완성 면의 구성 원본 4개는 imageSourceAssets에 모두 기록.",
+          "imageSourceAssets": [
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\station-station-104A03-f-1-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/104-vtour/panos/104A03.tiles/f/l1/1/l1_f_1_1.jpg",
+              "sha256": "a7d2618c1869f56e0929dfa3cabe28c3781c8d02fbf15a66319c38a399d53d2f",
+              "pixelPlacement": [
+                0,
+                0,
+                512,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\station-station-104A03-f-1-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/104-vtour/panos/104A03.tiles/f/l1/1/l1_f_1_2.jpg",
+              "sha256": "19e952c208a450c824522f6b5a5c2edea84d790ea8c6d0dee5bb87fc31fc5af2",
+              "pixelPlacement": [
+                512,
+                0,
+                1024,
+                512
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\station-station-104A03-f-2-1.jpg",
+              "url": "https://www.djtc.kr/stationVR/104-vtour/panos/104A03.tiles/f/l1/2/l1_f_2_1.jpg",
+              "sha256": "233b2c0211a6b5f2ad68b0551b8cc849821765f2034077e83499ac82dd22dc54",
+              "pixelPlacement": [
+                0,
+                512,
+                512,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            },
+            {
+              "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\source-tiles\\station-station-104A03-f-2-2.jpg",
+              "url": "https://www.djtc.kr/stationVR/104-vtour/panos/104A03.tiles/f/l1/2/l1_f_2_2.jpg",
+              "sha256": "955d4da7123afd5dbcecc230eca49f246120ba287f853cb27e4a80a2b27e8589",
+              "pixelPlacement": [
+                512,
+                512,
+                1024,
+                1024
+              ],
+              "sourceTileSize": [
+                512,
+                512
+              ]
+            }
+          ],
+          "assembly": {
+            "operation": "place 2x2 source tiles without resizing, projection, retouching or generative edits",
+            "outputSize": [
+              1024,
+              1024
+            ]
+          }
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/station-route-c-04-5c1c40f0.png",
+          "photoId": "station-v23-route-v23-c-04",
+          "sourceSha256": "5c1c40f094a426f9ab85c2d9e68b7be6faa6ad2a864095d2106f0a68627ac044",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "도시철도 출입구 앞 차량 공간과 승강기",
+          "question": "차량과 난간을 지나 승강기로 가려면 어느 보도 접점을 확인해야 하나요?",
+          "observations": [
+            {
+              "label": "차량과 경계 시설",
+              "detail": "광장 쪽에 차량과 보행자 난간·기둥이 보입니다."
+            },
+            {
+              "label": "승강기 구조물",
+              "detail": "오른쪽 뒤편에 유리 승강기 구조물이 보여 다음에 찾을 시설의 형태를 살필 수 있습니다."
+            }
+          ],
+          "unknowns": [
+            "차량 공간을 피하는 보도 접점과 현재 출구 번호",
+            "이 촬영 지점에서 승강기 문까지의 끊김 없는 연결"
+          ],
+          "connection": "도시철도 1호선 대전역 스테이션뷰 104A03. KTX 역사 입구나 KTX에서 도시철도로 이어지는 환승 경로를 뜻하지 않습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 공식 큐브 면 타일의 픽셀을 그대로 결합했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\station-route-c-04-5c1c40f0.png"
+      }
+    ]
+  },
+  {
+    "placeId": "seodaejeon",
+    "photos": [
+      {
+        "pointId": "route-v23-c-05",
+        "shortTitle": "정면 광장부터 덮개 아래 역사 문까지",
+        "photo": {
+          "id": "seodaejeon-v23-route-v23-c-05",
+          "image": "/modu50m/mobility-v23/seodaejeon-route-c-05-60e6e3a4.jpg",
+          "sourceUrl": "https://photo.daejeon.go.kr/prog/photodb/74364/view.do?downloadType=photo&cateNo=50",
+          "sourceImageUrl": "https://photo.daejeon.go.kr/thumbnail/202606/1024_PDB_202607151002398313.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "대전광역시 사진기록관",
+          "attribution": "대전광역시 사진기록관 · 공개 제공 사진 그대로",
+          "captureDate": "2026-06-29",
+          "captureDatePrecision": "day",
+          "publicationDate": "2026-07-15",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "60e6e3a40f3bbfed078661282259b81091f502efd2251d5ae9ffb680c61b18e6",
+          "mobilityEvidence": true,
+          "scope": "서대전역 정면 광장과 공용 역사 출입문이 한 사진에 보이는 구간. 플랫폼·선로 사진을 접근 사진으로 사용하지 않았습니다.",
+          "sourcePeriodLabel": "2026-06-29 촬영 · 2026-07-15 게시",
+          "licenseLabel": "공공누리 제1유형 · 출처 표시",
+          "originalBytesPreserved": true
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/seodaejeon-route-c-05-60e6e3a4.jpg",
+          "photoId": "seodaejeon-v23-route-v23-c-05",
+          "sourceSha256": "60e6e3a40f3bbfed078661282259b81091f502efd2251d5ae9ffb680c61b18e6",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "정면 광장부터 덮개 아래 역사 문까지",
+          "question": "광장 바닥에서 덮개 아래 문으로 갈 때 화단과 기둥 사이 공간이 어떻게 이어지나요?",
+          "observations": [
+            {
+              "label": "광장 바닥",
+              "detail": "넓은 포장면과 노란 점자블록이 역사 정면을 향해 이어집니다."
+            },
+            {
+              "label": "입구 표식",
+              "detail": "곡선 덮개 아래에 역사 출입문이 있고 양옆에 화단·기둥·차량이 보입니다."
+            }
+          ],
+          "unknowns": [
+            "버스·택시 하차 위치에서 사진의 광장까지 오는 구간",
+            "출입문 바로 앞 턱 높이·자동문 작동·실제 통과 폭"
+          ],
+          "connection": "서대전역 정면 광장과 공용 역사 출입문이 한 사진에 보이는 구간. 플랫폼·선로 사진을 접근 사진으로 사용하지 않았습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 출처가 공개 제공하는 이미지 바이트·워터마크를 유지했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\seodaejeon-route-c-05-60e6e3a4.jpg"
+      }
+    ]
+  },
+  {
+    "placeId": "terminal",
+    "photos": [
+      {
+        "pointId": "route-v23-c-06",
+        "shortTitle": "터미널 앞 보도와 조형물 광장 경계",
+        "photo": {
+          "id": "terminal-v23-route-v23-c-06",
+          "image": "/modu50m/mobility-v23/terminal-route-c-06-e8fd2ace.jpg",
+          "sourceUrl": "https://photo.daejeon.go.kr/prog/photodb/74299/view.do?downloadType=photo&cateNo=50",
+          "sourceImageUrl": "https://photo.daejeon.go.kr/thumbnail/202601/1024_PDB_2026022407075762115.jpg",
+          "provider": "public-mobility",
+          "providerLabel": "대전광역시 사진기록관",
+          "attribution": "대전광역시 사진기록관 · 공개 제공 사진 그대로",
+          "captureDate": "2026-01-22",
+          "captureDatePrecision": "day",
+          "publicationDate": "2026-02-24",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "e8fd2ace96e6116ffb09808d3d601ec3bf0511f73d92b6095c6d0ca34522e6c2",
+          "mobilityEvidence": true,
+          "scope": "대전복합터미널 앞 조형물 광장의 보도 접점. 전경의 유리 시설을 서관 승차장 출입문으로 단정하지 않습니다.",
+          "sourcePeriodLabel": "2026-01-22 촬영 · 2026-02-24 게시",
+          "licenseLabel": "공공누리 제1유형 · 출처 표시",
+          "originalBytesPreserved": true
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/terminal-route-c-06-e8fd2ace.jpg",
+          "photoId": "terminal-v23-route-v23-c-06",
+          "sourceSha256": "e8fd2ace96e6116ffb09808d3d601ec3bf0511f73d92b6095c6d0ca34522e6c2",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "터미널 앞 보도와 조형물 광장 경계",
+          "question": "노란 점자블록이 있는 보도에서 광장으로 들어갈 때 계단과 바닥 높이가 어떻게 달라지나요?",
+          "observations": [
+            {
+              "label": "보도와 계단",
+              "detail": "오른쪽 보도에 점자블록이 있고 광장 왼쪽에는 여러 단의 계단이 보입니다."
+            },
+            {
+              "label": "건물 앞 표식",
+              "detail": "머리 모양·고리 모양 조형물과 터미널 앞 유리 시설이 구역을 구분하는 표식이 됩니다."
+            }
+          ],
+          "unknowns": [
+            "동관 1층 하차장부터 이 보도까지의 횡단·문 연결",
+            "계단을 피하는 실제 경사·폭과 서관 공용 출입문 위치"
+          ],
+          "connection": "대전복합터미널 앞 조형물 광장의 보도 접점. 전경의 유리 시설을 서관 승차장 출입문으로 단정하지 않습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 출처가 공개 제공하는 이미지 바이트·워터마크를 유지했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\terminal-route-c-06-e8fd2ace.jpg"
+      }
+    ]
+  },
+  {
+    "placeId": "govbus",
+    "photos": [
+      {
+        "pointId": "route-v23-c-07",
+        "shortTitle": "승차 정류소 쉼터 앞 보도",
+        "photo": {
+          "id": "govbus-v23-route-v23-c-07",
+          "image": "/modu50m/mobility-v23/govbus-route-c-07-9e8f305a.jpg",
+          "sourceUrl": "https://m.blog.naver.com/PostView.naver?blogId=first_seogu&logNo=223529573343",
+          "sourceImageUrl": "https://cafeptthumb-phinf.pstatic.net/MjAyNDA3MTlfMjM2/MDAxNzIxMzk1MzA5ODUx.XJy1hBlGo7m2KIVbgVMfPHyAk3wluoEKWONRMJA139Qg.shvTST4Ihij4usWpDgivlT06OE2lZ93nhUbtniUfXHwg.JPEG/1721395153745.jpg?type=w1600",
+          "provider": "public-mobility",
+          "providerLabel": "대전 서구 공식 블로그",
+          "attribution": "대전 서구 공식 블로그 · 공개 제공 사진 그대로",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": "2024-07-29",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "9e8f305a617301171e5ee2adb2c8e10c41d3ca4e3f53cdf957db251f787e80b5",
+          "mobilityEvidence": true,
+          "scope": "청사로 189 시외버스 승차 정류소의 대기 쉼터. 한밭대로 755 하차 정류소와 청사로 281 고속버스 정류장은 별개입니다.",
+          "sourcePeriodLabel": "2024-07-29 게시 · 촬영일 미상",
+          "originalBytesPreserved": true
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/govbus-route-c-07-9e8f305a.jpg",
+          "photoId": "govbus-v23-route-v23-c-07",
+          "sourceSha256": "9e8f305a617301171e5ee2adb2c8e10c41d3ca4e3f53cdf957db251f787e80b5",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "승차 정류소 쉼터 앞 보도",
+          "question": "쉼터에 기다리는 사람과 짐이 있을 때 벤치·가로수 사이에 어떤 통행 공간이 남나요?",
+          "observations": [
+            {
+              "label": "쉼터와 벤치",
+              "detail": "덮개 아래 벤치와 대기 승객·여행 가방이 보입니다."
+            },
+            {
+              "label": "가로수와 바닥",
+              "detail": "큰 가로수가 쉼터 옆에 있고 앞쪽 포장면과 경계가 드러납니다."
+            }
+          ],
+          "unknowns": [
+            "혼잡할 때 휠체어가 회전·통과할 수 있는 실제 폭",
+            "보도에서 버스 승차문까지의 단차와 탑승 지원 방법"
+          ],
+          "connection": "청사로 189 시외버스 승차 정류소의 대기 쉼터. 한밭대로 755 하차 정류소와 청사로 281 고속버스 정류장은 별개입니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 출처가 공개 제공하는 이미지 바이트·워터마크를 유지했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\govbus-route-c-07-9e8f305a.jpg"
+      }
+    ]
+  },
+  {
+    "placeId": "sintanjin",
+    "photos": [
+      {
+        "pointId": "route-v23-c-08",
+        "shortTitle": "신탄진역 정면 보도와 대기 덮개",
+        "photo": {
+          "id": "sintanjin-v23-route-v23-c-08",
+          "image": "/modu50m/mobility-v23/sintanjin-route-c-08-fdf6d7b0.jpg",
+          "sourceUrl": "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136",
+          "sourceImageUrl": "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDRfMjI4/MDAxNzMwNzI0MTM4OTE1.m62eQuX_6sVAq6-2AjINTXFJvaPStEVmCMZ5llifXiYg.7f9F9q83a4CG7lDwJMFud5zc5gbvgRrUtGwmpan41ckg.JPEG/IMG_3015.jpg?type=w1600",
+          "provider": "public-mobility",
+          "providerLabel": "대전 대덕구 공식 블로그",
+          "attribution": "대전 대덕구 공식 블로그 · 공개 제공 사진 그대로",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": "2024-12-03",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "fdf6d7b05ab490614c90a9ec02209b976f0c5b4239688cfa0da72318811614f1",
+          "mobilityEvidence": true,
+          "scope": "신탄진역 정면의 지상 보도. 스마트 버스정류장 사진과 다른 촬영 지점이며 TMO 문을 공용 역사 출입문으로 사용하지 않습니다.",
+          "sourcePeriodLabel": "2024-12-03 게시 · 촬영일 미상",
+          "originalBytesPreserved": true
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/sintanjin-route-c-08-fdf6d7b0.jpg",
+          "photoId": "sintanjin-v23-route-v23-c-08",
+          "sourceSha256": "fdf6d7b05ab490614c90a9ec02209b976f0c5b4239688cfa0da72318811614f1",
+          "kind": "segment",
+          "stage": "arrival",
+          "title": "신탄진역 정면 보도와 대기 덮개",
+          "question": "정면 보도에서 계단·TMO 출입구·역 이용 구간을 어떻게 구분할 수 있나요?",
+          "observations": [
+            {
+              "label": "정면 보도",
+              "detail": "역 건물 앞에 덮개와 대기 공간, 가까운 바닥 경계가 함께 보입니다."
+            },
+            {
+              "label": "다른 출입구",
+              "detail": "오른쪽의 TMO 표기는 여행장병 시설입니다. 일반 맞이방 입구와 구분해야 합니다."
+            }
+          ],
+          "unknowns": [
+            "스마트 정류장에서 이 정면 보도까지의 연속 연결",
+            "정면 보도에서 승강기 표지 방향으로 도는 접점의 단차"
+          ],
+          "connection": "신탄진역 정면의 지상 보도. 스마트 버스정류장 사진과 다른 촬영 지점이며 TMO 문을 공용 역사 출입문으로 사용하지 않습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 출처가 공개 제공하는 이미지 바이트·워터마크를 유지했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\sintanjin-route-c-08-fdf6d7b0.jpg"
+      },
+      {
+        "pointId": "route-v23-c-09",
+        "shortTitle": "덮개 아래 엘리베이터 표지로 접근",
+        "photo": {
+          "id": "sintanjin-v23-route-v23-c-09",
+          "image": "/modu50m/mobility-v23/sintanjin-route-c-09-9afba087.jpg",
+          "sourceUrl": "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136",
+          "sourceImageUrl": "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDRfMTc3/MDAxNzMwNzI0MTQxMjMy.TfYb1YU4A2RsN0fnpkRjt0dFTDNIfQe89T3th1yT-Uwg.VPsFwWiEXWTQglX1vRTiiEdePq77VP2meCcwOGFXbcUg.JPEG/IMG_3020.jpg?type=w1600",
+          "provider": "public-mobility",
+          "providerLabel": "대전 대덕구 공식 블로그",
+          "attribution": "대전 대덕구 공식 블로그 · 공개 제공 사진 그대로",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": "2024-12-03",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "9afba08715f7a0f257ff594ff0cbe864cf46ef959bc84dd5a78673ff6f6e8212",
+          "mobilityEvidence": true,
+          "scope": "신탄진역 지상 승강기 표지 앞 접근 보도. 승강기 문 자체와 층간 이동은 이 사진에 보이지 않습니다.",
+          "sourcePeriodLabel": "2024-12-03 게시 · 촬영일 미상",
+          "originalBytesPreserved": true
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/sintanjin-route-c-09-9afba087.jpg",
+          "photoId": "sintanjin-v23-route-v23-c-09",
+          "sourceSha256": "9afba08715f7a0f257ff594ff0cbe864cf46ef959bc84dd5a78673ff6f6e8212",
+          "kind": "segment",
+          "stage": "approach",
+          "title": "덮개 아래 엘리베이터 표지로 접근",
+          "question": "흰 울타리 안쪽에서 엘리베이터 표지로 가는 바닥과 회전 공간을 살펴보세요.",
+          "observations": [
+            {
+              "label": "엘리베이터 표지",
+              "detail": "유리 구조물에 파란 엘리베이터 표지가 선명하게 보입니다."
+            },
+            {
+              "label": "점자블록과 울타리",
+              "detail": "덮개 아래 점자블록이 굽어 이어지고 흰 울타리와 바닥 이음부가 주변을 둘러쌉니다."
+            }
+          ],
+          "unknowns": [
+            "유리 구조물 뒤 승강기 문 위치·문 앞 턱·현재 작동 여부",
+            "승강기에서 2층 맞이방 문으로 이어지는 복도와 회전 공간"
+          ],
+          "connection": "신탄진역 지상 승강기 표지 앞 접근 보도. 승강기 문 자체와 층간 이동은 이 사진에 보이지 않습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 출처가 공개 제공하는 이미지 바이트·워터마크를 유지했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\sintanjin-route-c-09-9afba087.jpg"
+      },
+      {
+        "pointId": "route-v23-c-10",
+        "shortTitle": "2층 표 사는 곳·맞이방 출입문",
+        "photo": {
+          "id": "sintanjin-v23-route-v23-c-10",
+          "image": "/modu50m/mobility-v23/sintanjin-route-c-10-9409b25b.jpg",
+          "sourceUrl": "https://m.blog.naver.com/PostView.naver?blogId=daedeokgu&logNo=223680920136",
+          "sourceImageUrl": "https://cafeptthumb-phinf.pstatic.net/MjAyNDExMDRfMjIy/MDAxNzMwNzI0MTM1Mzk3.l3Fss7l7IH6LPD_dK7NxzG0oV0XZQaa1uepjHOymKM0g.7s8gSELP8m2QXY73ctvdT1vVQtR1YhhVXdXTvdGqRFkg.JPEG/IMG_3025.jpg?type=w1600",
+          "provider": "public-mobility",
+          "providerLabel": "대전 대덕구 공식 블로그",
+          "attribution": "대전 대덕구 공식 블로그 · 공개 제공 사진 그대로",
+          "captureDate": null,
+          "captureDatePrecision": "unknown",
+          "publicationDate": "2024-12-03",
+          "retrievedAt": "2026-09-23",
+          "camera": null,
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "9409b25b59590220abf701ab6b278fb5497bd4c4b2276c88ebe6a2b5167a3d54",
+          "mobilityEvidence": true,
+          "scope": "공식 게시물의 2층 표 사는 곳·맞이방 출입문. 지상 엘리베이터 사진에서 이 문으로 바로 이어진다는 사진 증거는 없습니다.",
+          "sourcePeriodLabel": "2024-12-03 게시 · 촬영일 미상",
+          "originalBytesPreserved": true
+        },
+        "review": {
+          "image": "/modu50m/mobility-v23/sintanjin-route-c-10-9409b25b.jpg",
+          "photoId": "sintanjin-v23-route-v23-c-10",
+          "sourceSha256": "9409b25b59590220abf701ab6b278fb5497bd4c4b2276c88ebe6a2b5167a3d54",
+          "kind": "segment",
+          "stage": "doorway",
+          "title": "2층 표 사는 곳·맞이방 출입문",
+          "question": "표 사는 곳·맞이방 표지 아래 문과 안쪽 매표 창구 사이 바닥을 확인해보세요.",
+          "observations": [
+            {
+              "label": "맞이방 표지와 문",
+              "detail": "파란 표지 아래 유리 출입문이 있고 안쪽 매표 창구가 보입니다."
+            },
+            {
+              "label": "문 안쪽 바닥",
+              "detail": "노란 점자블록이 문에서 매표 창구 앞으로 이어집니다."
+            }
+          ],
+          "unknowns": [
+            "지상 승강기에서 이 2층 문까지의 연속 동선",
+            "문 폭·개폐 방식과 작은 문턱의 실제 높이"
+          ],
+          "connection": "공식 게시물의 2층 표 사는 곳·맞이방 출입문. 지상 엘리베이터 사진에서 이 문으로 바로 이어진다는 사진 증거는 없습니다. 현재 상태와 전 구간 연결은 현장 확인 전입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "focus": [
+            50,
+            65
+          ]
+        },
+        "qualityNotes": "2026-09-23 view_image로 채택 이미지 전체를 직접 확인했습니다. 바닥·시설 표지·장소를 대조했고 임의 장애물 마커나 생성 보완은 넣지 않았습니다. 출처가 공개 제공하는 이미지 바이트·워터마크를 유지했습니다.",
+        "localPath": "C:\\Users\\pjmin\\Documents\\Codex\\2026-09-19\\modu50m-latest-result-recovery\\outputs\\finals-route-v23\\c\\sintanjin-route-c-10-9409b25b.jpg"
+      }
+    ]
+  }
+]

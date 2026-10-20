@@ -1,0 +1,275 @@
+{
+  "station": {
+    "image": "/modu50m/visual-preview-v1/station-miniature-v6.png",
+    "alt": "대전역 철도역 서광장 외관을 공개 사진으로 참고한 AI 근사 미니어처.",
+    "pins": [
+      {
+        "steps": [
+          4
+        ],
+        "label": "서광장",
+        "anchor": [
+          55,
+          64
+        ],
+        "position": [
+          38,
+          78
+        ]
+      },
+      {
+        "steps": [
+          5
+        ],
+        "label": "서광장 쪽 출입문",
+        "anchor": [
+          64,
+          54
+        ],
+        "position": [
+          76,
+          43
+        ]
+      }
+    ],
+    "scope": "기존 장소 미니어처예요. 버스 정류장과 문까지의 연결 위치는 전체 동선 지도와 번호별 실제 사진에서 살펴봐요.",
+    "referenceUrl": "https://www.letskorail.com/",
+    "sourceUrl": "https://www.letskorail.com/",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "title": "대전역 정류장에서 입구까지 살펴봐요",
+    "startLabel": "대전역 12410",
+    "endLabel": "대전역 철도역 · 서광장 쪽 출입문",
+    "busApproach": true,
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "사진 사이 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25"
+  },
+  "terminal": {
+    "image": "/modu50m/visual-preview-v1/terminal-miniature-v18.png",
+    "alt": "대전복합터미널 서관과 동관을 공개 사진으로 참고한 AI 근사 미니어처.",
+    "pins": [
+      {
+        "steps": [
+          2
+        ],
+        "label": "서관 앞 공간",
+        "anchor": [
+          27,
+          59
+        ],
+        "position": [
+          21,
+          74
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "서관 옆 보도",
+        "anchor": [
+          42,
+          57
+        ],
+        "position": [
+          54,
+          78
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "서관 GATE 4 사진",
+        "anchor": [
+          44,
+          52
+        ],
+        "position": [
+          53,
+          38
+        ]
+      }
+    ],
+    "scope": "기존 장소 미니어처예요. 버스 정류장과 문까지의 연결 위치는 전체 동선 지도와 번호별 실제 사진에서 살펴봐요.",
+    "referenceUrl": "https://www.djbusterminal.co.kr/facility_west",
+    "sourceUrl": "https://www.djbusterminal.co.kr/facility_west",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "title": "복합터미널 정류장에서 입구까지 살펴봐요",
+    "startLabel": "복합터미널 11830",
+    "endLabel": "대전복합터미널 서관 · GATE 4 대합실 입구",
+    "busApproach": true,
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "사진 사이 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25"
+  },
+  "museum": {
+    "image": "/modu50m/visual-preview-v1/museum-miniature-photo-informed-v3.png",
+    "alt": "공식 외관 사진을 참고한 대전시립미술관 AI 미니어처. 낮은 석재 건물, 위로 휘어진 지붕, 경사 벽과 앞쪽 수공간을 표현한 근사 모형입니다.",
+    "pins": [
+      {
+        "steps": [
+          5
+        ],
+        "label": "출입문 사진",
+        "anchor": [
+          60,
+          37
+        ],
+        "position": [
+          61,
+          23
+        ]
+      }
+    ],
+    "scope": "미술관 외관과 입구 방향의 근사 모형이에요. 경사로·유리문 사진을 비교하고, 04번 공원 갈림길에서 경사로 시작점까지의 연결은 따로 살펴봐요.",
+    "referenceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+    "title": "대전예술의전당 정류장에서 입구까지 살펴봐요",
+    "startLabel": "대전예술의전당 34730",
+    "endLabel": "대전시립미술관 이름 아래 유리 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "사진 사이 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-10-01",
+    "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "leeungno": {
+    "image": "/modu50m/visual-preview-v1/leeungno-miniature-v18.png",
+    "alt": "이응노미술관의 낮은 노출콘크리트 외관과 유리 입구, 나무와 앞마당을 공개 사진으로 참고한 AI 근사 모형.",
+    "pins": [
+      {
+        "steps": [
+          5
+        ],
+        "label": "앞마당 판석길",
+        "anchor": [
+          32,
+          61
+        ],
+        "position": [
+          27,
+          77
+        ]
+      },
+      {
+        "steps": [
+          6
+        ],
+        "label": "유리 출입문 구역",
+        "anchor": [
+          65,
+          43
+        ],
+        "position": [
+          78,
+          24
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 앞마당과 출입문 구역의 근사 모형이에요. 주차장과 외벽 옆 계단길은 모형에 위치를 확정해 표시하지 않았어요.",
+    "referenceUrl": "https://bmh00.tistory.com/entry/%EB%8C%80%EC%A0%84-Part-1-1-%EC%9D%B4%EC%9D%91%EB%85%B8-%EB%AF%B8%EC%88%A0%EA%B4%80-%EB%A1%9C%EB%9E%91-%EB%B3%B4%EB%91%90%EC%95%B5Laurent-Beaudouin",
+    "title": "대전예술의전당 정류장에서 입구까지 살펴봐요",
+    "startLabel": "대전예술의전당 34730",
+    "endLabel": "157번 주소판 옆 이응노미술관 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "사진 사이 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://bmh00.tistory.com/entry/%EB%8C%80%EC%A0%84-Part-1-1-%EC%9D%B4%EC%9D%91%EB%85%B8-%EB%AF%B8%EC%88%A0%EA%B4%80-%EB%A1%9C%EB%9E%91-%EB%B3%B4%EB%91%90%EC%95%B5Laurent-Beaudouin",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  },
+  "science": {
+    "image": "/modu50m/visual-preview-v22/science-approach-v22.png",
+    "alt": "국립중앙과학관 미래기술관 전면 문 앞 구간의 실제 사진을 참고한 AI 미니어처. 현재 상태나 통행 가능 판정이 아닙니다.",
+    "pins": [
+      {
+        "steps": [
+          8
+        ],
+        "label": "문 앞 포장",
+        "anchor": [
+          44,
+          78
+        ],
+        "position": [
+          25,
+          85
+        ]
+      },
+      {
+        "steps": [
+          8
+        ],
+        "label": "미래기술관 문",
+        "anchor": [
+          65,
+          59
+        ],
+        "position": [
+          79,
+          38
+        ]
+      }
+    ],
+    "scope": "기존 입구 미니어처예요. 정류장부터 오는 길은 전체 동선 지도와 번호별 실제 사진에서 살펴봐요. 국립중앙과학관의 미래기술관 문 앞을 표현했어요. 캠퍼스 정문과 다른 전시관 입구를 구분해요.",
+    "referenceUrl": "https://we-map.kr/service/map/522",
+    "title": "국립중앙과학관 정류장에서 입구까지 살펴봐요",
+    "startLabel": "국립중앙과학관 42930",
+    "endLabel": "국립중앙과학관 미래기술관 유리 출입문",
+    "distanceLabel": "하차부터 입구까지",
+    "distanceValue": "구간별 위치 보기",
+    "distanceNote": "사진 사이 연결 확인이 남아 있어 총 이동 거리는 확정하지 않았어요.",
+    "distances": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sourceCheckedAt": "2026-09-25",
+    "sourceUrl": "https://we-map.kr/service/map/522",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "busApproach": true
+  }
+}

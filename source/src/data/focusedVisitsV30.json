@@ -1,0 +1,145 @@
+{
+  "sungsim": {
+    "category": "먹거리 · 본점",
+    "purpose": "대전에서 빵을 사러 가는 날",
+    "reason": "본점 간판·대기 구역·금색 조형물 옆 문을 함께 살펴봐요.",
+    "start": "하차 지점·지상 승강기 선정 전",
+    "destination": "대종로480번길 15 · 성심당 본점 출입문",
+    "sourceUrl": "https://sungsimdang.co.kr/31/15",
+    "sourceLabel": "성심당 공식 본점 안내 · 주소와 외관",
+    "checkedAt": "2026-09-25",
+    "finding": "본점 간판·대기 구역·금색 조형물 옆 문을 함께 살펴봐요.",
+    "steps": [
+      {
+        "label": "내리는 곳",
+        "title": "하차 위치 선정 전",
+        "points": [],
+        "question": "사용할 정류장 방향 또는 지상 승강기를 먼저 정해요."
+      },
+      {
+        "label": "보도에 들어가기",
+        "title": "본점 대기 구역",
+        "points": [
+          "journey-facade"
+        ],
+        "question": "대기하는 사람과 보행 공간이 겹치는 곳을 살펴봐요."
+      },
+      {
+        "label": "방향·공간 살피기",
+        "title": "본점 표식과 실내 참고",
+        "points": [
+          "journey-facade",
+          "journey-interior"
+        ],
+        "question": "갈색 간판으로 본점을 구분하고 매장 안 공간은 따로 봐요."
+      },
+      {
+        "label": "입구 찾기",
+        "title": "금색 조형물 옆 문",
+        "points": [
+          "journey-door"
+        ],
+        "question": "사람에 가린 문턱과 현재 통과 폭은 더 확인해요."
+      }
+    ],
+    "gap": "하차 지점에서 본점까지 이어지는 보도·횡단 연결 문 앞 대기 공간·문턱·유효 통과 폭"
+  },
+  "skyroad": {
+    "category": "원도심 · 거리",
+    "purpose": "대전 원도심을 구경하는 날",
+    "reason": "LED 지붕 아래 길과 점포 앞 진열물을 살펴봐요.",
+    "start": "하차 지점·지상 승강기 선정 전",
+    "destination": "스카이로드 지붕 아래 보행 구역",
+    "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595",
+    "sourceLabel": "한국관광공사 · 스카이로드 거리 사진",
+    "checkedAt": "2026-09-25",
+    "finding": "LED 지붕 아래 길과 점포 앞 진열물을 살펴봐요.",
+    "steps": [
+      {
+        "label": "내리는 곳",
+        "title": "하차 위치·승강기",
+        "points": [],
+        "question": "중앙로 일대에서 이용할 하차 위치를 먼저 정해요."
+      },
+      {
+        "label": "거리로 들어가기",
+        "title": "지붕 아래 보행 공간",
+        "points": [
+          "mobility-v20-01"
+        ],
+        "question": "LED 지붕과 주변 간판으로 거리를 알아봐요."
+      },
+      {
+        "label": "방향·통로 살피기",
+        "title": "진열물 옆 공간",
+        "points": [
+          "mobility-v20-02"
+        ],
+        "question": "점포 앞에 놓인 물건과 남은 보행 공간을 살펴봐요."
+      },
+      {
+        "label": "목적지 찾기",
+        "title": "갈림길·점포 방향",
+        "points": [
+          "mobility-v20-03"
+        ],
+        "question": "방문할 점포 입구는 별도 사진으로 확인해야 해요."
+      }
+    ],
+    "gap": "하차 위치에서 거리까지의 접근 사진 각 거리 사진의 위치 관계 선택할 점포 입구까지 연결"
+  },
+  "arboretum": {
+    "category": "자연 · 열대식물원",
+    "purpose": "열대식물원에서 초록을 만나러 가는 날",
+    "reason": "주차장과 앞마당·왼쪽 문·실내 바닥을 나눠 살펴봐요.",
+    "modelScope": "열대식물원 앞마당과 왼쪽 출입문을 표현한 모형이에요. 주차장은 모형 밖이며, 실내 길은 별도 사진으로 봐요.",
+    "sourceUrl": "https://hyuntori83.tistory.com/1101",
+    "sourceLabel": "현토리83 · 열대식물원 방문 사진",
+    "checkedAt": "2026-09-25",
+    "finding": "2025년 4월 28일 게시된 방문 후기에서 주차장·앞마당·실내 사진을 확보했어요. 앞마당의 나무 경사판과 왼쪽 문을 같은 장면에서 볼 수 있어요. 주차장부터 문까지의 연결과 실제 문턱은 추가 확인이 필요해요.",
+    "steps": [
+      {
+        "label": "내리는 곳",
+        "title": "주차장 참고",
+        "points": [
+          "journey-parking"
+        ],
+        "question": "차에서 내려 보도로 올라가는 접점이 보이나요?"
+      },
+      {
+        "label": "보도에 들어가기",
+        "title": "앞마당 경사판",
+        "points": [
+          "journey-forecourt"
+        ],
+        "question": "나무 경사판 양 끝과 화분 사이를 살펴봐요."
+      },
+      {
+        "label": "바닥 살피기",
+        "title": "실내 길 참고",
+        "points": [
+          "journey-inside"
+        ],
+        "question": "문 안쪽 판석의 이음과 가장자리를 살펴봐요."
+      },
+      {
+        "label": "입구 찾기",
+        "title": "노란 벽 왼쪽 문",
+        "points": [
+          "journey-forecourt"
+        ],
+        "question": "차양 아래 문 앞 바닥은 가까운 사진이 더 필요해요."
+      }
+    ],
+    "angle": {
+      "image": "/modu50m/journeys-v30/arboretum-miniature.png",
+      "alt": "한밭수목원 열대식물원 실제 입구 사진을 참고한 AI 미니어처. 유리 온실·노란 벽·왼쪽 문·화분 앞 나무 경사판을 표현했습니다.",
+      "label": "열대식물원 앞마당과 문",
+      "referencePoint": "journey-forecourt",
+      "referenceImage": "/modu50m/journeys-v30/greenhouse-blog-0.png",
+      "groundTruth": false,
+      "scope": "열대식물원 앞마당과 왼쪽 출입문을 표현한 모형이에요. 주차장은 모형 밖이며, 실내 길은 별도 사진으로 봐요.",
+      "sourceUrl": "https://hyuntori83.tistory.com/1101"
+    }
+  }
+}

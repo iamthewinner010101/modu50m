@@ -1,0 +1,1446 @@
+[
+  {
+    "placeId": "arboretum",
+    "photos": [
+      {
+        "pointId": "bus-v31-bus",
+        "photo": {
+          "id": "arboretum-bus-v31-bus",
+          "image": "/modu50m/bus-v31/arboretum-bus-300.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833215&pan=300&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200833215?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3649153475883,
+            "lng": 127.389001580983,
+            "lon": 127.389001580983
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "006629a3e37633cf10d2ddf46e8d9bc17db5e25fc429463040bd5e923eec76ff",
+          "mobilityEvidence": true,
+          "scope": "34740번, 연정국악원·수목원이 있는 쪽이에요. 쉼터 기둥과 가로수 사이에서 보도로 들어갈 공간을 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200833215",
+          "panoId": "1200833215"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/arboretum-bus-300.jpg",
+          "photoId": "arboretum-bus-v31-bus",
+          "sourceSha256": "006629a3e37633cf10d2ddf46e8d9bc17db5e25fc429463040bd5e923eec76ff",
+          "kind": "segment",
+          "title": "한밭수목원 정류장 하차",
+          "question": "34740번, 연정국악원·수목원이 있는 쪽이에요. 쉼터 기둥과 가로수 사이에서 보도로 들어갈 공간을 살펴봐요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "쉼터·가로수와 보도",
+              "detail": "34740번, 연정국악원·수목원이 있는 쪽이에요. 쉼터 기둥과 가로수 사이에서 보도로 들어갈 공간을 살펴봐요.",
+              "position": [
+                86,
+                78
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "34740번, 연정국악원·수목원이 있는 쪽이에요. 쉼터 기둥과 가로수 사이에서 보도로 들어갈 공간을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-walk",
+        "photo": {
+          "id": "arboretum-bus-v31-walk",
+          "image": "/modu50m/bus-v31/arboretum-sidewalk-40.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833200&pan=40&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200833200?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3649138811313,
+            "lng": 127.389451727532,
+            "lon": 127.389451727532
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "3beb4dc911581eab179091e6c531754d7d78bf0d0829aa2ab115423dfa270b42",
+          "mobilityEvidence": true,
+          "scope": "정류장을 나온 뒤 둔산대로의 같은 쪽 보도를 따라 동쪽으로 살펴봐요. 가로수·울타리·보도 경계를 비교해요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200833200",
+          "panoId": "1200833200"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/arboretum-sidewalk-40.jpg",
+          "photoId": "arboretum-bus-v31-walk",
+          "sourceSha256": "3beb4dc911581eab179091e6c531754d7d78bf0d0829aa2ab115423dfa270b42",
+          "kind": "segment",
+          "title": "정류장 뒤 보도를 따라 동쪽으로",
+          "question": "정류장을 나온 뒤 둔산대로의 같은 쪽 보도를 따라 동쪽으로 살펴봐요. 가로수·울타리·보도 경계를 비교해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "가로수 사이 보도",
+              "detail": "정류장을 나온 뒤 둔산대로의 같은 쪽 보도를 따라 동쪽으로 살펴봐요. 가로수·울타리·보도 경계를 비교해요.",
+              "position": [
+                53,
+                45
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "정류장을 나온 뒤 둔산대로의 같은 쪽 보도를 따라 동쪽으로 살펴봐요. 가로수·울타리·보도 경계를 비교해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-turn",
+        "photo": {
+          "id": "arboretum-bus-v31-turn",
+          "image": "/modu50m/bus-v31/arboretum-turn-315.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200851902&pan=315&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200851902?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3650693284519,
+            "lng": 127.39041966629,
+            "lon": 127.39041966629
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "3b82883940584ad5de01522dc94eb35a5fc017405732e07f50290d0aecdcd457",
+          "mobilityEvidence": true,
+          "scope": "한밭수목원 열대식물원 표지와 지하 계단 시설 옆 지상 보도를 찾아요. 계단으로 내려가지 않고 지상 길을 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200851902",
+          "panoId": "1200851902"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/arboretum-turn-315.jpg",
+          "photoId": "arboretum-bus-v31-turn",
+          "sourceSha256": "3b82883940584ad5de01522dc94eb35a5fc017405732e07f50290d0aecdcd457",
+          "kind": "segment",
+          "title": "열대식물원 표지에서 안쪽으로",
+          "question": "한밭수목원 열대식물원 표지와 지하 계단 시설 옆 지상 보도를 찾아요. 계단으로 내려가지 않고 지상 길을 살펴봐요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "계단 옆 지상 보도",
+              "detail": "한밭수목원 열대식물원 표지와 지하 계단 시설 옆 지상 보도를 찾아요. 계단으로 내려가지 않고 지상 길을 살펴봐요.",
+              "position": [
+                58,
+                66
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "한밭수목원 열대식물원 표지와 지하 계단 시설 옆 지상 보도를 찾아요. 계단으로 내려가지 않고 지상 길을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-garden",
+        "photo": {
+          "id": "arboretum-bus-v31-garden",
+          "image": "/modu50m/bus-v31/arboretum-path-east-50.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200851600&pan=50&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200851600?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3657914483018,
+            "lng": 127.390057798267,
+            "lon": 127.390057798267
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "419542090093734c8e4eef6ec8333464ee1a2a80289c37a26012ab236c09ac16",
+          "mobilityEvidence": true,
+          "scope": "연정국악원 옆 안내판에서 열대식물원 쪽 길을 살펴봐요. 볼라드 간격과 차량 진입로를 만나는 바닥이 관찰 지점이에요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200851600",
+          "panoId": "1200851600"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/arboretum-path-east-50.jpg",
+          "photoId": "arboretum-bus-v31-garden",
+          "sourceSha256": "419542090093734c8e4eef6ec8333464ee1a2a80289c37a26012ab236c09ac16",
+          "kind": "segment",
+          "title": "안내판·볼라드를 지나 온실 쪽으로",
+          "question": "연정국악원 옆 안내판에서 열대식물원 쪽 길을 살펴봐요. 볼라드 간격과 차량 진입로를 만나는 바닥이 관찰 지점이에요.",
+          "focus": [
+            89,
+            50
+          ],
+          "observations": [
+            {
+              "label": "볼라드 사이 연결 지점",
+              "detail": "사진 오른쪽 끝에 볼라드 두 개와 포장 길이 만나는 부분이 보여요. 볼라드 사이 폭과 턱 낮춤 상태는 가까운 사진으로 더 확인해야 해요.",
+              "position": [
+                89,
+                50
+              ]
+            },
+            {
+              "label": "배수로와 보도 경계",
+              "detail": "노란 도로선 안쪽에 배수로와 경계석이 보여요. 잔디나 차도 쪽으로 이동하라는 표시가 아니며, 평탄하게 이어지는 진입 지점을 더 확인해요.",
+              "position": [
+                64,
+                80
+              ]
+            },
+            {
+              "label": "안내판 뒤 포장 길",
+              "detail": "안내판 뒤로 회색 포장 길과 붉은 포장 길이 이어져 보여요. 이 장면과 온대식물원 문 앞 사이의 전체 연결은 사진만으로 확정하지 않았어요.",
+              "position": [
+                59,
+                44
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "연정국악원 옆 안내판에서 열대식물원 쪽 길을 살펴봐요. 볼라드 간격과 차량 진입로를 만나는 바닥이 관찰 지점이에요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-door",
+        "photo": {
+          "id": "arboretum-bus-v31-door",
+          "image": "/modu50m/bus-v31/arboretum-front-90.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200851823&pan=90&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200851823?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3665334782154,
+            "lng": 127.390221956102,
+            "lon": 127.390221956102
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "e20ad926eb7e8dbb3cc86baa694f7699dba3b9574aa8b49d80c6d7736e2184f0",
+          "mobilityEvidence": true,
+          "scope": "노란 벽의 열대식물원 표지 아래 실제 문까지 왔어요. 화분 사이 통로와 문 앞 바닥을 확대해 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200851823",
+          "panoId": "1200851823"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/arboretum-front-90.jpg",
+          "photoId": "arboretum-bus-v31-door",
+          "sourceSha256": "e20ad926eb7e8dbb3cc86baa694f7699dba3b9574aa8b49d80c6d7736e2184f0",
+          "kind": "segment",
+          "title": "열대식물원 유리 출입문",
+          "question": "노란 벽의 열대식물원 표지 아래 실제 문까지 왔어요. 화분 사이 통로와 문 앞 바닥을 확대해 살펴봐요.",
+          "focus": [
+            33,
+            61
+          ],
+          "observations": [
+            {
+              "label": "문 앞으로 향하는 포장 바닥",
+              "detail": "살펴볼 곳은 잔디 안쪽이 아니라 유리문 앞 포장 바닥이에요. 점자블록이 문 방향으로 이어져 보여요. 나무와 화분 주변의 통과 공간을 비교해요.",
+              "position": [
+                33,
+                61
+              ]
+            },
+            {
+              "label": "온대식물원 유리문",
+              "detail": "온대식물원 표지 아래 유리문이 보여요. 문 아래 턱, 실제 문 열림 폭과 운영 상태는 이 먼 사진으로 확인할 수 없어요.",
+              "position": [
+                39,
+                51
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "노란 벽의 열대식물원 표지 아래 실제 문까지 왔어요. 화분 사이 통로와 문 앞 바닥을 확대해 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      }
+    ],
+    "missingShots": [
+      "정류장 승하차 턱과 볼라드 간격의 현재 치수",
+      "서로 떨어진 사진 사이 모든 바닥의 연속 통행 확인"
+    ],
+    "note": "버스 정류장부터 출입구까지의 방문 준비 자료. 카메라 좌표와 보행 동선 후보를 구분합니다."
+  },
+  {
+    "placeId": "museum",
+    "photos": [
+      {
+        "pointId": "bus-v31-bus",
+        "photo": {
+          "id": "museum-bus-v31-bus",
+          "image": "/modu50m/bus-v31/culture-stop-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833374&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200833374?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3649334087675,
+            "lng": 127.384535786648,
+            "lon": 127.384535786648
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "58564454c7516d00bc9a2d787056ff28a6762a40880f1cfc29b918a78b7302db",
+          "mobilityEvidence": true,
+          "scope": "34730번, 미술관이 있는 쪽 보도에서 시작해요. 정류장 뒤 붉은 보도와 쉼터 기둥 사이를 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200833374",
+          "panoId": "1200833374"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/culture-stop-0.jpg",
+          "photoId": "museum-bus-v31-bus",
+          "sourceSha256": "58564454c7516d00bc9a2d787056ff28a6762a40880f1cfc29b918a78b7302db",
+          "kind": "segment",
+          "title": "대전예술의전당 정류장 하차",
+          "question": "34730번, 미술관이 있는 쪽 보도에서 시작해요. 정류장 뒤 붉은 보도와 쉼터 기둥 사이를 살펴봐요.",
+          "focus": [
+            62,
+            59
+          ],
+          "observations": [
+            {
+              "label": "쉼터 옆 붉은 보도",
+              "detail": "살펴볼 곳은 정류장 쉼터와 가로수 뒤쪽의 붉은 보도예요. 사진을 찍은 차도와 구분해요. 하차 후 보도로 올라서는 턱과 남는 폭은 가까운 사진이 더 필요해요.",
+              "position": [
+                62,
+                59
+              ]
+            },
+            {
+              "label": "쉼터·표지판 주변",
+              "detail": "쉼터 기둥과 안내판이 보도에 있어요. 이 시설물 주변의 통과 공간을 살펴보세요. 실제 폭은 사진으로 측정하지 않았어요.",
+              "position": [
+                81,
+                56
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "34730번, 미술관이 있는 쪽 보도에서 시작해요. 정류장 뒤 붉은 보도와 쉼터 기둥 사이를 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-walk",
+        "photo": {
+          "id": "museum-bus-v31-walk",
+          "image": "/modu50m/bus-v31/culture-walk-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833351&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200833351?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3649276362343,
+            "lng": 127.385208760755,
+            "lon": 127.385208760755
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "dffe171675569aa4c3de21245f5365c991321aa07a5a7f83f70e3096f343c660",
+          "mobilityEvidence": true,
+          "scope": "같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200833351",
+          "panoId": "1200833351"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/culture-walk-0.jpg",
+          "photoId": "museum-bus-v31-walk",
+          "sourceSha256": "dffe171675569aa4c3de21245f5365c991321aa07a5a7f83f70e3096f343c660",
+          "kind": "segment",
+          "title": "미술관 표지가 있는 보도",
+          "question": "같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+          "focus": [
+            36,
+            61
+          ],
+          "observations": [
+            {
+              "label": "나무 뒤 포장 보도",
+              "detail": "살펴볼 길은 차량 뒤쪽, 가로수와 미술관 광장 사이에 있는 회색 포장 보도예요. 사진을 찍은 도로를 이동 경로로 안내하는 표시가 아니에요.",
+              "position": [
+                36,
+                61
+              ]
+            },
+            {
+              "label": "차량에 가린 보도 경계",
+              "detail": "노란 차량이 보도와 차도의 경계 일부를 가리고 있어요. 가린 곳의 턱 높이와 진입 가능한 지점은 이 사진으로 확인할 수 없어요.",
+              "position": [
+                62,
+                66
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-garden",
+        "photo": {
+          "id": "museum-bus-v31-garden",
+          "image": "/modu50m/bus-v31/naver-culture-plaza.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=FEsFyhi2khk0WMHpWulzFg,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=FEsFyhi2khk0WMHpWulzFg,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-21",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3654071,
+            "lng": 127.3855347,
+            "lon": 127.3855347
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "134bab09d17a49ce23ae4dc9ee8fe38555c88d22e89e08f5f9d7796188f2a8f4",
+          "mobilityEvidence": true,
+          "scope": "안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+          "attribution": "NAVER · 원본 거리 사진 · 2026-04-21",
+          "panoid": "FEsFyhi2khk0WMHpWulzFg",
+          "panoId": "FEsFyhi2khk0WMHpWulzFg"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/naver-culture-plaza.jpg",
+          "photoId": "museum-bus-v31-garden",
+          "sourceSha256": "134bab09d17a49ce23ae4dc9ee8fe38555c88d22e89e08f5f9d7796188f2a8f4",
+          "kind": "segment",
+          "title": "주차 진출입로 옆 보행 접점",
+          "question": "안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "높은 보도 경계",
+              "detail": "안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+              "position": [
+                60,
+                75
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      }
+    ],
+    "missingShots": [
+      "보도 접점에서 외부 경사로 시작까지 연결",
+      "외부 경사로 끝과 2층 출입문 가까운 사진"
+    ],
+    "note": "버스 정류장부터 출입구까지의 방문 준비 자료. 카메라 좌표와 보행 동선 후보를 구분합니다."
+  },
+  {
+    "placeId": "leeungno",
+    "photos": [
+      {
+        "pointId": "bus-v31-bus",
+        "photo": {
+          "id": "leeungno-bus-v31-bus",
+          "image": "/modu50m/bus-v31/culture-stop-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833374&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200833374?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3649334087675,
+            "lng": 127.384535786648,
+            "lon": 127.384535786648
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "58564454c7516d00bc9a2d787056ff28a6762a40880f1cfc29b918a78b7302db",
+          "mobilityEvidence": true,
+          "scope": "34730번, 미술관들이 있는 쪽 보도에서 시작해요. 도로 반대편 정류장과 구분해요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200833374",
+          "panoId": "1200833374"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/culture-stop-0.jpg",
+          "photoId": "leeungno-bus-v31-bus",
+          "sourceSha256": "58564454c7516d00bc9a2d787056ff28a6762a40880f1cfc29b918a78b7302db",
+          "kind": "segment",
+          "title": "대전예술의전당 정류장 하차",
+          "question": "34730번, 미술관들이 있는 쪽 보도에서 시작해요. 도로 반대편 정류장과 구분해요.",
+          "focus": [
+            62,
+            59
+          ],
+          "observations": [
+            {
+              "label": "쉼터 옆 붉은 보도",
+              "detail": "살펴볼 곳은 정류장 쉼터와 가로수 뒤쪽의 붉은 보도예요. 사진을 찍은 차도와 구분해요. 하차 후 보도로 올라서는 턱과 남는 폭은 가까운 사진이 더 필요해요.",
+              "position": [
+                62,
+                59
+              ]
+            },
+            {
+              "label": "쉼터·표지판 주변",
+              "detail": "쉼터 기둥과 안내판이 보도에 있어요. 이 시설물 주변의 통과 공간을 살펴보세요. 실제 폭은 사진으로 측정하지 않았어요.",
+              "position": [
+                81,
+                56
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "34730번, 미술관들이 있는 쪽 보도에서 시작해요. 도로 반대편 정류장과 구분해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-walk",
+        "photo": {
+          "id": "leeungno-bus-v31-walk",
+          "image": "/modu50m/bus-v31/culture-walk-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200833351&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200833351?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-15",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3649276362343,
+            "lng": 127.385208760755,
+            "lon": 127.385208760755
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "dffe171675569aa4c3de21245f5365c991321aa07a5a7f83f70e3096f343c660",
+          "mobilityEvidence": true,
+          "scope": "정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-15",
+          "panoid": "1200833351",
+          "panoId": "1200833351"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/culture-walk-0.jpg",
+          "photoId": "leeungno-bus-v31-walk",
+          "sourceSha256": "dffe171675569aa4c3de21245f5365c991321aa07a5a7f83f70e3096f343c660",
+          "kind": "segment",
+          "title": "미술관 표지 쪽 보도",
+          "question": "정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+          "focus": [
+            36,
+            61
+          ],
+          "observations": [
+            {
+              "label": "나무 뒤 포장 보도",
+              "detail": "살펴볼 길은 차량 뒤쪽, 가로수와 미술관 광장 사이에 있는 회색 포장 보도예요. 사진을 찍은 도로를 이동 경로로 안내하는 표시가 아니에요.",
+              "position": [
+                36,
+                61
+              ]
+            },
+            {
+              "label": "차량에 가린 보도 경계",
+              "detail": "노란 차량이 보도와 차도의 경계 일부를 가리고 있어요. 가린 곳의 턱 높이와 진입 가능한 지점은 이 사진으로 확인할 수 없어요.",
+              "position": [
+                62,
+                66
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-junction",
+        "photo": {
+          "id": "leeungno-bus-v31-junction",
+          "image": "/modu50m/bus-v31/naver-culture-plaza.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=FEsFyhi2khk0WMHpWulzFg,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=FEsFyhi2khk0WMHpWulzFg,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2026-04-21",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3654071,
+            "lng": 127.3855347,
+            "lon": 127.3855347
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "134bab09d17a49ce23ae4dc9ee8fe38555c88d22e89e08f5f9d7796188f2a8f4",
+          "mobilityEvidence": true,
+          "scope": "안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+          "attribution": "NAVER · 원본 거리 사진 · 2026-04-21",
+          "panoid": "FEsFyhi2khk0WMHpWulzFg",
+          "panoId": "FEsFyhi2khk0WMHpWulzFg"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/naver-culture-plaza.jpg",
+          "photoId": "leeungno-bus-v31-junction",
+          "sourceSha256": "134bab09d17a49ce23ae4dc9ee8fe38555c88d22e89e08f5f9d7796188f2a8f4",
+          "kind": "segment",
+          "title": "공원 보행로 갈림길",
+          "question": "안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "높은 보도 경계",
+              "detail": "안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+              "position": [
+                60,
+                75
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      }
+    ],
+    "missingShots": [
+      "공원 갈림길에서 이응노미술관 앞마당까지 연속 사진",
+      "사진 사이 가려진 바닥과 현재 통행 상태의 현장 확인"
+    ],
+    "note": "버스 정류장부터 출입구까지의 방문 준비 자료. 카메라 좌표와 보행 동선 후보를 구분합니다."
+  },
+  {
+    "placeId": "science",
+    "photos": [
+      {
+        "pointId": "bus-v31-bus",
+        "photo": {
+          "id": "science-bus-v31-bus",
+          "image": "/modu50m/bus-v31/science-stop-0.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200672874&pan=0&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200672874?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-10",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.37399504645,
+            "lng": 127.377929810573,
+            "lon": 127.377929810573
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "16e9d48fdbaeb3a7c89e8f28677b7a4cacf594bb0fc53ca4939ff1c374e58f21",
+          "mobilityEvidence": true,
+          "scope": "42930번, 과학관 부지가 있는 쪽에서 내려요. 쉼터 옆 점자블록과 나무 주변 보도 폭을 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-10",
+          "panoid": "1200672874",
+          "panoId": "1200672874"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/science-stop-0.jpg",
+          "photoId": "science-bus-v31-bus",
+          "sourceSha256": "16e9d48fdbaeb3a7c89e8f28677b7a4cacf594bb0fc53ca4939ff1c374e58f21",
+          "kind": "segment",
+          "title": "국립중앙과학관 정류장 하차",
+          "question": "42930번, 과학관 부지가 있는 쪽에서 내려요. 쉼터 옆 점자블록과 나무 주변 보도 폭을 살펴봐요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "정류장 기둥 옆 통로",
+              "detail": "42930번, 과학관 부지가 있는 쪽에서 내려요. 쉼터 옆 점자블록과 나무 주변 보도 폭을 살펴봐요.",
+              "position": [
+                74,
+                75
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "42930번, 과학관 부지가 있는 쪽에서 내려요. 쉼터 옆 점자블록과 나무 주변 보도 폭을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-walk",
+        "photo": {
+          "id": "science-bus-v31-walk",
+          "image": "/modu50m/bus-v31/science-stop-70.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200672874&pan=70&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200672874?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-09-10",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.37399504645,
+            "lng": 127.377929810573,
+            "lon": 127.377929810573
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "9d8d4f2f6a26df733d83e13b47724fbe09ea0a66e302cdd43947cef2939c3367",
+          "mobilityEvidence": true,
+          "scope": "신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-09-10",
+          "panoid": "1200672874",
+          "panoId": "1200672874"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/science-stop-70.jpg",
+          "photoId": "science-bus-v31-walk",
+          "sourceSha256": "9d8d4f2f6a26df733d83e13b47724fbe09ea0a66e302cdd43947cef2939c3367",
+          "kind": "segment",
+          "title": "정류장 옆 보도로 동쪽 이동",
+          "question": "신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "가로수 옆 보도",
+              "detail": "신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+              "position": [
+                15,
+                60
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-plaza",
+        "photo": {
+          "id": "science-bus-v31-plaza",
+          "image": "/modu50m/bus-v31/naver-science-plaza.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=ODzjXp2QgMWt37Jq2KkQxA,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=ODzjXp2QgMWt37Jq2KkQxA,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2020-11-06",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3750402,
+            "lng": 127.3760418,
+            "lon": 127.3760418
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "0d3f7e83ef162e2bd8941dbc80b116f189ab57647d18af0e971a30e7349cd788",
+          "mobilityEvidence": true,
+          "scope": "2020년 네이버 거리 사진이에요. 과학관 내부 광장과 전시관 사이 보행 공간을 비교해요. 현재 시설 배치와 정문 연결은 더 확인해요.",
+          "attribution": "NAVER · 원본 거리 사진 · 2020-11-06",
+          "panoid": "ODzjXp2QgMWt37Jq2KkQxA",
+          "panoId": "ODzjXp2QgMWt37Jq2KkQxA"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/naver-science-plaza.jpg",
+          "photoId": "science-bus-v31-plaza",
+          "sourceSha256": "0d3f7e83ef162e2bd8941dbc80b116f189ab57647d18af0e971a30e7349cd788",
+          "kind": "segment",
+          "title": "과학관 내부 광장",
+          "question": "2020년 네이버 거리 사진이에요. 과학관 내부 광장과 전시관 사이 보행 공간을 비교해요. 현재 시설 배치와 정문 연결은 더 확인해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "광장 바닥·시설물",
+              "detail": "2020년 네이버 거리 사진이에요. 과학관 내부 광장과 전시관 사이 보행 공간을 비교해요. 현재 시설 배치와 정문 연결은 더 확인해요.",
+              "position": [
+                48,
+                65
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "2020년 네이버 거리 사진이에요. 과학관 내부 광장과 전시관 사이 보행 공간을 비교해요. 현재 시설 배치와 정문 연결은 더 확인해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-path",
+        "photo": {
+          "id": "science-bus-v31-path",
+          "image": "/modu50m/bus-v31/naver-science-walk.jpg",
+          "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=v8GFJZOsdwrZZj-Vi1oDJA,0.0,10.0,80.0,Float",
+          "sourceImageUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=v8GFJZOsdwrZZj-Vi1oDJA,0.0,10.0,80.0,Float",
+          "provider": "naver",
+          "providerLabel": "네이버 거리뷰",
+          "captureDate": "2020-11-06",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3762148,
+            "lng": 127.3743795,
+            "lon": 127.3743795
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-cubemap-face",
+          "sourceSha256": "89a1ec8814748d705625a1102516bb5485ef6488b3d8db268ff58cf51036d980",
+          "mobilityEvidence": true,
+          "scope": "2020년 사진의 열차 전시물과 쉼터 사이 길이에요. 앞 광장에서 이 길까지의 전체 바닥 및 현재 배치를 확인해야 해요.",
+          "attribution": "NAVER · 원본 거리 사진 · 2020-11-06",
+          "panoid": "v8GFJZOsdwrZZj-Vi1oDJA",
+          "panoId": "v8GFJZOsdwrZZj-Vi1oDJA"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/naver-science-walk.jpg",
+          "photoId": "science-bus-v31-path",
+          "sourceSha256": "89a1ec8814748d705625a1102516bb5485ef6488b3d8db268ff58cf51036d980",
+          "kind": "segment",
+          "title": "열차 전시물 옆 보행로",
+          "question": "2020년 사진의 열차 전시물과 쉼터 사이 길이에요. 앞 광장에서 이 길까지의 전체 바닥 및 현재 배치를 확인해야 해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "전시물과 쉼터 사이 길",
+              "detail": "2020년 사진의 열차 전시물과 쉼터 사이 길이에요. 앞 광장에서 이 길까지의 전체 바닥 및 현재 배치를 확인해야 해요.",
+              "position": [
+                54,
+                70
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "2020년 사진의 열차 전시물과 쉼터 사이 길이에요. 앞 광장에서 이 길까지의 전체 바닥 및 현재 배치를 확인해야 해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      }
+    ],
+    "missingShots": [
+      "정류장 옆 보도에서 정문을 지나 광장까지 최신 사진",
+      "2020년 내부 사진 이후의 현재 배치와 광장 사이 연결"
+    ],
+    "note": "버스 정류장부터 출입구까지의 방문 준비 자료. 카메라 좌표와 보행 동선 후보를 구분합니다."
+  },
+  {
+    "placeId": "sungsim",
+    "photos": [
+      {
+        "pointId": "bus-v31-bus",
+        "photo": {
+          "id": "sungsim-bus-v31-bus",
+          "image": "/modu50m/bus-v31/bakery-bus-sign-30.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201509285&pan=30&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201509285?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3260551070292,
+            "lng": 127.427453312035,
+            "lon": 127.427453312035
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "f3c6952c47714c9f3d999bd68e7bc1f696495577d5123f728808cf05ba1fdb41",
+          "mobilityEvidence": true,
+          "scope": "20780번, 이안과병원 앞 정류장에서 시작해요. 본점과 같은 쪽 보도이며, 큰 가로수·쉼터·전화부스 사이 통로를 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-01",
+          "panoid": "1201509285",
+          "panoId": "1201509285"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/bakery-bus-sign-30.jpg",
+          "photoId": "sungsim-bus-v31-bus",
+          "sourceSha256": "f3c6952c47714c9f3d999bd68e7bc1f696495577d5123f728808cf05ba1fdb41",
+          "kind": "segment",
+          "title": "대흥동성당 정류장 하차",
+          "question": "20780번, 이안과병원 앞 정류장에서 시작해요. 본점과 같은 쪽 보도이며, 큰 가로수·쉼터·전화부스 사이 통로를 살펴봐요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "쉼터·나무 사이 통로",
+              "detail": "20780번, 이안과병원 앞 정류장에서 시작해요. 본점과 같은 쪽 보도이며, 큰 가로수·쉼터·전화부스 사이 통로를 살펴봐요.",
+              "position": [
+                48,
+                75
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "20780번, 이안과병원 앞 정류장에서 시작해요. 본점과 같은 쪽 보도이며, 큰 가로수·쉼터·전화부스 사이 통로를 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-walk",
+        "photo": {
+          "id": "sungsim-bus-v31-walk",
+          "image": "/modu50m/bus-v31/bakery-sidewalk-20.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201509324&pan=20&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201509324?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-01",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.326867870082,
+            "lng": 127.426976633362,
+            "lon": 127.426976633362
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "86c38379718b220ddbf1f83e6b267d44f14b675fe0fc0b46abc2e758c6a99aed",
+          "mobilityEvidence": true,
+          "scope": "도로를 건너지 않고 같은 쪽 보도로 북쪽을 살펴봐요. 주차장 차량 진출입로, 안내판과 배수구가 만나는 곳을 확인해요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-01",
+          "panoid": "1201509324",
+          "panoId": "1201509324"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/bakery-sidewalk-20.jpg",
+          "photoId": "sungsim-bus-v31-walk",
+          "sourceSha256": "86c38379718b220ddbf1f83e6b267d44f14b675fe0fc0b46abc2e758c6a99aed",
+          "kind": "segment",
+          "title": "대종로 보도를 따라 북쪽으로",
+          "question": "도로를 건너지 않고 같은 쪽 보도로 북쪽을 살펴봐요. 주차장 차량 진출입로, 안내판과 배수구가 만나는 곳을 확인해요.",
+          "focus": [
+            38,
+            79
+          ],
+          "observations": [
+            {
+              "label": "보도와 주차 진입로의 접점",
+              "detail": "도로 옆 보도가 주차 진입로와 만나는 곳이에요. 보도 경계와 배수구를 살펴보고, 차량이 들어오고 나가는 방향도 함께 확인해요.",
+              "position": [
+                38,
+                79
+              ]
+            },
+            {
+              "label": "차량이 오가는 주차 진입로",
+              "detail": "주차된 차량과 안내판 앞에 차량 진입로가 보여요. 주차장 안쪽으로 이동하라는 표시가 아니에요. 보도 연결 부분의 턱과 경사는 더 확인해야 해요.",
+              "position": [
+                63,
+                74
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "도로를 건너지 않고 같은 쪽 보도로 북쪽을 살펴봐요. 주차장 차량 진출입로, 안내판과 배수구가 만나는 곳을 확인해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-turn",
+        "photo": {
+          "id": "sungsim-bus-v31-turn",
+          "image": "/modu50m/bus-v31/bakery-turn-65.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201595041&pan=65&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201595041?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-09",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3273950539436,
+            "lng": 127.426725584581,
+            "lon": 127.426725584581
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "b0ba5e8a28fae4d0912ed00b5e6c5b216727285e8c1f3a91d7e6c582a88212b5",
+          "mobilityEvidence": true,
+          "scope": "케익부띠끄 건물 옆 골목으로 들어가요. 이곳이 본점 문은 아니에요. 가판대·대기 줄 사이 실제 남는 폭을 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-09",
+          "panoid": "1201595041",
+          "panoId": "1201595041"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/bakery-turn-65.jpg",
+          "photoId": "sungsim-bus-v31-turn",
+          "sourceSha256": "b0ba5e8a28fae4d0912ed00b5e6c5b216727285e8c1f3a91d7e6c582a88212b5",
+          "kind": "segment",
+          "title": "대종로480번길로 오른쪽 회전",
+          "question": "케익부띠끄 건물 옆 골목으로 들어가요. 이곳이 본점 문은 아니에요. 가판대·대기 줄 사이 실제 남는 폭을 살펴봐요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "가판대·대기 줄 사이",
+              "detail": "케익부띠끄 건물 옆 골목으로 들어가요. 이곳이 본점 문은 아니에요. 가판대·대기 줄 사이 실제 남는 폭을 살펴봐요.",
+              "position": [
+                51,
+                70
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "케익부띠끄 건물 옆 골목으로 들어가요. 이곳이 본점 문은 아니에요. 가판대·대기 줄 사이 실제 남는 폭을 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-queue",
+        "photo": {
+          "id": "sungsim-bus-v31-queue",
+          "image": "/modu50m/bus-v31/bakery-front-45.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201595014&pan=45&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201595014?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-09",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3275486053765,
+            "lng": 127.427131811695,
+            "lon": 127.427131811695
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "0b37ca5604c69d90b485061cda312dd02faa12afcb71e1f774f02755e18b2fa5",
+          "mobilityEvidence": true,
+          "scope": "골목 안쪽으로 이동하면 본점 앞 대기 구역이 나와요. 사람·안내대 때문에 길이 좁아지는 부분을 사진에서 비교해요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-09",
+          "panoid": "1201595014",
+          "panoId": "1201595014"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/bakery-front-45.jpg",
+          "photoId": "sungsim-bus-v31-queue",
+          "sourceSha256": "0b37ca5604c69d90b485061cda312dd02faa12afcb71e1f774f02755e18b2fa5",
+          "kind": "segment",
+          "title": "골목을 따라 본점 대기 구역",
+          "question": "골목 안쪽으로 이동하면 본점 앞 대기 구역이 나와요. 사람·안내대 때문에 길이 좁아지는 부분을 사진에서 비교해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "본점 앞 이동 공간",
+              "detail": "골목 안쪽으로 이동하면 본점 앞 대기 구역이 나와요. 사람·안내대 때문에 길이 좁아지는 부분을 사진에서 비교해요.",
+              "position": [
+                51,
+                70
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "골목 안쪽으로 이동하면 본점 앞 대기 구역이 나와요. 사람·안내대 때문에 길이 좁아지는 부분을 사진에서 비교해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      }
+    ],
+    "missingShots": [
+      "정류장·차량 진출입로·골목·문턱의 현재 통과 폭과 높이",
+      "사진 사이 가려진 바닥과 현재 통행 상태의 현장 확인"
+    ],
+    "note": "버스 정류장부터 출입구까지의 방문 준비 자료. 카메라 좌표와 보행 동선 후보를 구분합니다."
+  },
+  {
+    "placeId": "skyroad",
+    "photos": [
+      {
+        "pointId": "bus-v31-bus",
+        "photo": {
+          "id": "skyroad-bus-v31-bus",
+          "image": "/modu50m/bus-v31/skyroad-bus-170.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201497785&pan=170&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201497785?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-02",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3292021143154,
+            "lng": 127.427425952088,
+            "lon": 127.427425952088
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "d386f55bc5d3557b0c4553da6943530b3dde4be5e3bc687f84f5a4a021f0f803",
+          "mobilityEvidence": true,
+          "scope": "20050번, 스카이로드가 있는 남쪽 보도예요. 쉼터 뒤 보도와 가로수 사이를 살펴봐요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-02",
+          "panoid": "1201497785",
+          "panoId": "1201497785"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/skyroad-bus-170.jpg",
+          "photoId": "skyroad-bus-v31-bus",
+          "sourceSha256": "d386f55bc5d3557b0c4553da6943530b3dde4be5e3bc687f84f5a4a021f0f803",
+          "kind": "segment",
+          "title": "으능정이거리 정류장 하차",
+          "question": "20050번, 스카이로드가 있는 남쪽 보도예요. 쉼터 뒤 보도와 가로수 사이를 살펴봐요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "쉼터 뒤 통과 공간",
+              "detail": "20050번, 스카이로드가 있는 남쪽 보도예요. 쉼터 뒤 보도와 가로수 사이를 살펴봐요.",
+              "position": [
+                52,
+                67
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "20050번, 스카이로드가 있는 남쪽 보도예요. 쉼터 뒤 보도와 가로수 사이를 살펴봐요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-entry",
+        "photo": {
+          "id": "skyroad-bus-v31-entry",
+          "image": "/modu50m/bus-v31/skyroad-entry-155.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201497803&pan=155&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201497803?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-02",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3293163949161,
+            "lng": 127.427725056866,
+            "lon": 127.427725056866
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "5e277394b21f4e9ff78f18456fd58e3087f98e984e4c2473bb893f4d168f2e49",
+          "mobilityEvidence": true,
+          "scope": "정류장에서 동쪽으로 이동하면 머리 위에 대전 스카이로드 표지가 보여요. 여기서 오른쪽으로 들어가요. 입구 가림막·볼라드·바닥 경계를 확인해요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-02",
+          "panoid": "1201497803",
+          "panoId": "1201497803"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/skyroad-entry-155.jpg",
+          "photoId": "skyroad-bus-v31-entry",
+          "sourceSha256": "5e277394b21f4e9ff78f18456fd58e3087f98e984e4c2473bb893f4d168f2e49",
+          "kind": "segment",
+          "title": "같은 보도에서 스카이로드 표지 찾기",
+          "question": "정류장에서 동쪽으로 이동하면 머리 위에 대전 스카이로드 표지가 보여요. 여기서 오른쪽으로 들어가요. 입구 가림막·볼라드·바닥 경계를 확인해요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "가림막 사이 진입부",
+              "detail": "정류장에서 동쪽으로 이동하면 머리 위에 대전 스카이로드 표지가 보여요. 여기서 오른쪽으로 들어가요. 입구 가림막·볼라드·바닥 경계를 확인해요.",
+              "position": [
+                55,
+                74
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "정류장에서 동쪽으로 이동하면 머리 위에 대전 스카이로드 표지가 보여요. 여기서 오른쪽으로 들어가요. 입구 가림막·볼라드·바닥 경계를 확인해요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      },
+      {
+        "pointId": "bus-v31-path",
+        "photo": {
+          "id": "skyroad-bus-v31-path",
+          "image": "/modu50m/bus-v31/skyroad-path-155.jpg",
+          "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201595693&pan=155&tilt=-7&zoom=0",
+          "sourceImageUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1201595693?SERVICE=glpano",
+          "provider": "kakao",
+          "providerLabel": "카카오 로드뷰",
+          "captureDate": "2025-10-09",
+          "captureDatePrecision": "day",
+          "retrievedAt": "2026-09-25",
+          "camera": {
+            "lat": 36.3287673420256,
+            "lng": 127.428042808876,
+            "lon": 127.428042808876
+          },
+          "mapBindingVerified": false,
+          "fieldVerified": false,
+          "entranceVerified": false,
+          "continuousRouteVerified": false,
+          "captureMethod": "source-panorama-perspective",
+          "sourceSha256": "2cb50886684161ec12e7c2ce89ed305fe92b5a80d6828e4986ecc4ec78273a4b",
+          "mobilityEvidence": true,
+          "scope": "거리 안쪽 사진으로 기둥과 입간판 사이 통과 공간을 살펴봐요. 사진 속 차량·배달 오토바이와 현재 배치는 달라질 수 있어요.",
+          "attribution": "Kakao · 원본 거리 사진 · 2025-10-09",
+          "panoid": "1201595693",
+          "panoId": "1201595693"
+        },
+        "review": {
+          "image": "/modu50m/bus-v31/skyroad-path-155.jpg",
+          "photoId": "skyroad-bus-v31-path",
+          "sourceSha256": "2cb50886684161ec12e7c2ce89ed305fe92b5a80d6828e4986ecc4ec78273a4b",
+          "kind": "segment",
+          "title": "스카이로드 아래 보행 구간",
+          "question": "거리 안쪽 사진으로 기둥과 입간판 사이 통과 공간을 살펴봐요. 사진 속 차량·배달 오토바이와 현재 배치는 달라질 수 있어요.",
+          "focus": [
+            50,
+            68
+          ],
+          "observations": [
+            {
+              "label": "기둥·입간판 사이",
+              "detail": "거리 안쪽 사진으로 기둥과 입간판 사이 통과 공간을 살펴봐요. 사진 속 차량·배달 오토바이와 현재 배치는 달라질 수 있어요.",
+              "position": [
+                59,
+                68
+              ]
+            }
+          ],
+          "unknowns": [
+            "현재 통과 폭·경사·턱 높이와 운영 상태",
+            "사진과 사진 사이에서 가려진 바닥"
+          ],
+          "connection": "거리 안쪽 사진으로 기둥과 입간판 사이 통과 공간을 살펴봐요. 사진 속 차량·배달 오토바이와 현재 배치는 달라질 수 있어요.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "qualityNotes": "원본 파노라마에서 투영 또는 원본 큐브 면 추출. AI 합성·장애물 제거 없음. 카메라 좌표와 목적지 좌표를 구분."
+      }
+    ],
+    "missingShots": [
+      "정류장 하차 턱과 진입 가림막 사이의 현재 통과 폭",
+      "사진 사이 가려진 바닥과 현재 통행 상태의 현장 확인"
+    ],
+    "note": "버스 정류장부터 출입구까지의 방문 준비 자료. 카메라 좌표와 보행 동선 후보를 구분합니다."
+  }
+]

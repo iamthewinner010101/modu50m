@@ -1,0 +1,954 @@
+{
+  "/modu50m/bus-v31/arboretum-bus-300.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/arboretum-front-90.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/arboretum-path-east-50.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/arboretum-sidewalk-40.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/arboretum-turn-315.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/bakery-bus-sign-30.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/bakery-front-45.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/bakery-sidewalk-20.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/bakery-turn-65.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/culture-stop-0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/culture-walk-0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/naver-culture-plaza.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v31/naver-science-plaza.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v31/naver-science-walk.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v31/science-stop-0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/science-stop-70.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/skyroad-bus-170.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/skyroad-entry-155.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v31/skyroad-path-155.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/leeungno-forecourt-face1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/leeungno-link-face1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/museum-turn-face1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/science-join-face0.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/science-mainbridge-face1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/science-path-face0.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/station-blog-02.jpg": {
+    "width": 900,
+    "height": 675
+  },
+  "/modu50m/bus-v32/station-bus-near-0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/station-plaza-north-75.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/station-plaza-turn-100.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/station-square-new-face2.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/bus-v32/station-walksouth-80.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/terminal-bus-near-0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/terminal-entrance-285.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/terminal-ped-cross-0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/terminal-sculpture-315.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/bus-v32/terminal-westwalk-350.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/hanbit-roadview-v2/approach.jpg": {
+    "width": 1200,
+    "height": 750
+  },
+  "/modu50m/hanbit-roadview-v2/threshold.jpg": {
+    "width": 1200,
+    "height": 750
+  },
+  "/modu50m/journeys-v30/bakery-10.png": {
+    "width": 1280,
+    "height": 640
+  },
+  "/modu50m/journeys-v30/greenhouse-blog-0.png": {
+    "width": 1400,
+    "height": 854
+  },
+  "/modu50m/journeys-v30/oldtown-31.png": {
+    "width": 1000,
+    "height": 700
+  },
+  "/modu50m/mobility-v19/hanbit-01-431abf00.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v19/hanbit-02-7de85cbf.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v19/leeungno-01-d38bf7e9.jpg": {
+    "width": 940,
+    "height": 627
+  },
+  "/modu50m/mobility-v19/museum-01-f53f934b.jpg": {
+    "width": 940,
+    "height": 705
+  },
+  "/modu50m/mobility-v19/oworld-01-b6b43a7b.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v19/oworld-02-8d891dbf.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v19/oworld-03-d83d851f.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v19/oworld-04-a514ea7e.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v19/oworld-05-ff63c480.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v20/skyroad-02-3d6886f1.jpg": {
+    "width": 940,
+    "height": 626
+  },
+  "/modu50m/mobility-v21/hanbit-179-ff5c0702.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v21/hanbit-180-748949ae.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v21/leeungno-research-a-01-084bf8f1.jpg": {
+    "width": 4032,
+    "height": 3024
+  },
+  "/modu50m/mobility-v21/leeungno-research-a-02-885a13a1.jpg": {
+    "width": 2830,
+    "height": 3774
+  },
+  "/modu50m/mobility-v21/museum-research-a-01-479b0a03.jpg": {
+    "width": 700,
+    "height": 466
+  },
+  "/modu50m/mobility-v21/oworld-research-a-03-98730196.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v21/science-research-a-01-a396a6e3.jpg": {
+    "width": 1000,
+    "height": 1333
+  },
+  "/modu50m/mobility-v23/hanbit-route-v23-h-01-dce7f3c6.jpg": {
+    "width": 700,
+    "height": 467
+  },
+  "/modu50m/mobility-v23/terminal-route-c-06-e8fd2ace.jpg": {
+    "width": 1024,
+    "height": 683
+  },
+  "/modu50m/place-reference-v6/station-front.jpg": {
+    "width": 5820,
+    "height": 3274
+  },
+  "/modu50m/route-photos-v25/hanbit-hanbit2-26.png": {
+    "width": 700,
+    "height": 358
+  },
+  "/modu50m/route-photos-v25/hanbit-hanbit2-27.png": {
+    "width": 700,
+    "height": 358
+  },
+  "/modu50m/route-photos-v25/oworld-oworld2-1.jpg": {
+    "width": 4000,
+    "height": 3000
+  },
+  "/modu50m/route-photos-v27/naver-hanbit-face-1.jpg": {
+    "width": 2048,
+    "height": 2048
+  },
+  "/modu50m/route-photos-v27/naver-hanbit-face-3.jpg": {
+    "width": 2048,
+    "height": 2048
+  },
+  "/modu50m/route-photos-v27/oworld-between-crossings-35.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/oworld-first-cross-285.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/oworld-first-cross-90.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/oworld-gate-approach-120.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/oworld-walk-end-175.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/oworld-walk-middle-100.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/oworld-walk-start-100.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v27/taeran-01.jpg": {
+    "width": 720,
+    "height": 540
+  },
+  "/modu50m/route-photos-v27/taeran-02.jpg": {
+    "width": 720,
+    "height": 540
+  },
+  "/modu50m/route-photos-v27/taeran-03.jpg": {
+    "width": 720,
+    "height": 540
+  },
+  "/modu50m/route-photos-v35/arboretum-entrance-2021.jpg": {
+    "width": 4000,
+    "height": 2252
+  },
+  "/modu50m/route-photos-v36/arboretum-08.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/arboretum-09.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/arboretum-10.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/hanbit-04.jpg": {
+    "width": 466,
+    "height": 621
+  },
+  "/modu50m/route-photos-v36/hanbit-05.jpg": {
+    "width": 466,
+    "height": 621
+  },
+  "/modu50m/route-photos-v36/leeungno-04.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/modu50m/route-photos-v36/leeungno-12.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/modu50m/route-photos-v36/leeungno-13.jpg": {
+    "width": 466,
+    "height": 350
+  },
+  "/modu50m/route-photos-v36/leeungno-14.jpg": {
+    "width": 466,
+    "height": 350
+  },
+  "/modu50m/route-photos-v36/museum-05.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/modu50m/route-photos-v36/oworld-03.jpg": {
+    "width": 900,
+    "height": 675
+  },
+  "/modu50m/route-photos-v36/oworld-04.jpg": {
+    "width": 900,
+    "height": 675
+  },
+  "/modu50m/route-photos-v36/oworld-05.jpg": {
+    "width": 900,
+    "height": 675
+  },
+  "/modu50m/route-photos-v36/science-01.jpg": {
+    "width": 966,
+    "height": 544
+  },
+  "/modu50m/route-photos-v36/science-02.jpg": {
+    "width": 966,
+    "height": 544
+  },
+  "/modu50m/route-photos-v36/skyroad-02.jpg": {
+    "width": 966,
+    "height": 966
+  },
+  "/modu50m/route-photos-v36/skyroad-03.jpg": {
+    "width": 966,
+    "height": 966
+  },
+  "/modu50m/route-photos-v36/skyroad-04.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/skyroad-05.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/skyroad-07.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/skyroad-13.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v36/station-01.jpg": {
+    "width": 580,
+    "height": 435
+  },
+  "/modu50m/route-photos-v36/sungsim-02.jpg": {
+    "width": 966,
+    "height": 644
+  },
+  "/modu50m/route-photos-v36/sungsim-03.jpg": {
+    "width": 966,
+    "height": 644
+  },
+  "/modu50m/route-photos-v36/sungsim-04.jpg": {
+    "width": 966,
+    "height": 644
+  },
+  "/modu50m/route-photos-v36/sungsim-08.jpg": {
+    "width": 966,
+    "height": 644
+  },
+  "/modu50m/route-photos-v36/terminal-02.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/modu50m/route-photos-v36/terminal-03.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/modu50m/route-photos-v40/arboretum-bus-f1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/arboretum-turn-f1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/hanbit-34-f2.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/hanbit-45-f3.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/kto-178-full-f.jpg": {
+    "width": 768,
+    "height": 768
+  },
+  "/modu50m/route-photos-v40/kto-178-full-l.jpg": {
+    "width": 768,
+    "height": 768
+  },
+  "/modu50m/route-photos-v40/leeungno-southpath-f1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/leeungno-southpath-f3.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/oworld-cross-f0.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/science-78-f0.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/science-78-f2.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/science-89-f0.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/science-89-f1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/science-89-f2.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/skyroad-entry-f1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/skyroad-entry-f2.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/station-56-h0.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v40/station-56-h45.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v40/sungsim-door-f0.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/sungsim-door-f1.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v40/terminal-gate4-f3.jpg": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v41/kakao-1201601973-h265.jpg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/modu50m/route-photos-v41/kakao-1201601985-h265.jpg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/modu50m/route-photos-v41/kakao-1201601985-h290.jpg": {
+    "width": 1600,
+    "height": 1000
+  },
+  "/modu50m/route-photos-v41/naver-blog-31.jpg": {
+    "width": 900,
+    "height": 676
+  },
+  "/modu50m/route-photos-v41/naver-westwalk-sidewalk.jpg": {
+    "width": 2048,
+    "height": 819
+  },
+  "/modu50m/route-photos-v41/tistory-0.jpg": {
+    "width": 3146,
+    "height": 2203
+  },
+  "/modu50m/route-photos-v42/science-direction-sign.jpg": {
+    "width": 800,
+    "height": 725
+  },
+  "/modu50m/route-photos-v42/science-dreamwalk.jpg": {
+    "width": 800,
+    "height": 451
+  },
+  "/modu50m/route-photos-v42/science-hall-ground.jpg": {
+    "width": 800,
+    "height": 387
+  },
+  "/modu50m/route-photos-v43/museum-kto-01.jpg": {
+    "width": 940,
+    "height": 705
+  },
+  "/modu50m/route-photos-v43/museum-kto-03.jpg": {
+    "width": 940,
+    "height": 705
+  },
+  "/modu50m/route-photos-v44/hanbit-board-canopy-front-published-202508.jpg": {
+    "width": 874,
+    "height": 874
+  },
+  "/modu50m/route-photos-v44/hanbit-board-edge-close.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/hanbit-canopy-floor-2024.jpg": {
+    "width": 3024,
+    "height": 4032
+  },
+  "/modu50m/route-photos-v44/hanbit-canopy-north-front-published-202303.jpg": {
+    "width": 1000,
+    "height": 476
+  },
+  "/modu50m/route-photos-v44/hanbit-canopy-parking-curb-2023.png": {
+    "width": 2048,
+    "height": 2048
+  },
+  "/modu50m/route-photos-v44/hanbit-canopy-plaza-side-2023.jpg": {
+    "width": 4032,
+    "height": 3024
+  },
+  "/modu50m/route-photos-v44/hanbit-canopy-to-tower-floor-2023.jpg": {
+    "width": 1000,
+    "height": 1375
+  },
+  "/modu50m/route-photos-v44/hanbit-payment-to-board.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/leeungno-door-floor-published-202601.jpg": {
+    "width": 5661,
+    "height": 3774
+  },
+  "/modu50m/route-photos-v44/leeungno-door157-front-202608.jpg": {
+    "width": 886,
+    "height": 591
+  },
+  "/modu50m/route-photos-v44/leeungno-forecourt-connection.jpg": {
+    "width": 1920,
+    "height": 1280
+  },
+  "/modu50m/route-photos-v44/leeungno-forecourt-door-202609.jpg": {
+    "width": 900,
+    "height": 1391
+  },
+  "/modu50m/route-photos-v44/leeungno-forecourt-park-facing.jpg": {
+    "width": 1174,
+    "height": 800
+  },
+  "/modu50m/route-photos-v44/leeungno-green-paving-end-202609.jpg": {
+    "width": 900,
+    "height": 1454
+  },
+  "/modu50m/route-photos-v44/leeungno-official-door-open-floor-201910.jpg": {
+    "width": 982,
+    "height": 768
+  },
+  "/modu50m/route-photos-v44/leeungno-official-parking-stairs-201910.jpg": {
+    "width": 982,
+    "height": 768
+  },
+  "/modu50m/route-photos-v44/leeungno-parking-forecourt-boundary-2023.jpg": {
+    "width": 4032,
+    "height": 3024
+  },
+  "/modu50m/route-photos-v44/leeungno-parking-wall.jpg": {
+    "width": 1920,
+    "height": 1280
+  },
+  "/modu50m/route-photos-v44/leeungno-side-parking-202609.jpg": {
+    "width": 900,
+    "height": 1310
+  },
+  "/modu50m/route-photos-v44/museum-lower-door-floor.jpg": {
+    "width": 1365,
+    "height": 2048
+  },
+  "/modu50m/route-photos-v44/museum-ramp-entry-2026.jpg": {
+    "width": 1500,
+    "height": 962
+  },
+  "/modu50m/route-photos-v44/museum-ramp-start-wide.jpg": {
+    "width": 800,
+    "height": 1067
+  },
+  "/modu50m/route-photos-v44/museum-upper-door-floor.jpg": {
+    "width": 2048,
+    "height": 1365
+  },
+  "/modu50m/route-photos-v44/science-central-arch-inside-published-202405.jpg": {
+    "width": 800,
+    "height": 533
+  },
+  "/modu50m/route-photos-v44/science-corner-turn.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-covered-path-gate.jpg": {
+    "width": 800,
+    "height": 533
+  },
+  "/modu50m/route-photos-v44/science-dreamwalk-corner.jpg": {
+    "width": 1400,
+    "height": 1050
+  },
+  "/modu50m/route-photos-v44/science-dreamwalk-gate-approach-2023.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/modu50m/route-photos-v44/science-dreamwalk-path-entry.jpg": {
+    "width": 1428,
+    "height": 1071
+  },
+  "/modu50m/route-photos-v44/science-dreamwalk-plaza-entry-2025.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/modu50m/route-photos-v44/science-dreamwalk-sheltered-path.jpg": {
+    "width": 1316,
+    "height": 894
+  },
+  "/modu50m/route-photos-v44/science-hall-north-junction.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-inner-plaza-mainhall-2023.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/modu50m/route-photos-v44/science-junction-turn.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-main-gate-front-2022.jpg": {
+    "width": 1280,
+    "height": 719
+  },
+  "/modu50m/route-photos-v44/science-middle-turn.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-parking-map-dreamwalk.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-parking-plaza-south.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-plaza-building-steps.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-plaza-tree-and-floor.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-post-gate-floor-published-202607.jpg": {
+    "width": 2250,
+    "height": 3000
+  },
+  "/modu50m/route-photos-v44/science-red-sidewalk-floor.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-roadside-plaza-edge.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v44/science-sidewalk-plaza-joint-2025.jpg": {
+    "width": 1280,
+    "height": 800
+  },
+  "/modu50m/route-photos-v44/science-train-lane-entry.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-under-building-traffic.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/science-west-pillar-curb-drain-202011.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v44/station-exit4-and-metro-stairs-published-202501.jpg": {
+    "width": 4032,
+    "height": 3024
+  },
+  "/modu50m/route-photos-v44/station-exit4-exterior-2025.jpg": {
+    "width": 900,
+    "height": 1200
+  },
+  "/modu50m/route-photos-v44/station-flowerclock-walk.jpg": {
+    "width": 1600,
+    "height": 1067
+  },
+  "/modu50m/route-photos-v44/station-west-plaza-public-9341522.png": {
+    "width": 864,
+    "height": 864
+  },
+  "/modu50m/route-photos-v44/station-west-stair-entrance.jpg": {
+    "width": 1600,
+    "height": 1067
+  },
+  "/modu50m/route-photos-v45/leeungno-fountain-forecourt-20180812.jpg": {
+    "width": 3000,
+    "height": 2000
+  },
+  "/modu50m/route-photos-v47/leeungno-park-approach-201910.jpg": {
+    "width": 982,
+    "height": 768
+  },
+  "/modu50m/route-photos-v47/leeungno-park-approach-return-201910.jpg": {
+    "width": 982,
+    "height": 768
+  },
+  "/modu50m/route-photos-v47/leeungno-park-forecourt-published-202606.jpg": {
+    "width": 580,
+    "height": 435
+  },
+  "/modu50m/route-photos-v47/leeungno-park-wall-joint-201910.jpg": {
+    "width": 982,
+    "height": 768
+  },
+  "/modu50m/route-photos-v48/leeungno-park-ground-published-202609.jpg": {
+    "width": 966,
+    "height": 725
+  },
+  "/modu50m/route-photos-v48/museum-name-sign-and-plaza-published-202506.jpg": {
+    "width": 580,
+    "height": 435
+  },
+  "/modu50m/route-photos-v50/hanbit-canopy-front-boundary-202011.png": {
+    "width": 2048,
+    "height": 2048
+  },
+  "/modu50m/route-photos-v51/museum-city-plaza-ramp-published-202604.jpg": {
+    "width": 3984,
+    "height": 2656
+  },
+  "/modu50m/route-photos-v53/science-gate-floor-published-202606.jpg": {
+    "width": 4000,
+    "height": 3000
+  },
+  "/modu50m/route-photos-v62/science-sidewalk-plaza-front-202504.png": {
+    "width": 2048,
+    "height": 2048
+  },
+  "/modu50m/route-photos-v63/museum-garden-to-forecourt-published-202609.jpg": {
+    "width": 900,
+    "height": 900
+  },
+  "/modu50m/route-photos-v67/terminal-west-5f-parking-original.jpg": {
+    "width": 876,
+    "height": 385
+  },
+  "/modu50m/route-photos-v67/terminal-west-atm-lift-cue-published-202512.jpg": {
+    "width": 800,
+    "height": 601
+  },
+  "/modu50m/route-photos-v67/terminal-gate4-inside-published-202407.jpg": {
+    "width": 800,
+    "height": 601
+  },
+  "/modu50m/route-photos-v68/sungsim-customer-parking-published-202305.png": {
+    "width": 793,
+    "height": 1058
+  },
+  "/modu50m/route-photos-v68/station-west2-parking-published-202603.jpg": {
+    "width": 800,
+    "height": 600
+  },
+  "/modu50m/route-photos-v68/station-west2-column-edge-published-202603.jpg": {
+    "width": 800,
+    "height": 600
+  },
+  "/modu50m/route-notices-v44/station-west-exit4-2024.jpg": {
+    "width": 900,
+    "height": 1200
+  },
+  "/modu50m/route-notices-v44/station-lift-corridor-2023.png": {
+    "width": 1780,
+    "height": 1692
+  },
+  "/modu50m/route-notices-v44/station-west-elevator-2023.jpg": {
+    "width": 819,
+    "height": 1093
+  },
+  "/modu50m/route-photos-v74/museum-handrail-floor-published-202512.jpg": {
+    "width": 3807,
+    "height": 2538
+  },
+  "/modu50m/route-photos-v74/leeungno-forecourt-floor-published-202512.jpg": {
+    "width": 4000,
+    "height": 2667
+  },
+  "/modu50m/route-photos-v75/science-administration-tree-floor-202011.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v75/science-staff-gate-202011.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v75/science-south-pillar-202011.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-lot-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-lot-f3.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-exit-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-south-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-south-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-alley-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-alley-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-canopy-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v77/skyroad-canopy-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-rear-street-f3.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-road-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-corner-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-west-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-west-f3.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-mouth-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v78/skyroad-mouth-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v83/skyroad-road-joint-f0.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v83/skyroad-entrance-f2.png": {
+    "width": 1024,
+    "height": 1024
+  },
+  "/modu50m/route-photos-v89/science-inside-gate-paving-published-202501.jpg": {
+    "width": 4000,
+    "height": 2250
+  },
+  "/modu50m/route-photos-v89/science-plaza-busts-floor-published-202501.jpg": {
+    "width": 4000,
+    "height": 2250
+  },
+  "/modu50m/route-photos-v94/arboretum-parking-crosswalk-published-201910.jpg": {
+    "width": 900,
+    "height": 506
+  },
+  "/modu50m/route-photos-v94/arboretum-crosswalk-courtyard-published-201910.jpg": {
+    "width": 900,
+    "height": 506
+  },
+  "/modu50m/mobility-v21/terminal-v21-research-c-02-94783564.jpg": {
+    "width": 414,
+    "height": 270
+  }
+}

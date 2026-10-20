@@ -1,0 +1,390 @@
+[
+  {
+    "id": "L50-001",
+    "name": "갤러리아 타임월드 서측 보도",
+    "facilityType": "백화점",
+    "address": "대전 서구 대덕대로 211",
+    "lat": 36.35191,
+    "lng": 127.37864,
+    "last50mNote": "대덕대로 차도와 갤러리아 타임월드 서측 보도가 만나는 경계와 고정 시설물을 확인",
+    "defaultBarrierType": "curb",
+    "aiSignals": {
+      "curb": 4,
+      "slope": 2,
+      "narrowSidewalk": 3,
+      "crossingComplexity": 4,
+      "entranceStep": 2,
+      "roadviewConfidence": 4
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%A4%91%EC%95%99%EC%95%BD%EA%B5%AD%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.37864,36.35191,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35191&lng=127.37864&name=%EC%A4%91%EC%95%99%EC%95%BD%EA%B5%AD%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35191&lng=127.37864&name=%EC%A4%91%EC%95%99%EC%95%BD%EA%B5%AD%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/갤러리아백화점 타임월드점,36.35191,127.37864",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35191,127.37864",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35191,127.37864",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35191%2C127.37864"
+    },
+    "reviewPhoto": {
+      "roadviewUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201119934&urlX=584989.0&urlY=792888.0&pan=270&tilt=0&zoom=0&urlLevel=3",
+      "image": "/modu50m/review-photos/roadview-ai-inputs/L50-001-west.jpg",
+      "caption": "카카오 로드뷰 2025-09 · 갤러리아 타임월드 서측 보도",
+      "sourcePlaceId": "10126730",
+      "captureDate": "2025-09-22T05:09:56",
+      "placeMatchStatus": "pending_human_confirmation"
+    },
+    "nearbyBuilding": "갤러리아백화점 타임월드점 · 카카오 장소 10126730",
+    "checkDirection": "FERRAGAMO 로고가 보이는 백화점 서측 외벽과 대덕대로 사이 보도",
+    "detailedLocation": "대덕대로 차도와 백화점 서측 보도가 맞닿는 경계, 가로수와 고정 시설물 주변",
+    "aiLimitReason": "사진에는 보도 경계와 나무·보호대가 보이지만 실제 턱 높이, 남은 유효폭, 출입구까지 이어지는 무단차 동선은 측정할 수 없습니다. 보이는 구조만 기록하고 수치는 현장에서 확인합니다."
+  },
+  {
+    "id": "L50-002",
+    "name": "시청역 대전1호선 8번출구 앞 보도",
+    "facilityType": "지하철역",
+    "address": "대전 서구 둔산동 1547",
+    "lat": 36.350939489426224,
+    "lng": 127.38692230707859,
+    "last50mNote": "8번출구에서 횡단보도까지 보도 경계·경사·점자블록 연결을 확인",
+    "defaultBarrierType": "slope",
+    "aiSignals": {
+      "curb": 3,
+      "slope": 4,
+      "narrowSidewalk": 1,
+      "crossingComplexity": 3,
+      "entranceStep": 1,
+      "roadviewConfidence": 5
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%8B%9C%EC%B2%AD%EC%97%AD%20%EB%8C%80%EC%A0%841%ED%98%B8%EC%84%A0%208%EB%B2%88%EC%B6%9C%EA%B5%AC%20%EC%95%9E%20%EB%B3%B4%EB%8F%84?c=127.38692,36.35094,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35094&lng=127.38692&name=%EC%8B%9C%EC%B2%AD%EC%97%AD%20%EB%8C%80%EC%A0%841%ED%98%B8%EC%84%A0%208%EB%B2%88%EC%B6%9C%EA%B5%AC%20%EC%95%9E%20%EB%B3%B4%EB%8F%84&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35094&lng=127.38692&name=%EC%8B%9C%EC%B2%AD%EC%97%AD%20%EB%8C%80%EC%A0%841%ED%98%B8%EC%84%A0%208%EB%B2%88%EC%B6%9C%EA%B5%AC%20%EC%95%9E%20%EB%B3%B4%EB%8F%84&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EC%8B%9C%EC%B2%AD%EC%97%AD%20%EB%8C%80%EC%A0%841%ED%98%B8%EC%84%A0%208%EB%B2%88%EC%B6%9C%EA%B5%AC,36.35094,127.38692",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35094,127.38692",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35094,127.38692",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35094%2C127.38692"
+    },
+    "reviewPhoto": {
+      "roadviewUrl": "https://map.kakao.com/link/roadview/36.3509470737726,127.386806484111",
+      "image": "/modu50m/review-photos/verified/L50-002-kakao-roadview-exit8-verified.png",
+      "caption": "카카오 로드뷰 2025-09 · 시청역 대전1호선 8번출구",
+      "sourcePlaceId": "7973637",
+      "captureDate": "2025-09-18T03:25:46",
+      "placeMatchStatus": "pending_human_confirmation"
+    },
+    "nearbyBuilding": "대전광역시청 동문 건너편 · 시청역 대전1호선 8번출구",
+    "checkDirection": "카카오 로드뷰의 '시청역 8' 표지와 출구·보도 경계가 함께 보이는 방향",
+    "detailedLocation": "8번출구 입구 앞 보도, 횡단보도 경계, 점자블록 연결 지점",
+    "aiLimitReason": "그림자·나무·차량 때문에 턱 높이, 경사도, 실제 유효폭은 사진만으로 측정할 수 없습니다. 사진에서 보이는 연결과 가림만 기록하고 최종 접근 가능 여부는 현장에서 확인합니다."
+  },
+  {
+    "id": "L50-003",
+    "name": "둔산 버스정류장 진입부",
+    "facilityType": "버스정류장",
+    "address": "대전 서구 둔산로 인근",
+    "lat": 36.35404,
+    "lng": 127.38336,
+    "last50mNote": "정류장 접근 전 보행 폭과 버스 승하차 공간 확인 필요",
+    "defaultBarrierType": "narrow_sidewalk",
+    "aiSignals": {
+      "curb": 3,
+      "slope": 1,
+      "narrowSidewalk": 5,
+      "crossingComplexity": 3,
+      "entranceStep": 0,
+      "roadviewConfidence": 4
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EB%91%94%EC%82%B0%20%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%9E%A5%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.38336,36.35404,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35404&lng=127.38336&name=%EB%91%94%EC%82%B0%20%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%9E%A5%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35404&lng=127.38336&name=%EB%91%94%EC%82%B0%20%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%9E%A5%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EB%91%94%EC%82%B0%20%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%9E%A5%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.35404,127.38336",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35404,127.38336",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35404,127.38336",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35404%2C127.38336"
+    },
+    "nearbyBuilding": "갤러리아 타임월드 백화점 맞은편 버스정류장 쉘터",
+    "checkDirection": "서쪽 (인도 보도블록 진입 방향)",
+    "detailedLocation": "정류장 부스 주변 가로수와 광고판 사이의 좁은 인도 구간",
+    "aiLimitReason": "정류장 광고판과 버스를 기다리는 사람들로 인해 보도 유효폭 분석이 불확실합니다. 서쪽으로 바라보며 유모차/휠체어가 통과할 수 있는 여유 폭이 나오는지 확인해야 합니다."
+  },
+  {
+    "id": "L50-004",
+    "name": "소아과 건물 입구",
+    "facilityType": "병원",
+    "address": "대전 서구 둔산동 병원가",
+    "lat": 36.34899,
+    "lng": 127.38205,
+    "last50mNote": "건물 입구 앞 단차와 경사로 존재 여부 확인 필요",
+    "defaultBarrierType": "entrance_step",
+    "aiSignals": {
+      "curb": 2,
+      "slope": 3,
+      "narrowSidewalk": 2,
+      "crossingComplexity": 2,
+      "entranceStep": 5,
+      "roadviewConfidence": 4
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%86%8C%EC%95%84%EA%B3%BC%20%EA%B1%B4%EB%AC%BC%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.38205,36.34899,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.34899&lng=127.38205&name=%EC%86%8C%EC%95%84%EA%B3%BC%20%EA%B1%B4%EB%AC%BC%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.34899&lng=127.38205&name=%EC%86%8C%EC%95%84%EA%B3%BC%20%EA%B1%B4%EB%AC%BC%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EC%86%8C%EC%95%84%EA%B3%BC%20%EA%B1%B4%EB%AC%BC%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.34899,127.38205",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.34899,127.38205",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.34899,127.38205",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.34899%2C127.38205"
+    },
+    "nearbyBuilding": "둔산동 아이프라자 소아과 메디컬 타워 빌딩",
+    "checkDirection": "북쪽 (건물 주출입구 및 회전 자동문 방면)",
+    "detailedLocation": "도로 경계석에서 건물 입구 로비로 이어지는 단차 구간",
+    "aiLimitReason": "건물 앞 주차된 차량과 화단 조경물 때문에 입구 문턱 유무가 가려져 있습니다. 로드뷰를 북쪽 정면으로 바라보고 입구에 휠체어 진입이 가능한 무단차 경사로가 설치되어 있는지 체크해 주세요."
+  },
+  {
+    "id": "L50-005",
+    "name": "세이브존 대전점 보행 주출입구",
+    "facilityType": "상설할인매장",
+    "address": "대전 서구 둔산로 201",
+    "lat": 36.351591856567254,
+    "lng": 127.39575328513847,
+    "last50mNote": "둔산로 보도에서 실제 보행 주출입구까지 마지막 30~50m의 연속 동선을 현장에서 확인",
+    "defaultBarrierType": "entrance_step",
+    "aiSignals": {
+      "curb": 2,
+      "slope": 2,
+      "narrowSidewalk": 3,
+      "crossingComplexity": 3,
+      "entranceStep": 5,
+      "roadviewConfidence": 0
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%84%B8%EC%9D%B4%EB%B8%8C%EC%A1%B4%20%EB%8C%80%EC%A0%84%EC%A0%90?c=127.39575,36.35159,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35159&lng=127.39575&name=%EC%84%B8%EC%9D%B4%EB%B8%8C%EC%A1%B4%20%EB%8C%80%EC%A0%84%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35159&lng=127.39575&name=%EC%84%B8%EC%9D%B4%EB%B8%8C%EC%A1%B4%20%EB%8C%80%EC%A0%84%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/세이브존 대전점,36.35159,127.39575",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35159,127.39575",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35159,127.39575",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35159%2C127.39575"
+    },
+    "nearbyBuilding": "세이브존 대전점 · 카카오 장소 11178681",
+    "checkDirection": "로드뷰로 주출입구와 보도 연결이 확인되지 않아 둔산로 201 현장에서 확인",
+    "detailedLocation": "둔산로 보도에서 사람이 실제로 이용하는 주출입구까지의 마지막 30~50m",
+    "aiLimitReason": "공개 로드뷰만으로 보행 주출입구, 연속 무단차 동선, 실제 턱·유효폭·경사를 같은 장면에서 확인할 수 없습니다. 카카오 장소 핀에서 시작해 현장에서 측정하고 사진으로 남겨야 합니다."
+  },
+  {
+    "id": "L50-006",
+    "name": "공원 화장실 접근로",
+    "facilityType": "공원",
+    "address": "대전 서구 샘머리공원 주변",
+    "lat": 36.3571,
+    "lng": 127.38404,
+    "last50mNote": "공원 안 포장 상태와 경사 변화를 현장 확인해야 하는 지점",
+    "defaultBarrierType": "surface",
+    "aiSignals": {
+      "curb": 1,
+      "slope": 4,
+      "narrowSidewalk": 2,
+      "crossingComplexity": 1,
+      "entranceStep": 2,
+      "roadviewConfidence": 2
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EA%B3%B5%EC%9B%90%20%ED%99%94%EC%9E%A5%EC%8B%A4%20%EC%A0%91%EA%B7%BC%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.38404,36.35710,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35710&lng=127.38404&name=%EA%B3%B5%EC%9B%90%20%ED%99%94%EC%9E%A5%EC%8B%A4%20%EC%A0%91%EA%B7%BC%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35710&lng=127.38404&name=%EA%B3%B5%EC%9B%90%20%ED%99%94%EC%9E%A5%EC%8B%A4%20%EC%A0%91%EA%B7%BC%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EA%B3%B5%EC%9B%90%20%ED%99%94%EC%9E%A5%EC%8B%A4%20%EC%A0%91%EA%B7%BC%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.35710,127.38404",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35710,127.38404",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35710,127.38404",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35710%2C127.38404"
+    },
+    "nearbyBuilding": "둔산동 샘머리공원 중앙 야외음악당 인근 공용 화장실",
+    "checkDirection": "북서쪽 (공원 보행로에서 화장실 입구로 이어지는 보행 통로)",
+    "detailedLocation": "비포장 흙길과 화장실 나무 데크 경사로가 만나는 지점",
+    "aiLimitReason": "공원 안 가로수 숲과 잎사귀 그늘로 인해 하늘에서 내려다보는 정사영상이나 로드뷰가 어둡게 나옵니다. 북서쪽 화장실 입구 방향으로 시점을 꺾어 진입로 단차가 2cm 이하인지 검수해 주세요."
+  },
+  {
+    "id": "L50-007",
+    "name": "도서관 앞 보행로",
+    "facilityType": "도서관",
+    "address": "대전 서구 둔산도서관 생활권",
+    "lat": 36.34591,
+    "lng": 127.37742,
+    "last50mNote": "주차장과 보행로가 만나는 입구부 검수 필요",
+    "defaultBarrierType": "curb",
+    "aiSignals": {
+      "curb": 4,
+      "slope": 3,
+      "narrowSidewalk": 2,
+      "crossingComplexity": 2,
+      "entranceStep": 3,
+      "roadviewConfidence": 4
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%95%9E%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.37742,36.34591,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.34591&lng=127.37742&name=%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%95%9E%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.34591&lng=127.37742&name=%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%95%9E%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%95%9E%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.34591,127.37742",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.34591,127.37742",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.34591,127.37742",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.34591%2C127.37742"
+    },
+    "nearbyBuilding": "둔산도서관 정문 옆 지상 주차장 진출입로",
+    "checkDirection": "동쪽 (도서관 정문 로비 및 주차장 경계 보도)",
+    "detailedLocation": "도서관 진입 인도와 주차장이 만나는 경계석 구간",
+    "aiLimitReason": "주차장 진입 차량 방지 볼라드와 차단기 시설물로 인해 인도가 다소 복잡하게 얽혀 있습니다. 동쪽을 바라보며 휠체어가 주차장 경계 턱에 걸리지 않고 도서관 입구로 돌아갈 수 있는 동선이 나오는지 확인하세요."
+  },
+  {
+    "id": "L50-008",
+    "name": "학교 정문 주변 보도",
+    "facilityType": "학교",
+    "address": "대전 서구 학교 주변",
+    "lat": 36.34776,
+    "lng": 127.38852,
+    "last50mNote": "등하교 시간 혼잡과 보도 폭을 함께 확인해야 하는 지점",
+    "defaultBarrierType": "narrow_sidewalk",
+    "aiSignals": {
+      "curb": 2,
+      "slope": 2,
+      "narrowSidewalk": 4,
+      "crossingComplexity": 4,
+      "entranceStep": 1,
+      "roadviewConfidence": 4
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%ED%95%99%EA%B5%90%20%EC%A0%95%EB%AC%B8%20%EC%A3%BC%EB%B3%80%20%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.38852,36.34776,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.34776&lng=127.38852&name=%ED%95%99%EA%B5%90%20%EC%A0%95%EB%AC%B8%20%EC%A3%BC%EB%B3%80%20%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.34776&lng=127.38852&name=%ED%95%99%EA%B5%90%20%EC%A0%95%EB%AC%B8%20%EC%A3%BC%EB%B3%80%20%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%ED%95%99%EA%B5%90%20%EC%A0%95%EB%AC%B8%20%EC%A3%BC%EB%B3%80%20%EB%B3%B4%EB%8F%84%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.34776,127.38852",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.34776,127.38852",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.34776,127.38852",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.34776%2C127.38852"
+    },
+    "nearbyBuilding": "대전 문정초등학교 정문 및 어린이 보호구역 인도 펜스 앞",
+    "checkDirection": "북동쪽 (초등학교 정문 앞 보도블록 방면)",
+    "detailedLocation": "학교 정문 앞 차량 진입 턱 낮춤부와 보행 펜스 사이",
+    "aiLimitReason": "어린이 안전용 노란색 안전 펜스와 가로수가 촘촘하여 카메라 각도상 보도 실효 폭을 측정하기 어렵습니다. 북동쪽 문정초 정문 쪽으로 시점을 회전해 안전 펜스 내부 보도의 유효 통행 상태를 확인해 주세요."
+  },
+  {
+    "id": "L50-009",
+    "name": "편의점 앞 횡단 동선",
+    "facilityType": "편의점",
+    "address": "대전 서구 둔산동 상가 밀집 구간",
+    "lat": 36.35288,
+    "lng": 127.37293,
+    "last50mNote": "차량 출입구와 보행자 동선이 겹치는 상가 앞",
+    "defaultBarrierType": "crossing",
+    "aiSignals": {
+      "curb": 3,
+      "slope": 1,
+      "narrowSidewalk": 3,
+      "crossingComplexity": 5,
+      "entranceStep": 1,
+      "roadviewConfidence": 3
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%ED%8E%B8%EC%9D%98%EC%A0%90%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%20%EB%8F%99%EC%84%A0%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.37293,36.35288,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35288&lng=127.37293&name=%ED%8E%B8%EC%9D%98%EC%A0%90%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%20%EB%8F%99%EC%84%A0%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35288&lng=127.37293&name=%ED%8E%B8%EC%9D%98%EC%A0%90%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%20%EB%8F%99%EC%84%A0%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%ED%8E%B8%EC%9D%98%EC%A0%90%20%EC%95%9E%20%ED%9A%A1%EB%8B%A8%20%EB%8F%99%EC%84%A0%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.35288,127.37293",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35288,127.37293",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35288,127.37293",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35288%2C127.37293"
+    },
+    "nearbyBuilding": "이마트 둔산점 뒤 상가 1층 GS25 편의점 앞 차량 진출입 인도",
+    "checkDirection": "서쪽 (편의점 야외 데크 테이블 및 인도 주차 방면)",
+    "detailedLocation": "상가 건물 주차장 입구 턱과 편의점 앞 보행자 전용도로",
+    "aiLimitReason": "상가 데크의 테이블, 파라솔, 인도 위 무단 적치물 때문에 정밀한 높낮이 확인이 제한됩니다. 서쪽 편의점 정면을 바라보며 휠체어 바퀴가 걸릴 만한 높은 턱이나 데크 진입의 어려움이 있는지 체크하세요."
+  },
+  {
+    "id": "L50-010",
+    "name": "주민센터 민원실 입구",
+    "facilityType": "공공기관",
+    "address": "대전 서구 주민센터 주변",
+    "lat": 36.34962,
+    "lng": 127.39131,
+    "last50mNote": "공공기관 접근성 검수 우선순위가 높은 후보",
+    "defaultBarrierType": "entrance_step",
+    "aiSignals": {
+      "curb": 2,
+      "slope": 4,
+      "narrowSidewalk": 1,
+      "crossingComplexity": 2,
+      "entranceStep": 4,
+      "roadviewConfidence": 5
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.39131,36.34962,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.34962&lng=127.39131&name=%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.34962&lng=127.39131&name=%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0%20%EB%AF%BC%EC%9B%90%EC%8B%A4%20%EC%9E%85%EA%B5%AC%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.34962,127.39131",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.34962,127.39131",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.34962,127.39131",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.34962%2C127.39131"
+    },
+    "nearbyBuilding": "둔산2동 행정복지센터 본관 1층 민원실 주입구",
+    "checkDirection": "남쪽 (행정복지센터 전면 주차장 및 진입 휠체어 경사로 방면)",
+    "detailedLocation": "외부 주차장에서 1층 민원실 유리문 입구로 들어가는 단차 구간",
+    "aiLimitReason": "입구 앞 우체통과 게시판 시설물, 화단이 시야를 가려 정문 문턱의 높이를 AI가 식별하지 못했습니다. 남쪽 정문 방향으로 시선을 맞춘 뒤 계단 옆에 유모차와 휠체어가 갈 수 있는 완만한 경사로가 있는지 눈으로 확인해 주세요."
+  },
+  {
+    "id": "L50-011",
+    "name": "시장 입구 보행로",
+    "facilityType": "시장",
+    "address": "대전 서구 생활시장 주변",
+    "lat": 36.34496,
+    "lng": 127.38495,
+    "last50mNote": "노점, 주차, 보행 폭 변화가 동시에 생길 수 있는 구간",
+    "defaultBarrierType": "narrow_sidewalk",
+    "aiSignals": {
+      "curb": 3,
+      "slope": 2,
+      "narrowSidewalk": 5,
+      "crossingComplexity": 4,
+      "entranceStep": 1,
+      "roadviewConfidence": 3
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%8B%9C%EC%9E%A5%20%EC%9E%85%EA%B5%AC%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.38495,36.34496,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.34496&lng=127.38495&name=%EC%8B%9C%EC%9E%A5%20%EC%9E%85%EA%B5%AC%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.34496&lng=127.38495&name=%EC%8B%9C%EC%9E%A5%20%EC%9E%85%EA%B5%AC%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EC%8B%9C%EC%9E%A5%20%EC%9E%85%EA%B5%AC%20%EB%B3%B4%ED%96%89%EB%A1%9C%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.34496,127.38495",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.34496,127.38495",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.34496,127.38495",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.34496%2C127.38495"
+    },
+    "nearbyBuilding": "둔산동 생활시장 남쪽 메인 진입로 입구 (크로바 쇼핑타운 인접)",
+    "checkDirection": "동쪽 (시장 안쪽 상가 보행 통로 방향)",
+    "detailedLocation": "시장 입구의 차도 경계석 및 아스팔트 단차면",
+    "aiLimitReason": "시장 진입부에 밀집한 매대 천막과 물건 적치로 인해 보도의 본래 모습이 보이지 않습니다. 동쪽 시장 입구 안쪽을 들여다보는 로드뷰 시점으로 설정해 바닥 턱이나 경사 차이를 상세히 관찰하세요."
+  },
+  {
+    "id": "L50-012",
+    "name": "은행 자동화기기 진입부",
+    "facilityType": "은행",
+    "address": "대전 서구 둔산동 금융가",
+    "lat": 36.35341,
+    "lng": 127.39001,
+    "last50mNote": "ATM 접근 전 경사, 문턱, 보도 폭을 함께 확인해야 하는 후보",
+    "defaultBarrierType": "entrance_step",
+    "aiSignals": {
+      "curb": 2,
+      "slope": 3,
+      "narrowSidewalk": 2,
+      "crossingComplexity": 2,
+      "entranceStep": 5,
+      "roadviewConfidence": 4
+    },
+    "reviewLinks": {
+      "naverMap": "https://map.naver.com/p/search/%EC%9D%80%ED%96%89%20%EC%9E%90%EB%8F%99%ED%99%94%EA%B8%B0%EA%B8%B0%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90?c=127.39001,36.35341,18,0,0,0,dh",
+      "naverApp": "nmap://place?lat=36.35341&lng=127.39001&name=%EC%9D%80%ED%96%89%20%EC%9E%90%EB%8F%99%ED%99%94%EA%B8%B0%EA%B8%B0%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m",
+      "naverIntent": "intent://place?lat=36.35341&lng=127.39001&name=%EC%9D%80%ED%96%89%20%EC%9E%90%EB%8F%99%ED%99%94%EA%B8%B0%EA%B8%B0%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90&appname=modu50m#Intent;scheme=nmap;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.nmap;end",
+      "kakaoMap": "https://map.kakao.com/link/map/%EC%9D%80%ED%96%89%20%EC%9E%90%EB%8F%99%ED%99%94%EA%B8%B0%EA%B8%B0%20%EC%A7%84%EC%9E%85%EB%B6%80%20%EA%B2%80%EC%88%98%20%EC%A7%80%EC%A0%90,36.35341,127.39001",
+      "kakaoRoadview": "https://map.kakao.com/link/roadview/36.35341,127.39001",
+      "kakaoRoadviewMobile": "https://m.map.kakao.com/scheme/roadView?p=36.35341,127.39001",
+      "googleMap": "https://www.google.com/maps/search/?api=1&query=36.35341%2C127.39001"
+    },
+    "nearbyBuilding": "하나은행 둔산금융센터 365 자동화 ATM 코너 외부 부스",
+    "checkDirection": "북쪽 (ATM 유리 부스 출입문 앞)",
+    "detailedLocation": "인도면에서 365 코너 부스 내부로 들어가는 진입 발판 턱",
+    "aiLimitReason": "유리 부스의 외벽 유리 반사 및 밤 시간대 가로등 그림자로 인해 계단 유무와 미세 단차 식별이 어렵습니다. 북쪽 ATM 기기 부스를 바라보도록 각도를 꺾은 뒤, 진입용 턱이 있거나 발판 경사로가 따로 있는지 꼼꼼히 검수하세요."
+  }
+]

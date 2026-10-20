@@ -1,0 +1,1464 @@
+{
+  "arboretum": {
+    "image": "/modu50m/route-full-v38/arboretum.png",
+    "alt": "한밭수목원 정류장 · 둔산대로 보도 · 주차장 옆길 · 열대식물원 입구을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "한밭수목원 정류장 · 둔산대로 보도 · 주차장 옆길 · 열대식물원 입구",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          35.807,
+          63.477
+        ],
+        "position": [
+          30,
+          75
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "동쪽 보도",
+        "anchor": [
+          45.833,
+          63.477
+        ],
+        "position": [
+          46,
+          75
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "안쪽으로",
+        "anchor": [
+          58.008,
+          62.695
+        ],
+        "position": [
+          68,
+          63
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "온실 쪽 길",
+        "anchor": [
+          57.487,
+          43.457
+        ],
+        "position": [
+          68,
+          43
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "온실 입구",
+        "anchor": [
+          62.37,
+          25.684
+        ],
+        "position": [
+          71,
+          18
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            35.807,
+            63.477
+          ],
+          [
+            45.833,
+            63.477
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            45.833,
+            63.477
+          ],
+          [
+            58.008,
+            63.477
+          ],
+          [
+            58.008,
+            62.695
+          ]
+        ]
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            58.008,
+            62.695
+          ],
+          [
+            58.008,
+            53.906
+          ],
+          [
+            57.487,
+            43.457
+          ]
+        ]
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            57.487,
+            43.457
+          ],
+          [
+            57.487,
+            32.031
+          ],
+          [
+            59.57,
+            27.832
+          ],
+          [
+            62.37,
+            25.684
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions."
+  },
+  "museum": {
+    "image": "/modu50m/route-full-v38/museum.png",
+    "alt": "대전예술의전당 정류장 · 같은 쪽 보도 · 공원 갈림길 · 미술관 출입문 구역을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "대전예술의전당 정류장 · 같은 쪽 보도 · 공원 갈림길 · 미술관 출입문 구역",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          39.258,
+          68.75
+        ],
+        "position": [
+          32,
+          78
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "미술관 쪽 보도",
+        "anchor": [
+          48.893,
+          68.066
+        ],
+        "position": [
+          48,
+          79
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "보행 접점",
+        "anchor": [
+          50.716,
+          56.348
+        ],
+        "position": [
+          43,
+          59
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "공원 갈림길",
+        "anchor": [
+          52.799,
+          49.414
+        ],
+        "position": [
+          61,
+          53
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "입구 쪽 경사로",
+        "anchor": [
+          55.3,
+          35.15
+        ],
+        "position": [
+          45,
+          36
+        ]
+      },
+      {
+        "steps": [
+          5
+        ],
+        "label": "출입문 구역",
+        "anchor": [
+          59.57,
+          30.273
+        ],
+        "position": [
+          63,
+          20
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            39.258,
+            68.75
+          ],
+          [
+            48.893,
+            68.066
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            48.893,
+            68.066
+          ],
+          [
+            48.893,
+            62.012
+          ],
+          [
+            50.586,
+            58.301
+          ],
+          [
+            50.716,
+            56.348
+          ]
+        ]
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            50.716,
+            56.348
+          ],
+          [
+            50.586,
+            49.805
+          ],
+          [
+            52.799,
+            49.414
+          ]
+        ]
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            55.3,
+            35.15
+          ],
+          [
+            59.57,
+            35.15
+          ],
+          [
+            59.57,
+            30.273
+          ]
+        ],
+        "sourceUrls": [
+          "https://blog.naver.com/qkrwlsdud13/224038594626",
+          "https://access.visitkorea.or.kr/ms/detail.do?cotId=16128884-a91d-4455-95bb-200e8f5ac024"
+        ]
+      }
+    ],
+    "connectionGaps": [
+      [
+        3,
+        4
+      ]
+    ],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions.",
+    "sourceCheckedAt": "2026-10-01"
+  },
+  "leeungno": {
+    "image": "/modu50m/route-full-v38/leeungno.png",
+    "alt": "대전예술의전당 정류장 · 공원 보행로 · 이응노미술관 앞마당 · 출입문 구역을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "대전예술의전당 정류장 · 공원 보행로 · 이응노미술관 앞마당 · 출입문 구역",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          33.203,
+          68.555
+        ],
+        "position": [
+          28,
+          80
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "미술관 쪽 보도",
+        "anchor": [
+          40.104,
+          68.457
+        ],
+        "position": [
+          46,
+          78
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "공원 보행로",
+        "anchor": [
+          44.596,
+          60.547
+        ],
+        "position": [
+          38,
+          57
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "남쪽 갈림길",
+        "anchor": [
+          57.552,
+          56.641
+        ],
+        "position": [
+          61,
+          64
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "공원 쪽 보행길",
+        "anchor": [
+          66.5,
+          36.5
+        ],
+        "position": [
+          57,
+          38
+        ]
+      },
+      {
+        "steps": [
+          5
+        ],
+        "label": "앞마당",
+        "anchor": [
+          67.3,
+          31.5
+        ],
+        "position": [
+          76,
+          40
+        ]
+      },
+      {
+        "steps": [
+          6
+        ],
+        "label": "출입문 구역",
+        "anchor": [
+          68.88,
+          27.246
+        ],
+        "position": [
+          75,
+          22
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            33.203,
+            68.555
+          ],
+          [
+            40.104,
+            68.457
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            40.104,
+            68.457
+          ],
+          [
+            41.471,
+            66.113
+          ],
+          [
+            43.62,
+            62.207
+          ],
+          [
+            44.596,
+            60.547
+          ]
+        ]
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            44.596,
+            60.547
+          ],
+          [
+            46.875,
+            56.641
+          ],
+          [
+            57.552,
+            56.641
+          ]
+        ]
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            66.5,
+            36.5
+          ],
+          [
+            67.3,
+            36.5
+          ],
+          [
+            67.3,
+            31.5
+          ]
+        ]
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            67.3,
+            31.5
+          ],
+          [
+            68.88,
+            31.5
+          ],
+          [
+            68.88,
+            27.246
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [
+      [
+        3,
+        4
+      ]
+    ],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions.",
+    "photoApproachReview": {
+      "reviewedAt": "2026-10-06T16:21:49.753674+00:00",
+      "change": "05번 주차장 쪽 접근을 공원 쪽 보행길로 수정. 출발 정류장과 07번 선택 입구는 유지.",
+      "photoImages": [
+        "/modu50m/route-photos-v47/leeungno-park-approach-201910.jpg",
+        "/modu50m/route-photos-v47/leeungno-park-wall-joint-201910.jpg",
+        "/modu50m/route-photos-v47/leeungno-park-forecourt-published-202606.jpg"
+      ],
+      "fieldVerified": false,
+      "positionsAreIllustrative": true,
+      "replacedParkingConnectionCertified": false,
+      "missingBusToParkMiddleFloorPreserved": true
+    }
+  },
+  "science": {
+    "image": "/modu50m/route-full-v38/science-main-arch-20261003.png",
+    "alt": "국립중앙과학관 정류장부터 미래기술관 입구까지의 지도·사진 참고 AI 미니어처. 실제 사진의 큰 아치 지붕과 은색 모서리를 반영했습니다. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "국립중앙과학관 정류장 · 보도 · 주차장 접점 · 내부 광장 · 미래기술관 입구",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          66.471,
+          73.633
+        ],
+        "position": [
+          62,
+          84
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "동쪽 보도",
+        "anchor": [
+          71.289,
+          68.457
+        ],
+        "position": [
+          78,
+          73
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "주차장 접점",
+        "anchor": [
+          65.885,
+          34.766
+        ],
+        "position": [
+          72,
+          31
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "꿈나래길",
+        "anchor": [
+          53.581,
+          43.75
+        ],
+        "position": [
+          57,
+          40
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "내부 광장",
+        "anchor": [
+          44.4,
+          61
+        ],
+        "position": [
+          48,
+          67
+        ]
+      },
+      {
+        "steps": [
+          5
+        ],
+        "label": "붉은 포장길",
+        "anchor": [
+          26.05,
+          55.1
+        ],
+        "position": [
+          16,
+          65
+        ]
+      },
+      {
+        "steps": [
+          6
+        ],
+        "label": "전시관 앞",
+        "anchor": [
+          30.99,
+          42.969
+        ],
+        "position": [
+          26,
+          46
+        ]
+      },
+      {
+        "steps": [
+          7
+        ],
+        "label": "열차 옆길 구역",
+        "anchor": [
+          27.018,
+          29.785
+        ],
+        "position": [
+          21,
+          32
+        ]
+      },
+      {
+        "steps": [
+          8
+        ],
+        "label": "미래기술관 입구",
+        "anchor": [
+          28.971,
+          25.098
+        ],
+        "position": [
+          37,
+          19
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            66.471,
+            73.633
+          ],
+          [
+            68.034,
+            71.68
+          ],
+          [
+            71.289,
+            68.457
+          ]
+        ]
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            26.05,
+            55.1
+          ],
+          [
+            26.15,
+            51.5
+          ],
+          [
+            27.2,
+            47.8
+          ],
+          [
+            28.6,
+            44.2
+          ],
+          [
+            30.4,
+            41.7
+          ],
+          [
+            30.99,
+            42.969
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing illustration revised with the National Science Museum official facilities diagram and July 2026 Yuseong-gu original photographs of the central arch. Main-building silhouette and two approximate exterior photo-selection areas revised. Existing route/photo IDs and map coordinates preserved; not surveyed walking directions.",
+    "illustrationRevisedAt": "2026-10-03"
+  },
+  "sungsim": {
+    "image": "/modu50m/route-full-v38/sungsim.png",
+    "alt": "대흥동성당 정류장 · 대종로 보도 · 대종로480번길 · 성심당 본점 입구. 케익부띠끄와는 다른 본점 출입문이에요.을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "대흥동성당 정류장 · 대종로 보도 · 대종로480번길 · 성심당 본점 입구. 케익부띠끄와는 다른 본점 출입문이에요.",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          58.138,
+          66.797
+        ],
+        "position": [
+          67,
+          74
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "북쪽 보도",
+        "anchor": [
+          50.26,
+          48.73
+        ],
+        "position": [
+          42,
+          53
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "골목으로",
+        "anchor": [
+          44.336,
+          31.934
+        ],
+        "position": [
+          38,
+          29
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "본점 대기 구역",
+        "anchor": [
+          49.284,
+          27.637
+        ],
+        "position": [
+          48,
+          17
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "본점 출입문",
+        "anchor": [
+          52.083,
+          25.195
+        ],
+        "position": [
+          60,
+          25
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            58.138,
+            66.797
+          ],
+          [
+            54.948,
+            57.617
+          ],
+          [
+            50.26,
+            48.73
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            50.26,
+            48.73
+          ],
+          [
+            46.615,
+            37.695
+          ],
+          [
+            44.336,
+            31.934
+          ]
+        ]
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            44.336,
+            31.934
+          ],
+          [
+            49.284,
+            27.637
+          ]
+        ]
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            49.284,
+            27.637
+          ],
+          [
+            52.083,
+            25.195
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions."
+  },
+  "skyroad": {
+    "image": "/modu50m/route-full-v38/skyroad.png",
+    "alt": "으능정이거리 정류장 · 같은 쪽 보도 · 스카이로드 진입부 · 보행 거리을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "으능정이거리 정류장 · 같은 쪽 보도 · 스카이로드 진입부 · 보행 거리",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          43.034,
+          42.871
+        ],
+        "position": [
+          37,
+          46
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "스카이로드 진입",
+        "anchor": [
+          51.497,
+          39.453
+        ],
+        "position": [
+          58,
+          33
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "거리 안쪽",
+        "anchor": [
+          59.375,
+          63.086
+        ],
+        "position": [
+          67,
+          65
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            43.034,
+            42.871
+          ],
+          [
+            46.484,
+            40.625
+          ],
+          [
+            49.609,
+            37.891
+          ],
+          [
+            51.497,
+            39.453
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            51.497,
+            39.453
+          ],
+          [
+            53.971,
+            47.754
+          ],
+          [
+            56.641,
+            56.348
+          ],
+          [
+            59.375,
+            63.086
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions."
+  },
+  "station": {
+    "image": "/modu50m/route-full-v38/station.png",
+    "alt": "대전역 정류장 · 같은 쪽 보도 · 택시 통로 횡단 · 서광장 · 철도역 출입문을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "대전역 정류장 · 같은 쪽 보도 · 택시 통로 횡단 · 서광장 · 철도역 출입문",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          32.617,
+          37.891
+        ],
+        "position": [
+          25,
+          34
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "광장 쪽 보도",
+        "anchor": [
+          36.068,
+          47.461
+        ],
+        "position": [
+          23,
+          46
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "광장 진입 횡단",
+        "anchor": [
+          36.523,
+          51.66
+        ],
+        "position": [
+          34,
+          58
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "택시 통로",
+        "anchor": [
+          58.008,
+          62.695
+        ],
+        "position": [
+          54,
+          72
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "서광장",
+        "anchor": [
+          66.211,
+          55.176
+        ],
+        "position": [
+          67,
+          44
+        ]
+      },
+      {
+        "steps": [
+          5
+        ],
+        "label": "철도역 출입문",
+        "anchor": [
+          73.633,
+          63.086
+        ],
+        "position": [
+          80,
+          67
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            32.617,
+            37.891
+          ],
+          [
+            34.049,
+            43.359
+          ],
+          [
+            36.068,
+            47.461
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            36.068,
+            47.461
+          ],
+          [
+            35.938,
+            49.805
+          ],
+          [
+            36.523,
+            51.66
+          ]
+        ]
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            36.523,
+            51.66
+          ],
+          [
+            37.109,
+            55.078
+          ],
+          [
+            39.909,
+            59.375
+          ],
+          [
+            41.927,
+            63.965
+          ],
+          [
+            42.513,
+            66.504
+          ],
+          [
+            45.833,
+            67.383
+          ],
+          [
+            49.349,
+            66.406
+          ],
+          [
+            53.19,
+            65.039
+          ],
+          [
+            55.534,
+            63.77
+          ],
+          [
+            58.008,
+            62.695
+          ]
+        ]
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            58.008,
+            62.695
+          ],
+          [
+            63.086,
+            59.375
+          ],
+          [
+            66.211,
+            57.617
+          ],
+          [
+            66.211,
+            55.176
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [
+      [
+        4,
+        5
+      ]
+    ],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions."
+  },
+  "terminal": {
+    "image": "/modu50m/route-full-v38/terminal.png",
+    "alt": "복합터미널 정류장 · 작은 진입로 횡단 · 서관 앞 공간 · 서관 GATE 4을 함께 담은 지도·사진 참고 AI 미니어처. 번호는 사진을 살펴볼 근사 구역이며 실측 위치가 아닙니다.",
+    "fullJourney": true,
+    "scope": "복합터미널 정류장 · 작은 진입로 횡단 · 서관 앞 공간 · 서관 GATE 4",
+    "generated": true,
+    "positioning": "illustrative-area-not-coordinate",
+    "coverage": {
+      "start": "bus-stop",
+      "end": "destination-entrance",
+      "singleImage": true,
+      "fieldVerified": false
+    },
+    "pins": [
+      {
+        "steps": [
+          0
+        ],
+        "label": "정류장 하차",
+        "anchor": [
+          35.742,
+          65.918
+        ],
+        "position": [
+          30,
+          73
+        ]
+      },
+      {
+        "steps": [
+          1
+        ],
+        "label": "작은 도로 횡단",
+        "anchor": [
+          48.568,
+          55.273
+        ],
+        "position": [
+          46,
+          67
+        ]
+      },
+      {
+        "steps": [
+          2
+        ],
+        "label": "서관 앞 공간",
+        "anchor": [
+          59.57,
+          50.781
+        ],
+        "position": [
+          64,
+          58
+        ]
+      },
+      {
+        "steps": [
+          3
+        ],
+        "label": "서관 옆 보도",
+        "anchor": [
+          67.122,
+          35.938
+        ],
+        "position": [
+          76,
+          37
+        ]
+      },
+      {
+        "steps": [
+          4
+        ],
+        "label": "서관 GATE 4",
+        "anchor": [
+          66.081,
+          32.129
+        ],
+        "position": [
+          63,
+          26
+        ]
+      }
+    ],
+    "routeSegments": [
+      {
+        "from": 0,
+        "to": 1,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            35.742,
+            65.918
+          ],
+          [
+            43.164,
+            60.547
+          ],
+          [
+            48.568,
+            55.273
+          ]
+        ]
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            48.568,
+            55.273
+          ],
+          [
+            54.818,
+            51.367
+          ],
+          [
+            59.57,
+            50.781
+          ]
+        ]
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            59.57,
+            50.781
+          ],
+          [
+            66.276,
+            45.117
+          ],
+          [
+            67.773,
+            40.723
+          ],
+          [
+            67.122,
+            35.938
+          ]
+        ]
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "kind": "illustrative-photo-review",
+        "points": [
+          [
+            67.122,
+            35.938
+          ],
+          [
+            66.081,
+            32.129
+          ]
+        ]
+      }
+    ],
+    "connectionGaps": [],
+    "illustrationCreatedAt": "2026-09-26",
+    "artworkBasis": "Existing public map geometry and archived reference photographs; visual anchors calibrated to this illustration. Not surveyed walking directions."
+  }
+}

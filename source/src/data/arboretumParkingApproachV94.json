@@ -1,0 +1,74 @@
+{
+  "name": "열대식물원 앞 주차장 쪽 보도",
+  "heads": [
+    {
+      "id": "arboretum-parking-start",
+      "title": "온실 앞 주차장 쪽 보도",
+      "pointId": null,
+      "stage": "arrival",
+      "instruction": "온실 바로 앞 횡단 지점의 주차장 쪽 보도에서 시작해요. 흰 횡단 표시·빨간 보도블록·건너편 차양을 함께 찾아요.",
+      "next": {
+        "status": "same-scene",
+        "detail": "01번과 02번에 같은 횡단 지점 사진을 연결했어요. 보도블록 끝 → 흰 횡단 표시 → 건너편 점자블록을 한 장에서 비교해요.",
+        "sourceUrls": [
+          "https://www.omdroid.com/205"
+        ]
+      }
+    },
+    {
+      "id": "arboretum-parking-crossing",
+      "title": "온실 앞 횡단 지점",
+      "pointId": null,
+      "stage": "cross",
+      "instruction": "흰 횡단 표시 양쪽 바닥과 차량이 드나드는 길을 살펴봐요. 건너편의 온실·차양·화분을 다음 사진에서도 찾아요.",
+      "next": {
+        "status": "same-scene",
+        "detail": "02번과 03번에 같은 앞마당 사진을 연결했어요. 횡단 표시 끝과 화분 앞 포장 바닥이 함께 보여요.",
+        "sourceUrls": [
+          "https://www.omdroid.com/205"
+        ]
+      }
+    }
+  ],
+  "pins": [
+    {
+      "anchor": [
+        57.8,
+        33.5
+      ],
+      "position": [
+        45,
+        34
+      ],
+      "label": "주차장 쪽 보도",
+      "steps": [
+        0
+      ]
+    },
+    {
+      "anchor": [
+        60.3,
+        30.5
+      ],
+      "position": [
+        53,
+        17
+      ],
+      "label": "온실 앞 횡단",
+      "steps": [
+        1
+      ]
+    }
+  ],
+  "miniatureLabels": {
+    "arboretum-bus-garden": "온실 앞마당"
+  },
+  "stepOverrides": {
+    "arboretum-bus-garden": {
+      "title": "횡단 지점에서 온실 앞마당으로",
+      "instruction": "사진의 흰 횡단 표시 끝에서 화분 앞 포장 바닥을 비교해요. 차양 옆 유리문을 찾고, 문 앞 경사판은 04번의 최근 사진에서 살펴봐요."
+    }
+  },
+  "note": "온실 앞 주차장 쪽 보도 → 횡단 지점 → 앞마당 → 출입문 순서예요. 2019년 방문 사진과 최근 입구 사진을 비교해요. 개별 주차면부터의 경로나 현재 통행 상태를 확인한 결과는 아니에요.",
+  "from": 3
+}

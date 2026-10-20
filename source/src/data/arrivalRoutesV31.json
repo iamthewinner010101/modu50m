@@ -1,0 +1,835 @@
+{
+  "arboretum": {
+    "placeId": "arboretum",
+    "title": "한밭수목원에서 내려 입구까지 살펴봐요",
+    "start": {
+      "name": "한밭수목원",
+      "code": "34740",
+      "direction": "연정국악원·수목원 쪽 보도",
+      "coordinate": [
+        36.3649789,
+        127.3890363
+      ],
+      "osm": "11338234780",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/11338234780"
+    },
+    "destination": "열대식물원 관람객 출입문",
+    "steps": [
+      {
+        "id": "arboretum-bus-bus",
+        "title": "한밭수목원 정류장 하차",
+        "instruction": "34740번, 연정국악원·수목원이 있는 쪽이에요. 쉼터 기둥과 가로수 사이에서 보도로 들어갈 공간을 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.3649789,
+          127.3890363
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 정류장을 나온 뒤 둔산대로의 같은 쪽 보도를 따라 동쪽으로 살펴봐요. 가로수·울타리·보도 경계를 비교해요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+            "https://www.openstreetmap.org/node/11338234780"
+          ]
+        }
+      },
+      {
+        "id": "arboretum-bus-walk",
+        "title": "정류장 뒤 보도를 따라 동쪽으로",
+        "instruction": "정류장을 나온 뒤 둔산대로의 같은 쪽 보도를 따라 동쪽으로 살펴봐요. 가로수·울타리·보도 경계를 비교해요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.36502,
+          127.3895
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 한밭수목원 열대식물원 표지와 지하 계단 시설 옆 지상 보도를 찾아요. 계단으로 내려가지 않고 지상 길을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+            "https://www.openstreetmap.org/node/11338234780"
+          ]
+        }
+      },
+      {
+        "id": "arboretum-bus-turn",
+        "title": "열대식물원 표지에서 안쪽으로",
+        "instruction": "한밭수목원 열대식물원 표지와 지하 계단 시설 옆 지상 보도를 찾아요. 계단으로 내려가지 않고 지상 길을 살펴봐요.",
+        "pointId": "bus-v31-turn",
+        "coordinate": [
+          36.3651,
+          127.3903
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 연정국악원 옆 안내판에서 열대식물원 쪽 길을 살펴봐요. 볼라드 간격과 차량 진입로를 만나는 바닥이 관찰 지점이에요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+            "https://www.openstreetmap.org/node/11338234780"
+          ]
+        }
+      },
+      {
+        "id": "arboretum-bus-garden",
+        "title": "안내판·볼라드를 지나 온실 쪽으로",
+        "instruction": "연정국악원 옆 안내판에서 열대식물원 쪽 길을 살펴봐요. 볼라드 간격과 차량 진입로를 만나는 바닥이 관찰 지점이에요.",
+        "pointId": "bus-v31-garden",
+        "coordinate": [
+          36.36583,
+          127.39014
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 노란 벽의 열대식물원 표지 아래 출입문을 사진에서 찾아요. 화분 사이 통로와 문 앞 바닥을 확대해 살펴봐요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+            "https://www.openstreetmap.org/node/11338234780"
+          ]
+        }
+      },
+      {
+        "id": "arboretum-bus-door",
+        "title": "열대식물원 유리 출입문",
+        "instruction": "노란 벽의 열대식물원 표지 아래 출입문을 사진에서 찾아요. 화분 사이 통로와 문 앞 바닥을 확대해 살펴봐요.",
+        "pointId": "bus-v31-door",
+        "coordinate": [
+          36.36653,
+          127.39048
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "한밭수목원 · 공식 찾아오시는길",
+        "url": "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8026",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한밭수목원 34740 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/11338234780",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "현토리83 · 2025-04-28 열대식물원 주차장·외관·실내 방문 사진",
+        "url": "https://hyuntori83.tistory.com/1101",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "한국관광공사 · 2025년 한밭수목원 사진과 편의정보",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=4973c767-8e6c-4c86-99b4-4419e819011e",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한밭수목원 · 방문객안내센터 등 편의시설",
+        "url": "https://www.daejeon.go.kr/gar/contentsHtmlView.do?menuSeq=8031",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 2016년 동원 산책 연결 설명",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "정류장 승하차 턱과 볼라드 간격의 현재 치수",
+      "서로 떨어진 사진 사이 모든 바닥의 연속 통행 확인"
+    ],
+    "summary": "정류장 번호·도로의 같은 쪽·카메라 위치를 지도와 대조해 사진을 배열했어요. 지도 선은 방문 전에 살펴볼 후보 동선이며, 휠체어 통과가 검증된 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "museum": {
+    "placeId": "museum",
+    "title": "대전예술의전당에서 내려 입구까지 살펴봐요",
+    "start": {
+      "name": "대전예술의전당",
+      "code": "34730",
+      "direction": "예술의전당·미술관 쪽 보도",
+      "coordinate": [
+        36.365063,
+        127.3845703
+      ],
+      "osm": "11338234779",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/11338234779"
+    },
+    "destination": "외부 경사로를 거치는 2층 관람객 출입문",
+    "steps": [
+      {
+        "id": "museum-bus-bus",
+        "title": "대전예술의전당 정류장 하차",
+        "instruction": "34730번, 미술관이 있는 쪽 보도에서 시작해요. 정류장 뒤 붉은 보도와 쉼터 기둥 사이를 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.365063,
+          127.3845703
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-walk",
+        "title": "미술관 표지가 있는 보도",
+        "instruction": "같은 쪽 보도를 동쪽으로 따라가면 대전시립미술관 표지가 보여요. 보행 공간과 차량이 드나드는 접점을 살펴봐요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.36512,
+          127.38512
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-garden",
+        "title": "주차 진출입로 옆 보행 접점",
+        "instruction": "안내판·볼라드와 보도가 만나는 곳이에요. 사진에 보이는 높은 경계를 그대로 넘는 길로 안내하지 않아요. 낮아지는 접점은 더 확인해요.",
+        "pointId": "bus-v31-garden",
+        "coordinate": [
+          36.36552,
+          127.38538
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 앞 보도에서 이 경사로 시작점까지 이어지는 장면은 아직 비어 있어요. 기존 경사로 사진은 2016년 게시 자료로 따로 비교해요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-ramp",
+        "title": "미술관 외부 경사로",
+        "instruction": "앞 보도에서 이 경사로 시작점까지 이어지는 장면은 아직 비어 있어요. 기존 경사로 사진은 2016년 게시 자료로 따로 비교해요.",
+        "pointId": "research-a-01",
+        "coordinate": [
+          36.36622,
+          127.38552
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 경사로 끝과 실제 2층 문 앞을 한 장면으로 보여 주는 사진이 더 필요해요.",
+          "sourceUrls": [
+            "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "museum-bus-door",
+        "title": "경사로 끝 2층 출입문",
+        "instruction": "경사로 끝과 실제 2층 문 앞을 한 장면으로 보여 주는 사진이 더 필요해요.",
+        "pointId": null,
+        "coordinate": [
+          36.36655,
+          127.3857
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "시설·장소 공식 안내",
+        "url": "https://www.daejeon.go.kr/dma/dmaContentsHtmlView.do?menuSeq=6079",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "대전예술의전당 34730 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/11338234779",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "한국관광공사 · 2016년 대전 무장애 여행 기사",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "접근성 현장조사 도서 · 대전시립미술관 편의시설 설명",
+        "url": "https://www.yes24.com/product/goods/88389449",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "보도 접점에서 외부 경사로 시작까지 연결",
+      "외부 경사로 끝과 2층 출입문 가까운 사진"
+    ],
+    "summary": "정류장 번호·도로의 같은 쪽·카메라 위치를 지도와 대조해 사진을 배열했어요. 지도 선은 방문 전에 살펴볼 후보 동선이며, 휠체어 통과가 검증된 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "leeungno": {
+    "placeId": "leeungno",
+    "title": "대전예술의전당에서 내려 입구까지 살펴봐요",
+    "start": {
+      "name": "대전예술의전당",
+      "code": "34730",
+      "direction": "예술의전당·미술관 쪽 보도",
+      "coordinate": [
+        36.365063,
+        127.3845703
+      ],
+      "osm": "11338234779",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/11338234779"
+    },
+    "destination": "157번 주소판 옆 이응노미술관 출입문",
+    "steps": [
+      {
+        "id": "leeungno-bus-bus",
+        "title": "대전예술의전당 정류장 하차",
+        "instruction": "34730번, 미술관들이 있는 쪽 보도에서 시작해요. 도로 반대편 정류장과 구분해요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.365063,
+          127.3845703
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-walk",
+        "title": "미술관 표지 쪽 보도",
+        "instruction": "정류장에서 동쪽으로 이어지는 보도와 공원 안쪽 갈림길을 찾아요. 이응노미술관은 시립미술관보다 동쪽에 있어요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.36512,
+          127.38512
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-junction",
+        "title": "공원 보행로 갈림길",
+        "instruction": "안내판과 보도 접점에서 이응노미술관 방향을 확인해요. 이 사진 이후 미술관 앞마당까지 이어지는 연속 장면은 더 필요해요.",
+        "pointId": "bus-v31-junction",
+        "coordinate": [
+          36.36552,
+          127.38538
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 앞마당 판석길에서 문 위치를 찾아요. 앞 갈림길에서 이곳까지의 길은 추가 사진이 필요해요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-forecourt",
+        "title": "이응노미술관 앞마당",
+        "instruction": "앞마당 판석길에서 문 위치를 찾아요. 앞 갈림길에서 이곳까지의 길은 추가 사진이 필요해요.",
+        "pointId": "research-a-01",
+        "coordinate": [
+          36.36678,
+          127.38669
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 주소판과 실제 출입문을 맞춰 보고 문 앞 경계·매트를 살펴봐요.",
+          "sourceUrls": [
+            "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+            "https://www.openstreetmap.org/node/11338234779"
+          ]
+        }
+      },
+      {
+        "id": "leeungno-bus-door",
+        "title": "157번 주소판 옆 문",
+        "instruction": "주소판과 실제 출입문을 맞춰 보고 문 앞 경계·매트를 살펴봐요.",
+        "pointId": "research-a-02",
+        "coordinate": [
+          36.36688,
+          127.38675
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "이응노미술관 · 공식 오시는길",
+        "url": "https://leeungnomuseum.or.kr/Menu.do?menuId=0402",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "대전예술의전당 34730 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/11338234779",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "luj-jules · 실제 출입구를 찾은 2022년 방문기",
+        "url": "https://bmh00.tistory.com/entry/대전-Part-1-1-이응노-미술관-로랑-보두앵Laurent-Beaudouin",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "한국관광공사 · 미술관 내부 접근 설명",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=bd853c05-4373-414e-8310-76d2f6fd8be3",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "공원 갈림길에서 이응노미술관 앞마당까지 연속 사진",
+      "사진 사이 가려진 바닥과 현재 통행 상태의 현장 확인"
+    ],
+    "summary": "정류장 번호·도로의 같은 쪽·카메라 위치를 지도와 대조해 사진을 배열했어요. 지도 선은 방문 전에 살펴볼 후보 동선이며, 휠체어 통과가 검증된 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "science": {
+    "placeId": "science",
+    "title": "국립중앙과학관에서 내려 입구까지 살펴봐요",
+    "start": {
+      "name": "국립중앙과학관",
+      "code": "42930",
+      "direction": "과학관 부지 쪽 · 구성삼거리 방향",
+      "coordinate": [
+        36.3740427,
+        127.3779386
+      ],
+      "osm": "4191147889",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/4191147889"
+    },
+    "destination": "국립중앙과학관 미래기술관 유리 출입문",
+    "steps": [
+      {
+        "id": "science-bus-bus",
+        "title": "국립중앙과학관 정류장 하차",
+        "instruction": "42930번, 과학관 부지가 있는 쪽에서 내려요. 쉼터 옆 점자블록과 나무 주변 보도 폭을 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.3740427,
+          127.3779386
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        }
+      },
+      {
+        "id": "science-bus-walk",
+        "title": "정류장 옆 보도로 동쪽 이동",
+        "instruction": "신세계 건물이 보이는 방향으로 같은 쪽 보도를 살펴봐요. 아직 과학관 안이 아니며, 정문으로 들어가는 접점까지 확인해야 해요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.37413,
+          127.3782
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 보도에서 과학관 정문을 통과해 안쪽 광장으로 들어가는 최신 연결 사진이 필요해요. 건물 입구 사진으로 대신하지 않아요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        }
+      },
+      {
+        "id": "science-bus-gate",
+        "title": "과학관 정문으로 들어가는 접점",
+        "instruction": "보도에서 과학관 정문을 통과해 안쪽 광장으로 들어가는 최신 연결 사진이 필요해요. 건물 입구 사진으로 대신하지 않아요.",
+        "pointId": null,
+        "coordinate": [
+          36.37505,
+          127.37745
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 2020년 네이버 거리 사진이에요. 과학관 내부 광장과 전시관 사이 보행 공간을 비교해요. 현재 시설 배치와 정문 연결은 더 확인해요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        }
+      },
+      {
+        "id": "science-bus-plaza",
+        "title": "과학관 내부 광장",
+        "instruction": "2020년 네이버 거리 사진이에요. 과학관 내부 광장과 전시관 사이 보행 공간을 비교해요. 현재 시설 배치와 정문 연결은 더 확인해요.",
+        "pointId": "bus-v31-plaza",
+        "coordinate": [
+          36.37504,
+          127.37604
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 2020년 사진의 열차 전시물과 쉼터 사이 길이에요. 앞 광장에서 이 길까지의 전체 바닥 및 현재 배치를 확인해야 해요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        }
+      },
+      {
+        "id": "science-bus-path",
+        "title": "열차 전시물 옆 보행로",
+        "instruction": "2020년 사진의 열차 전시물과 쉼터 사이 길이에요. 앞 광장에서 이 길까지의 전체 바닥 및 현재 배치를 확인해야 해요.",
+        "pointId": "bus-v31-path",
+        "coordinate": [
+          36.376215,
+          127.37438
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "gap",
+          "detail": "연결 사진 확인 중. 미래기술관 문 앞 사진이에요. 정문 도착과 전시관 도착을 구분하고, 기둥 사이 바닥·문턱을 살펴봐요.",
+          "sourceUrls": [
+            "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+            "https://www.openstreetmap.org/node/4191147889"
+          ]
+        }
+      },
+      {
+        "id": "science-bus-door",
+        "title": "미래기술관 유리문 도착",
+        "instruction": "미래기술관 문 앞 사진이에요. 정문 도착과 전시관 도착을 구분하고, 기둥 사이 바닥·문턱을 살펴봐요.",
+        "pointId": "research-a-01",
+        "coordinate": [
+          36.3769,
+          127.37443
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "시설·장소 공식 안내",
+        "url": "https://www.science.go.kr/mps/cntnts/1029/moveCntnts.do",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "국립중앙과학관 42930 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/4191147889",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "국립중앙과학관 · 2023.04.27 휠체어 대여 공식 답변",
+        "url": "https://rsvn.science.go.kr/nsm/rsvguidcntr/think/detail?nttId=871",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "국립중앙과학관 · 종합안내센터와 정문 편의시설",
+        "url": "https://www.science.go.kr/mps/cntnts/1023/moveCntnts.do",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      },
+      {
+        "title": "We-map · 과학관 주차장·진입 지점 정보",
+        "url": "https://we-map.kr/service/map/courses/126",
+        "checkedAt": "2026-09-23T12:16:51.700745+00:00"
+      }
+    ],
+    "gaps": [
+      "정류장 옆 보도에서 정문을 지나 광장까지 최신 사진",
+      "2020년 내부 사진 이후의 현재 배치와 광장 사이 연결"
+    ],
+    "summary": "정류장 번호·도로의 같은 쪽·카메라 위치를 지도와 대조해 사진을 배열했어요. 지도 선은 방문 전에 살펴볼 후보 동선이며, 휠체어 통과가 검증된 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "sungsim": {
+    "placeId": "sungsim",
+    "title": "대흥동성당에서 내려 입구까지 살펴봐요",
+    "start": {
+      "name": "대흥동성당",
+      "code": "20780",
+      "direction": "이안과병원 앞 · 으능정이거리 방향",
+      "coordinate": [
+        36.3260977,
+        127.427493
+      ],
+      "osm": "11338182357",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/11338182357"
+    },
+    "destination": "성심당 본점 · 대종로480번길 15 출입문",
+    "steps": [
+      {
+        "id": "sungsim-bus-bus",
+        "title": "대흥동성당 정류장 하차",
+        "instruction": "20780번, 이안과병원 앞 정류장에서 시작해요. 본점과 같은 쪽 보도이며, 큰 가로수·쉼터·전화부스 사이 통로를 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.3260977,
+          127.427493
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 도로를 건너지 않고 같은 쪽 보도로 북쪽을 살펴봐요. 주차장 차량 진출입로, 안내판과 배수구가 만나는 곳을 확인해요.",
+          "sourceUrls": [
+            "https://sungsimdang.co.kr/31/15",
+            "https://www.openstreetmap.org/node/11338182357"
+          ]
+        }
+      },
+      {
+        "id": "sungsim-bus-walk",
+        "title": "대종로 보도를 따라 북쪽으로",
+        "instruction": "도로를 건너지 않고 같은 쪽 보도로 북쪽을 살펴봐요. 주차장 차량 진출입로, 안내판과 배수구가 만나는 곳을 확인해요.",
+        "pointId": "bus-v31-walk",
+        "coordinate": [
+          36.3269,
+          127.42703
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 케익부띠끄 건물 옆 골목으로 들어가요. 이곳이 본점 문은 아니에요. 가판대·대기 줄 사이 실제 남는 폭을 살펴봐요.",
+          "sourceUrls": [
+            "https://sungsimdang.co.kr/31/15",
+            "https://www.openstreetmap.org/node/11338182357"
+          ]
+        }
+      },
+      {
+        "id": "sungsim-bus-turn",
+        "title": "대종로480번길로 오른쪽 회전",
+        "instruction": "케익부띠끄 건물 옆 골목으로 들어가요. 이곳이 본점 문은 아니에요. 가판대·대기 줄 사이 실제 남는 폭을 살펴봐요.",
+        "pointId": "bus-v31-turn",
+        "coordinate": [
+          36.3274,
+          127.42675
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 골목 안쪽으로 이동하면 본점 앞 대기 구역이 나와요. 사람·안내대 때문에 길이 좁아지는 부분을 사진에서 비교해요.",
+          "sourceUrls": [
+            "https://sungsimdang.co.kr/31/15",
+            "https://www.openstreetmap.org/node/11338182357"
+          ]
+        }
+      },
+      {
+        "id": "sungsim-bus-queue",
+        "title": "골목을 따라 본점 대기 구역",
+        "instruction": "골목 안쪽으로 이동하면 본점 앞 대기 구역이 나와요. 사람·안내대 때문에 길이 좁아지는 부분을 사진에서 비교해요.",
+        "pointId": "bus-v31-queue",
+        "coordinate": [
+          36.32755,
+          127.42713
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "approach",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 대종로480번길 15, 성심당 본점 문이에요. 케익부띠끄와 구분하고 문 앞 경계와 줄을 선 공간을 살펴봐요.",
+          "sourceUrls": [
+            "https://sungsimdang.co.kr/31/15",
+            "https://www.openstreetmap.org/node/11338182357"
+          ]
+        }
+      },
+      {
+        "id": "sungsim-bus-door",
+        "title": "성심당 본점 출입문",
+        "instruction": "대종로480번길 15, 성심당 본점 문이에요. 케익부띠끄와 구분하고 문 앞 경계와 줄을 선 공간을 살펴봐요.",
+        "pointId": "journey-door",
+        "coordinate": [
+          36.32766,
+          127.42728
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "성심당 공식 본점 안내 · 주소와 외관",
+        "url": "https://sungsimdang.co.kr/31/15"
+      },
+      {
+        "title": "대흥동성당 20780 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/11338182357",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "한국관광공사 · 성심당 본점 입구와 매장 사진",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c"
+      }
+    ],
+    "gaps": [
+      "정류장·차량 진출입로·골목·문턱의 현재 통과 폭과 높이",
+      "사진 사이 가려진 바닥과 현재 통행 상태의 현장 확인"
+    ],
+    "summary": "정류장 번호·도로의 같은 쪽·카메라 위치를 지도와 대조해 사진을 배열했어요. 지도 선은 방문 전에 살펴볼 후보 동선이며, 휠체어 통과가 검증된 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  },
+  "skyroad": {
+    "placeId": "skyroad",
+    "title": "으능정이거리에서 내려 입구까지 살펴봐요",
+    "start": {
+      "name": "으능정이거리",
+      "code": "20050",
+      "direction": "으능정이거리 쪽 · 대전역 방향",
+      "coordinate": [
+        36.3291541,
+        127.4274426
+      ],
+      "osm": "12154033131",
+      "type": "bus-stop",
+      "sourceUrl": "https://www.openstreetmap.org/node/12154033131"
+    },
+    "destination": "으능정이문화의거리 · 스카이로드 북측 진입부",
+    "steps": [
+      {
+        "id": "skyroad-bus-bus",
+        "title": "으능정이거리 정류장 하차",
+        "instruction": "20050번, 스카이로드가 있는 남쪽 보도예요. 쉼터 뒤 보도와 가로수 사이를 살펴봐요.",
+        "pointId": "bus-v31-bus",
+        "coordinate": [
+          36.3291541,
+          127.4274426
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "arrival",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 정류장에서 동쪽으로 이동하면 머리 위에 대전 스카이로드 표지가 보여요. 여기서 오른쪽으로 들어가요. 입구 가림막·볼라드·바닥 경계를 확인해요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595",
+            "https://www.openstreetmap.org/node/12154033131"
+          ]
+        }
+      },
+      {
+        "id": "skyroad-bus-entry",
+        "title": "같은 보도에서 스카이로드 표지 찾기",
+        "instruction": "정류장에서 동쪽으로 이동하면 머리 위에 대전 스카이로드 표지가 보여요. 여기서 오른쪽으로 들어가요. 입구 가림막·볼라드·바닥 경계를 확인해요.",
+        "pointId": "bus-v31-entry",
+        "coordinate": [
+          36.32923,
+          127.42778
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "crossing",
+        "next": {
+          "status": "map-reviewed",
+          "detail": "같은 장소의 지도와 사진을 비교한 다음 확인 순서예요. 거리 안쪽 사진으로 기둥과 입간판 사이 통과 공간을 살펴봐요. 사진 속 차량·배달 오토바이와 현재 배치는 달라질 수 있어요.",
+          "sourceUrls": [
+            "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595",
+            "https://www.openstreetmap.org/node/12154033131"
+          ]
+        }
+      },
+      {
+        "id": "skyroad-bus-path",
+        "title": "스카이로드 아래 보행 구간",
+        "instruction": "거리 안쪽 사진으로 기둥과 입간판 사이 통과 공간을 살펴봐요. 사진 속 차량·배달 오토바이와 현재 배치는 달라질 수 있어요.",
+        "pointId": "bus-v31-path",
+        "coordinate": [
+          36.3288,
+          127.42803
+        ],
+        "coordinateKind": "map-area-candidate",
+        "stage": "entrance",
+        "next": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "한국관광공사 · 스카이로드 거리 사진",
+        "url": "https://access.visitkorea.or.kr/ms/detail.do?cotId=6e929edf-d90e-433b-97be-e821a525b595"
+      },
+      {
+        "title": "으능정이거리 20050 · 정류장 공개 좌표",
+        "url": "https://www.openstreetmap.org/node/12154033131",
+        "checkedAt": "2026-09-25"
+      },
+      {
+        "title": "한국관광공사 · 원도심 여행 자료",
+        "url": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c"
+      }
+    ],
+    "gaps": [
+      "정류장 하차 턱과 진입 가림막 사이의 현재 통과 폭",
+      "사진 사이 가려진 바닥과 현재 통행 상태의 현장 확인"
+    ],
+    "summary": "정류장 번호·도로의 같은 쪽·카메라 위치를 지도와 대조해 사진을 배열했어요. 지도 선은 방문 전에 살펴볼 후보 동선이며, 휠체어 통과가 검증된 길찾기는 아니에요.",
+    "continuousRouteVerified": false,
+    "fieldVerified": false,
+    "checkedAt": "2026-09-25"
+  }
+}

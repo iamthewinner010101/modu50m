@@ -1,0 +1,876 @@
+[
+  {
+    "id": "D50-001",
+    "placeId": "11305938",
+    "name": "대전광역시청",
+    "address": "대전 서구 둔산로 100",
+    "jibunAddress": "대전 서구 둔산동 1420",
+    "lat": 36.3505389,
+    "lng": 127.38483485,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35019019,
+    "targetLng": 127.38657938,
+    "facilityType": "시청",
+    "group": "공공",
+    "reviewFocus": "보도에서 시청 입구로 이어지는 마지막 동선",
+    "roadviewChecks": [
+      "보도와 시설 진입로가 만나는 경계",
+      "점자블록·낮은 경계의 연결",
+      "차량 동선·고정 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "경사도·유효 폭·출입문 앞 회전 공간은 현장에서 측정합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/11305938",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전광역시청,36.3505389,127.38483485",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35019019,127.38657938",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-002",
+    "placeId": "7973637",
+    "name": "시청역 대전1호선 8번출구",
+    "address": "대전 서구 둔산동 1547",
+    "jibunAddress": "대전 서구 둔산동 1547",
+    "lat": 36.350939489426224,
+    "lng": 127.38692230707859,
+    "targetLabel": "카카오 8번출구 장소 좌표",
+    "targetLat": 36.350939489426224,
+    "targetLng": 127.38692230707859,
+    "facilityType": "지하철 출구",
+    "group": "교통",
+    "reviewFocus": "8번출구 계단과 보도·점자블록 연결",
+    "roadviewChecks": [
+      "출구 끝과 보도가 만나는 턱·경사",
+      "점자블록의 진행 방향과 끊김",
+      "출구 주변 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "실제 경사도·통과 폭·엘리베이터 연결 여부는 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "L50-002",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/7973637",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/시청역 대전1호선 8번출구,36.350939489426224,127.38692230707859",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.350939489426224,127.38692230707859",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-003",
+    "placeId": "7970833",
+    "name": "시청역 대전1호선 5번출구",
+    "address": "대전 서구 둔산동 1549",
+    "jibunAddress": "대전 서구 둔산동 1549",
+    "lat": 36.3517217,
+    "lng": 127.38692395,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35176681,
+    "targetLng": 127.38690846,
+    "facilityType": "지하철 출구",
+    "group": "교통",
+    "reviewFocus": "5번출구 앞 보도와 주변 시설물 사이 통로",
+    "roadviewChecks": [
+      "출구 끝과 보도가 만나는 턱·경사",
+      "점자블록의 진행 방향과 끊김",
+      "출구 주변 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "실제 경사도·통과 폭·엘리베이터 연결 여부는 현장에서 확인합니다.",
+    "presentation": {
+      "enabled": true,
+      "order": 2,
+      "category": "대중교통",
+      "headline": "출구 번호를 알아도 문 앞의 계단과 우회 길은 따로 확인해야 합니다",
+      "question": "5번 출구에서 보도까지 이어지는 길과 휠체어가 돌아갈 길이 사진에 함께 보이나요?",
+      "destination": {
+        "label": "시청역 5번 출구",
+        "xPercent": 43,
+        "yPercent": 50
+      },
+      "observationPoints": [
+        {
+          "label": "출구 계단과 손잡이",
+          "xPercent": 45,
+          "yPercent": 61
+        },
+        {
+          "label": "점자블록과 낮아진 경계",
+          "xPercent": 49,
+          "yPercent": 73
+        },
+        {
+          "label": "출구 옆 보행 공간",
+          "xPercent": 35,
+          "yPercent": 65
+        }
+      ]
+    },
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/7970833",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/시청역 대전1호선 5번출구,36.3517217,127.38692395",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35176681,127.38690846",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-004",
+    "placeId": "27457768",
+    "name": "정부청사역 대전1호선 3번출구",
+    "address": "대전 서구 둔산동 950",
+    "jibunAddress": "대전 서구 둔산동 950",
+    "lat": 36.35799558,
+    "lng": 127.38078264,
+    "targetLabel": "카카오 장소 좌표",
+    "targetLat": 36.35799558,
+    "targetLng": 127.38078264,
+    "facilityType": "지하철 출구",
+    "group": "교통",
+    "reviewFocus": "3번출구와 청사 방면 보도 연결",
+    "roadviewChecks": [
+      "출구 끝과 보도가 만나는 턱·경사",
+      "점자블록의 진행 방향과 끊김",
+      "출구 주변 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "실제 경사도·통과 폭·엘리베이터 연결 여부는 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/27457768",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/정부청사역 대전1호선 3번출구,36.35799558,127.38078264",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35799558,127.38078264",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-005",
+    "placeId": "17492033",
+    "name": "정부청사역 대전1호선 4번출구",
+    "address": "대전 서구 둔산동 949",
+    "jibunAddress": "대전 서구 둔산동 949",
+    "lat": 36.35799309,
+    "lng": 127.38156253,
+    "targetLabel": "카카오 장소 좌표",
+    "targetLat": 36.35799309,
+    "targetLng": 127.38156253,
+    "facilityType": "지하철 출구",
+    "group": "교통",
+    "reviewFocus": "4번출구와 자전거 보관소 주변 보행 동선",
+    "roadviewChecks": [
+      "출구 끝과 보도가 만나는 턱·경사",
+      "점자블록의 진행 방향과 끊김",
+      "출구 주변 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "실제 경사도·통과 폭·엘리베이터 연결 여부는 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/17492033",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/정부청사역 대전1호선 4번출구,36.35799309,127.38156253",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35799309,127.38156253",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-006",
+    "placeId": "8957220",
+    "name": "둔산도서관",
+    "address": "대전 서구 청사로 263",
+    "jibunAddress": "대전 서구 둔산동 908-2",
+    "lat": 36.36006057,
+    "lng": 127.39318008,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35985308,
+    "targetLng": 127.39324678,
+    "facilityType": "도서관",
+    "group": "공공",
+    "reviewFocus": "보도에서 도서관 주출입구까지의 연결",
+    "roadviewChecks": [
+      "보도와 도서관 진입로 사이 경계석",
+      "경사로로 보이는 우회 동선",
+      "주차 차량 동선과 보행 동선의 교차"
+    ],
+    "fieldCheck": "주출입문 문턱과 경사로 폭·기울기는 현장에서 확인합니다.",
+    "presentation": {
+      "enabled": true,
+      "order": 3,
+      "category": "교육·문화",
+      "headline": "도서관 정문 앞에서는 계단과 우회 진입로가 어디로 이어지는지 확인합니다",
+      "question": "보도에서 도서관 출입구까지 이어지는 길과 계단 옆 우회 동선이 함께 보이나요?",
+      "destination": {
+        "label": "둔산도서관 출입구",
+        "xPercent": 58,
+        "yPercent": 51
+      },
+      "observationPoints": [
+        {
+          "label": "출입구 앞 계단",
+          "xPercent": 64,
+          "yPercent": 69
+        },
+        {
+          "label": "점자블록 진행 방향",
+          "xPercent": 57,
+          "yPercent": 73
+        },
+        {
+          "label": "보도와 차도의 경계",
+          "xPercent": 36,
+          "yPercent": 77
+        }
+      ]
+    },
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/8957220",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/둔산도서관,36.36006057,127.39318008",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35985308,127.39324678",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-007",
+    "placeId": "7830164",
+    "name": "대전광역시서구청",
+    "address": "대전 서구 둔산서로 100",
+    "jibunAddress": "대전 서구 둔산동 1300",
+    "lat": 36.35549872,
+    "lng": 127.38378972,
+    "targetLabel": "카카오 입구1 좌표",
+    "targetLat": 36.35575724,
+    "targetLng": 127.38371478,
+    "facilityType": "구청",
+    "group": "공공",
+    "reviewFocus": "서구청 입구1 앞 보도와 진입로",
+    "roadviewChecks": [
+      "보도와 시설 진입로가 만나는 경계",
+      "점자블록·낮은 경계의 연결",
+      "차량 동선·고정 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "경사도·유효 폭·출입문 앞 회전 공간은 현장에서 측정합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/7830164",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전광역시서구청,36.35549872,127.38378972",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35575724,127.38371478",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-008",
+    "placeId": "10367789",
+    "name": "둔산1동행정복지센터",
+    "address": "대전 서구 둔산중로 65",
+    "jibunAddress": "대전 서구 둔산동 1402",
+    "lat": 36.35255728,
+    "lng": 127.38603015,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35255778,
+    "targetLng": 127.38649004,
+    "facilityType": "행정복지센터",
+    "group": "공공",
+    "reviewFocus": "센터 입구와 보도 사이 짧은 진입 동선",
+    "roadviewChecks": [
+      "출입구 앞 턱으로 보이는 경계",
+      "경사로 또는 낮은 진입 위치",
+      "주차·업무 차량이 보행로를 가릴 가능성"
+    ],
+    "fieldCheck": "출입문 폭·문턱과 실내 민원 동선은 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/10367789",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/둔산1동행정복지센터,36.35255728,127.38603015",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35255778,127.38649004",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-009",
+    "placeId": "7854075",
+    "name": "둔산2동행정복지센터",
+    "address": "대전 서구 둔산서로 80",
+    "jibunAddress": "대전 서구 둔산동 1301",
+    "lat": 36.35383363,
+    "lng": 127.38370133,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35370427,
+    "targetLng": 127.3833502,
+    "facilityType": "행정복지센터",
+    "group": "공공",
+    "reviewFocus": "센터 입구와 도로변 보도 연결",
+    "roadviewChecks": [
+      "출입구 앞 턱으로 보이는 경계",
+      "경사로 또는 낮은 진입 위치",
+      "주차·업무 차량이 보행로를 가릴 가능성"
+    ],
+    "fieldCheck": "출입문 폭·문턱과 실내 민원 동선은 현장에서 확인합니다.",
+    "presentation": {
+      "enabled": true,
+      "order": 4,
+      "category": "복지",
+      "headline": "복지 서비스를 이용하려면 주차 구역에서 출입문까지의 길도 이어져야 합니다",
+      "question": "센터 입구와 장애인 주차 구역, 도로 쪽 보행 연결이 한 장면에 보이나요?",
+      "destination": {
+        "label": "행정복지센터 출입구",
+        "xPercent": 84,
+        "yPercent": 50
+      },
+      "observationPoints": [
+        {
+          "label": "출입문 앞 경계",
+          "xPercent": 84,
+          "yPercent": 57
+        },
+        {
+          "label": "장애인 주차 구역",
+          "xPercent": 91,
+          "yPercent": 72
+        },
+        {
+          "label": "보도와 진입로 연결",
+          "xPercent": 64,
+          "yPercent": 76
+        }
+      ]
+    },
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/7854075",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/둔산2동행정복지센터,36.35383363,127.38370133",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35370427,127.3833502",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-010",
+    "placeId": "7854148",
+    "name": "둔산3동행정복지센터",
+    "address": "대전 서구 둔산북로 232-52",
+    "jibunAddress": "대전 서구 둔산동 1808",
+    "lat": 36.35344507,
+    "lng": 127.39996497,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35349291,
+    "targetLng": 127.40026501,
+    "facilityType": "행정복지센터",
+    "group": "공공",
+    "reviewFocus": "센터 입구 앞 보도와 단지 진입로",
+    "roadviewChecks": [
+      "출입구 앞 턱으로 보이는 경계",
+      "경사로 또는 낮은 진입 위치",
+      "주차·업무 차량이 보행로를 가릴 가능성"
+    ],
+    "fieldCheck": "출입문 폭·문턱과 실내 민원 동선은 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/7854148",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/둔산3동행정복지센터,36.35344507,127.39996497",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35349291,127.40026501",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-011",
+    "placeId": "11008836",
+    "name": "대전지방법원",
+    "address": "대전 서구 둔산중로78번길 45",
+    "jibunAddress": "대전 서구 둔산동 1390",
+    "lat": 36.35466268,
+    "lng": 127.38928479,
+    "targetLabel": "카카오 입구1 좌표",
+    "targetLat": 36.35368757,
+    "targetLng": 127.38932517,
+    "facilityType": "법원",
+    "group": "공공",
+    "reviewFocus": "법원 입구1 앞 보도와 보안 출입 동선",
+    "roadviewChecks": [
+      "보도에서 보안 출입구로 이어지는 경계",
+      "차단 시설물 사이 통과 공간",
+      "차량 출입과 보행 동선의 분리"
+    ],
+    "fieldCheck": "보안 구역 안쪽 동선과 출입문 조건은 현장 안내를 받아 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/11008836",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전지방법원,36.35466268,127.38928479",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35368757,127.38932517",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-012",
+    "placeId": "8274685",
+    "name": "대전지방검찰청",
+    "address": "대전 서구 둔산중로78번길 15",
+    "jibunAddress": "대전 서구 둔산동 1390",
+    "lat": 36.35451295,
+    "lng": 127.38766192,
+    "targetLabel": "카카오 입구1 좌표",
+    "targetLat": 36.35368078,
+    "targetLng": 127.38772498,
+    "facilityType": "검찰청",
+    "group": "공공",
+    "reviewFocus": "검찰청 입구1과 도로변 보도 연결",
+    "roadviewChecks": [
+      "보도에서 보안 출입구로 이어지는 경계",
+      "차단 시설물 사이 통과 공간",
+      "차량 출입과 보행 동선의 분리"
+    ],
+    "fieldCheck": "보안 구역 안쪽 동선과 출입문 조건은 현장 안내를 받아 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/8274685",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전지방검찰청,36.35451295,127.38766192",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35368078,127.38772498",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-013",
+    "placeId": "7830263",
+    "name": "대전광역시교육청",
+    "address": "대전 서구 둔산로 89",
+    "jibunAddress": "대전 서구 둔산동 1294",
+    "lat": 36.35244347,
+    "lng": 127.38387498,
+    "targetLabel": "카카오 입구1 좌표",
+    "targetLat": 36.3513562,
+    "targetLng": 127.38337033,
+    "facilityType": "교육청",
+    "group": "공공",
+    "reviewFocus": "교육청 입구1과 보도·주차장 경계",
+    "roadviewChecks": [
+      "보도와 시설 진입로가 만나는 경계",
+      "점자블록·낮은 경계의 연결",
+      "차량 동선·고정 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "경사도·유효 폭·출입문 앞 회전 공간은 현장에서 측정합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/7830263",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전광역시교육청,36.35244347,127.38387498",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.3513562,127.38337033",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-014",
+    "placeId": "11183833",
+    "name": "이마트 둔산점",
+    "address": "대전 서구 둔산북로 41",
+    "jibunAddress": "대전 서구 둔산동 959-2",
+    "lat": 36.35634042,
+    "lng": 127.37870455,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35594523,
+    "targetLng": 127.3791094,
+    "facilityType": "대형마트",
+    "group": "생활",
+    "reviewFocus": "보도에서 이마트 보행 입구까지의 마지막 동선",
+    "roadviewChecks": [
+      "보도와 매장 부지의 경계",
+      "차량 진입로와 보행 동선의 교차",
+      "로드뷰에서 실제 보행 주출입구가 보이는지"
+    ],
+    "fieldCheck": "주출입구 연결을 확정할 수 없으면 직접 방문해 폭·경사·문턱을 기록합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/11183833",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/이마트 둔산점,36.35634042,127.37870455",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35594523,127.3791094",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-015",
+    "placeId": "22961392",
+    "name": "서대전세무서",
+    "address": "대전 서구 둔산서로 70",
+    "jibunAddress": "대전 서구 둔산동 1296",
+    "lat": 36.35331913,
+    "lng": 127.38340023,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35317101,
+    "targetLng": 127.38305358,
+    "facilityType": "세무서",
+    "group": "공공",
+    "reviewFocus": "세무서 민원 동선과 보도 연결",
+    "roadviewChecks": [
+      "출입구 앞 턱으로 보이는 경계",
+      "경사로 또는 낮은 진입 위치",
+      "주차·업무 차량이 보행로를 가릴 가능성"
+    ],
+    "fieldCheck": "출입문 폭·문턱과 실내 민원 동선은 현장에서 확인합니다.",
+    "presentation": {
+      "enabled": true,
+      "order": 5,
+      "category": "공공행정",
+      "headline": "민원실 위치보다 보도에서 출입문까지 끊기지 않는 길이 더 중요합니다",
+      "question": "세무서 민원 출입구와 보도 경계, 차량이 지나는 입구가 함께 보이나요?",
+      "destination": {
+        "label": "세무서 민원 출입구",
+        "xPercent": 70,
+        "yPercent": 47
+      },
+      "observationPoints": [
+        {
+          "label": "민원 출입구 앞 진입로",
+          "xPercent": 66,
+          "yPercent": 57
+        },
+        {
+          "label": "보도와 경계석",
+          "xPercent": 70,
+          "yPercent": 74
+        },
+        {
+          "label": "차량 진입 구간",
+          "xPercent": 84,
+          "yPercent": 64
+        }
+      ]
+    },
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/22961392",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/서대전세무서,36.35331913,127.38340023",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35317101,127.38305358",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-016",
+    "placeId": "17562551",
+    "name": "대전둔산우체국",
+    "address": "대전 서구 둔산로 111",
+    "jibunAddress": "대전 서구 둔산동 1408",
+    "lat": 36.35179414,
+    "lng": 127.38626145,
+    "targetLabel": "카카오 입구1 좌표",
+    "targetLat": 36.35148791,
+    "targetLng": 127.38668193,
+    "facilityType": "우체국",
+    "group": "생활",
+    "reviewFocus": "우체국 입구1과 보도 사이 동선",
+    "roadviewChecks": [
+      "출입구 앞 턱으로 보이는 경계",
+      "경사로 또는 낮은 진입 위치",
+      "주차·업무 차량이 보행로를 가릴 가능성"
+    ],
+    "fieldCheck": "출입문 폭·문턱과 실내 민원 동선은 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/17562551",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전둔산우체국,36.35179414,127.38626145",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35148791,127.38668193",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-017",
+    "placeId": "10672794",
+    "name": "대전을지대학교병원",
+    "address": "대전 서구 둔산서로 95",
+    "jibunAddress": "대전 서구 둔산동 1306",
+    "lat": 36.35530083,
+    "lng": 127.38198835,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.35489718,
+    "targetLng": 127.3828351,
+    "facilityType": "병원",
+    "group": "의료",
+    "reviewFocus": "병원 주출입구와 보도·승하차 구역 연결",
+    "roadviewChecks": [
+      "보도에서 병원 입구로 이어지는 경사",
+      "승하차 차량과 보행 동선의 교차",
+      "입구 앞 시설물 사이 통과 공간"
+    ],
+    "fieldCheck": "자동문·문턱·휠체어 회전 공간은 현장에서 확인합니다.",
+    "presentation": {
+      "enabled": true,
+      "order": 1,
+      "category": "의료",
+      "headline": "병원 위치보다 주출입구까지 이어지는 마지막 길이 먼저 확인되어야 합니다",
+      "question": "도로 건너편 보도에서 병원 주출입구까지 이동하는 길이 한 장면에 이어져 보이나요?",
+      "destination": {
+        "label": "병원 주출입구",
+        "xPercent": 50,
+        "yPercent": 51
+      },
+      "observationPoints": [
+        {
+          "label": "보도와 병원 진입 횡단부",
+          "xPercent": 31,
+          "yPercent": 67
+        },
+        {
+          "label": "낮아진 턱과 점자블록",
+          "xPercent": 58,
+          "yPercent": 66
+        },
+        {
+          "label": "승하차 차량과 보행 동선",
+          "xPercent": 52,
+          "yPercent": 57
+        }
+      ]
+    },
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/10672794",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전을지대학교병원,36.35530083,127.38198835",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35489718,127.3828351",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-018",
+    "placeId": "937944377",
+    "name": "샘머리공원 화장실",
+    "address": "대전 서구 둔산동 1381",
+    "jibunAddress": "대전 서구 둔산동 1381",
+    "lat": 36.35729575,
+    "lng": 127.38988616,
+    "targetLabel": "카카오 장소 좌표",
+    "targetLat": 36.35729575,
+    "targetLng": 127.38988616,
+    "facilityType": "공원 화장실",
+    "group": "공원",
+    "reviewFocus": "공원 보행로에서 화장실 입구로 이어지는 구간",
+    "roadviewChecks": [
+      "포장 보행로가 끊기는 지점",
+      "노면의 큰 틈·요철로 보이는 부분",
+      "입구 방향의 급한 경사 또는 턱"
+    ],
+    "fieldCheck": "수목 가림이 많아 노면·경사·문턱을 직접 방문해 확인합니다.",
+    "priority": "field_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/937944377",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/샘머리공원 화장실,36.35729575,127.38988616",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35729575,127.38988616",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-019",
+    "placeId": "11178681",
+    "name": "세이브존 대전점",
+    "address": "대전 서구 둔산로 201",
+    "jibunAddress": "대전 서구 둔산동 1809",
+    "lat": 36.35159186,
+    "lng": 127.39575329,
+    "targetLabel": "카카오 입구1 좌표",
+    "targetLat": 36.35171189,
+    "targetLng": 127.39537367,
+    "facilityType": "상설할인매장",
+    "group": "생활",
+    "reviewFocus": "보도에서 실제 보행 주출입구까지의 마지막 동선",
+    "roadviewChecks": [
+      "보도와 매장 부지의 경계",
+      "차량 진입로와 보행 동선의 교차",
+      "로드뷰에서 실제 보행 주출입구가 보이는지"
+    ],
+    "fieldCheck": "주출입구 연결을 확정할 수 없으면 직접 방문해 폭·경사·문턱을 기록합니다.",
+    "presentation": {
+      "enabled": true,
+      "order": 6,
+      "category": "생활편의",
+      "headline": "사진으로 계단이 보여도 낮은 우회 길의 폭과 경사는 현장에서 확인해야 합니다",
+      "question": "세이브존 주출입구와 계단, 보도 접근축은 보이지만 휠체어 우회 길까지 확인되나요?",
+      "destination": {
+        "label": "세이브존 주출입구",
+        "xPercent": 32,
+        "yPercent": 48
+      },
+      "observationPoints": [
+        {
+          "label": "출입구 앞 계단",
+          "xPercent": 31,
+          "yPercent": 63
+        },
+        {
+          "label": "점자블록과 보도 접근축",
+          "xPercent": 42,
+          "yPercent": 72
+        },
+        {
+          "label": "옷걸이와 시설물로 좁아진 길",
+          "xPercent": 56,
+          "yPercent": 60
+        }
+      ]
+    },
+    "priority": "field_first",
+    "coreCandidateId": "L50-005",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/11178681",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/세이브존 대전점,36.35159186,127.39575329",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.35171189,127.39537367",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  },
+  {
+    "id": "D50-020",
+    "placeId": "25504660",
+    "name": "대전청사시외버스둔산정류소",
+    "address": "대전 서구 둔산동 920",
+    "jibunAddress": "대전 서구 둔산동 920",
+    "lat": 36.36157006,
+    "lng": 127.37979951,
+    "targetLabel": "카카오 입구 좌표",
+    "targetLat": 36.3616703,
+    "targetLng": 127.37967699,
+    "facilityType": "시외버스 정류소",
+    "group": "교통",
+    "reviewFocus": "보도에서 승차 지점과 대기 공간으로 이어지는 동선",
+    "roadviewChecks": [
+      "보도 경계석의 낮은 승하차 지점",
+      "정류장 시설물 사이 통과 공간",
+      "버스 정차 구역과 보행 동선의 교차"
+    ],
+    "fieldCheck": "버스 정차 시 실제 승하차 간격과 혼잡 때의 통과 폭을 현장에서 확인합니다.",
+    "priority": "roadview_first",
+    "coreCandidateId": "",
+    "image": "",
+    "kakaoPlaceUrl": "https://place.map.kakao.com/25504660",
+    "kakaoMapUrl": "https://map.kakao.com/link/map/대전청사시외버스둔산정류소,36.36157006,127.37979951",
+    "kakaoRoadviewUrl": "https://map.kakao.com/link/roadview/36.3616703,127.37967699",
+    "sourceStatus": "kakao_public_place_readback_2026-07-21",
+    "status": {
+      "roadview": "candidate_scene",
+      "ai": "not_run",
+      "human": "not_started",
+      "field": "not_started",
+      "promotion": "pending"
+    }
+  }
+]

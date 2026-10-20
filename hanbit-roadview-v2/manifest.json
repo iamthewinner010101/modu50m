@@ -1,0 +1,81 @@
+{
+  "version": "hanbit-roadview-v2",
+  "attribution": "Kakao Roadview",
+  "images": [
+    {
+      "id": "HANBIT-approach-1200671592",
+      "checkpointId": "approach",
+      "name": "한빛탑 동측 로드뷰 · approach",
+      "source": "roadview",
+      "provider": "Kakao Roadview",
+      "image": "/modu50m/hanbit-roadview-v2/approach.jpg",
+      "panorama": "/modu50m/hanbit-roadview-v2/1200671592-panorama.jpg",
+      "panoId": 1200671592,
+      "captureDate": "2025-09-10",
+      "retrievedAt": "2026-09-17T08:06:00.476867+00:00",
+      "camera": {
+        "lat": 36.3761951452913,
+        "lon": 127.389882399643
+      },
+      "heading": 305,
+      "pitch": 5,
+      "fov": 90,
+      "northOffset": 16.0,
+      "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200671592&pan=305&tilt=-5&zoom=0",
+      "sha256": "89e6a7a5d67e6ae833abde1302a1143540f6843274d5bcd457f33e153bee4a42",
+      "captureStatus": "source_retrieved",
+      "fieldVerified": false,
+      "entranceVerified": false
+    },
+    {
+      "id": "HANBIT-threshold-1200671583",
+      "checkpointId": "threshold",
+      "name": "한빛탑 동측 로드뷰 · threshold",
+      "source": "roadview",
+      "provider": "Kakao Roadview",
+      "image": "/modu50m/hanbit-roadview-v2/threshold.jpg",
+      "panorama": "/modu50m/hanbit-roadview-v2/1200671583-panorama.jpg",
+      "panoId": 1200671583,
+      "captureDate": "2025-09-10",
+      "retrievedAt": "2026-09-17T08:06:01.095803+00:00",
+      "camera": {
+        "lat": 36.3765486748515,
+        "lon": 127.389799469035
+      },
+      "heading": 273,
+      "pitch": 3,
+      "fov": 90,
+      "northOffset": 3.0,
+      "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200671583&pan=273&tilt=-3&zoom=0",
+      "sha256": "1707607cbab8fadfcdff8fd2c745318444f7efec7c7d3226e7fe02dfdb33f136",
+      "captureStatus": "source_retrieved",
+      "fieldVerified": false,
+      "entranceVerified": false
+    },
+    {
+      "id": "HANBIT-doorway-1200671579",
+      "checkpointId": "doorway",
+      "name": "한빛탑 동측 로드뷰 · doorway",
+      "source": "roadview",
+      "provider": "Kakao Roadview",
+      "image": "/modu50m/hanbit-roadview-v2/doorway.jpg",
+      "panorama": "/modu50m/hanbit-roadview-v2/1200671579-panorama.jpg",
+      "panoId": 1200671579,
+      "captureDate": "2025-09-10",
+      "retrievedAt": "2026-09-17T08:06:01.691780+00:00",
+      "camera": {
+        "lat": 36.3767252868907,
+        "lon": 127.389804807939
+      },
+      "heading": 263,
+      "pitch": -2,
+      "fov": 48,
+      "northOffset": 352.6,
+      "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200671579&pan=263&tilt=2&zoom=0",
+      "sha256": "b70569e100c0a898bcecfe1955dc90a45acad0f43bcbba5d0464bbb3e4f5b6a9",
+      "captureStatus": "source_retrieved",
+      "fieldVerified": false,
+      "entranceVerified": false
+    }
+  ]
+}

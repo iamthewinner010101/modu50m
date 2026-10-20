@@ -1,0 +1,173 @@
+{
+  "schema": "modu50m-dunsan-candidate-review.v1",
+  "seedId": "six-review-20260724",
+  "workspace": "taeyun-six-review-20260724-v1",
+  "source": "saved_human_photo_review",
+  "reviewCount": 6,
+  "observationCount": 18,
+  "fieldFollowupCount": 1,
+  "reviews": {
+    "D50-017": {
+      "source": "person_selected_photo_observation",
+      "humanEvidenceStatus": "pending",
+      "pointAnswers": {
+        "presentation-point-1": "seen",
+        "presentation-point-2": "seen",
+        "presentation-point-3": "seen"
+      },
+      "pointLabels": {
+        "presentation-point-1": "보도와 병원 진입 횡단부",
+        "presentation-point-2": "낮아진 턱과 점자블록",
+        "presentation-point-3": "승하차 차량과 보행 동선"
+      },
+      "wheelchairEntryAssessments": {
+        "presentation": "route_visible"
+      },
+      "fieldDecisions": {
+        "presentation": "not_required"
+      },
+      "recordStatuses": {
+        "presentation": "saved"
+      },
+      "savedAtBySurface": {
+        "presentation": "2026-07-24T06:18:35.000Z"
+      },
+      "updatedAt": "2026-07-24T06:18:35.000Z"
+    },
+    "D50-003": {
+      "source": "person_selected_photo_observation",
+      "humanEvidenceStatus": "pending",
+      "pointAnswers": {
+        "presentation-point-1": "seen",
+        "presentation-point-2": "seen",
+        "presentation-point-3": "not_seen"
+      },
+      "pointLabels": {
+        "presentation-point-1": "출구 계단과 손잡이",
+        "presentation-point-2": "점자블록과 낮아진 경계",
+        "presentation-point-3": "출구 옆 보행 공간"
+      },
+      "wheelchairEntryAssessments": {
+        "presentation": "difficulty_visible"
+      },
+      "fieldDecisions": {
+        "presentation": "not_required"
+      },
+      "recordStatuses": {
+        "presentation": "saved"
+      },
+      "savedAtBySurface": {
+        "presentation": "2026-07-24T06:18:46.000Z"
+      },
+      "updatedAt": "2026-07-24T06:18:46.000Z"
+    },
+    "D50-006": {
+      "source": "person_selected_photo_observation",
+      "humanEvidenceStatus": "pending",
+      "pointAnswers": {
+        "presentation-point-1": "seen",
+        "presentation-point-2": "seen",
+        "presentation-point-3": "seen"
+      },
+      "pointLabels": {
+        "presentation-point-1": "출입구 앞 계단",
+        "presentation-point-2": "점자블록 진행 방향",
+        "presentation-point-3": "보도와 차도의 경계"
+      },
+      "wheelchairEntryAssessments": {
+        "presentation": "route_visible"
+      },
+      "fieldDecisions": {
+        "presentation": "not_required"
+      },
+      "recordStatuses": {
+        "presentation": "saved"
+      },
+      "savedAtBySurface": {
+        "presentation": "2026-07-24T06:19:07.000Z"
+      },
+      "updatedAt": "2026-07-24T06:19:07.000Z"
+    },
+    "D50-009": {
+      "source": "person_selected_photo_observation",
+      "humanEvidenceStatus": "pending",
+      "pointAnswers": {
+        "presentation-point-1": "not_seen",
+        "presentation-point-2": "seen",
+        "presentation-point-3": "seen"
+      },
+      "pointLabels": {
+        "presentation-point-1": "출입문 앞 경계",
+        "presentation-point-2": "장애인 주차 구역",
+        "presentation-point-3": "보도와 진입로 연결"
+      },
+      "wheelchairEntryAssessments": {
+        "presentation": "photo_unclear"
+      },
+      "fieldDecisions": {
+        "presentation": "required"
+      },
+      "recordStatuses": {
+        "presentation": "saved"
+      },
+      "savedAtBySurface": {
+        "presentation": "2026-07-24T06:19:32.000Z"
+      },
+      "updatedAt": "2026-07-24T06:19:32.000Z"
+    },
+    "D50-015": {
+      "source": "person_selected_photo_observation",
+      "humanEvidenceStatus": "pending",
+      "pointAnswers": {
+        "presentation-point-1": "seen",
+        "presentation-point-2": "seen",
+        "presentation-point-3": "seen"
+      },
+      "pointLabels": {
+        "presentation-point-1": "민원 출입구 앞 진입로",
+        "presentation-point-2": "보도와 경계석",
+        "presentation-point-3": "차량 진입 구간"
+      },
+      "wheelchairEntryAssessments": {
+        "presentation": "route_visible"
+      },
+      "fieldDecisions": {
+        "presentation": "not_required"
+      },
+      "recordStatuses": {
+        "presentation": "saved"
+      },
+      "savedAtBySurface": {
+        "presentation": "2026-07-24T06:19:49.000Z"
+      },
+      "updatedAt": "2026-07-24T06:19:49.000Z"
+    },
+    "D50-019": {
+      "source": "person_selected_photo_observation",
+      "humanEvidenceStatus": "pending",
+      "pointAnswers": {
+        "presentation-point-1": "seen",
+        "presentation-point-2": "seen",
+        "presentation-point-3": "seen"
+      },
+      "pointLabels": {
+        "presentation-point-1": "출입구 앞 계단",
+        "presentation-point-2": "점자블록과 보도 접근축",
+        "presentation-point-3": "옷걸이와 시설물로 좁아진 길"
+      },
+      "wheelchairEntryAssessments": {
+        "presentation": "route_visible"
+      },
+      "fieldDecisions": {
+        "presentation": "not_required"
+      },
+      "recordStatuses": {
+        "presentation": "saved"
+      },
+      "savedAtBySurface": {
+        "presentation": "2026-07-24T06:20:22.000Z"
+      },
+      "updatedAt": "2026-07-24T06:20:22.000Z"
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "hanbit": {
+    "mobility-02": [
+      {
+        "id": "v27-naver-hanbit-face-1",
+        "image": "/modu50m/route-photos-v27/naver-hanbit-face-1.jpg",
+        "title": "연결판에서 입구 쪽 보기",
+        "observations": [
+          {
+            "label": "갈색 연결판",
+            "position": [
+              63,
+              61
+            ],
+            "detail": "갈색 판이 주차 구역의 높이 차를 잇는 모습이 보여요. 가장자리 단차와 현재 고정 상태는 가까이서 확인해야 해요."
+          },
+          {
+            "label": "정산소 방향",
+            "position": [
+              56,
+              48
+            ],
+            "detail": "멀리 주차 차단기와 그 뒤 도로가 보여요. 가운데 차량 길과 보행자가 이용할 접점은 구분해서 살펴봐요."
+          }
+        ],
+        "scope": "2023년 주차장 안에서 동쪽 진입부를 바라본 장면. 차량 길을 보행 경로로 안내하지 않아요.",
+        "sourceSha256": "ce8abfe977079d712e54cdd35542432a899ea29064de2a62239b9840f7b6c343",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "naver",
+        "author": "네이버 거리뷰",
+        "publishedAt": null,
+        "capturedAt": "2023-05-31",
+        "panoId": "7hgOawWAJM318_4BCOVfVw",
+        "camera": {
+          "lat": 36.3766134,
+          "lon": 127.389267
+        },
+        "metadataUrl": "https://panorama.map.naver.com/metadataV3/basic/7hgOawWAJM318_4BCOVfVw?lang=ko",
+        "rawSourceSha256": "ee52360cb752cf3fa34e60df0891e51a943cd912fe1e657beb360c5d79d1f3c8",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false,
+        "viewHeading": 90,
+        "sourceUrl": "https://map.naver.com/p?c=17.00,0,0,0,adh&p=7hgOawWAJM318_4BCOVfVw,90,0,90,Float",
+        "projection": {
+          "method": "source-cubemap-face",
+          "faceIndex": 1,
+          "horizontalFov": 90
+        }
+      },
+      {
+        "id": "v27-taeran-01",
+        "image": "/modu50m/route-photos-v27/taeran-01.jpg",
+        "title": "통일관 앞에서 통로 찾기",
+        "observations": [
+          {
+            "label": "주차면과 보도 경계",
+            "position": [
+              45,
+              81
+            ],
+            "detail": "휠체어 표시가 있는 주차면 뒤에 둥근 볼라드와 보도 경계가 보여요. 왼쪽의 계단과 오른쪽의 통로 입구를 구분해요."
+          },
+          {
+            "label": "고객센터 옆 통로",
+            "position": [
+              71,
+              62
+            ],
+            "detail": "나무색 고객센터 부스 옆에 건물 아래로 들어가는 공간이 보여요. 이 사진은 통로를 찾을 기준물이며 끝까지의 길을 보여주지는 않아요."
+          }
+        ],
+        "scope": "대전통일관 간판과 고객센터로 위치를 대조한 방문 후기. 건물의 현재 운영 여부를 뜻하지 않아요.",
+        "sourceSha256": "aaaac54394f40eac088a8c5d1f63d7a8a47caba23102be33dcc064f665451206",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "blog",
+        "author": "그란이",
+        "publishedAt": "2025-03-05",
+        "capturedAt": null,
+        "sourceUrl": "https://taeranstory.tistory.com/620",
+        "sourceImageUrl": "https://blog.kakaocdn.net/dna/ALw6Y/btsMCaIkeZ8/AAAAAAAAAAAAAAAAAAAAAPh6g5D9JdWhpMBooVo5qAwBMNpr-_BpLG29_iWCH2kQ/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=MVAO2ffMAJlsYYx9w2N%2FRAlIT5M%3D",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "captureMethod": "public-source-photo-unmodified"
+      }
+    ],
+    "step:plaza-gap": [
+      {
+        "id": "v27-naver-hanbit-face-3",
+        "image": "/modu50m/route-photos-v27/naver-hanbit-face-3.jpg",
+        "title": "건물 아래 통로 입구",
+        "observations": [
+          {
+            "label": "볼라드와 안내판",
+            "position": [
+              50,
+              65
+            ],
+            "detail": "둥근 볼라드와 안내판 뒤로 건물 아래 통로가 보여요. 물체 사이의 실제 폭과 입구 턱 높이는 측정하지 않았어요."
+          },
+          {
+            "label": "그늘진 통로 안쪽",
+            "position": [
+              46,
+              51
+            ],
+            "detail": "기둥 사이로 반대편 밝은 공간이 보이지만 그늘 속 바닥 전체는 보이지 않아요. 끝까지 이어지는 상태는 추가 사진이 필요해요."
+          }
+        ],
+        "scope": "통일관 간판·고객센터·기둥으로 같은 통로 입구를 대조했어요. 안쪽부터 탑 광장까지 연속 통행은 미확인.",
+        "sourceSha256": "b4058e43fb33e10472df728a3f844da488cf2fbacb1a993581dfb072a99409bc",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "naver",
+        "author": "네이버 거리뷰",
+        "publishedAt": null,
+        "capturedAt": "2023-05-31",
+        "panoId": "7hgOawWAJM318_4BCOVfVw",
+        "camera": {
+          "lat": 36.3766134,
+          "lon": 127.389267
+        },
+        "metadataUrl": "https://panorama.map.naver.com/metadataV3/basic/7hgOawWAJM318_4BCOVfVw?lang=ko",
+        "rawSourceSha256": "ee52360cb752cf3fa34e60df0891e51a943cd912fe1e657beb360c5d79d1f3c8",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false,
+        "viewHeading": 270,
+        "sourceUrl": "https://map.naver.com/p?c=17.00,0,0,0,adh&p=7hgOawWAJM318_4BCOVfVw,270,0,90,Float",
+        "projection": {
+          "method": "source-cubemap-face",
+          "faceIndex": 3,
+          "horizontalFov": 90
+        },
+        "viewLabel": "통로 입구"
+      },
+      {
+        "id": "v27-taeran-02",
+        "image": "/modu50m/route-photos-v27/taeran-02.jpg",
+        "title": "통로 앞 안내도·바닥",
+        "observations": [
+          {
+            "label": "현재 위치가 표시된 안내도",
+            "position": [
+              60,
+              58
+            ],
+            "detail": "현장 안내도에 현재 위치와 한빛탑 그림이 함께 있어요. 지도상의 연결과 실제 바닥 상태는 따로 확인해야 해요."
+          },
+          {
+            "label": "기둥 옆 바닥과 큰 북",
+            "position": [
+              86,
+              35
+            ],
+            "detail": "안내도 뒤에 통로 기둥과 큰 북이 보여 거리뷰와 같은 구역임을 비교할 수 있어요. 큰 물건 옆 통과 공간을 살펴봐요."
+          }
+        ],
+        "scope": "2025년 게시 후기의 통로 입구 사진. 정확한 촬영일·카메라 좌표는 미상.",
+        "sourceSha256": "654f79f23784620b7ad289662c7f4843a4ec0076864a328d327d5b9ba8e2acfc",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "blog",
+        "author": "그란이",
+        "publishedAt": "2025-03-05",
+        "capturedAt": null,
+        "sourceUrl": "https://taeranstory.tistory.com/620",
+        "sourceImageUrl": "https://blog.kakaocdn.net/dna/v3RuA/btsMBFaWU30/AAAAAAAAAAAAAAAAAAAAAHTSbSoOjXV7L1LtbqqQj4LEQu--Y8a2kcqT7MBlm3nd/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=%2FYwbCAcWAO2pgoKkHQYBJE9Mc5s%3D",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "captureMethod": "public-source-photo-unmodified"
+      },
+      {
+        "id": "v27-taeran-03",
+        "image": "/modu50m/route-photos-v27/taeran-03.jpg",
+        "title": "탑 앞 광장 쪽 장면",
+        "observations": [
+          {
+            "label": "탑 앞 포장 바닥",
+            "position": [
+              27,
+              90
+            ],
+            "detail": "탑 앞 넓은 포장면과 화분이 보여요. 통로에서 이 바닥까지 이어지는 부분은 사진 밖에 있어요."
+          },
+          {
+            "label": "탑 문 앞과 돌기둥",
+            "position": [
+              54,
+              91
+            ],
+            "detail": "탑 아래 문과 그 앞 돌기둥을 볼 수 있어요. 경사로의 시작은 06번 정면 사진과 함께 비교해요."
+          }
+        ],
+        "scope": "같은 방문 후기에서 찾은 탑 앞 광장. 앞 사진과 촬영 위치가 달라 사이 구간은 연결 확인이 필요해요.",
+        "sourceSha256": "9e6d2ebab19bb2684167099efbd9bf0fdb51c7d47a6856ef609c5104ad828193",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "blog",
+        "author": "그란이",
+        "publishedAt": "2025-03-05",
+        "capturedAt": null,
+        "sourceUrl": "https://taeranstory.tistory.com/620",
+        "sourceImageUrl": "https://blog.kakaocdn.net/dna/bXcixc/btsMB6eStlm/AAAAAAAAAAAAAAAAAAAAAL0OyAFlG7FoWPeaQINDyzQZNyZA8YjGc86CK8kPxhvI/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=TXq5NViO415ywOSRV%2Bn7rmulzXc%3D",
+        "locationBinding": "same-landmark-area-not-camera-coordinate",
+        "captureMethod": "public-source-photo-unmodified"
+      }
+    ]
+  },
+  "oworld": {
+    "mobility-02": [
+      {
+        "id": "v27-oworld-first-cross-285",
+        "image": "/modu50m/route-photos-v27/oworld-first-cross-285.jpg",
+        "title": "첫 횡단 뒤 머무는 바닥",
+        "observations": [
+          {
+            "label": "횡단선 끝과 보도",
+            "position": [
+              48,
+              77
+            ],
+            "detail": "횡단선이 끝나는 쪽에 보도와 점자블록이 보여요. 노란 연석이 낮아지는 접점과 배수구를 함께 살펴봐요."
+          },
+          {
+            "label": "나무 사이 연결 공간",
+            "position": [
+              36,
+              59
+            ],
+            "detail": "나무와 신호등 옆에 다음 횡단을 향해 이동할 바닥이 보여요. 보도 위 물체와 바닥 이음새를 확인해요."
+          }
+        ],
+        "scope": "첫 횡단 구역 옆 촬영 차량에서 정류장 방향을 되돌아본 장면. 이용자의 눈높이·이동 경로와 달라요.",
+        "sourceSha256": "381deb19c80b46dddb9960bf268698741f091887d6f348547a83fd73c7be402e",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992302&pan=285&tilt=-10&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992302?SERVICE=glpano",
+        "panoId": "1200992302",
+        "camera": {
+          "lat": 36.2901586812757,
+          "lon": 127.396239855994
+        },
+        "viewHeading": 285,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 94,
+          "pitchDown": 10
+        },
+        "rawSourceSha256": "dd656bb72c0e3eccace1c84203c5e18e00f5f1e2f36491544940bea7c8be7893",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "v27-oworld-first-cross-90",
+        "image": "/modu50m/route-photos-v27/oworld-first-cross-90.jpg",
+        "title": "두 횡단 사이에서 다음 길 보기",
+        "observations": [
+          {
+            "label": "나무·가로등 사이 바닥",
+            "position": [
+              57,
+              67
+            ],
+            "detail": "횡단 사이의 포장면에 나무와 가로등이 있어요. 이 물체들 사이로 움직일 공간을 살펴봐요."
+          },
+          {
+            "label": "다음 횡단선",
+            "position": [
+              26,
+              62
+            ],
+            "detail": "도로 건너 바위가 있는 쪽으로 이어지는 횡단선이 보입니다. 다음 사진에서 반대쪽 보도 접점을 비교해요."
+          }
+        ],
+        "scope": "같은 카카오 촬영 위치의 다른 방향. 첫 횡단 뒤 공간과 다음 횡단부를 비교하는 사진이에요.",
+        "sourceSha256": "ebfdcbe283d99be4680243390f90dd6a3674401dafa6fb75203ef636e13a5815",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992302&pan=90&tilt=-10&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992302?SERVICE=glpano",
+        "panoId": "1200992302",
+        "camera": {
+          "lat": 36.2901586812757,
+          "lon": 127.396239855994
+        },
+        "viewHeading": 90,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 94,
+          "pitchDown": 10
+        },
+        "rawSourceSha256": "dd656bb72c0e3eccace1c84203c5e18e00f5f1e2f36491544940bea7c8be7893",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "mobility-03": [
+      {
+        "id": "v27-oworld-between-crossings-35",
+        "image": "/modu50m/route-photos-v27/oworld-between-crossings-35.jpg",
+        "title": "두 번째 횡단과 보도 접점",
+        "observations": [
+          {
+            "label": "횡단선과 반대쪽 연석",
+            "position": [
+              53,
+              69
+            ],
+            "detail": "횡단선이 건너편 나무 옆 보도와 만납니다. 연석의 낮춤과 배수 틈을 확대해서 살펴봐요."
+          },
+          {
+            "label": "바위 옆 보도 시작",
+            "position": [
+              69,
+              62
+            ],
+            "detail": "건너편 바위·나무 앞에 벽돌 바닥이 이어집니다. 다음 중간 사진에서 같은 쪽 보도를 살펴봐요."
+          }
+        ],
+        "scope": "공식 두 번째 횡단 구역 주변의 2025년 장면. 촬영 차량 위치는 보행자가 서는 위치와 다릅니다.",
+        "sourceSha256": "b3e3ef6d3d4491a86d6a98f3d8d292588a7d3f318dd4c0d0e4e068afba173d6a",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992301&pan=35&tilt=-12&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992301?SERVICE=glpano",
+        "panoId": "1200992301",
+        "camera": {
+          "lat": 36.2900791866268,
+          "lon": 127.396297339254
+        },
+        "viewHeading": 35,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 94,
+          "pitchDown": 12
+        },
+        "rawSourceSha256": "50ec092908d97f681e66bcddcec7c1be53dca7b434f5486a6926476aedfb5d23",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "v27-oworld-walk-start-100",
+        "image": "/modu50m/route-photos-v27/oworld-walk-start-100.jpg",
+        "title": "횡단 뒤 나무 옆 보도",
+        "observations": [
+          {
+            "label": "가로수와 벽돌 바닥",
+            "position": [
+              40,
+              72
+            ],
+            "detail": "도로와 바위 사이로 벽돌 보도가 이어지고 가로수가 자리합니다. 나무 둘레와 바닥 틈 때문에 남는 공간을 살펴봐요."
+          },
+          {
+            "label": "차도와 분리되는 연석",
+            "position": [
+              57,
+              73
+            ],
+            "detail": "보도 가장자리 연석과 도로 위 고깔이 보여요. 촬영 차량이 있는 차도를 이동 경로로 표시하지 않아요."
+          }
+        ],
+        "scope": "두 번째 횡단 이후 정문 방향 도로의 동쪽 보도. 차도에서 보도를 옆으로 바라본 장면이에요.",
+        "sourceSha256": "df387b70793bf42372952276a3a482d098dec2430c8ef07175a1c7dc5a2bd038",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992298&pan=100&tilt=-12&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992298?SERVICE=glpano",
+        "panoId": "1200992298",
+        "camera": {
+          "lat": 36.2898515165335,
+          "lon": 127.396469843044
+        },
+        "viewHeading": 100,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 94,
+          "pitchDown": 12
+        },
+        "rawSourceSha256": "0d35ec41aefabf35165677016f17c9f0c176320052b61d05f0c9b9a657ac6047",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      },
+      {
+        "id": "v27-oworld-walk-middle-100",
+        "image": "/modu50m/route-photos-v27/oworld-walk-middle-100.jpg",
+        "title": "중간 보도·배수구",
+        "observations": [
+          {
+            "label": "가로등·배수구",
+            "position": [
+              19,
+              82
+            ],
+            "detail": "가로등 밑과 배수구, 연석이 가까이 모여 있어요. 바퀴가 지나갈 바닥과 가로수 사이의 공간을 비교해요."
+          },
+          {
+            "label": "정문 앞 횡단 방향",
+            "position": [
+              79,
+              43
+            ],
+            "detail": "보도 앞쪽으로 흰 울타리와 다음 횡단부가 보여요. 그 지점의 자세한 바닥은 04번 사진에서 이어서 봐요."
+          }
+        ],
+        "scope": "정문으로 향하는 중간 보도 구역. 가로수·배수구가 보이며 폭과 경사는 실측하지 않았어요.",
+        "sourceSha256": "11d2848a3ed469d4285b3076ac85566bd64203749f4345b406cb27d54964f725",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992293&pan=100&tilt=-12&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992293?SERVICE=glpano",
+        "panoId": "1200992293",
+        "camera": {
+          "lat": 36.2894612813456,
+          "lon": 127.396748387199
+        },
+        "viewHeading": 100,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 94,
+          "pitchDown": 12
+        },
+        "rawSourceSha256": "987fa23935fdff6ed32fd452b822a81a930b8702459304670e467bf7eaf77dd1",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "mobility-04": [
+      {
+        "id": "v27-oworld-walk-end-175",
+        "image": "/modu50m/route-photos-v27/oworld-walk-end-175.jpg",
+        "title": "마지막 횡단 끝·볼라드",
+        "observations": [
+          {
+            "label": "횡단 끝과 두 볼라드",
+            "position": [
+              53,
+              73
+            ],
+            "detail": "횡단선 끝의 점자블록과 두 볼라드가 보입니다. 양옆 연석과 볼라드 사이 간격을 살펴봐요."
+          },
+          {
+            "label": "정문 쪽 보도와 벤치",
+            "position": [
+              66,
+              57
+            ],
+            "detail": "정문 쪽 포장면을 따라 나무와 벤치가 놓여 있어요. 차량 길과 보행 공간의 경계를 비교해요."
+          }
+        ],
+        "scope": "공식 04번의 작은 건물·횡단부·자전거 거치대와 대조했어요. 2025년 외벽 색과 도로 표시는 이전 공식 사진과 다릅니다.",
+        "sourceSha256": "55e23f9654a5adab746c8f4b868d387a4c84f04ca8428604dba8535543760e29",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992235&pan=175&tilt=-7&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992235?SERVICE=glpano",
+        "panoId": "1200992235",
+        "camera": {
+          "lat": 36.289092821375,
+          "lon": 127.396982512396
+        },
+        "viewHeading": 175,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 86,
+          "pitchDown": 7
+        },
+        "rawSourceSha256": "887eb778a27c03110bb7b1c575bc71dd575da9dc36e8a2ca52b8f1e25f831dcf",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      }
+    ],
+    "mobility-05": [
+      {
+        "id": "v27-oworld-gate-approach-120",
+        "image": "/modu50m/route-photos-v27/oworld-gate-approach-120.jpg",
+        "title": "광장에서 정문까지",
+        "observations": [
+          {
+            "label": "점자블록과 배수구",
+            "position": [
+              50,
+              81
+            ],
+            "detail": "앞쪽 점자블록과 배수구, 타일 바닥이 보여요. 배수구 틈과 주변 바닥의 높이 차를 확인해요."
+          },
+          {
+            "label": "출입구 앞 열린 공간",
+            "position": [
+              72,
+              55
+            ],
+            "detail": "나무 옆을 지나 출입구 앞까지 포장면이 보입니다. 현재 사용하는 게이트와 문턱은 별도 확인이 필요해요."
+          }
+        ],
+        "scope": "정문 앞 광장 서쪽에서 동쪽 입구를 바라본 2025년 사진. 지도에 등록된 입구 점 자체에서 찍은 사진은 아니에요.",
+        "sourceSha256": "8e7be8e1a1af5cd4199d3720f23af6e7527209a331c6c98e1f3f495e7c80f52b",
+        "retrievedAt": "2026-09-24",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "provider": "kakao",
+        "author": "카카오 로드뷰",
+        "publishedAt": null,
+        "capturedAt": "2025-09-19",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1200992232&pan=120&tilt=-10&zoom=0",
+        "metadataUrl": "https://rv.map.kakao.com/roadview-search/v2/node/1200992232?SERVICE=glpano",
+        "panoId": "1200992232",
+        "camera": {
+          "lat": 36.2888736012868,
+          "lon": 127.396781033193
+        },
+        "viewHeading": 120,
+        "projection": {
+          "method": "source-panorama-perspective",
+          "horizontalFov": 94,
+          "pitchDown": 10
+        },
+        "rawSourceSha256": "670c46c77bfdb693c37aeca3e6f0611cfc987355e154c452c09508ae9f727fbf",
+        "locationBinding": "provider-camera-coordinate",
+        "cameraLocationVerified": true,
+        "obstacleCoordinatesVerified": false
+      }
+    ]
+  }
+}

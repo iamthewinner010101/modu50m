@@ -1,0 +1,101 @@
+[
+  {
+    "placeId": "museum",
+    "photos": [
+      {
+        "pointId": "museum-ramp-v43",
+        "photo": {
+          "id": "museum-ramp-v43",
+          "image": "/modu50m/route-photos-v36/museum-05.jpg",
+          "title": "손잡이를 따라 미술관 유리문으로 이어지는 경사로",
+          "provider": "blog",
+          "platform": "naver-blog",
+          "providerLabel": "네이버 블로그 방문 사진",
+          "author": "선달영",
+          "sourceUrl": "https://blog.naver.com/qkrwlsdud13/224038594626",
+          "sourceTitle": "대전여행 가볼만한곳 대전시립미술관 관람요금 주차정보",
+          "sourceImageUrl": "https://postfiles.pstatic.net/MjAyNTEwMTJfMzUg/MDAxNzYwMjQ5MTUzODg1.cJowQicSQLxrWiSjqnYMCcXeoCLx-aJd5viB722GBo0g.w8FjCU2vNoEVRy47fVJUyXpPo-yapxMa12KySjbl25cg.JPEG/SE-3068E51F-CCA0-499B-8980-578DD38C9AEA.jpg?type=w966",
+          "publishedAt": "2025-10-12",
+          "capturedAt": null,
+          "captureDateBasis": null,
+          "retrievedAt": "2026-09-26",
+          "fieldVerified": false,
+          "continuousRouteVerified": false,
+          "mapBindingVerified": false,
+          "captureMethod": "public-source-photo-unmodified",
+          "sourceSha256": "806bfc3cc5189047a42cdad24cc15f47e8d7a41dbe763f34a310157b68fab469",
+          "scope": "양쪽 손잡이 사이 포장 길을 따라 미술관 이름이 있는 출입문을 찾아봐요. 2025년 게시 사진이며 경사·폭은 실측하지 않았어요.",
+          "observations": [
+            {
+              "label": "경사로와 손잡이",
+              "position": [
+                52,
+                74
+              ],
+              "detail": "양쪽 손잡이를 따라 입구 방향으로 바닥이 이어져요. 기울기와 쉬어갈 공간은 추가 확인해요."
+            },
+            {
+              "label": "문 앞 방향",
+              "position": [
+                38,
+                58
+              ],
+              "detail": "멀리 입구 차양과 문이 보여요. 문턱과 실제 열린 문 폭을 확인하려면 가까운 사진이 더 필요해요."
+            }
+          ],
+          "locationBinding": "same-facility-context",
+          "obstacleCoordinatesVerified": false,
+          "entranceVerified": false,
+          "mobilityEvidence": true,
+          "readingPurpose": {
+            "kind": "detail",
+            "cue": "노란 선·양쪽 손잡이·미술관 이름 아래 차양을 06번 문 사진과 비교해요."
+          }
+        },
+        "review": {
+          "photoId": "museum-ramp-v43",
+          "image": "/modu50m/route-photos-v36/museum-05.jpg",
+          "sourceSha256": "806bfc3cc5189047a42cdad24cc15f47e8d7a41dbe763f34a310157b68fab469",
+          "kind": "segment",
+          "title": "손잡이 사이 경사로에서 입구 방향 보기",
+          "question": "양쪽 손잡이 사이로 이어지는 바닥과 방향을 바꾸는 곡선, 멀리 보이는 출입문을 살펴봐요.",
+          "focus": [
+            48,
+            72
+          ],
+          "observations": [
+            {
+              "label": "경사로와 손잡이",
+              "position": [
+                52,
+                74
+              ],
+              "detail": "양쪽 손잡이를 따라 입구 방향으로 바닥이 이어져요. 기울기와 쉬어갈 공간은 추가 확인해요."
+            },
+            {
+              "label": "문 앞 방향",
+              "position": [
+                38,
+                58
+              ],
+              "detail": "멀리 입구 차양과 문이 보여요. 문턱과 실제 열린 문 폭을 확인하려면 가까운 사진이 더 필요해요."
+            }
+          ],
+          "unknowns": [
+            "경사로의 실제 기울기·폭과 회전 공간",
+            "공원 04번에서 경사로 시작점까지의 연결 바닥",
+            "현재 출입문 운영 상태"
+          ],
+          "connection": "같은 미술관 이름과 차양을 06번 유리문 사진과 비교해요. 촬영 시기가 다른 사진입니다.",
+          "fieldVerified": false,
+          "continuousRouteVerified": false
+        },
+        "shortTitle": "입구 쪽 경사로"
+      }
+    ],
+    "note": "주차장 장면을 입구 접근 경사로와 구분했습니다. 원본 사진과 예전 주차장 체크포인트는 보존합니다.",
+    "missingShots": [
+      "공원 04번 갈림길에서 05번 경사로 시작점까지의 보행 바닥·턱 낮춤·갈림길 사진"
+    ]
+  }
+]

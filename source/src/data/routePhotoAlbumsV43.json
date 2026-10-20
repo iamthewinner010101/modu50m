@@ -1,0 +1,104 @@
+{
+  "museum": {
+    "bus-v31-walk": [
+      {
+        "id": "museum-kto-v43-3",
+        "image": "/modu50m/route-photos-v43/museum-kto-03.jpg",
+        "title": "대전시립미술관 이름이 새겨진 표석",
+        "provider": "kto",
+        "providerLabel": "한국관광공사 공개 사진",
+        "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=16128884-a91d-4455-95bb-200e8f5ac024",
+        "sourceImageUrl": "https://access.visitkorea.or.kr/bfvk_img/call?cmd=VIEW&id=cdce18a1-ecb1-45e4-a42f-2f6c4e665f7f&v=12142918",
+        "capturedAt": null,
+        "publishedAt": null,
+        "retrievedAt": "2026-10-01",
+        "sourcePageUpdatedAt": "2026-09-10",
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "61f30fb27bc02170c01144f2e234781bd453aa507d366bfee3009c4c3858ccab",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "entranceVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "locationBinding": "same-facility-context",
+        "scope": "시설 이름과 주변 포장·잔디 경계를 찾는 참고 사진이에요. 정류장 02번과 같은 촬영 위치이거나 낮은 턱의 통로임을 확인한 사진은 아니에요.",
+        "readingPurpose": {
+          "kind": "landmark",
+          "cue": "시설 이름과 주변 포장·잔디 경계를 찾는 참고 사진이에요. 정류장 02번과 같은 촬영 위치이거나 낮은 턱의 통로임을 확인한 사진은 아니에요."
+        },
+        "evidenceRole": {
+          "label": "건물·입구 방향 참고",
+          "detail": "시설 이름과 주변 포장·잔디 경계를 찾는 참고 사진이에요. 정류장 02번과 같은 촬영 위치이거나 낮은 턱의 통로임을 확인한 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "미술관 이름 표석",
+            "position": [
+              48,
+              43
+            ],
+            "detail": "대전시립미술관 글자로 방문할 시설을 구분해요."
+          },
+          {
+            "label": "잔디와 포장 경계",
+            "position": [
+              53,
+              81
+            ],
+            "detail": "바퀴가 지날 보행로와 잔디를 구분해서 보세요. 가까운 바닥 높이는 별도 확인이 필요해요."
+          }
+        ]
+      }
+    ],
+    "museum-ramp-v43": [
+      {
+        "id": "museum-kto-v43-1",
+        "image": "/modu50m/route-photos-v43/museum-kto-01.jpg",
+        "title": "광장에서 찾는 미술관 차양과 접근부",
+        "provider": "kto",
+        "providerLabel": "한국관광공사 공개 사진",
+        "sourceUrl": "https://access.visitkorea.or.kr/ms/detail.do?cotId=16128884-a91d-4455-95bb-200e8f5ac024",
+        "sourceImageUrl": "https://access.visitkorea.or.kr/bfvk_img/call?cmd=VIEW&id=a1501c8b-42b5-4884-8dbd-49aeb5a21c4d&v=10162345",
+        "capturedAt": null,
+        "publishedAt": null,
+        "retrievedAt": "2026-10-01",
+        "sourcePageUpdatedAt": "2026-09-10",
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "b4d020839333adb2999c5159b7af92977953d3f15922941712e1d6e55b3ea170",
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "entranceVerified": false,
+        "mapBindingVerified": false,
+        "obstacleCoordinatesVerified": false,
+        "locationBinding": "same-facility-context",
+        "scope": "미술관 전면과 왼쪽 손잡이, 차양의 위치를 비교해요. 04번 갈림길부터 경사로까지의 연결 바닥 전체를 보여 주는 사진은 아니에요.",
+        "readingPurpose": {
+          "kind": "landmark",
+          "cue": "미술관 전면과 왼쪽 손잡이, 차양의 위치를 비교해요. 04번 갈림길부터 경사로까지의 연결 바닥 전체를 보여 주는 사진은 아니에요."
+        },
+        "evidenceRole": {
+          "label": "건물·입구 방향 참고",
+          "detail": "미술관 전면과 왼쪽 손잡이, 차양의 위치를 비교해요. 04번 갈림길부터 경사로까지의 연결 바닥 전체를 보여 주는 사진은 아니에요."
+        },
+        "observations": [
+          {
+            "label": "입구 차양",
+            "position": [
+              41,
+              42
+            ],
+            "detail": "미술관 이름 아래 차양을 05·06번 사진과 비교해요."
+          },
+          {
+            "label": "전면의 계단·손잡이",
+            "position": [
+              22,
+              62
+            ],
+            "detail": "계단과 손잡이 구역을 구분해요. 이 사진에서 경사로 시작점까지 연속 길을 확인할 수는 없어요."
+          }
+        ]
+      }
+    ]
+  }
+}

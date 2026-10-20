@@ -1,0 +1,812 @@
+{
+  "hanbit": {
+    "route-v23-h-01": [
+      {
+        "id": "online-v40-hanbit-34-f2",
+        "image": "/modu50m/route-photos-v40/hanbit-34-f2.jpg",
+        "title": "주차 정산소 안쪽에서 통일관 쪽 비교",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=-C0DARdoaWk2nf1ed2BWwA,0.0,10.0,80.0,Float",
+        "capturedAt": "2023-05-31",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3766384,
+          127.3895679
+        ],
+        "panoramaId": "-C0DARdoaWk2nf1ed2BWwA",
+        "faceIndex": 2,
+        "sourceSha256": "cce21e750bc86727d1ee6c60626431ae3ba97e4aa768107f479b6da2ab696b3e",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "차량 통로 시점이에요. 주차면과 정산소 사이에서 보도가 어디로 이어지는지 기존 사진과 비교해요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "주차면 끝과 보행 공간을 구분해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "차량 통로 시점이에요. 주차면과 정산소 사이에서 보도가 어디로 이어지는지 기존 사진과 비교해요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "mobility-02": [
+      {
+        "id": "online-v40-hanbit-45-f3",
+        "image": "/modu50m/route-photos-v40/hanbit-45-f3.jpg",
+        "title": "통일관 정면과 볼라드 줄",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=7hgOawWAJM318_4BCOVfVw,0.0,10.0,80.0,Float",
+        "capturedAt": "2023-05-31",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3766134,
+          127.389267
+        ],
+        "panoramaId": "7hgOawWAJM318_4BCOVfVw",
+        "faceIndex": 3,
+        "sourceSha256": "4e48585f3794f4c8e0e85f634ba035eac528fe12c69c08aeb30ff84c426c14d7",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "통일관 정면의 볼라드와 주차 통로가 보여요. 탑 쪽으로 넘어가는 통로의 바닥 전체는 보이지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "볼라드 사이와 주차 차량 옆 바닥을 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "통일관 정면의 볼라드와 주차 통로가 보여요. 탑 쪽으로 넘어가는 통로의 바닥 전체는 보이지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "step:plaza-gap": [
+      {
+        "id": "online-v40-kto-178-full-f",
+        "image": "/modu50m/route-photos-v40/kto-178-full-f.jpg",
+        "title": "한빛탑 앞 광장 · 공식 360도 사진",
+        "provider": "official-vr",
+        "providerLabel": "한국관광공사 360도 사진",
+        "sourceUrl": "https://k-mice.visitkorea.or.kr/vr/scenes/178.kto?lang=ko",
+        "capturedAt": null,
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": null,
+        "panoramaId": null,
+        "faceIndex": null,
+        "sourceSha256": "9ceed219259648f0c88c9833e1f0f247127194134d426f69cef5368be4f19d37",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "통일관 옆 연결 자체가 아닌 탑 앞 광장 비교예요. 2022 행사 표지가 보이는 자료로 촬영일은 미상이며 현재 행사 배치와 달라질 수 있어요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "광장 바닥 줄눈과 행사 시설물이 놓인 공간을 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "공식 360도 주변 비교",
+          "detail": "통일관 옆 연결 자체가 아닌 탑 앞 광장 비교예요. 2022 행사 표지가 보이는 자료로 촬영일은 미상이며 현재 행사 배치와 달라질 수 있어요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-kto-178-full-l",
+        "image": "/modu50m/route-photos-v40/kto-178-full-l.jpg",
+        "title": "한빛탑 앞에서 광장 옆 공간 비교",
+        "provider": "official-vr",
+        "providerLabel": "한국관광공사 360도 사진",
+        "sourceUrl": "https://k-mice.visitkorea.or.kr/vr/scenes/178.kto?lang=ko",
+        "capturedAt": null,
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": null,
+        "panoramaId": null,
+        "faceIndex": null,
+        "sourceSha256": "1d661080637413b9594ac567f52cb0c15bbf838190f72098fa09d3961903a1bb",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "같은 공식 360도 사진의 옆 방향이에요. 물가와 행사 부스 주변을 비교하며 이 장면을 이동 경로로 지정하지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "물가 경계와 부스 앞 통과 공간을 구분해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "공식 360도 주변 비교",
+          "detail": "같은 공식 360도 사진의 옆 방향이에요. 물가와 행사 부스 주변을 비교하며 이 장면을 이동 경로로 지정하지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "arboretum": {
+    "bus-v31-bus": [
+      {
+        "id": "online-v40-arboretum-bus-f1",
+        "image": "/modu50m/route-photos-v40/arboretum-bus-f1.jpg",
+        "title": "34740 정류장 쉼터와 보도 · 2026년",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=PAdvb6KiQNZbxdLLtN3kEw,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-21",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3649176,
+          127.3890326
+        ],
+        "panoramaId": "PAdvb6KiQNZbxdLLtN3kEw",
+        "faceIndex": 1,
+        "sourceSha256": "871bf1347bf6c370d4289db8d779c2e16a186fb4a47e133af7d7520259d76426",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "차도에서 정류장 쪽을 본 장면이에요. 쉼터·가로수 사이 보행 공간을 비교하며 버스 발판과 보도의 높이는 알 수 없어요.",
+        "observations": [
+          {
+            "label": "쉼터와 나무 사이",
+            "position": [
+              31,
+              62
+            ],
+            "detail": "쉼터와 가로수 사이 보행 공간을 살펴봐요. 휠체어가 지나는 최저 폭은 사진으로 측정하지 않아요."
+          },
+          {
+            "label": "보도 턱과 배수구",
+            "position": [
+              61,
+              72
+            ],
+            "detail": "보도 경계에 배수구와 턱이 보여요. 버스 경사판을 실제로 펼칠 자리와 높이는 확인 전이에요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "차도에서 정류장 쪽을 본 장면이에요. 쉼터·가로수 사이 보행 공간을 비교하며 버스 발판과 보도의 높이는 알 수 없어요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "bus-v31-turn": [
+      {
+        "id": "online-v40-arboretum-turn-f1",
+        "image": "/modu50m/route-photos-v40/arboretum-turn-f1.jpg",
+        "title": "수목원 쪽 모퉁이 · 볼라드와 턱 경계",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=UsxWsthRNu0tZuOn5u1G9w,0.0,10.0,80.0,Float",
+        "capturedAt": "2025-03-14",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3649144,
+          127.3903492
+        ],
+        "panoramaId": "UsxWsthRNu0tZuOn5u1G9w",
+        "faceIndex": 1,
+        "sourceSha256": "51e47da4aa50bd192edb9bc7f94da177fca7994289b358effd1f98929b1e1a51",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "교차로 모퉁이 비교 사진이에요. 차도에서 촬영한 시점을 그대로 이동 방향으로 따르지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "차량 진입부, 볼라드, 점자블록의 위치를 함께 봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "교차로 모퉁이 비교 사진이에요. 차도에서 촬영한 시점을 그대로 이동 방향으로 따르지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "museum": {
+    "bus-v32-side": [
+      {
+        "id": "online-v40-museum-frontpath-f1",
+        "image": "/modu50m/route-photos-v40/museum-frontpath-f1.jpg",
+        "title": "미술관 옆 주차 공간에서 건물 방향",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=KryEr54KRiTlD6lkApS1Yw,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-21",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3667273,
+          127.3848999
+        ],
+        "panoramaId": "KryEr54KRiTlD6lkApS1Yw",
+        "faceIndex": 1,
+        "sourceSha256": "b1beab1825f0bb1ec2083aaeaf9a32e58062a73bc3259448e3f02d89ad507394",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "기존 05 사진과 같은 촬영점의 다른 방향이에요. 주차 차량에 가려진 바닥과 외부 경사로 시작점은 별도예요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "차량과 건물 사이 공간을 비교해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "기존 05 사진과 같은 촬영점의 다른 방향이에요. 주차 차량에 가려진 바닥과 외부 경사로 시작점은 별도예요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-museum-frontpath-f2",
+        "image": "/modu50m/route-photos-v40/museum-frontpath-f2.jpg",
+        "title": "미술관 옆 주차 통로 · 되돌아본 방향",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=KryEr54KRiTlD6lkApS1Yw,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-21",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3667273,
+          127.3848999
+        ],
+        "panoramaId": "KryEr54KRiTlD6lkApS1Yw",
+        "faceIndex": 2,
+        "sourceSha256": "b2df8ea24219d59fceb0484f9d0f76a64b5676450d69f7cd2ed5f4c1d4be4480",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "차량 통로를 되돌아본 사진이에요. 주차 통로 전체를 휠체어 이동 경로로 안내하지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "주차 차량 사이에서 보행 공간이 끊기는지 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "차량 통로를 되돌아본 사진이에요. 주차 통로 전체를 휠체어 이동 경로로 안내하지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "leeungno": {
+    "bus-v32-side": [
+      {
+        "id": "online-v40-leeungno-southpath-f1",
+        "image": "/modu50m/route-photos-v40/leeungno-southpath-f1.jpg",
+        "title": "이응노미술관 옆에서 앞마당 방향",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=jPgBKpqLtlL5pTJYp52MJw,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-21",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3669729,
+          127.3866741
+        ],
+        "panoramaId": "jPgBKpqLtlL5pTJYp52MJw",
+        "faceIndex": 1,
+        "sourceSha256": "b5ce799b2345ac5677fa4406c2ef01e8f71b1a3f5d523d8297076be51bb101d1",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "05 주변의 다른 방향이에요. 건물 사이 바닥과 주차면 경계를 비교할 수 있지만 157번 문까지 연속 연결을 확인한 것은 아니에요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "주차면 끝의 바닥 재료와 경계를 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "05 주변의 다른 방향이에요. 건물 사이 바닥과 주차면 경계를 비교할 수 있지만 157번 문까지 연속 연결을 확인한 것은 아니에요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-leeungno-southpath-f3",
+        "image": "/modu50m/route-photos-v40/leeungno-southpath-f3.jpg",
+        "title": "이응노미술관 옆 유리문 · 별도 문 비교",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=jPgBKpqLtlL5pTJYp52MJw,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-21",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3669729,
+          127.3866741
+        ],
+        "panoramaId": "jPgBKpqLtlL5pTJYp52MJw",
+        "faceIndex": 3,
+        "sourceSha256": "41b6238eb82c2a7bb303e7cff9eebc481d7eaae2927824b1ed187eb42e341621",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "옆면의 유리문 사진이에요. 07의 157번 주소판 옆 문과 동일한 문으로 처리하지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "문 앞 바닥과 주차 공간 사이 경계를 비교해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "옆면의 유리문 사진이에요. 07의 157번 주소판 옆 문과 동일한 문으로 처리하지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "science": {
+    "bus-v32-hall": [
+      {
+        "id": "online-v40-science-78-f0",
+        "image": "/modu50m/route-photos-v40/science-78-f0.jpg",
+        "title": "전시관 사이 광장 · 지나온 쪽 비교",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=SpHzr8ZA4GBKi9sMq1J3xw,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-06",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3759265,
+          127.3746817
+        ],
+        "panoramaId": "SpHzr8ZA4GBKi9sMq1J3xw",
+        "faceIndex": 0,
+        "sourceSha256": "c12630a55cc7edc5a5dcb2f9845c9fcbe95506ba1f8bd23b41bef8ea35118c24",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "07~08 사이 주변 광장에서 찍은 2020년 장면이에요. 선택한 번호의 정확한 촬영점과는 다르고 현재 배치는 확인 전이에요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "광장 포장과 건물 옆 바닥을 함께 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "07~08 사이 주변 광장에서 찍은 2020년 장면이에요. 선택한 번호의 정확한 촬영점과는 다르고 현재 배치는 확인 전이에요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-science-78-f2",
+        "image": "/modu50m/route-photos-v40/science-78-f2.jpg",
+        "title": "전시관 사이 광장 · 다음 건물 쪽 비교",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=SpHzr8ZA4GBKi9sMq1J3xw,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-06",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3759265,
+          127.3746817
+        ],
+        "panoramaId": "SpHzr8ZA4GBKi9sMq1J3xw",
+        "faceIndex": 2,
+        "sourceSha256": "315ab2f5e264666e598a0ddef6e6133a5b2393dff15768a55e4ea352c6688130",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "같은 촬영점에서 반대 방향을 본 2020년 사진이에요. 다음 건물을 찾는 참고이며 연속된 보행 경로의 증거는 아니에요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "광장과 다음 건물 앞 바닥을 비교해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "같은 촬영점에서 반대 방향을 본 2020년 사진이에요. 다음 건물을 찾는 참고이며 연속된 보행 경로의 증거는 아니에요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ],
+    "bus-v31-path": [
+      {
+        "id": "online-v40-science-89-f0",
+        "image": "/modu50m/route-photos-v40/science-89-f0.jpg",
+        "title": "미래기술관 주변 · 건물 옆 접근 바닥",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=4zO96twYf-4f6OSijfmY9A,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-06",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3766978,
+          127.3744138
+        ],
+        "panoramaId": "4zO96twYf-4f6OSijfmY9A",
+        "faceIndex": 0,
+        "sourceSha256": "8cae516cadb2b3560e28ac6d81123d49abb8ef4c7aae253ae8921d26806f7fa6",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "08~09 주변 건물 옆에서 본 2020년 장면이에요. 앞쪽 바닥 일부를 볼 수 있지만 모서리 너머 문까지는 한눈에 보이지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "건물 기둥과 조경 경계 사이 공간을 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "08~09 주변 건물 옆에서 본 2020년 장면이에요. 앞쪽 바닥 일부를 볼 수 있지만 모서리 너머 문까지는 한눈에 보이지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-science-89-f1",
+        "image": "/modu50m/route-photos-v40/science-89-f1.jpg",
+        "title": "미래기술관 주변 · 기둥 아래 입구 후보",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=4zO96twYf-4f6OSijfmY9A,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-06",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3766978,
+          127.3744138
+        ],
+        "panoramaId": "4zO96twYf-4f6OSijfmY9A",
+        "faceIndex": 1,
+        "sourceSha256": "fd57e8f5d636940fbf80316d5fb2eac554feac1c2e2ee4f9c6a1760b5bda0c5c",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "2020년 건물 기둥 아래 어두운 출입부 비교예요. 09의 간판 아래 문과 위치를 대조해야 하며 같은 문으로 확정하지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "그늘진 바닥, 기둥, 출입부 아래 단차를 더 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "2020년 건물 기둥 아래 어두운 출입부 비교예요. 09의 간판 아래 문과 위치를 대조해야 하며 같은 문으로 확정하지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-science-89-f2",
+        "image": "/modu50m/route-photos-v40/science-89-f2.jpg",
+        "title": "미래기술관 주변 · 광장으로 돌아본 방향",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=4zO96twYf-4f6OSijfmY9A,0.0,10.0,80.0,Float",
+        "capturedAt": "2020-11-06",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3766978,
+          127.3744138
+        ],
+        "panoramaId": "4zO96twYf-4f6OSijfmY9A",
+        "faceIndex": 2,
+        "sourceSha256": "9a5603e2b9f5cf5b05f4bb75a14fc6f45b5f37871eb6ce155d0ecd2d66efc109",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "08~09 주변에서 광장 쪽을 되돌아본 2020년 사진이에요. 건물 모서리와 접근 방향을 비교할 수 있어요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "모서리에서 꺾을 공간과 바닥 경계를 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "08~09 주변에서 광장 쪽을 되돌아본 2020년 사진이에요. 건물 모서리와 접근 방향을 비교할 수 있어요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "oworld": {
+    "mobility-03": [
+      {
+        "id": "online-v40-oworld-cross-f0",
+        "image": "/modu50m/route-photos-v40/oworld-cross-f0.jpg",
+        "title": "오월드 횡단 구역에서 정류장 쪽 비교",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=P9PW47J7zDHtjcHb1MiNFw,0.0,10.0,80.0,Float",
+        "capturedAt": "2025-04-08",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.2900939,
+          127.3963484
+        ],
+        "panoramaId": "P9PW47J7zDHtjcHb1MiNFw",
+        "faceIndex": 0,
+        "sourceSha256": "4025d9c00ceea8ac11788a3ba1b06a0eae628b8a7bbaac62d576a4da89ec5aac",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "횡단 구역 주변을 정류장 쪽으로 본 사진이에요. 횡단보도 양끝 턱과 매표 후 입장 장치를 모두 보여 주지는 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "가로수·배수구가 있는 보도와 차도 경계를 구분해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "횡단 구역 주변을 정류장 쪽으로 본 사진이에요. 횡단보도 양끝 턱과 매표 후 입장 장치를 모두 보여 주지는 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "sungsim": {
+    "bus-v31-queue": [
+      {
+        "id": "online-v40-sungsim-door-f0",
+        "image": "/modu50m/route-photos-v40/sungsim-door-f0.jpg",
+        "title": "성심당 본점 옆 골목 · 건물 사이 공간",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=E2YOsDaGGXl4-SOZDwbl3w,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3275734,
+          127.427205
+        ],
+        "panoramaId": "E2YOsDaGGXl4-SOZDwbl3w",
+        "faceIndex": 0,
+        "sourceSha256": "bf1184cbd8eb4cee50a92ba91a834966056461ccce65596e6c53a206306e2246",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "본점 간판 옆 골목 비교예요. 건물 사이 폭과 줄이 생기는 위치를 살펴보며 문턱 상세 사진으로 사용하지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "좁아지는 골목과 사람을 비켜설 공간을 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "본점 간판 옆 골목 비교예요. 건물 사이 폭과 줄이 생기는 위치를 살펴보며 문턱 상세 사진으로 사용하지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-sungsim-door-f1",
+        "image": "/modu50m/route-photos-v40/sungsim-door-f1.jpg",
+        "title": "성심당 본점 진열장 옆 · 대기 공간",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=E2YOsDaGGXl4-SOZDwbl3w,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3275734,
+          127.427205
+        ],
+        "panoramaId": "E2YOsDaGGXl4-SOZDwbl3w",
+        "faceIndex": 1,
+        "sourceSha256": "660cb67e81b0658b942148d0d0f9b399b5e60830a45149dfaecb05e2f94be70f",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "성심밀방앗간 진열장과 본점 앞 골목을 본 사진이에요. 가게 유리문이 열렸을 때의 통과 폭은 알 수 없어요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "진열장·볼라드·대기 줄 사이 바닥을 비교해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "성심밀방앗간 진열장과 본점 앞 골목을 본 사진이에요. 가게 유리문이 열렸을 때의 통과 폭은 알 수 없어요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "skyroad": {
+    "bus-v31-entry": [
+      {
+        "id": "online-v40-skyroad-entry-f1",
+        "image": "/modu50m/route-photos-v40/skyroad-entry-f1.jpg",
+        "title": "스카이로드 진입부에서 큰길 쪽 보도",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=PrOTIRnrd-Xoayt910AqMQ,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3292018,
+          127.4277462
+        ],
+        "panoramaId": "PrOTIRnrd-Xoayt910AqMQ",
+        "faceIndex": 1,
+        "sourceSha256": "be05bea6efe7048a7cb7021e877c7cf7136cd5fcdfd852383b40c68e39dacb20",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "진입부에서 큰길 방향을 본 비교 사진이에요. 반대편으로 횡단하라는 안내가 아니에요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "가로수와 임시 고깔 사이 보행 공간을 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "진입부에서 큰길 방향을 본 비교 사진이에요. 반대편으로 횡단하라는 안내가 아니에요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-skyroad-entry-f2",
+        "image": "/modu50m/route-photos-v40/skyroad-entry-f2.jpg",
+        "title": "스카이로드 아래 거리 · 진입 방향",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=PrOTIRnrd-Xoayt910AqMQ,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-08",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3292018,
+          127.4277462
+        ],
+        "panoramaId": "PrOTIRnrd-Xoayt910AqMQ",
+        "faceIndex": 2,
+        "sourceSha256": "9b63b0bcf27e1d7362d50be0ce1b2e159ef6311dae8dcc834d2e230c48dab933",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "스카이로드 구조물 아래 골목 방향이에요. 주차 차량이 보이며 개별 가게의 입구 조건은 포함하지 않아요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "차량과 이동식 시설물 사이 공간을 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "스카이로드 구조물 아래 골목 방향이에요. 주차 차량이 보이며 개별 가게의 입구 조건은 포함하지 않아요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "station": {
+    "bus-v32-square": [
+      {
+        "id": "online-v40-station-56-h0",
+        "image": "/modu50m/route-photos-v40/station-56-h0.jpg",
+        "title": "대전역 서광장과 역사 유리문 · 넓게 비교",
+        "provider": "kakao",
+        "providerLabel": "카카오 로드뷰",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201492026&pan=0&tilt=-7&zoom=0",
+        "capturedAt": "2025-10-01",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3317503167651,
+          127.433521044558
+        ],
+        "panoramaId": 1201492026,
+        "faceIndex": null,
+        "sourceSha256": "d3c5b157d8348085c885f7556629392ddad6ab03f72cbcd3f55ece46ef93ce98",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "서광장 바깥 차량 통로에서 촬영했어요. 보행 공간과 택시 통로를 구분하며 이 촬영 위치로 이동하라는 안내가 아니에요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "광장 경계의 낮은 난간과 역사 출입문 위치를 비교해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "서광장 바깥 차량 통로에서 촬영했어요. 보행 공간과 택시 통로를 구분하며 이 촬영 위치로 이동하라는 안내가 아니에요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      },
+      {
+        "id": "online-v40-station-56-h45",
+        "image": "/modu50m/route-photos-v40/station-56-h45.jpg",
+        "title": "대전역 서광장 출입문 방향 · 2025년",
+        "provider": "kakao",
+        "providerLabel": "카카오 로드뷰",
+        "sourceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&map_attribute=ROADVIEW&panoid=1201492026&pan=45&tilt=-7&zoom=0",
+        "capturedAt": "2025-10-01",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3317503167651,
+          127.433521044558
+        ],
+        "panoramaId": 1201492026,
+        "faceIndex": null,
+        "sourceSha256": "dab2aa41ce43d3576533fd7a9179c088d63b3fe7aa0b2ff8be9634ca8f6ad319",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "서광장 출입문 방향 비교예요. 앞쪽 차량이 가리는 보도와 문의 단차는 확인할 수 없어요.",
+        "observations": [
+          {
+            "label": "이 장면에서 볼 부분",
+            "detail": "유리문 앞 광장과 차도 사이 경계를 살펴봐요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "다른 방향·주변 비교",
+          "detail": "서광장 출입문 방향 비교예요. 앞쪽 차량이 가리는 보도와 문의 단차는 확인할 수 없어요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  },
+  "terminal": {
+    "bus-v32-door": [
+      {
+        "id": "online-v40-terminal-gate4-f3",
+        "image": "/modu50m/route-photos-v40/terminal-gate4-f3.jpg",
+        "title": "서관 GATE 4 표지와 문 앞 횡단부 · 2026년",
+        "provider": "naver",
+        "providerLabel": "네이버 거리뷰",
+        "sourceUrl": "https://map.naver.com/p?c=17.0,0,0,0,adh&p=fz5W_rUpFb8DMnAI1UUlcQ,0.0,10.0,80.0,Float",
+        "capturedAt": "2026-04-03",
+        "retrievedAt": "2026-09-30",
+        "cameraCoordinate": [
+          36.3504504,
+          127.4375038
+        ],
+        "panoramaId": "fz5W_rUpFb8DMnAI1UUlcQ",
+        "faceIndex": 3,
+        "sourceSha256": "b1ae993d5c02fa50e64e83b5b7a868bf822e5d25f6b117dcf208049825f6b7e5",
+        "captureMethod": "public-panorama-face-projection",
+        "scope": "서관 GATE 4 글자가 보이는 목표 문 사진이에요. 반대쪽 차도 시점이므로 횡단을 새로 지시하지 않으며 문턱 높이·열린 폭은 알 수 없어요.",
+        "observations": [
+          {
+            "label": "서관 GATE 4 유리문",
+            "position": [
+              42,
+              53
+            ],
+            "detail": "GATE 4 표지 아래 목표 유리문이에요. 열린 문 폭과 개폐 방식은 이 사진만으로 알 수 없어요."
+          },
+          {
+            "label": "문 앞 점자블록",
+            "position": [
+              50,
+              58
+            ],
+            "detail": "횡단부가 닿는 보도와 점자블록을 함께 살펴봐요. 높이 차는 측정 자료가 필요해요."
+          },
+          {
+            "label": "난간과 대기 차량",
+            "position": [
+              69,
+              62
+            ],
+            "detail": "난간과 차량이 앞쪽 공간을 가려요. 차도가 아닌 서관 쪽 보도를 따라가는 연결을 대조해요."
+          }
+        ],
+        "evidenceRole": {
+          "label": "목표 문 표지 확인 · 서관 GATE 4",
+          "detail": "서관 GATE 4 글자가 보이는 목표 문 사진이에요. 반대쪽 차도 시점이므로 횡단을 새로 지시하지 않으며 문턱 높이·열린 폭은 알 수 없어요."
+        },
+        "fieldVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false
+      }
+    ]
+  }
+}

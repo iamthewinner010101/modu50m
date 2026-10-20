@@ -1,0 +1,174 @@
+{
+  "schema": "modu50m.daejeon_place_candidate_sources.v1",
+  "project": "모두의 50m",
+  "retrievedAt": "2026-09-04",
+  "scope": {
+    "city": "대전광역시",
+    "primarySourceRowsSum": 828,
+    "primarySourceRowsSumCalculation": "471+251+106",
+    "primarySourceRowsAreNotDeduplicated": true,
+    "joinedToAdministrativeDongs": false,
+    "joinedToLegalDongs": false,
+    "accessibilityVerified": false,
+    "interpretation": "공식 데이터셋에서 확인한 대전 지역 후보 행의 합계이며, 서로 다른 데이터셋 사이의 중복 제거·동 코드 연결·출입구 및 마지막 30~50m 접근성 확인 전 수치다."
+  },
+  "primarySources": [
+    {
+      "id": "daejeon-parks",
+      "name": "공원",
+      "provider": "공공데이터포털",
+      "datasetId": "15012890",
+      "datasetUrl": "https://www.data.go.kr/data/15012890/standard.do",
+      "nationwideRows": 18202,
+      "daejeonRows": 471,
+      "daejeonBasisDate": "2026-07-20",
+      "modifiedAt": "2026-06-22",
+      "verifiedFields": ["주소", "WGS84 위도", "WGS84 경도"],
+      "coordinateSystem": "WGS84",
+      "status": "verified_candidate_pool",
+      "mapStatus": "candidate_only",
+      "caveat": "공원 목록과 좌표는 목적지 후보를 만들 수 있지만, 특정 출입구와 마지막 30~50m의 통행 가능 여부를 증명하지 않는다."
+    },
+    {
+      "id": "daejeon-electric-wheelchair-chargers",
+      "name": "전동휠체어 급속충전기",
+      "provider": "공공데이터포털",
+      "datasetId": "15034533",
+      "datasetUrl": "https://www.data.go.kr/data/15034533/standard.do",
+      "nationwideRows": 4191,
+      "daejeonRows": 251,
+      "daejeonBasisDate": "2026-05-29",
+      "modifiedAt": "2026-08-26",
+      "verifiedFields": ["주소", "WGS84 위도", "WGS84 경도"],
+      "coordinateSystem": "WGS84",
+      "status": "verified_candidate_pool",
+      "mapStatus": "candidate_only",
+      "caveat": "충전기 위치가 확인되어도 건물 주출입구, 이용시간, 접근로의 단차·폭·경사는 별도 확인이 필요하다."
+    },
+    {
+      "id": "daejeon-libraries",
+      "name": "도서관",
+      "provider": "공공데이터포털",
+      "datasetId": "15013109",
+      "datasetUrl": "https://www.data.go.kr/data/15013109/standard.do",
+      "nationwideRows": 3554,
+      "daejeonRows": 106,
+      "daejeonBasisDate": null,
+      "daejeonBasisDateNote": "대전 일부 행의 기준일은 2026-04-01로 확인됨",
+      "modifiedAt": null,
+      "verifiedFields": ["주소", "WGS84 위도", "WGS84 경도", "운영시간"],
+      "coordinateSystem": "WGS84",
+      "status": "verified_candidate_pool",
+      "mapStatus": "candidate_only",
+      "caveat": "운영시간과 장소 좌표가 있어도 실제 이용 가능한 출입구와 목적지 앞 마지막 구간은 별도 검수해야 한다."
+    }
+  ],
+  "secondarySources": [
+    {
+      "id": "hospitals",
+      "name": "병원",
+      "provider": "공공데이터포털",
+      "datasetId": "15045025",
+      "datasetUrl": "https://www.data.go.kr/data/15045025/fileData.do",
+      "status": "count_pending",
+      "mapStatus": "deferred",
+      "nextAction": "대전 행 수와 주소·좌표·운영정보를 같은 기준일로 다시 확인한 뒤 후보 풀에 편입한다."
+    },
+    {
+      "id": "pharmacies",
+      "name": "약국",
+      "provider": "공공데이터포털",
+      "datasetId": "15096290",
+      "datasetUrl": "https://www.data.go.kr/data/15096290/standard.do",
+      "status": "transform_and_count_pending",
+      "mapStatus": "deferred",
+      "coordinateSystem": "EPSG:5174",
+      "nextAction": "EPSG:5174 좌표를 검증된 방식으로 변환하고 대전 행 수·기준일·주소 조인을 확인한다."
+    },
+    {
+      "id": "public-toilets",
+      "name": "공중화장실",
+      "provider": "공공데이터포털",
+      "datasetId": "15012892",
+      "datasetUrl": "https://www.data.go.kr/data/15012892/standard.do",
+      "status": "coordinate_removed_address_join_pending",
+      "mapStatus": "deferred",
+      "coordinateSystem": null,
+      "note": "2025-02 이후 표준데이터에서 좌표가 제공되지 않아 주소 조인이 필요하다.",
+      "nextAction": "주소 정규화와 법정동 코드 연결을 먼저 검증하고, 좌표를 추정해 넣지 않는다."
+    },
+    {
+      "id": "social-welfare-facilities",
+      "name": "사회복지시설",
+      "provider": "공공데이터포털",
+      "datasetId": "15096296",
+      "datasetUrl": "https://www.data.go.kr/data/15096296/standard.do",
+      "status": "api_key_required",
+      "mapStatus": "deferred",
+      "nextAction": "공식 API 키와 이용 조건을 확보한 뒤 대전 최신 응답을 저장·검증한다."
+    },
+    {
+      "id": "bus-stops",
+      "name": "버스정류장",
+      "provider": "공공데이터포털",
+      "datasetId": "15096280",
+      "datasetUrl": "https://www.data.go.kr/data/15096280/standard.do",
+      "status": "stale_snapshot_review_required",
+      "mapStatus": "deferred",
+      "nextAction": "현재성·중복·정류장 방향을 다시 확인한 뒤 마지막 30~50m 접근 후보로 제한적으로 사용한다."
+    },
+    {
+      "id": "disability-facilities",
+      "name": "장애인 편의시설",
+      "provider": "공공데이터포털",
+      "datasetId": "15100058",
+      "datasetUrl": "https://www.data.go.kr/data/15100058/standard.do",
+      "status": "api_required",
+      "mapStatus": "deferred",
+      "nextAction": "공식 API 접근 조건과 필드 정의를 확인한 뒤 대전 응답을 별도로 검증한다."
+    },
+    {
+      "id": "barrier_free-facilities-15014781",
+      "name": "장애물 없는 생활환경(BF) 인증시설",
+      "provider": "공공데이터포털",
+      "datasetId": "15014781",
+      "datasetUrl": "https://www.data.go.kr/data/15014781/fileData.do",
+      "status": "location_fields_insufficient",
+      "mapStatus": "deferred",
+      "nextAction": "주소·좌표·출입구 필드가 실제로 제공되는지 원문에서 확인하기 전에는 지도 후보로 표시하지 않는다."
+    },
+    {
+      "id": "barrier_free-facilities-3051093",
+      "name": "장애물 없는 생활환경(BF) 인증시설 보조자료",
+      "provider": "공공데이터포털",
+      "datasetId": "3051093",
+      "datasetUrl": "https://www.data.go.kr/data/3051093/fileData.do",
+      "status": "location_fields_insufficient",
+      "mapStatus": "deferred",
+      "nextAction": "주소·좌표·출입구 필드와 최신 기준일을 확인한 뒤 보조 교차확인 자료로만 사용한다."
+    },
+    {
+      "id": "daejeon-road-facilities",
+      "name": "대전광역시 장애인편의시설(도로시설물)",
+      "provider": "공공데이터포털",
+      "datasetId": "15110478",
+      "datasetUrl": "https://www.data.go.kr/data/15110478/fileData.do",
+      "daejeonRows": 522,
+      "status": "reference_only_non_citywide",
+      "mapStatus": "deferred",
+      "note": "522행이지만 동구 96·중구 119·서구 274·유성구 33행으로 확인되며 대덕구 행이 없어 대전 전역 대표 자료가 아니다.",
+      "nextAction": "도로시설 후보 참고자료로만 두고, 82개 행정동에 자동 배정하지 않는다."
+    }
+  ],
+  "statusLegend": {
+    "verified_candidate_pool": "공식 페이지에서 대전 행 수·필드·기준일을 확인한 후보 원천",
+    "count_pending": "대전 행 수 또는 기준일을 아직 확정하지 않음",
+    "transform_and_count_pending": "좌표 변환 또는 대전 행 수 확인이 선행되어야 함",
+    "coordinate_removed_address_join_pending": "좌표가 없어 주소 기반 연결 검증이 선행되어야 함",
+    "api_key_required": "공식 API 키·이용 조건 확인이 선행되어야 함",
+    "api_required": "공식 API 응답 확보가 선행되어야 함",
+    "stale_snapshot_review_required": "현재성·중복·필드 품질 재검토가 선행되어야 함",
+    "location_fields_insufficient": "지도 조인에 필요한 위치 필드가 확인되지 않음",
+    "reference_only_non_citywide": "일부 구에만 있어 전역 후보 풀로 사용할 수 없음"
+  }
+}

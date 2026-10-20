@@ -1,0 +1,7 @@
+node_modules/
+.pages-build/
+.env
+.env.*
+*.sqlite*
+*.db
+*.log

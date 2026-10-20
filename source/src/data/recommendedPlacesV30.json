@@ -1,0 +1,233 @@
+[
+  {
+    "id": "sungsim",
+    "name": "성심당 본점",
+    "shortName": "성심당 본점",
+    "district": "중구",
+    "category": "먹거리·원도심",
+    "spaceType": "문화·역사",
+    "description": "본점 간판과 대기 구역, 조형물 옆 문을 사진으로 미리 살펴봐요.",
+    "referenceOnly": false,
+    "thumbnail": "/modu50m/journeys-v30/bakery-10.png",
+    "coverage": "본점 외관·입구·매장 사진 · 하차 지점부터 연결은 추가 확인",
+    "officialUrl": "https://sungsimdang.co.kr/31/15",
+    "address": "대전광역시 중구 대종로480번길 15",
+    "photos": {
+      "journey-facade": {
+        "id": "v30-journey-facade",
+        "image": "/modu50m/journeys-v30/bakery-10.png",
+        "sourceUrl": "https://sungsimdang.co.kr/31/15",
+        "sourceImageUrl": "https://sungsimdang.co.kr/data/file/31/2887450717_TLZEbCae_49454252716137cfc33bad02f363ea552c62fc27.png",
+        "provider": "public-mobility",
+        "providerLabel": "성심당 공식 홈페이지",
+        "captureDate": null,
+        "captureDatePrecision": "unknown",
+        "sourcePublishedAt": null,
+        "retrievedAt": "2026-09-25",
+        "camera": null,
+        "mapBindingVerified": false,
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "b95368dd957c32f16ca4575075f7ed6ecf2f6ea0dec51d3aceb558402299536a",
+        "mobilityEvidence": true,
+        "scope": "성심당 공식 본점 외관입니다. 대기 줄은 촬영 당시 모습이며 현재 혼잡도 정보가 아닙니다.",
+        "attribution": "성심당 · 원본 사진"
+      },
+      "journey-door": {
+        "id": "v30-journey-door",
+        "image": "/modu50m/journeys-v30/oldtown-31.png",
+        "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c",
+        "sourceImageUrl": "https://access.visitkorea.or.kr/bfvk_img/call?cmd=VIEW&id=00ead7d0-0915-4f96-9913-8d57f0323afd&",
+        "provider": "public-mobility",
+        "providerLabel": "한국관광공사 열린관광",
+        "captureDate": null,
+        "captureDatePrecision": "unknown",
+        "sourcePublishedAt": "2025-12-04",
+        "retrievedAt": "2026-09-25",
+        "camera": null,
+        "mapBindingVerified": false,
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "c5c761cf35605b6802c7bf5b9fce68d6f3b43de8d57b39ff648d05ff305897b1",
+        "mobilityEvidence": true,
+        "scope": "한국관광공사 본점 입구 사진입니다. 문턱·통과 폭과 현재 운영은 확인 전입니다.",
+        "attribution": "한국관광공사 · 원본 사진"
+      },
+      "journey-interior": {
+        "id": "v30-journey-interior",
+        "image": "/modu50m/journeys-v30/oldtown-32.png",
+        "sourceUrl": "https://access.visitkorea.or.kr/cos/detail.do?cotId=902655d8-0cdc-43ca-81be-c39985dc376c",
+        "sourceImageUrl": "https://access.visitkorea.or.kr/bfvk_img/call?cmd=VIEW&id=ef9ae562-208e-4a2c-9cd3-94781d9aa235&",
+        "provider": "public-mobility",
+        "providerLabel": "한국관광공사 열린관광",
+        "captureDate": null,
+        "captureDatePrecision": "unknown",
+        "sourcePublishedAt": "2025-12-04",
+        "retrievedAt": "2026-09-25",
+        "camera": null,
+        "mapBindingVerified": false,
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "captureMethod": "public-source-photo-unmodified",
+        "sourceSha256": "4864003d17335688c8fbb2d4d0dbd6f0bd3490b3905b013bcbb293f957620b28",
+        "mobilityEvidence": true,
+        "scope": "공식 여행 기사의 본점 내부 사진입니다. 문 바로 안 장면 또는 휠체어 회전 공간이 확인됐다는 뜻은 아닙니다.",
+        "attribution": "한국관광공사 · 원본 사진"
+      }
+    },
+    "checkpoints": [
+      {
+        "id": "journey-facade",
+        "number": "01",
+        "title": "성심당 본점 간판과 대기 구역",
+        "short": "성심당 본점 간판과 대기 구역",
+        "question": "본점 입구와 기다리는 줄은 어디인가요?",
+        "hint": "성심당 공식 본점 외관입니다. 대기 줄은 촬영 당시 모습이며 현재 혼잡도 정보가 아닙니다.",
+        "next": "현재 바닥 높이·통과 폭과 이용 상태",
+        "mobilityPhoto": true
+      },
+      {
+        "id": "journey-door",
+        "number": "02",
+        "title": "튀김소보로 조형물 옆 출입문",
+        "short": "튀김소보로 조형물 옆 출입문",
+        "question": "대기선과 조형물 사이로 문을 확인해요.",
+        "hint": "한국관광공사 본점 입구 사진입니다. 문턱·통과 폭과 현재 운영은 확인 전입니다.",
+        "next": "현재 바닥 높이·통과 폭과 이용 상태",
+        "mobilityPhoto": true
+      },
+      {
+        "id": "journey-interior",
+        "number": "03",
+        "title": "성심당 본점 매장 내부 참고",
+        "short": "성심당 본점 매장 내부 참고",
+        "question": "매장 안에서 진열대 사이 공간은 어떻게 보이나요?",
+        "hint": "공식 여행 기사의 본점 내부 사진입니다. 문 바로 안 장면 또는 휠체어 회전 공간이 확인됐다는 뜻은 아닙니다.",
+        "next": "현재 바닥 높이·통과 폭과 이용 상태",
+        "mobilityPhoto": true
+      }
+    ],
+    "mobilityReviews": {
+      "journey-facade": {
+        "image": "/modu50m/journeys-v30/bakery-10.png",
+        "photoId": "v30-journey-facade",
+        "sourceSha256": "b95368dd957c32f16ca4575075f7ed6ecf2f6ea0dec51d3aceb558402299536a",
+        "kind": "segment",
+        "title": "성심당 본점 간판과 대기 구역",
+        "question": "본점 입구와 기다리는 줄은 어디인가요?",
+        "focus": [
+          50,
+          65
+        ],
+        "observations": [
+          {
+            "label": "본점 간판",
+            "detail": "성심당 공식 본점 페이지의 외관이에요. 케익부띠끄 입구와 구분해요.",
+            "position": [
+              51,
+              42
+            ]
+          },
+          {
+            "label": "대기 인원",
+            "detail": "사진에는 사람이 많아 바닥과 문 앞 폭이 가려져 있어요.",
+            "position": [
+              51,
+              88
+            ]
+          }
+        ],
+        "unknowns": [
+          "현재 바닥 높이·통과 폭과 이용 상태",
+          "앞뒤 사진 사이의 연속 이동 연결"
+        ],
+        "connection": "성심당 공식 본점 외관입니다. 대기 줄은 촬영 당시 모습이며 현재 혼잡도 정보가 아닙니다.",
+        "fieldVerified": false,
+        "continuousRouteVerified": false
+      },
+      "journey-door": {
+        "image": "/modu50m/journeys-v30/oldtown-31.png",
+        "photoId": "v30-journey-door",
+        "sourceSha256": "c5c761cf35605b6802c7bf5b9fce68d6f3b43de8d57b39ff648d05ff305897b1",
+        "kind": "segment",
+        "title": "튀김소보로 조형물 옆 출입문",
+        "question": "대기선과 조형물 사이로 문을 확인해요.",
+        "focus": [
+          50,
+          65
+        ],
+        "observations": [
+          {
+            "label": "대기선",
+            "detail": "문 옆 대기선과 통과 공간을 살펴봐요.",
+            "position": [
+              19,
+              70
+            ]
+          },
+          {
+            "label": "입구 조형물",
+            "detail": "금색 조형물은 본점 입구를 알아보는 표식이에요.",
+            "position": [
+              61,
+              65
+            ]
+          },
+          {
+            "label": "문 앞 바닥",
+            "detail": "사람에 가려진 문턱 높이와 자동문 상태는 더 확인해야 해요.",
+            "position": [
+              31,
+              77
+            ]
+          }
+        ],
+        "unknowns": [
+          "현재 바닥 높이·통과 폭과 이용 상태",
+          "앞뒤 사진 사이의 연속 이동 연결"
+        ],
+        "connection": "한국관광공사 본점 입구 사진입니다. 문턱·통과 폭과 현재 운영은 확인 전입니다.",
+        "fieldVerified": false,
+        "continuousRouteVerified": false
+      },
+      "journey-interior": {
+        "image": "/modu50m/journeys-v30/oldtown-32.png",
+        "photoId": "v30-journey-interior",
+        "sourceSha256": "4864003d17335688c8fbb2d4d0dbd6f0bd3490b3905b013bcbb293f957620b28",
+        "kind": "context",
+        "title": "성심당 본점 매장 내부 참고",
+        "question": "매장 안에서 진열대 사이 공간은 어떻게 보이나요?",
+        "focus": [
+          50,
+          65
+        ],
+        "observations": [
+          {
+            "label": "진열대 주변의 손님",
+            "detail": "진열대 옆에 손님들이 서 있어 바닥과 통로 폭이 가려져 있어요. 현재 혼잡도나 휠체어 이동 공간을 판단하는 사진은 아니에요.",
+            "position": [
+              36,
+              29
+            ]
+          }
+        ],
+        "unknowns": [
+          "현재 바닥 높이·통과 폭과 이용 상태",
+          "앞뒤 사진 사이의 연속 이동 연결"
+        ],
+        "connection": "공식 여행 기사의 본점 내부 사진입니다. 문 바로 안 장면 또는 휠체어 회전 공간이 확인됐다는 뜻은 아닙니다.",
+        "fieldVerified": false,
+        "continuousRouteVerified": false
+      }
+    },
+    "missingShots": [
+      "이용할 정류장·지상 승강기에서 본점까지 이어지는 길",
+      "현재 대기 줄 옆 통과 폭과 문턱 가까운 사진"
+    ]
+  }
+]

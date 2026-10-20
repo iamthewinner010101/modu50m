@@ -1,0 +1,59 @@
+{
+  "leeungno": {
+    "research-a-01": [
+      {
+        "id": "visitor-v45-leeungno-fountain-forecourt-20180812",
+        "image": "/modu50m/route-photos-v45/leeungno-fountain-forecourt-20180812.jpg",
+        "title": "분수 쪽에서 본 앞마당 · 화단 사이 포장길",
+        "provider": "visitor",
+        "providerLabel": "Xiquinho Silva · Wikimedia Commons · CC BY 2.0",
+        "author": "Xiquinho Silva (xiquinhosilva)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lee_Ungno_Museum,_Daejeon,_South_Korea.jpg",
+        "originalPublicationUrl": "https://www.flickr.com/photos/xiquinho/49040694056/",
+        "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Lee_Ungno_Museum%2C_Daejeon%2C_South_Korea.jpg",
+        "capturedAt": "2018-08-12",
+        "captureDatePrecision": "day",
+        "captureDateEvidence": "Source page and original EXIF DateTimeOriginal agree; current condition is not established.",
+        "retrievedAt": "2026-10-05",
+        "sha256": "4f670abfe026dcee461e929be884aa065c5914f25e9480ccff42d3f2f0e40a4c",
+        "sourceSha256": "4f670abfe026dcee461e929be884aa065c5914f25e9480ccff42d3f2f0e40a4c",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Xiquinho Silva / Wikimedia Commons / CC BY 2.0 · 2018-08-12 촬영 · 원본 변경 없음",
+        "captureMethod": "published-original-jpeg-unmodified",
+        "scope": "분수 쪽에서 미술관 앞마당을 바라본 2018년 사진이에요. 화단 사이 포장길과 점자블록을 비교해요. 05번 옆길에서 이 바닥까지 돌아오는 접점은 이 사진에 보이지 않아요.",
+        "readingPurpose": {
+          "kind": "surface",
+          "cue": "화단 사이 포장길, 점자블록과 안내판 옆 공간을 확대해 살펴봐요."
+        },
+        "evidenceRole": {
+          "label": "2018년 방문 사진 · 앞마당 비교",
+          "detail": "분수 쪽에서 바라본 다른 각도예요. 현재 배치와 05→06번 연결은 별도로 확인해야 해요."
+        },
+        "observations": [
+          {
+            "label": "화단 사이 포장길",
+            "detail": "식재 구역 사이에서 안쪽으로 이어지는 포장 바닥과 점자블록을 봐요. 폭이나 높이를 사진에서 확정하지 않아요.",
+            "position": [
+              45,
+              56
+            ]
+          },
+          {
+            "label": "안내판 옆 보행 공간",
+            "detail": "앞마당의 안내판과 화단 경계를 비교해요. 촬영 당시 배치이며 현재 위치는 달라질 수 있어요.",
+            "position": [
+              68,
+              55
+            ]
+          }
+        ],
+        "fieldVerified": false,
+        "entranceVerified": false,
+        "continuousRouteVerified": false,
+        "mapBindingVerified": false,
+        "preferredForStep": false
+      }
+    ]
+  }
+}
